@@ -1,1 +1,4 @@
-aW50ZXJmYWNlOgogIGRpc3BsYXlfbmFtZTogIk15dGhvcyBQbGFuIgogIHNob3J0X2Rlc2NyaXB0aW9uOiAiQ3JlYXRlIGEgY3JpdGljLXJlYWR5IGFwcHJvdmFsIHBsYW4iCiAgZGVmYXVsdF9wcm9tcHQ6ICJVc2UgJG15dGhvcy1wbGFuIHRvIGRlZmluZSBhY2NlcHRhbmNlIGNyaXRlcmlhIGFuZCBwcm9kdWNlIGEgY3JpdGljLXJlYWR5IGFwcHJvdmFsIHBsYW4uIgo=
+interface:
+  display_name: "Mythos Plan"
+  short_description: "Create a critic-ready approval plan"
+  default_prompt: "Use $mythos-plan to define acceptance criteria and produce a critic-ready approval plan."

@@ -1,1 +1,4 @@
-aW50ZXJmYWNlOgogIGRpc3BsYXlfbmFtZTogIk15dGhvcyBSZXBhaXIiCiAgc2hvcnRfZGVzY3JpcHRpb246ICJBcHBseSB0aGUgYXBwcm92ZWQgbWluaW1hbCByZXBhaXIiCiAgZGVmYXVsdF9wcm9tcHQ6ICJVc2UgJG15dGhvcy1yZXBhaXIgdG8gcmVzdG9yZSB0aGUgZGlhZ25vc2VkIGludmFyaWFudCB3aXRoIGFuIGFwcHJvdmVkIG1pbmltYWwgcmVwYWlyLiIK
+interface:
+  display_name: "Mythos Repair"
+  short_description: "Apply the approved minimal repair"
+  default_prompt: "Use $mythos-repair to restore the diagnosed invariant with an approved minimal repair."

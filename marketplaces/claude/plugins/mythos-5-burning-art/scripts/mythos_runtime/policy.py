@@ -1,1 +1,293 @@
-IiIiQ29uc2VydmF0aXZlIHRhc2sgYW5kIHRvb2wgbXV0YXRpb24gY2xhc3NpZmljYXRpb24uIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKaW1wb3J0IHJlCmltcG9ydCBzdGF0CmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcwpmcm9tIGVudW0gaW1wb3J0IEVudW0KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCgpjbGFzcyBEZWNpc2lvbihzdHIsIEVudW0pOgogICAgQUxMT1cgPSAiQUxMT1ciCiAgICBERU5ZID0gIkRFTlkiCiAgICBORUVEU19IVU1BTl9KVURHTUVOVCA9ICJORUVEU19IVU1BTl9KVURHTUVOVCIKCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBQb2xpY3lSZXN1bHQ6CiAgICBkZWNpc2lvbjogRGVjaXNpb24KICAgIHJlYXNvbjogc3RyCiAgICBzdWJzdGFudGl2ZTogYm9vbCB8IE5vbmUgPSBOb25lCgoKTVVUQVRJT05fV09SRFMgPSByZS5jb21waWxlKAogICAgciJcYihidWlsZHxjcmVhdGV8Y2hhbmdlfGVkaXR8aW1wbGVtZW50fGZpeHxyZXBhaXJ8ZGVsZXRlfHJlbW92ZXxtb3ZlfHJlbmFtZXxpbnN0YWxsfGRlcGxveXxtaWdyYXRlfGNvbW1pdHxwdXNofHdyaXRlKVxiIiwKICAgIHJlLklHTk9SRUNBU0UsCikKUkVBRF9PTkxZX1dPUkRTID0gcmUuY29tcGlsZShyIlxiKGV4cGxhaW58c3VtbWFyaXplfHJldmlld3xpbnNwZWN0fHJlYWR8cmVwb3J0IHN0YXR1c3xhbnN3ZXIpXGIiLCByZS5JR05PUkVDQVNFKQoKCmRlZiBjbGFzc2lmeV90YXNrKHJlcXVlc3Q6IHN0cikgLT4gUG9saWN5UmVzdWx0OgogICAgaWYgTVVUQVRJT05fV09SRFMuc2VhcmNoKHJlcXVlc3QpOgogICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlRoZSByZXF1ZXN0IGFza3MgZm9yIGltcGxlbWVudGF0aW9uIG9yIGFub3RoZXIgc2lkZSBlZmZlY3QiLCBUcnVlKQogICAgaWYgUkVBRF9PTkxZX1dPUkRTLnNlYXJjaChyZXF1ZXN0KToKICAgICAgICByZXR1cm4gUG9saWN5UmVzdWx0KERlY2lzaW9uLkFMTE9XLCAiVGhlIHJlcXVlc3QgaXMgZXhwbGljaXRseSByZWFkLW9ubHkiLCBGYWxzZSkKICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uTkVFRFNfSFVNQU5fSlVER01FTlQsICJUYXNrIGludGVudCBpcyBub3Qgc2FmZWx5IGNsYXNzaWZpYWJsZSIsIE5vbmUpCgoKUkVBRF9UT09MUyA9IHsicmVhZCIsICJncmVwIiwgImdsb2IiLCAibHMiLCAiZmluZCIsICJ3ZWJzZWFyY2giLCAid2ViZmV0Y2giLCAidmlld19pbWFnZSJ9CldSSVRFX1RPT0xTID0geyJ3cml0ZSIsICJlZGl0IiwgIm11bHRpZWRpdCIsICJub3RlYm9va2VkaXQiLCAiYXBwbHlfcGF0Y2gifQpTSEVMTF9UT09MUyA9IHsiYmFzaCIsICJzaGVsbCIsICJzaGVsbF9jb21tYW5kIiwgImV4ZWNfY29tbWFuZCIsICJwb3dlcnNoZWxsIiwgInRlcm1pbmFsIn0KQ09OVFJPTF9UT09MUyA9IHsKICAgICJhZ2VudCIsICJhc2t1c2VycXVlc3Rpb24iLCAiZXhpdHBsYW5tb2RlIiwgInNraWxsIiwgInRvZG93cml0ZSIsCiAgICAidXBkYXRlcGxhbiIsICJyZXF1ZXN0dXNlcmlucHV0IiwgInNwYXduYWdlbnQiLCAid2FpdGFnZW50IiwKICAgICJsaXN0YWdlbnRzIiwgInNlbmRtZXNzYWdlIiwgImZvbGxvd3VwdGFzayIsICJpbnRlcnJ1cHRhZ2VudCIsCiAgICAidGFza2NyZWF0ZSIsICJ0YXNrdXBkYXRlIiwgInRhc2tnZXQiLCAidGFza2xpc3QiLAp9ClNIRUxMX01FVEEgPSByZS5jb21waWxlKHIiWzsmfD48YFxuXHJdfFwkXCh8XGIoPzpybXxkZWx8ZXJhc2V8bW92ZXxtdnxjcHxjb3B5fGluc3RhbGx8Y29tbWl0fHB1c2h8cmVzZXR8Y2hlY2tvdXQpXGIiLCByZS5JR05PUkVDQVNFKQpTQUZFX1NIRUxMID0gcmUuY29tcGlsZSgKICAgIHIiXig/OnB3ZHwiCiAgICByImdpdFxzKy0tbm8tcGFnZXJccystLW5vLW9wdGlvbmFsLWxvY2tzXHMrLWNccytjb3JlXC5mc21vbml0b3I9ZmFsc2VccysoPzoiCiAgICByInN0YXR1cyg/OlxzKyg/Oi0tc2hvcnR8LS1icmFuY2h8LS1wb3JjZWxhaW4oPzo9dlsxMl0pP3wtLXVudHJhY2tlZC1maWxlcz0oPzpub3xub3JtYWx8YWxsKSkpKnwiCiAgICByImRpZmZccystLW5vLWV4dC1kaWZmXHMrLS1uby10ZXh0Y29udig/OlxzKyg/Oi0tY2FjaGVkfC0tc3RhdHwtLW5hbWUtb25seXwtLW5hbWUtc3RhdHVzKSkqIgogICAgciIoPzpccystLSg/OlxzK1teOyZ8PjxgXSopPyk/fCIKICAgIHIicmV2LXBhcnNlXHMrKD86LS1zaG93LXRvcGxldmVsfC0tZ2l0LWNvbW1vbi1kaXJ8LS1pcy1pbnNpZGUtd29yay10cmVlfEhFQUQpIgogICAgciIpIgogICAgciIpJCIsCiAgICByZS5JR05PUkVDQVNFLAopClNJREVfRUZGRUNUX1JFQURfT1BUSU9OUyA9IHJlLmNvbXBpbGUoCiAgICByIig/Ol58XHMpKD86LS1vdXRwdXQoPzo9fFxzKXwtLWV4dC1kaWZmXGJ8LS10ZXh0Y29udlxifC0tcHJlKD86LWdsb2IpPyg/Oj18XHMpfC0tZ2VuZXJhdGUoPzo9fFxzKSkiLAogICAgcmUuSUdOT1JFQ0FTRSwKKQpTQUZFX0RJU0NPVkVSWV9TSEVMTCA9IHJlLmNvbXBpbGUoCiAgICByIl4oPzooPzpyZyg/OlwuZXhlKT98R2V0LUNvbnRlbnR8R2V0LUNoaWxkSXRlbXxHZXQtSXRlbXxTZWxlY3QtU3RyaW5nfCIKICAgIHIiY2F0fGhlYWR8bHN8c3RhdHx0YWlsfHdjfGZpbGV8ZmluZHN0cikoPzpccytbXjsmfD48YCRAe31cclxuXSspPykkIiwKICAgIHJlLklHTk9SRUNBU0UsCikKCgpkZWYgX25vcm1hbGl6ZWRfdG9vbCh0b29sX25hbWU6IHN0cikgLT4gc3RyOgogICAgIyBEbyBub3QgbGV0IGNvbm5lY3RvciBuYW1lc3BhY2VzIGluaGVyaXQgYXV0aG9yaXR5IGZyb20gYSBuYXRpdmUgdG9vbCBuYW1lCiAgICAjIHN1ZmZpeCAoZm9yIGV4YW1wbGUsIG1jcF9fc2xhY2tfX3NlbmRfbWVzc2FnZSBpcyBub3QgYWdlbnQgY29vcmRpbmF0aW9uKS4KICAgIHRva2VuID0gdG9vbF9uYW1lIGlmICJfXyIgaW4gdG9vbF9uYW1lIGVsc2UgdG9vbF9uYW1lLnJzcGxpdCgiX18iLCAxKVstMV0KICAgIHJldHVybiB0b2tlbi5yZXBsYWNlKCItIiwgIl8iKS5jYXNlZm9sZCgpLnJlcGxhY2UoIl8iLCAiIikKCgpkZWYgY2xhc3NpZnlfdG9vbCh0b29sX25hbWU6IHN0ciwgdG9vbF9pbnB1dDogZGljdFtzdHIsIEFueV0gfCBOb25lID0gTm9uZSkgLT4gUG9saWN5UmVzdWx0OgogICAgY29tcGFjdCA9IF9ub3JtYWxpemVkX3Rvb2wodG9vbF9uYW1lKQogICAgaWYgY29tcGFjdCBpbiB7bmFtZS5yZXBsYWNlKCJfIiwgIiIpIGZvciBuYW1lIGluIFJFQURfVE9PTFN9OgogICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uQUxMT1csICJUb29sIGlzIG9ic2VydmFibGUgYW5kIHJlYWQtb25seSIsIEZhbHNlKQogICAgaWYgY29tcGFjdCBpbiB7bmFtZS5yZXBsYWNlKCJfIiwgIiIpIGZvciBuYW1lIGluIENPTlRST0xfVE9PTFN9OgogICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uQUxMT1csICJIb3N0LW5hdGl2ZSBwbGFubmluZywgcXVlc3Rpb25pbmcsIHNraWxsLCBvciBhZ2VudCBjb29yZGluYXRpb24gYWN0aW9uIiwgRmFsc2UpCiAgICBpZiBjb21wYWN0IGluIHtuYW1lLnJlcGxhY2UoIl8iLCAiIikgZm9yIG5hbWUgaW4gV1JJVEVfVE9PTFN9OgogICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlRvb2wgcGVyZm9ybXMgYSBmaWxlc3lzdGVtIG11dGF0aW9uIiwgVHJ1ZSkKICAgIGlmIGNvbXBhY3QgaW4ge25hbWUucmVwbGFjZSgiXyIsICIiKSBmb3IgbmFtZSBpbiBTSEVMTF9UT09MU306CiAgICAgICAgZGF0YSA9IHRvb2xfaW5wdXQgb3Ige30KICAgICAgICBjb21tYW5kID0gc3RyKGRhdGEuZ2V0KCJjb21tYW5kIiwgZGF0YS5nZXQoImNtZCIsICIiKSkpLnN0cmlwKCkKICAgICAgICBpZiBjb21tYW5kIGFuZCAoU0FGRV9TSEVMTC5mdWxsbWF0Y2goY29tbWFuZCkgb3IgU0FGRV9ESVNDT1ZFUllfU0hFTEwuZnVsbG1hdGNoKGNvbW1hbmQpKSBhbmQgbm90IFNIRUxMX01FVEEuc2VhcmNoKGNvbW1hbmQpIGFuZCBub3QgU0lERV9FRkZFQ1RfUkVBRF9PUFRJT05TLnNlYXJjaChjb21tYW5kKToKICAgICAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5BTExPVywgIkNvbW1hbmQgbWF0Y2hlcyB0aGUgbmFycm93IHJlYWQtb25seSBhbGxvd2xpc3QiLCBGYWxzZSkKICAgICAgICBpZiBjb21tYW5kIGFuZCAoU0hFTExfTUVUQS5zZWFyY2goY29tbWFuZCkgb3IgU0lERV9FRkZFQ1RfUkVBRF9PUFRJT05TLnNlYXJjaChjb21tYW5kKSk6CiAgICAgICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlNoZWxsIGNvbW1hbmQgY29udGFpbnMgYSBtdXRhdGlvbiwgZXhlY3V0YWJsZSBmaWx0ZXIsIG9yIG91dHB1dC1maWxlIG9wdGlvbiIsIFRydWUpCiAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ORUVEU19IVU1BTl9KVURHTUVOVCwgIlNoZWxsIGVmZmVjdHMgY2Fubm90IGJlIG9ic2VydmVkIHJlbGlhYmx5IiwgTm9uZSkKICAgIHJldHVybiBQb2xpY3lSZXN1bHQoCiAgICAgICAgRGVjaXNpb24uTkVFRFNfSFVNQU5fSlVER01FTlQsCiAgICAgICAgIlVuc3VwcG9ydGVkIG9yIHVub2JzZXJ2YWJsZSB0b29sOyBubyBlbmZvcmNlbWVudCBjb3ZlcmFnZSBpcyBjbGFpbWVkIiwKICAgICAgICBOb25lLAogICAgKQoKCmRlZiBfY2FuZGlkYXRlX3BhdGhzKHRvb2xfbmFtZTogc3RyLCB0b29sX2lucHV0OiBkaWN0W3N0ciwgQW55XSkgLT4gdHVwbGVbbGlzdFtzdHJdLCBzdHIgfCBOb25lXToKICAgIGNvbXBhY3QgPSBfbm9ybWFsaXplZF90b29sKHRvb2xfbmFtZSkKICAgIHBhdGhzOiBsaXN0W3N0cl0gPSBbXQogICAgZm9yIGtleSBpbiAoImZpbGVfcGF0aCIsICJwYXRoIiwgImRlc3RpbmF0aW9uIiwgInRhcmdldCIpOgogICAgICAgIHZhbHVlID0gdG9vbF9pbnB1dC5nZXQoa2V5KQogICAgICAgIGlmIGlzaW5zdGFuY2UodmFsdWUsIHN0cikgYW5kIHZhbHVlLnN0cmlwKCk6CiAgICAgICAgICAgIHBhdGhzLmFwcGVuZCh2YWx1ZS5zdHJpcCgpKQogICAgaWYgY29tcGFjdCAhPSAiYXBwbHlwYXRjaCI6CiAgICAgICAgcmV0dXJuIHBhdGhzLCBOb25lCiAgICBwYXRjaCA9IHRvb2xfaW5wdXQuZ2V0KCJwYXRjaCIsIHRvb2xfaW5wdXQuZ2V0KCJpbnB1dCIsICIiKSkKICAgIGlmIG5vdCBpc2luc3RhbmNlKHBhdGNoLCBzdHIpIG9yIG5vdCBwYXRjaC5zdHJpcCgpOgogICAgICAgIHJldHVybiBbXSwgImFwcGx5X3BhdGNoIGlucHV0IGlzIG1pc3NpbmciCiAgICBwYXRjaF9wYXRoczogbGlzdFtzdHJdID0gW10KICAgIGZvciBsaW5lIGluIHBhdGNoLnNwbGl0bGluZXMoKToKICAgICAgICBpZiBub3QgbGluZS5zdGFydHN3aXRoKCIqKiogIik6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgbGluZSBpbiB7IioqKiBCZWdpbiBQYXRjaCIsICIqKiogRW5kIFBhdGNoIn06CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgbWF0Y2ggPSByZS5mdWxsbWF0Y2gociJcKlwqXCogKD86QWRkfFVwZGF0ZXxEZWxldGUpIEZpbGU6ICguKykiLCBsaW5lKQogICAgICAgIGlmIG1hdGNoIGlzIE5vbmU6CiAgICAgICAgICAgIG1hdGNoID0gcmUuZnVsbG1hdGNoKHIiXCpcKlwqIE1vdmUgdG86ICguKykiLCBsaW5lKQogICAgICAgIGlmIG1hdGNoIGlzIE5vbmU6CiAgICAgICAgICAgIHJldHVybiBbXSwgZiJ1bnJlY29nbml6ZWQgYXBwbHlfcGF0Y2ggZGlyZWN0aXZlOiB7bGluZX0iCiAgICAgICAgY2FuZGlkYXRlID0gbWF0Y2guZ3JvdXAoMSkuc3RyaXAoKQogICAgICAgIGlmIG5vdCBjYW5kaWRhdGUgb3IgY2FuZGlkYXRlIGluIHsiL2Rldi9udWxsIiwgIk5VTCJ9OgogICAgICAgICAgICByZXR1cm4gW10sIGYiaW52YWxpZCBhcHBseV9wYXRjaCBwYXRoIGRpcmVjdGl2ZToge2xpbmV9IgogICAgICAgIHBhdGNoX3BhdGhzLmFwcGVuZChjYW5kaWRhdGUpCiAgICBpZiBub3QgcGF0Y2hfcGF0aHM6CiAgICAgICAgcmV0dXJuIFtdLCAiYXBwbHlfcGF0Y2ggY29udGFpbnMgbm8gcmVjb2duaXplZCBwYXRoIGRpcmVjdGl2ZXMiCiAgICByZXR1cm4gcGF0aHMgKyBwYXRjaF9wYXRocywgTm9uZQoKCl9XSU5ET1dTX1JFU0VSVkVEID0gcmUuY29tcGlsZShyIl4oPzpDT058UFJOfEFVWHxOVUx8Q09NWzEtOV18TFBUWzEtOV0pKD86XC4uKik/JCIsIHJlLklHTk9SRUNBU0UpCl9FWFRFUk5BTF9DT01NQU5EID0gcmUuY29tcGlsZShyIlxiKD86ZGVwbG95fHB1Ymxpc2h8cHVzaHxzc2h8c2NwfGN1cmx8d2dldHxpbnZva2UtcmVzdG1ldGhvZHxpbnZva2Utd2VicmVxdWVzdHx0ZXJyYWZvcm1ccythcHBseXxrdWJlY3RsXHMrYXBwbHl8ZGF0YWJhc2V8bWlncmF0aW9uKVxiIiwgcmUuSUdOT1JFQ0FTRSkKX1NIRUxMX1BBVEhfRVNDQVBFID0gcmUuY29tcGlsZShyIig/Ol58W1xzJ1wiPS9cXF0pKD86W0EtWmEtel06W1xcL118XFxcXHwvfFwuXC4oPzpbXFwvXXwkKSkiKQpfVU5PQlNFUlZBQkxFX0xPQ0FMX0NPTU1BTkQgPSByZS5jb21waWxlKHIiXGIoPzpnaXRccysoPzphZGR8Y29tbWl0fGJyYW5jaHx0YWd8c3Rhc2h8c3dpdGNofGNoZWNrb3V0fHJlc2V0KXxjaG1vZHxjaG93bnxhdHRyaWJ8bWtsaW5rfGp1bmN0aW9ufGxuXHN8bWtkaXJ8cm1kaXJ8dG91Y2h8bmV3LWl0ZW1ccytbXlxyXG5dKig/OmRpcmVjdG9yeXxqdW5jdGlvbnxzeW1ib2xpY2xpbmt8aGFyZGxpbmspKVxiIiwgcmUuSUdOT1JFQ0FTRSkKCgpkZWYgX3NhZmVfcG9ydGFibGVfcGF0aF90ZXh0KHZhbHVlOiBzdHIpIC0+IGJvb2w6CiAgICByYXcgPSB2YWx1ZS5zdHJpcCgpCiAgICBpZiBub3QgcmF3IG9yIHJhdy5zdGFydHN3aXRoKCgiXFxcXD9cXCIsICJcXFxcLlxcIiwgIlxcPz9cXCIsICIvLz8vIiwgIi8vLi8iLCAiXFxcXCIpKToKICAgICAgICByZXR1cm4gRmFsc2UKICAgIG5vcm1hbGl6ZWQgPSByYXcucmVwbGFjZSgiXFwiLCAiLyIpCiAgICBkcml2ZSA9IGJvb2wocmUubWF0Y2gociJeW0EtWmEtel06LyIsIG5vcm1hbGl6ZWQpKQogICAgcmVtYWluZGVyID0gbm9ybWFsaXplZFszOl0gaWYgZHJpdmUgZWxzZSBub3JtYWxpemVkCiAgICBpZiAiOiIgaW4gcmVtYWluZGVyOgogICAgICAgIHJldHVybiBGYWxzZQogICAgZm9yIGNvbXBvbmVudCBpbiAoaXRlbSBmb3IgaXRlbSBpbiByZW1haW5kZXIuc3BsaXQoIi8iKSBpZiBpdGVtIG5vdCBpbiB7IiIsICIuIiwgIi4uIn0pOgogICAgICAgIGlmIGNvbXBvbmVudC5lbmRzd2l0aCgoIi4iLCAiICIpKSBvciBfV0lORE9XU19SRVNFUlZFRC5mdWxsbWF0Y2goY29tcG9uZW50KToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICByZXR1cm4gVHJ1ZQoKZGVmIF9pc19yZXBhcnNlKHBhdGg6IFBhdGgpIC0+IGJvb2w6CiAgICB0cnk6CiAgICAgICAgaW5mbyA9IG9zLmxzdGF0KHBhdGgpCiAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICByZXR1cm4gRmFsc2UKICAgIGF0dHJpYnV0ZXMgPSBpbnQoZ2V0YXR0cihpbmZvLCAic3RfZmlsZV9hdHRyaWJ1dGVzIiwgMCkpCiAgICByZXBhcnNlX2ZsYWcgPSBpbnQoZ2V0YXR0cihzdGF0LCAiRklMRV9BVFRSSUJVVEVfUkVQQVJTRV9QT0lOVCIsIDApKQogICAgcmV0dXJuIHN0YXQuU19JU0xOSyhpbmZvLnN0X21vZGUpIG9yIGJvb2wocmVwYXJzZV9mbGFnIGFuZCBhdHRyaWJ1dGVzICYgcmVwYXJzZV9mbGFnKQoKCmRlZiBfaGFzX3JlcGFyc2VfY29tcG9uZW50KHBhdGg6IFBhdGgsIGJvdW5kYXJ5OiBQYXRoKSAtPiBib29sOgogICAgY3VycmVudCA9IHBhdGgKICAgIHdoaWxlIFRydWU6CiAgICAgICAgaWYgX2lzX3JlcGFyc2UoY3VycmVudCk6CiAgICAgICAgICAgIHJldHVybiBUcnVlCiAgICAgICAgaWYgY3VycmVudCA9PSBib3VuZGFyeToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgcGFyZW50ID0gY3VycmVudC5wYXJlbnQKICAgICAgICBpZiBwYXJlbnQgPT0gY3VycmVudDoKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBjdXJyZW50ID0gcGFyZW50CgoKZGVmIF9sZXhpY2FsKHBhdGg6IFBhdGgpIC0+IFBhdGg6CiAgICByZXR1cm4gUGF0aChvcy5wYXRoLmFic3BhdGgob3MuZnNwYXRoKHBhdGguZXhwYW5kdXNlcigpKSkpCgoKZGVmIF9pbnNpZGUoY2FuZGlkYXRlOiBQYXRoLCByb290OiBQYXRoKSAtPiBib29sOgogICAgdHJ5OgogICAgICAgIHJldHVybiBvcy5wYXRoLm5vcm1jYXNlKG9zLnBhdGguY29tbW9ucGF0aChbc3RyKGNhbmRpZGF0ZSksIHN0cihyb290KV0pKSA9PSBvcy5wYXRoLm5vcm1jYXNlKHN0cihyb290KSkKICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiBfd2l0aGluKGNhbmRpZGF0ZTogUGF0aCwgcm9vdHM6IGxpc3RbdHVwbGVbUGF0aCwgYm9vbF1dLCBwcm9qZWN0X3Jvb3Q6IFBhdGgpIC0+IGJvb2w6CiAgICB0cnk6CiAgICAgICAgcHJvamVjdCA9IF9sZXhpY2FsKHByb2plY3Rfcm9vdCkKICAgICAgICBsZXhpY2FsX2NhbmRpZGF0ZSA9IF9sZXhpY2FsKGNhbmRpZGF0ZSkKICAgICAgICBpZiBub3QgX2luc2lkZShsZXhpY2FsX2NhbmRpZGF0ZSwgcHJvamVjdCkgb3IgX2hhc19yZXBhcnNlX2NvbXBvbmVudChsZXhpY2FsX2NhbmRpZGF0ZSwgcHJvamVjdCk6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGlmIGxleGljYWxfY2FuZGlkYXRlLmV4aXN0cygpIGFuZCBsZXhpY2FsX2NhbmRpZGF0ZS5pc19maWxlKCkgYW5kIGxleGljYWxfY2FuZGlkYXRlLnN0YXQoKS5zdF9ubGluayA+IDE6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGZvciByb290LCByZWN1cnNpdmUgaW4gcm9vdHM6CiAgICAgICAgICAgIGxleGljYWxfcm9vdCA9IF9sZXhpY2FsKHJvb3QpCiAgICAgICAgICAgIGlmIG5vdCBfaW5zaWRlKGxleGljYWxfcm9vdCwgcHJvamVjdCkgb3IgX2hhc19yZXBhcnNlX2NvbXBvbmVudChsZXhpY2FsX3Jvb3QsIHByb2plY3QpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgaWYgbGV4aWNhbF9jYW5kaWRhdGUgPT0gbGV4aWNhbF9yb290IG9yIChyZWN1cnNpdmUgYW5kIF9pbnNpZGUobGV4aWNhbF9jYW5kaWRhdGUsIGxleGljYWxfcm9vdCkpOgogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICByZXR1cm4gRmFsc2UKICAgIGV4Y2VwdCAoT1NFcnJvciwgVmFsdWVFcnJvcik6CiAgICAgICAgcmV0dXJuIEZhbHNlCgoKZGVmIGFwcHJvdmVkX3Njb3BlX2lzX3NhZmUoKiwgcHJvamVjdF9yb290OiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdLCBzY29wZTogQW55KSAtPiBib29sOgogICAgIiIiUmVqZWN0IHNjb3BlIHJvb3RzIHRoYXQgYXJlIGFic29sdXRlLCB0cmF2ZXJzZSB1cHdhcmQsIG9yIGNyb3NzIHJlcGFyc2UgcG9pbnRzLiIiIgogICAgcm9vdCA9IF9sZXhpY2FsKFBhdGgocHJvamVjdF9yb290KSkKICAgIHNjb3BlX3BhdGhzID0gc2NvcGUuZ2V0KCJwYXRocyIsIFtdKSBpZiBpc2luc3RhbmNlKHNjb3BlLCBkaWN0KSBlbHNlIFtdCiAgICBpZiBub3QgaXNpbnN0YW5jZShzY29wZV9wYXRocywgbGlzdCk6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBmb3IgaXRlbSBpbiBzY29wZV9wYXRoczoKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShpdGVtLCBzdHIpIG9yIG5vdCBfc2FmZV9wb3J0YWJsZV9wYXRoX3RleHQoaXRlbSk6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIG5vcm1hbGl6ZWQgPSBpdGVtLnJlcGxhY2UoIlxcIiwgIi8iKQogICAgICAgIHBhdGggPSBQYXRoKGl0ZW0pCiAgICAgICAgaWYgcGF0aC5pc19hYnNvbHV0ZSgpIG9yIHJlLm1hdGNoKHIiXltBLVphLXpdOi8iLCBub3JtYWxpemVkKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgY29tcG9uZW50cyA9IFtjb21wb25lbnQgZm9yIGNvbXBvbmVudCBpbiBub3JtYWxpemVkLnNwbGl0KCIvIikgaWYgY29tcG9uZW50IG5vdCBpbiB7IiIsICIuIn1dCiAgICAgICAgaWYgIi4uIiBpbiBjb21wb25lbnRzOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBsZXhpY2FsID0gX2xleGljYWwocm9vdCAvIGl0ZW0pCiAgICAgICAgaWYgbm90IF9pbnNpZGUobGV4aWNhbCwgcm9vdCkgb3IgX2hhc19yZXBhcnNlX2NvbXBvbmVudChsZXhpY2FsLCByb290KToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICByZXR1cm4gVHJ1ZQoKCmRlZiBhcHByb3ZlZF9zY29wZV9jb250YWluc19wYXRocygKICAgICosCiAgICBwcm9qZWN0X3Jvb3Q6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0sCiAgICBzY29wZTogQW55LAogICAgY2FuZGlkYXRlczogbGlzdFtzdHJdLAopIC0+IGJvb2w6CiAgICByb290ID0gX2xleGljYWwoUGF0aChwcm9qZWN0X3Jvb3QpKQogICAgc2NvcGVfcGF0aHMgPSBzY29wZS5nZXQoInBhdGhzIiwgW10pIGlmIGlzaW5zdGFuY2Uoc2NvcGUsIGRpY3QpIGVsc2UgW10KICAgIGlmIG5vdCBhcHByb3ZlZF9zY29wZV9pc19zYWZlKHByb2plY3Rfcm9vdD1yb290LCBzY29wZT1zY29wZSkgb3Igbm90IGFsbCgKICAgICAgICBpc2luc3RhbmNlKGl0ZW0sIHN0cikgYW5kIF9zYWZlX3BvcnRhYmxlX3BhdGhfdGV4dChpdGVtKSBmb3IgaXRlbSBpbiBjYW5kaWRhdGVzCiAgICApOgogICAgICAgIHJldHVybiBGYWxzZQogICAgcm9vdHMgPSBbKHJvb3QgLyBpdGVtLCBpdGVtLmVuZHN3aXRoKCgiLyIsICJcXCIpKSkgZm9yIGl0ZW0gaW4gc2NvcGVfcGF0aHNdCiAgICByZXR1cm4gYm9vbChyb290cykgYW5kIGFsbCgKICAgICAgICBfd2l0aGluKChyb290IC8gaXRlbSkgaWYgbm90IFBhdGgoaXRlbSkuaXNfYWJzb2x1dGUoKSBlbHNlIFBhdGgoaXRlbSksIHJvb3RzLCByb290KQogICAgICAgIGZvciBpdGVtIGluIGNhbmRpZGF0ZXMKICAgICkKCmRlZiBhcHByb3ZlZF90b29sX2d1YXJkKAogICAgKiwKICAgIHRvb2xfbmFtZTogc3RyLAogICAgdG9vbF9pbnB1dDogZGljdFtzdHIsIEFueV0sCiAgICBwcm9qZWN0X3Jvb3Q6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0sCiAgICBzY29wZTogQW55LAogICAgaW52b2NhdGlvbl9yb290OiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdIHwgTm9uZSA9IE5vbmUsCikgLT4gUG9saWN5UmVzdWx0OgogICAgY2xhc3NpZmljYXRpb24gPSBjbGFzc2lmeV90b29sKHRvb2xfbmFtZSwgdG9vbF9pbnB1dCkKICAgIG5vcm1hbGl6ZWQgPSBfbm9ybWFsaXplZF90b29sKHRvb2xfbmFtZSkKICAgIGlmIG5vcm1hbGl6ZWQgaW4ge25hbWUucmVwbGFjZSgiXyIsICIiKSBmb3IgbmFtZSBpbiBTSEVMTF9UT09MU306CiAgICAgICAgY29tbWFuZCA9IHN0cih0b29sX2lucHV0LmdldCgiY29tbWFuZCIsIHRvb2xfaW5wdXQuZ2V0KCJjbWQiLCAiIikpKS5zdHJpcCgpCiAgICAgICAgYWxsb3dlZF9jb21tYW5kcyA9IHNjb3BlLmdldCgiY29tbWFuZHMiLCBbXSkgaWYgaXNpbnN0YW5jZShzY29wZSwgZGljdCkgZWxzZSBbXQogICAgICAgIGVudmlyb25tZW50ID0gdG9vbF9pbnB1dC5nZXQoImVudiIsIHRvb2xfaW5wdXQuZ2V0KCJlbnZpcm9ubWVudCIpKQogICAgICAgIGlmIGVudmlyb25tZW50IG5vdCBpbiAoTm9uZSwge30sIFtdKToKICAgICAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ERU5ZLCAiU2hlbGwgY29tbWFuZHMgZG8gbm90IHBlcm1pdCBlbnZpcm9ubWVudCBvdmVycmlkZXMiLCBUcnVlKQogICAgICAgIHJvb3QgPSBQYXRoKHByb2plY3Rfcm9vdCkKICAgICAgICBlZmZlY3RpdmVfd29ya2RpciA9IHRvb2xfaW5wdXQuZ2V0KCJ3b3JrZGlyIiwgdG9vbF9pbnB1dC5nZXQoImN3ZCIsIGludm9jYXRpb25fcm9vdCBvciByb290KSkKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShlZmZlY3RpdmVfd29ya2RpciwgKHN0ciwgb3MuUGF0aExpa2UpKSBvciBfbGV4aWNhbChQYXRoKGVmZmVjdGl2ZV93b3JrZGlyKSkgIT0gX2xleGljYWwocm9vdCk6CiAgICAgICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlNoZWxsIGNvbW1hbmRzIG11c3QgcnVuIGZyb20gdGhlIGV4YWN0IGdvdmVybmVkIHByb2plY3Qgcm9vdCIsIFRydWUpCiAgICAgICAgaWYgX2hhc19yZXBhcnNlX2NvbXBvbmVudChfbGV4aWNhbChQYXRoKGVmZmVjdGl2ZV93b3JrZGlyKSksIF9sZXhpY2FsKHJvb3QpKToKICAgICAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ERU5ZLCAiU2hlbGwgd29ya2luZyBkaXJlY3RvcnkgY3Jvc3NlcyBhIHJlcGFyc2UgcG9pbnQiLCBUcnVlKQogICAgICAgIGlmIF9TSEVMTF9QQVRIX0VTQ0FQRS5zZWFyY2goY29tbWFuZCk6CiAgICAgICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlNoZWxsIGNvbW1hbmRzIG11c3Qgbm90IGFkZHJlc3MgcGF0aHMgb3V0c2lkZSB0aGUgZ292ZXJuZWQgcHJvamVjdCByb290IiwgVHJ1ZSkKICAgICAgICBpZiBfRVhURVJOQUxfQ09NTUFORC5zZWFyY2goY29tbWFuZCk6CiAgICAgICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlBvcnRhYmxlIE15dGhvcyBwYWNrYWdlcyBkbyBub3QgYXV0aG9yaXplIHVub2JzZXJ2YWJsZSBleHRlcm5hbCBzaGVsbCBlZmZlY3RzIiwgVHJ1ZSkKICAgICAgICBpZiBfVU5PQlNFUlZBQkxFX0xPQ0FMX0NPTU1BTkQuc2VhcmNoKGNvbW1hbmQpOgogICAgICAgICAgICByZXR1cm4gUG9saWN5UmVzdWx0KERlY2lzaW9uLkRFTlksICJQb3J0YWJsZSBNeXRob3MgcGFja2FnZXMgZG8gbm90IGF1dGhvcml6ZSBHaXQsIHBlcm1pc3Npb24sIGxpbmssIG9yIGRpcmVjdG9yeS1vbmx5IG11dGF0aW9ucyIsIFRydWUpCiAgICAgICAgaWYgY2xhc3NpZmljYXRpb24uZGVjaXNpb24gaXMgRGVjaXNpb24uQUxMT1c6CiAgICAgICAgICAgIHJldHVybiBjbGFzc2lmaWNhdGlvbgogICAgICAgIGlmIGNvbW1hbmQgYW5kIGNvbW1hbmQuY2FzZWZvbGQoKSBub3QgaW4geyJub25lIiwgIm4vYSIsICJub3QgYXBwbGljYWJsZSJ9IGFuZCBjb21tYW5kIGluIGFsbG93ZWRfY29tbWFuZHM6CiAgICAgICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uQUxMT1csICJFeGFjdCBhcHByb3ZlZCBzaGVsbCBjb21tYW5kIGF0IHRoZSBnb3Zlcm5lZCBwcm9qZWN0IHJvb3QiLCBUcnVlKQogICAgICAgIHJldHVybiBQb2xpY3lSZXN1bHQoRGVjaXNpb24uREVOWSwgIlNoZWxsIGNvbW1hbmQgaXMgbm90IGFuIGV4YWN0IGFwcHJvdmVkIGNvbW1hbmQiLCBUcnVlKQogICAgaWYgY2xhc3NpZmljYXRpb24uZGVjaXNpb24gaXMgRGVjaXNpb24uQUxMT1c6CiAgICAgICAgcmV0dXJuIGNsYXNzaWZpY2F0aW9uCiAgICBpZiBjbGFzc2lmaWNhdGlvbi5kZWNpc2lvbiBpcyBEZWNpc2lvbi5ORUVEU19IVU1BTl9KVURHTUVOVDoKICAgICAgICByZXR1cm4gY2xhc3NpZmljYXRpb24KICAgIGNhbmRpZGF0ZXMsIHBhdGhfZXJyb3IgPSBfY2FuZGlkYXRlX3BhdGhzKHRvb2xfbmFtZSwgdG9vbF9pbnB1dCkKICAgIGlmIHBhdGhfZXJyb3I6CiAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ERU5ZLCBwYXRoX2Vycm9yLCBUcnVlKQogICAgaWYgbm90IGNhbmRpZGF0ZXM6CiAgICAgICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ORUVEU19IVU1BTl9KVURHTUVOVCwgIk11dGF0aW9uIHRhcmdldCBpcyBub3Qgb2JzZXJ2YWJsZSIsIE5vbmUpCiAgICBpZiBhcHByb3ZlZF9zY29wZV9jb250YWluc19wYXRocyhwcm9qZWN0X3Jvb3Q9cHJvamVjdF9yb290LCBzY29wZT1zY29wZSwgY2FuZGlkYXRlcz1jYW5kaWRhdGVzKToKICAgICAgICByZXR1cm4gUG9saWN5UmVzdWx0KERlY2lzaW9uLkFMTE9XLCAiQWxsIG11dGF0aW9uIHRhcmdldHMgYXJlIGluc2lkZSB0aGUgYXBwcm92ZWQgc2NvcGUiLCBUcnVlKQogICAgcmV0dXJuIFBvbGljeVJlc3VsdChEZWNpc2lvbi5ERU5ZLCAiTXV0YXRpb24gdGFyZ2V0IGZhbGxzIG91dHNpZGUgdGhlIGFwcHJvdmVkIHNjb3BlIiwgVHJ1ZSk=
+"""Conservative task and tool mutation classification."""
+
+from __future__ import annotations
+
+import os
+import re
+import stat
+from dataclasses import dataclass
+from enum import Enum
+from pathlib import Path
+from typing import Any
+
+
+class Decision(str, Enum):
+    ALLOW = "ALLOW"
+    DENY = "DENY"
+    NEEDS_HUMAN_JUDGMENT = "NEEDS_HUMAN_JUDGMENT"
+
+
+@dataclass(frozen=True)
+class PolicyResult:
+    decision: Decision
+    reason: str
+    substantive: bool | None = None
+
+
+MUTATION_WORDS = re.compile(
+    r"\b(build|create|change|edit|implement|fix|repair|delete|remove|move|rename|install|deploy|migrate|commit|push|write)\b",
+    re.IGNORECASE,
+)
+READ_ONLY_WORDS = re.compile(r"\b(explain|summarize|review|inspect|read|report status|answer)\b", re.IGNORECASE)
+
+
+def classify_task(request: str) -> PolicyResult:
+    if MUTATION_WORDS.search(request):
+        return PolicyResult(Decision.DENY, "The request asks for implementation or another side effect", True)
+    if READ_ONLY_WORDS.search(request):
+        return PolicyResult(Decision.ALLOW, "The request is explicitly read-only", False)
+    return PolicyResult(Decision.NEEDS_HUMAN_JUDGMENT, "Task intent is not safely classifiable", None)
+
+
+READ_TOOLS = {"read", "grep", "glob", "ls", "find", "websearch", "webfetch", "view_image"}
+WRITE_TOOLS = {"write", "edit", "multiedit", "notebookedit", "apply_patch"}
+SHELL_TOOLS = {"bash", "shell", "shell_command", "exec_command", "powershell", "terminal"}
+CONTROL_TOOLS = {
+    "agent", "askuserquestion", "exitplanmode", "skill", "todowrite",
+    "updateplan", "requestuserinput", "spawnagent", "waitagent",
+    "listagents", "sendmessage", "followuptask", "interruptagent",
+    "taskcreate", "taskupdate", "taskget", "tasklist",
+}
+SHELL_META = re.compile(r"[;&|><`\n\r]|\$\(|\b(?:rm|del|erase|move|mv|cp|copy|install|commit|push|reset|checkout)\b", re.IGNORECASE)
+SAFE_SHELL = re.compile(
+    r"^(?:pwd|"
+    r"git\s+--no-pager\s+--no-optional-locks\s+-c\s+core\.fsmonitor=false\s+(?:"
+    r"status(?:\s+(?:--short|--branch|--porcelain(?:=v[12])?|--untracked-files=(?:no|normal|all)))*|"
+    r"diff\s+--no-ext-diff\s+--no-textconv(?:\s+(?:--cached|--stat|--name-only|--name-status))*"
+    r"(?:\s+--(?:\s+[^;&|><`]*)?)?|"
+    r"rev-parse\s+(?:--show-toplevel|--git-common-dir|--is-inside-work-tree|HEAD)"
+    r")"
+    r")$",
+    re.IGNORECASE,
+)
+SIDE_EFFECT_READ_OPTIONS = re.compile(
+    r"(?:^|\s)(?:--output(?:=|\s)|--ext-diff\b|--textconv\b|--pre(?:-glob)?(?:=|\s)|--generate(?:=|\s))",
+    re.IGNORECASE,
+)
+SAFE_DISCOVERY_SHELL = re.compile(
+    r"^(?:(?:rg(?:\.exe)?|Get-Content|Get-ChildItem|Get-Item|Select-String|"
+    r"cat|head|ls|stat|tail|wc|file|findstr)(?:\s+[^;&|><`$@{}\r\n]+)?)$",
+    re.IGNORECASE,
+)
+
+
+def _normalized_tool(tool_name: str) -> str:
+    # Do not let connector namespaces inherit authority from a native tool name
+    # suffix (for example, mcp__slack__send_message is not agent coordination).
+    token = tool_name if "__" in tool_name else tool_name.rsplit("__", 1)[-1]
+    return token.replace("-", "_").casefold().replace("_", "")
+
+
+def classify_tool(tool_name: str, tool_input: dict[str, Any] | None = None) -> PolicyResult:
+    compact = _normalized_tool(tool_name)
+    if compact in {name.replace("_", "") for name in READ_TOOLS}:
+        return PolicyResult(Decision.ALLOW, "Tool is observable and read-only", False)
+    if compact in {name.replace("_", "") for name in CONTROL_TOOLS}:
+        return PolicyResult(Decision.ALLOW, "Host-native planning, questioning, skill, or agent coordination action", False)
+    if compact in {name.replace("_", "") for name in WRITE_TOOLS}:
+        return PolicyResult(Decision.DENY, "Tool performs a filesystem mutation", True)
+    if compact in {name.replace("_", "") for name in SHELL_TOOLS}:
+        data = tool_input or {}
+        command = str(data.get("command", data.get("cmd", ""))).strip()
+        if command and (SAFE_SHELL.fullmatch(command) or SAFE_DISCOVERY_SHELL.fullmatch(command)) and not SHELL_META.search(command) and not SIDE_EFFECT_READ_OPTIONS.search(command):
+            return PolicyResult(Decision.ALLOW, "Command matches the narrow read-only allowlist", False)
+        if command and (SHELL_META.search(command) or SIDE_EFFECT_READ_OPTIONS.search(command)):
+            return PolicyResult(Decision.DENY, "Shell command contains a mutation, executable filter, or output-file option", True)
+        return PolicyResult(Decision.NEEDS_HUMAN_JUDGMENT, "Shell effects cannot be observed reliably", None)
+    return PolicyResult(
+        Decision.NEEDS_HUMAN_JUDGMENT,
+        "Unsupported or unobservable tool; no enforcement coverage is claimed",
+        None,
+    )
+
+
+def _candidate_paths(tool_name: str, tool_input: dict[str, Any]) -> tuple[list[str], str | None]:
+    compact = _normalized_tool(tool_name)
+    paths: list[str] = []
+    for key in ("file_path", "path", "destination", "target"):
+        value = tool_input.get(key)
+        if isinstance(value, str) and value.strip():
+            paths.append(value.strip())
+    if compact != "applypatch":
+        return paths, None
+    patch = tool_input.get("patch", tool_input.get("input", ""))
+    if not isinstance(patch, str) or not patch.strip():
+        return [], "apply_patch input is missing"
+    patch_paths: list[str] = []
+    for line in patch.splitlines():
+        if not line.startswith("*** "):
+            continue
+        if line in {"*** Begin Patch", "*** End Patch"}:
+            continue
+        match = re.fullmatch(r"\*\*\* (?:Add|Update|Delete) File: (.+)", line)
+        if match is None:
+            match = re.fullmatch(r"\*\*\* Move to: (.+)", line)
+        if match is None:
+            return [], f"unrecognized apply_patch directive: {line}"
+        candidate = match.group(1).strip()
+        if not candidate or candidate in {"/dev/null", "NUL"}:
+            return [], f"invalid apply_patch path directive: {line}"
+        patch_paths.append(candidate)
+    if not patch_paths:
+        return [], "apply_patch contains no recognized path directives"
+    return paths + patch_paths, None
+
+
+_WINDOWS_RESERVED = re.compile(r"^(?:CON|PRN|AUX|NUL|COM[1-9]|LPT[1-9])(?:\..*)?$", re.IGNORECASE)
+_EXTERNAL_COMMAND = re.compile(r"\b(?:deploy|publish|push|ssh|scp|curl|wget|invoke-restmethod|invoke-webrequest|terraform\s+apply|kubectl\s+apply|database|migration)\b", re.IGNORECASE)
+_SHELL_PATH_ESCAPE = re.compile(r"(?:^|[\s'\"=/\\])(?:[A-Za-z]:[\\/]|\\\\|/|\.\.(?:[\\/]|$))")
+_UNOBSERVABLE_LOCAL_COMMAND = re.compile(r"\b(?:git\s+(?:add|commit|branch|tag|stash|switch|checkout|reset)|chmod|chown|attrib|mklink|junction|ln\s|mkdir|rmdir|touch|new-item\s+[^\r\n]*(?:directory|junction|symboliclink|hardlink))\b", re.IGNORECASE)
+
+
+def _safe_portable_path_text(value: str) -> bool:
+    raw = value.strip()
+    if not raw or raw.startswith(("\\\\?\\", "\\\\.\\", "\\??\\", "//?/", "//./", "\\\\")):
+        return False
+    normalized = raw.replace("\\", "/")
+    drive = bool(re.match(r"^[A-Za-z]:/", normalized))
+    remainder = normalized[3:] if drive else normalized
+    if ":" in remainder:
+        return False
+    for component in (item for item in remainder.split("/") if item not in {"", ".", ".."}):
+        if component.endswith((".", " ")) or _WINDOWS_RESERVED.fullmatch(component):
+            return False
+    return True
+
+def _is_reparse(path: Path) -> bool:
+    try:
+        info = os.lstat(path)
+    except OSError:
+        return False
+    attributes = int(getattr(info, "st_file_attributes", 0))
+    reparse_flag = int(getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0))
+    return stat.S_ISLNK(info.st_mode) or bool(reparse_flag and attributes & reparse_flag)
+
+
+def _has_reparse_component(path: Path, boundary: Path) -> bool:
+    current = path
+    while True:
+        if _is_reparse(current):
+            return True
+        if current == boundary:
+            return False
+        parent = current.parent
+        if parent == current:
+            return True
+        current = parent
+
+
+def _lexical(path: Path) -> Path:
+    return Path(os.path.abspath(os.fspath(path.expanduser())))
+
+
+def _inside(candidate: Path, root: Path) -> bool:
+    try:
+        return os.path.normcase(os.path.commonpath([str(candidate), str(root)])) == os.path.normcase(str(root))
+    except ValueError:
+        return False
+
+
+def _within(candidate: Path, roots: list[tuple[Path, bool]], project_root: Path) -> bool:
+    try:
+        project = _lexical(project_root)
+        lexical_candidate = _lexical(candidate)
+        if not _inside(lexical_candidate, project) or _has_reparse_component(lexical_candidate, project):
+            return False
+        if lexical_candidate.exists() and lexical_candidate.is_file() and lexical_candidate.stat().st_nlink > 1:
+            return False
+        for root, recursive in roots:
+            lexical_root = _lexical(root)
+            if not _inside(lexical_root, project) or _has_reparse_component(lexical_root, project):
+                continue
+            if lexical_candidate == lexical_root or (recursive and _inside(lexical_candidate, lexical_root)):
+                return True
+        return False
+    except (OSError, ValueError):
+        return False
+
+
+def approved_scope_is_safe(*, project_root: str | os.PathLike[str], scope: Any) -> bool:
+    """Reject scope roots that are absolute, traverse upward, or cross reparse points."""
+    root = _lexical(Path(project_root))
+    scope_paths = scope.get("paths", []) if isinstance(scope, dict) else []
+    if not isinstance(scope_paths, list):
+        return False
+    for item in scope_paths:
+        if not isinstance(item, str) or not _safe_portable_path_text(item):
+            return False
+        normalized = item.replace("\\", "/")
+        path = Path(item)
+        if path.is_absolute() or re.match(r"^[A-Za-z]:/", normalized):
+            return False
+        components = [component for component in normalized.split("/") if component not in {"", "."}]
+        if ".." in components:
+            return False
+        lexical = _lexical(root / item)
+        if not _inside(lexical, root) or _has_reparse_component(lexical, root):
+            return False
+    return True
+
+
+def approved_scope_contains_paths(
+    *,
+    project_root: str | os.PathLike[str],
+    scope: Any,
+    candidates: list[str],
+) -> bool:
+    root = _lexical(Path(project_root))
+    scope_paths = scope.get("paths", []) if isinstance(scope, dict) else []
+    if not approved_scope_is_safe(project_root=root, scope=scope) or not all(
+        isinstance(item, str) and _safe_portable_path_text(item) for item in candidates
+    ):
+        return False
+    roots = [(root / item, item.endswith(("/", "\\"))) for item in scope_paths]
+    return bool(roots) and all(
+        _within((root / item) if not Path(item).is_absolute() else Path(item), roots, root)
+        for item in candidates
+    )
+
+def approved_tool_guard(
+    *,
+    tool_name: str,
+    tool_input: dict[str, Any],
+    project_root: str | os.PathLike[str],
+    scope: Any,
+    invocation_root: str | os.PathLike[str] | None = None,
+) -> PolicyResult:
+    classification = classify_tool(tool_name, tool_input)
+    normalized = _normalized_tool(tool_name)
+    if normalized in {name.replace("_", "") for name in SHELL_TOOLS}:
+        command = str(tool_input.get("command", tool_input.get("cmd", ""))).strip()
+        allowed_commands = scope.get("commands", []) if isinstance(scope, dict) else []
+        environment = tool_input.get("env", tool_input.get("environment"))
+        if environment not in (None, {}, []):
+            return PolicyResult(Decision.DENY, "Shell commands do not permit environment overrides", True)
+        root = Path(project_root)
+        effective_workdir = tool_input.get("workdir", tool_input.get("cwd", invocation_root or root))
+        if not isinstance(effective_workdir, (str, os.PathLike)) or _lexical(Path(effective_workdir)) != _lexical(root):
+            return PolicyResult(Decision.DENY, "Shell commands must run from the exact governed project root", True)
+        if _has_reparse_component(_lexical(Path(effective_workdir)), _lexical(root)):
+            return PolicyResult(Decision.DENY, "Shell working directory crosses a reparse point", True)
+        if _SHELL_PATH_ESCAPE.search(command):
+            return PolicyResult(Decision.DENY, "Shell commands must not address paths outside the governed project root", True)
+        if _EXTERNAL_COMMAND.search(command):
+            return PolicyResult(Decision.DENY, "Portable Mythos packages do not authorize unobservable external shell effects", True)
+        if _UNOBSERVABLE_LOCAL_COMMAND.search(command):
+            return PolicyResult(Decision.DENY, "Portable Mythos packages do not authorize Git, permission, link, or directory-only mutations", True)
+        if classification.decision is Decision.ALLOW:
+            return classification
+        if command and command.casefold() not in {"none", "n/a", "not applicable"} and command in allowed_commands:
+            return PolicyResult(Decision.ALLOW, "Exact approved shell command at the governed project root", True)
+        return PolicyResult(Decision.DENY, "Shell command is not an exact approved command", True)
+    if classification.decision is Decision.ALLOW:
+        return classification
+    if classification.decision is Decision.NEEDS_HUMAN_JUDGMENT:
+        return classification
+    candidates, path_error = _candidate_paths(tool_name, tool_input)
+    if path_error:
+        return PolicyResult(Decision.DENY, path_error, True)
+    if not candidates:
+        return PolicyResult(Decision.NEEDS_HUMAN_JUDGMENT, "Mutation target is not observable", None)
+    if approved_scope_contains_paths(project_root=project_root, scope=scope, candidates=candidates):
+        return PolicyResult(Decision.ALLOW, "All mutation targets are inside the approved scope", True)
+    return PolicyResult(Decision.DENY, "Mutation target falls outside the approved scope", True)

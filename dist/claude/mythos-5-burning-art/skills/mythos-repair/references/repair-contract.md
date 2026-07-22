@@ -1,1 +1,29 @@
-IyBSZXBhaXIgQ29udHJhY3QKCmBgYHRleHQKRGVmZWN0IElEOgpDYXVzYWwgaW52YXJpYW50OgpSb290LWNhdXNlIGV2aWRlbmNlOgpQcmUtZml4IHJlZ3Jlc3Npb246CkFwcHJvdmVkIHJlcGFpciBib3VuZGFyeToKQWxsb3dlZCBwYXRocyBhbmQgZWZmZWN0czoKTWluaW1hbCBjaGFuZ2U6ClBvc3QtZml4IHJlZ3Jlc3Npb246CkFkamFjZW50IHZlcmlmaWNhdGlvbjoKU2libGluZy1wYXR0ZXJuIHF1ZXJ5OgpTaWJsaW5nIHJlc3VsdHM6CkNvbXBhdGliaWxpdHkgZXZpZGVuY2U6ClJvbGxiYWNrOgpEZXZpYXRpb246CmBgYAoKUmVqZWN0IHRoZXNlIGZhbHNlIHJlcGFpcnM6CgotIGNhdGNoaW5nIG9yIGlnbm9yaW5nIHRoZSBlcnJvciB3aXRob3V0IHJlc3RvcmluZyB0aGUgaW52YXJpYW50OwotIHdlYWtlbmluZyBhbiBhc3NlcnRpb24sIHR5cGUsIHZhbGlkYXRpb24sIHBlcm1pc3Npb24sIG9yIHRlc3Q7Ci0gcmV0cnlpbmcgYSBkZXRlcm1pbmlzdGljIGZhaWx1cmUgd2l0aG91dCBhZGRyZXNzaW5nIGNhdXNlOwotIHNwZWNpYWwtY2FzaW5nIG9uZSBmaXh0dXJlIHdoZW4gdGhlIGNhdXNhbCBwYXR0ZXJuIGlzIGdlbmVyYWw7Ci0gY2hhbmdpbmcgZGVmYXVsdHMgb3IgcHVibGljIGNvbnRyYWN0cyB3aXRob3V0IGFwcHJvdmFsOwotIGJyb2FkIHJlZmFjdG9yaW5nIHRoYXQgbWFrZXMgY2F1c2FsIGF0dHJpYnV0aW9uIHVuY2xlYXIuCgpDbGFzc2lmeSBvdXRjb21lcyBhcyBgUkVQQUlSRURfUEVORElOR19JTkRFUEVOREVOVF9WRVJJRklDQVRJT05gLCBgUkVQTEFOX1JFUVVJUkVEYCwgYEFXQUlUSU5HX0hVTUFOX0lOUFVUYCwgb3IgYEJMT0NLRURgLgo=
+# Repair Contract
+
+```text
+Defect ID:
+Causal invariant:
+Root-cause evidence:
+Pre-fix regression:
+Approved repair boundary:
+Allowed paths and effects:
+Minimal change:
+Post-fix regression:
+Adjacent verification:
+Sibling-pattern query:
+Sibling results:
+Compatibility evidence:
+Rollback:
+Deviation:
+```
+
+Reject these false repairs:
+
+- catching or ignoring the error without restoring the invariant;
+- weakening an assertion, type, validation, permission, or test;
+- retrying a deterministic failure without addressing cause;
+- special-casing one fixture when the causal pattern is general;
+- changing defaults or public contracts without approval;
+- broad refactoring that makes causal attribution unclear.
+
+Classify outcomes as `REPAIRED_PENDING_INDEPENDENT_VERIFICATION`, `REPLAN_REQUIRED`, `AWAITING_HUMAN_INPUT`, or `BLOCKED`.

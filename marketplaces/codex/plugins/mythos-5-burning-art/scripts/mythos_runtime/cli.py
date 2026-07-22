@@ -1,1 +1,35 @@
-IiIiQ29tbWFuZC1saW5lIGludGVyZmFjZSB1c2VkIGJ5IGhvb2tzIGFuZCBjb25mb3JtYW5jZSB0ZXN0cy4iIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgc3lzCgpmcm9tIC5ob29rcyBpbXBvcnQgaGFuZGxlX2hvb2sKZnJvbSAucHJvdG9jb2wgaW1wb3J0IGZhaWx1cmVfcmVzdWx0CgoKZGVmIG1haW4oYXJndjogbGlzdFtzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKHByb2c9Im15dGhvcy1ydW50aW1lIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0taG9zdCIsIHJlcXVpcmVkPVRydWUsIGNob2ljZXM9KCJjb2RleCIsICJjbGF1ZGUiKSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tZXZlbnQiLCByZXF1aXJlZD1UcnVlKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKGFyZ3YpCiAgICB0cnk6CiAgICAgICAgcGF5bG9hZCA9IGpzb24ubG9hZChzeXMuc3RkaW4pCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UocGF5bG9hZCwgZGljdCk6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoInN0ZGluIG11c3QgY29udGFpbiBvbmUgSlNPTiBvYmplY3QiKQogICAgICAgIHJlc3VsdCA9IGhhbmRsZV9ob29rKGhvc3Q9YXJncy5ob3N0LCBldmVudD1hcmdzLmV2ZW50LCBwYXlsb2FkPXBheWxvYWQpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGVycm9yOgogICAgICAgIHJlc3VsdCA9IGZhaWx1cmVfcmVzdWx0KAogICAgICAgICAgICBob3N0PWFyZ3MuaG9zdCwKICAgICAgICAgICAgZXZlbnQ9YXJncy5ldmVudCwKICAgICAgICAgICAgcmVhc29uPWYiSG9vayBydW50aW1lIGZhaWx1cmU6IHtlcnJvcn0iLAogICAgICAgICkKICAgIGpzb24uZHVtcChyZXN1bHQsIHN5cy5zdGRvdXQsIGVuc3VyZV9hc2NpaT1GYWxzZSwgc29ydF9rZXlzPVRydWUsIHNlcGFyYXRvcnM9KCIsIiwgIjoiKSkKICAgIHN5cy5zdGRvdXQud3JpdGUoIlxuIikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHJhaXNlIFN5c3RlbUV4aXQobWFpbigpKQ==
+"""Command-line interface used by hooks and conformance tests."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+
+from .hooks import handle_hook
+from .protocol import failure_result
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(prog="mythos-runtime")
+    parser.add_argument("--host", required=True, choices=("codex", "claude"))
+    parser.add_argument("--event", required=True)
+    args = parser.parse_args(argv)
+    try:
+        payload = json.load(sys.stdin)
+        if not isinstance(payload, dict):
+            raise ValueError("stdin must contain one JSON object")
+        result = handle_hook(host=args.host, event=args.event, payload=payload)
+    except Exception as error:
+        result = failure_result(
+            host=args.host,
+            event=args.event,
+            reason=f"Hook runtime failure: {error}",
+        )
+    json.dump(result, sys.stdout, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    sys.stdout.write("\n")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

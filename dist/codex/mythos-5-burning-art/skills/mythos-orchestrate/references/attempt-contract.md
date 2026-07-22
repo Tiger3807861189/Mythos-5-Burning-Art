@@ -1,1 +1,43 @@
-IyBEdXJhYmxlIGltcGxlbWVudGF0aW9uIGF0dGVtcHQgY29udHJhY3QKClJlYWQgdGhpcyBjb250cmFjdCBiZWZvcmUgdGhlIGZpcnN0IHN1YnN0YW50aXZlIHBoYXNlLTkgYWN0IGFuZCBrZWVwIGl0IGFjdGl2ZSBmb3IgYnVpbGQsIGRlYnVnLCBhbmQgcmVwYWlyLiBUaGlzIGlzIHRoZSBzaW5nbGUgY2Fub25pY2FsIGF0dGVtcHQgcHJvdG9jb2w7IHByb2ZpbGUgU2tpbGxzIGFkZCBvbmx5IHByb2ZpbGUtc3BlY2lmaWMgcmVhc29uaW5nLgoKRXZlcnkgaG9vay1hdXRob3JpemVkIHN1YnN0YW50aXZlIHRvb2wgaW52b2NhdGlvbiBvcGVucyBleGFjdGx5IG9uZSBkdXJhYmxlIHBlbmRpbmcgYWN0LiBBZnRlciB0aGF0IHRvb2wgcmV0dXJucywgcGVyZm9ybSBvbmx5IHRoZSByZWFkLW9ubHkgb2JzZXJ2YXRpb24gbmVlZGVkIHRvIGNhcHR1cmUgaXRzIHJlc3VsdCwgdGhlbiBlbWl0IGV4YWN0bHkgb25lIHBhY2tldCBiZWZvcmUgYW55IG90aGVyIHN1YnN0YW50aXZlIHRvb2wsIHJlcGxhbiBwYWNrZXQsIHdhaXRpbmcgb3IgdGVybWluYWwgdHJhbnNpdGlvbiwgb3IgdmVyaWZpY2F0aW9uIHBhY2tldDoKCk1ZVEhPU19BVFRFTVBUX1BBQ0tFVF9WMV9CRUdJTgpgYGBqc29uCnsKICAic2NoZW1hX3ZlcnNpb24iOiAxLAogICJydW5faWQiOiAibTUtLi4uIiwKICAiYXBwcm92YWxfYnVuZGxlX2hhc2giOiAiPGN1cnJlbnQgYXBwcm92ZWQgYnVuZGxlIGhhc2g+IiwKICAic3RlcCI6ICJQLTEiLAogICJoeXBvdGhlc2lzIjogInNwZWNpZmljIHByZWRpY3Rpb24gdGVzdGVkIiwKICAiYWN0aW9uIjogIm9uZSBib3VuZGVkIGFjdGlvbiBwZXJmb3JtZWQiLAogICJldmlkZW5jZV9zbmFwc2hvdCI6ICJuZXcgb2JzZXJ2YXRpb24sIGluY2x1ZGluZyBmYWlsZWQtdG9vbCBldmlkZW5jZSIsCiAgIm91dGNvbWUiOiAiUEFTUyIsCiAgImV2aWRlbmNlX2dhaW4iOiB0cnVlCn0KYGBgCk1ZVEhPU19BVFRFTVBUX1BBQ0tFVF9WMV9FTkQKClRoZSBgc3RlcGAgbXVzdCBuYW1lIGFuIGFwcHJvdmVkIHBsYW4gc3RlcC4gYFBBU1NgIHJlcXVpcmVzIGBldmlkZW5jZV9nYWluOiB0cnVlYC4gQSBmYWlsZWQgZmluZ2VycHJpbnQgbWF5IG5ldmVyIHJlcGVhdC4gVGhlIHJ1bnRpbWUgYmluZHMgdGhlIGhvc3Qtb2JzZXJ2ZWQgdG9vbCBuYW1lLCBleGFjdCBpbnB1dCBoYXNoLCB1bmlxdWUgYWN0IElELCBiZWZvcmUtYWN0IGZpbmdlcnByaW50LCBhbmQgYWZ0ZXItYWN0IHByb2plY3Qgc25hcHNob3QuIFRoZSBwZW5kaW5nIGFjdCBzdXJ2aXZlcyByZXN0YXJ0LiBBIHNlY29uZCBzdWJzdGFudGl2ZSB0b29sLCByZXBsYW4sIHdhaXQsIHRlcm1pbmFsIHRyYW5zaXRpb24sIG9yIHZlcmlmaWNhdGlvbiByZXF1ZXN0IGlzIGRlbmllZCB1bnRpbCB0aGUgcGFja2V0IGNsb3NlcyB0aGUgYWN0OyBhbiB1bnJlY29yZGVkIG9yIG91dC1vZi1zY29wZSBjb250ZW50IGRlbHRhIGludmFsaWRhdGVzIGFwcHJvdmFsLgoKQSBob3N0IG1heSBlbWl0IGBQZXJtaXNzaW9uUmVxdWVzdGAgYWZ0ZXIgYFByZVRvb2xVc2VgIGZvciB0aGUgc2FtZSBpbnZvY2F0aW9uLiBUaGUgcnVudGltZSB0cmVhdHMgaXQgYXMgdGhlIHNlY29uZCBzdGFnZSBvZiB0aGUgZXhpc3RpbmcgYWN0IG9ubHkgd2hlbiB0aGUgdG9vbCBuYW1lLCBleGFjdCBpbnB1dCBoYXNoLCBhbmQgaG9zdCB0b29sLXVzZSBJRCBhbGwgbWF0Y2g7IGl0IG5ldmVyIG9wZW5zIGEgc2Vjb25kIGFjdC4gQSBuZXV0cmFsIGhvb2sgQUxMT1cgZG9lcyBub3QgYXBwcm92ZSB0aGUgdG9vbDogdGhlIGhvc3QncyBuYXRpdmUgcGVybWlzc2lvbiBkZWNpc2lvbiByZW1haW5zIGF1dGhvcml0YXRpdmUuIElmIHRoZSBodW1hbiBvciBuYXRpdmUgcG9saWN5IGRlbmllcyBleGVjdXRpb24sIGNsb3NlIHRoZSBleGlzdGluZyBhY3Qgd2l0aCBgb3V0Y29tZTogRkFJTGAsIGV2aWRlbmNlIHRoYXQgdGhlIHRvb2wgZGlkIG5vdCBydW4sIHRoZSBvYnNlcnZlZCBwZXJtaXNzaW9uIHJlc3VsdCwgYW5kIHRydXRoZnVsIGBldmlkZW5jZV9nYWluYDsgZG8gbm90IHByZXRlbmQgYSBtdXRhdGlvbiBvY2N1cnJlZC4KCkFmdGVyIHRoZSB0aGlyZCBjb25zZWN1dGl2ZSBgRkFJTGAgd2l0aCBgZXZpZGVuY2VfZ2FpbjogZmFsc2VgLCBkbyBub3QgdXNlIGFub3RoZXIgdG9vbC4gUHJlc2VudCB0aGUgZXhhY3QgbnVtYmVyZWQgQS1EIHBhY2tldCBwbHVzIGBNWVRIT1NfV0FJVElOR19GT1JfSFVNQU5fVjFgLCBvciBlbWl0OgoKTVlUSE9TX1RFUk1JTkFMX1BBQ0tFVF9WMV9CRUdJTgpgYGBqc29uCnsKICAic2NoZW1hX3ZlcnNpb24iOiAxLAogICJydW5faWQiOiAibTUtLi4uIiwKICAidGVybWluYWxfc3RhdGUiOiAiQkxPQ0tFRCIsCiAgImN1cnJlbnRfcGhhc2UiOiAiSU1QTEVNRU5UQVRJT05fTE9PUCIsCiAgInJlYXNvbiI6ICJzcGVjaWZpYyBibG9ja2luZyBjb25kaXRpb24iLAogICJldmlkZW5jZSI6IHsib2JzZXJ2YXRpb24iOiAiY29uY3JldGUgbm9uZW1wdHkgZXZpZGVuY2UifSwKICAicmVzdW1lX2NvbmRpdGlvbiI6ICJzcGVjaWZpYyBleHRlcm5hbCBjaGFuZ2Ugb3IgaHVtYW4gZXZpZGVuY2UgcmVxdWlyZWQiCn0KYGBgCk1ZVEhPU19URVJNSU5BTF9QQUNLRVRfVjFfRU5ECgpBIG1vZGVsLWVtaXR0ZWQgdGVybWluYWwgcGFja2V0IG1heSB1c2Ugb25seSBgQkxPQ0tFRGAgb3IgYE5FRURTX0hVTUFOX0pVREdNRU5UYC4gUmVzdW1lIGVpdGhlciBvbmx5IGFmdGVyIHRoZSBodW1hbiBzZW5kcyBgUkVTVU1FIE1ZVEhPUyBSVU4gPHJ1bi1pZD46IDx3aGF0IGNoYW5nZWQ+YC4gVGhlIHJ1bnRpbWUgaXRzZWxmIGFsc28gcmVjb3JkcyBgQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTGAgYW5kIGBWRVJJRklDQVRJT05fRkFJTEVEYCBhdCB0aGVpciBtYW5kYXRvcnkgZ2F0ZXMuIEFuIEEtRCB3YWl0aW5nIHN0YXRlIHJlc3VtZXMgb24gdGhlIG5leHQgaHVtYW4gYW5zd2VyOyB3aGVuIHBoYXNlIDkgd2FzIGFjdGl2ZSBpdCBpbnZhbGlkYXRlcyBhcHByb3ZhbCBhbmQgcmVxdWlyZXMgcGhhc2UtMyByZXBsYW5uaW5nLgo=
+# Durable implementation attempt contract
+
+Read this contract before the first substantive phase-9 act and keep it active for build, debug, and repair. This is the single canonical attempt protocol; profile Skills add only profile-specific reasoning.
+
+Every hook-authorized substantive tool invocation opens exactly one durable pending act. After that tool returns, perform only the read-only observation needed to capture its result, then emit exactly one packet before any other substantive tool, replan packet, waiting or terminal transition, or verification packet:
+
+MYTHOS_ATTEMPT_PACKET_V1_BEGIN
+```json
+{
+  "schema_version": 1,
+  "run_id": "m5-...",
+  "approval_bundle_hash": "<current approved bundle hash>",
+  "step": "P-1",
+  "hypothesis": "specific prediction tested",
+  "action": "one bounded action performed",
+  "evidence_snapshot": "new observation, including failed-tool evidence",
+  "outcome": "PASS",
+  "evidence_gain": true
+}
+```
+MYTHOS_ATTEMPT_PACKET_V1_END
+
+The `step` must name an approved plan step. `PASS` requires `evidence_gain: true`. A failed fingerprint may never repeat. The runtime binds the host-observed tool name, exact input hash, unique act ID, before-act fingerprint, and after-act project snapshot. The pending act survives restart. A second substantive tool, replan, wait, terminal transition, or verification request is denied until the packet closes the act; an unrecorded or out-of-scope content delta invalidates approval.
+
+A host may emit `PermissionRequest` after `PreToolUse` for the same invocation. The runtime treats it as the second stage of the existing act only when the tool name, exact input hash, and host tool-use ID all match; it never opens a second act. A neutral hook ALLOW does not approve the tool: the host's native permission decision remains authoritative. If the human or native policy denies execution, close the existing act with `outcome: FAIL`, evidence that the tool did not run, the observed permission result, and truthful `evidence_gain`; do not pretend a mutation occurred.
+
+After the third consecutive `FAIL` with `evidence_gain: false`, do not use another tool. Present the exact numbered A-D packet plus `MYTHOS_WAITING_FOR_HUMAN_V1`, or emit:
+
+MYTHOS_TERMINAL_PACKET_V1_BEGIN
+```json
+{
+  "schema_version": 1,
+  "run_id": "m5-...",
+  "terminal_state": "BLOCKED",
+  "current_phase": "IMPLEMENTATION_LOOP",
+  "reason": "specific blocking condition",
+  "evidence": {"observation": "concrete nonempty evidence"},
+  "resume_condition": "specific external change or human evidence required"
+}
+```
+MYTHOS_TERMINAL_PACKET_V1_END
+
+A model-emitted terminal packet may use only `BLOCKED` or `NEEDS_HUMAN_JUDGMENT`. Resume either only after the human sends `RESUME MYTHOS RUN <run-id>: <what changed>`. The runtime itself also records `AWAITING_HUMAN_PLAN_APPROVAL` and `VERIFICATION_FAILED` at their mandatory gates. An A-D waiting state resumes on the next human answer; when phase 9 was active it invalidates approval and requires phase-3 replanning.

@@ -1,1 +1,102 @@
-IyBQbGFuIENvbnRyYWN0CgojIyBFeGFjdCBwbGFubmluZyBzY2hlbWEKClRoZSBydW50aW1lIGFjY2VwdHMgbm8gdW5kb2N1bWVudGVkIGZpZWxkcy4gQSBjcml0ZXJpb24gaXMgZXhhY3RseToKCmBgYGpzb24KeyJpZCI6IkFDLTEiLCJwYXNzX2NvbmRpdGlvbiI6Im9ic2VydmFibGUgY29uZGl0aW9uIiwidmVyaWZpY2F0aW9uIjoic3BlY2lmaWMgY2hlY2sifQpgYGAKCkEgcGxhbiBzdGVwIGlzIGV4YWN0bHk6CgpgYGBqc29uCnsiaWQiOiJQLTEiLCJzdXJmYWNlcyI6WyJzcmMvZXhhY3QtZmlsZS5weSJdLCJhY3Rpb24iOiJQdXJwb3NlLCBwcmVjb25kaXRpb25zLCBkZXBlbmRlbmNpZXMsIGNyaXRlcmlhIGNvdmVyZWQsIGJvdW5kZWQgYWN0aW9uLCBhbmQgcmVwbGFuIHRyaWdnZXIuIiwidmVyaWZpY2F0aW9uIjoiSW1tZWRpYXRlIGNoZWNrIGFuZCBjcml0ZXJpb24gSURzLiIsInJvbGxiYWNrIjoiRXhhY3QgcmV2ZXJzYWwgYW5kIHByZXJlcXVpc2l0ZXMuIn0KYGBgCgpBIHRyYWlsaW5nIHNsYXNoIG1ha2VzIGEgcGF0aCByZWN1cnNpdmU6IGBzcmMvbW9kdWxlL2AgY292ZXJzIGRlc2NlbmRhbnRzOyBgc3JjL21vZHVsZWAgY292ZXJzIG9ubHkgdGhhdCBleGFjdCBwYXRoLiBVc2UgcHJvamVjdC1yZWxhdGl2ZSBwb3J0YWJsZSBwYXRocyBvbmx5LiBgZXh0ZXJuYWxfZWZmZWN0c2AgaXMgYWx3YXlzIGBbXWAuIFRoZSBwb3J0YWJsZSBydW50aW1lIGRvZXMgbm90IHN1cHBvcnQgZXh0ZXJuYWwgZWZmZWN0cywgR2l0IG1ldGFkYXRhIG11dGF0aW9ucywgcGVybWlzc2lvbi1vbmx5IGNoYW5nZXMsIHN5bWxpbmsvaGFyZGxpbmsvanVuY3Rpb24gY3JlYXRpb24sIG9yIGRpcmVjdG9yeS1vbmx5IG11dGF0aW9ucy4KCkZvciBhIG5vbi1tdXRhdGluZyBkZWJ1ZyBwbGFuLCB1c2UgZW1wdHkgYHBhdGhzYCBhbmQgZW1wdHkgc3RlcCBgc3VyZmFjZXNgOyBleGFjdCBkaWFnbm9zdGljIGBjb21tYW5kc2AgbWF5IHJlbWFpbi4gRm9yIGBwbGFuX29ubHlgLCBwYXRocywgY29tbWFuZHMsIGV4dGVybmFsIGVmZmVjdHMsIGFuZCBzdXJmYWNlcyBhcmUgYWxsIGVtcHR5LgoKIyMgUmV2aWV3IHBhY2tldAoKVXNlIHRoZSBydW4gSUQgc3VwcGxpZWQgYnkgU2Vzc2lvblN0YXJ0LiBBbiBpbml0aWFsIHBhY2tldCBvbWl0cyBgcmVwbGFuX2Zyb21gOyBldmVyeSBsYXRlciBwYWNrZXQgaW5jbHVkZXMgYCJyZXBsYW5fZnJvbSI6IlVOS05PV05TX0FORF9CTElORFNQT1RTImAuCgpNWVRIT1NfUkVWSUVXX1BBQ0tFVF9WMV9CRUdJTgpgYGBqc29uCnsKICAic2NoZW1hX3ZlcnNpb24iOiAxLAogICJydW5faWQiOiAibTUtLi4uIiwKICAidGFza19wcm9maWxlIjogImJ1aWxkIiwKICAiZ29hbCI6ICJPYnNlcnZhYmxlIG91dGNvbWUiLAogICJpbnRha2UiOiB7CiAgICAib3V0Y29tZSI6ICIuLi4iLAogICAgInNjb3BlIjogIi4uLiIsCiAgICAiY29uc3RyYWludHMiOiBbIi4uLiJdLAogICAgIm5vbl9nb2FscyI6IFsiLi4uIl0sCiAgICAiYXV0aG9yaXphdGlvbiI6ICJwbGFubmluZyBvbmx5IGJlZm9yZSBhcHByb3ZhbCIKICB9LAogICJ0ZXJyaXRvcnlfZGlzY292ZXJ5IjogewogICAgInJlcG9zaXRvcnlfbWFwIjogWyIuLi4iXSwKICAgICJpbnN0cnVjdGlvbnMiOiBbIkFHRU5UUy5tZCBvciBub25lIG9ic2VydmVkIl0sCiAgICAiY29udmVudGlvbnMiOiBbIi4uLiJdLAogICAgImJhc2VsaW5lIjogIi4uLiIKICB9LAogICJ1bmtub3ducyI6IHsKICAgICJrbm93bl9rbm93bnMiOiBbIi4uLiJdLAogICAgImtub3duX3Vua25vd25zIjogWyIuLi4iXSwKICAgICJ1bmtub3duX2tub3ducyI6IFsiLi4uIl0sCiAgICAidW5rbm93bl91bmtub3ducyI6IFsiLi4uIl0sCiAgICAiYmxpbmRzcG90X3Bhc3MiOiBbIi4uLiJdCiAgfSwKICAib3B0aW9ucyI6IHsic3RhdHVzIjoiUEFTUyIsImRpc3Bvc2l0aW9uIjoiU2VsZWN0ZWQgZGlyZWN0aW9uIGFuZCByZWplY3RlZCBhbHRlcm5hdGl2ZXMifSwKICAiYWNjZXB0YW5jZV9jcml0ZXJpYSI6IFsKICAgIHsiaWQiOiJBQy0xIiwicGFzc19jb25kaXRpb24iOiIuLi4iLCJ2ZXJpZmljYXRpb24iOiIuLi4ifQogIF0sCiAgInBsYW4iOiBbCiAgICB7ImlkIjoiUC0xIiwic3VyZmFjZXMiOlsic3JjL2V4YWN0LWZpbGUucHkiXSwiYWN0aW9uIjoiLi4uIiwidmVyaWZpY2F0aW9uIjoiLi4uIiwicm9sbGJhY2siOiIuLi4ifQogIF0sCiAgIm11dGF0aW9uX3Njb3BlIjogewogICAgInBhdGhzIjogWyJzcmMvZXhhY3QtZmlsZS5weSIsICJ0ZXN0cy91bml0LyJdLAogICAgImNvbW1hbmRzIjogWyJweXRob24gLUIgLW0gdW5pdHRlc3QgdGVzdHMudW5pdC50ZXN0X2ZlYXR1cmUiXSwKICAgICJleHRlcm5hbF9lZmZlY3RzIjogW10KICB9Cn0KYGBgCk1ZVEhPU19SRVZJRVdfUEFDS0VUX1YxX0VORAoKUGhhc2UgNCBgTk9UX0FQUExJQ0FCTEVgIHVzZXMgb25seSBhIHJ1bnRpbWUtcGVybWl0dGVkIGNvZGUgYW5kIGV4YWN0IGV2aWRlbmNlIGtleXMuIFVzZSBgc2luZ2xlX21lY2hhbmljYWxfb3V0Y29tZWAgd2l0aCBgb25seV92aWFibGVfY2hhbmdlYCBhbmQgYHJpc2tfYXNzZXNzbWVudGAsIG9yIGBub19zYWZlX2V4ZWN1dGFibGVfcHJvdG90eXBlYCB3aXRoIGBwcm90b3R5cGVfcmlza2AgYW5kIGBub25fbXV0YXRpbmdfYWx0ZXJuYXRpdmVgLiBUaGUgcG9ydGFibGUgcGFja2FnZSBoYXMgbm8gcHJlYXBwcm92YWwgZXhlY3V0YWJsZSBwcm90b3R5cGUgcnVubmVyOyB1c2Ugbm9uLW11dGF0aW5nIHJlZmVyZW5jZXMgb3IgcmVjb3JkIHRoZSBqdXN0aWZpZWQgTi9BIHJlc3VsdC4KCiMjIENyaXRpYyByZWNlaXB0CgpMYXVuY2ggb25seSBhZnRlciB0aGUgaG9vayByZXR1cm5zIHRoZSBzZWFsZWQgaGFzaCwgYW5kIHJlcXVpcmUgaG9zdC1vYnNlcnZhYmxlIGZyZXNoIGlzb2xhdGlvbi4KCmBgYHRleHQKVmVyZGljdDogUEFTUwpNWVRIT1NfQ1JJVElDX1JFQ0VJUFRfVjFfQkVHSU4KeyJzY2hlbWFfdmVyc2lvbiI6MSwicGFja2V0X2hhc2giOiI8cmV2aWV3X3BhY2tldF9oYXNoPiIsInZlcmRpY3QiOiJQQVNTIiwicmV2aWV3ZWRfc2VjdGlvbnMiOlsidGFza19wcm9maWxlIiwicmVwbGFuX3Byb3ZlbmFuY2UiLCJvcmlnaW5hbF9yZXF1ZXN0IiwiY29udGV4dF9tYW5pZmVzdCIsImdvYWwiLCJpbnRha2UiLCJ0ZXJyaXRvcnlfZGlzY292ZXJ5IiwidW5rbm93bnMiLCJvcHRpb25zIiwiYWNjZXB0YW5jZV9jcml0ZXJpYSIsInBsYW4iLCJtdXRhdGlvbl9zY29wZSJdLCJibG9ja2luZ19maW5kaW5ncyI6W10sImhpZ2hfZmluZGluZ3MiOltdLCJjb250ZXh0X2NvbnRhbWluYXRpb24iOltdfQpNWVRIT1NfQ1JJVElDX1JFQ0VJUFRfVjFfRU5ECmBgYAoKIyMgQXBwcm92YWwgYnVuZGxlCgpDb3B5IHRoZSBwbGFubmluZyBmaWVsZHMgd2l0aG91dCBzZW1hbnRpYyBjaGFuZ2UsIHRoZW4gYWRkIG9ubHk6CgpgYGBqc29uCnsKICAicmV2aWV3X3BhY2tldF9oYXNoIjogIjxyZXZpZXdfcGFja2V0X2hhc2g+IiwKICAiY3JpdGljIjogewogICAgImFkanVkaWNhdGlvbiI6IFsKICAgICAgeyJmaW5kaW5nIjoiQy0xIG9yIG5vbmUiLCJkaXNwb3NpdGlvbiI6IkFDQ0VQVCIsImV2aWRlbmNlIjoic3BlY2lmaWMgZXZpZGVuY2UifQogICAgXQogIH0KfQpgYGAKClBsYWNlIHRob3NlIGtleXMgaW4gdGhlIGZ1bGwgcGxhbm5pbmcgb2JqZWN0IGFuZCB3cmFwIGl0IHdpdGggYE1ZVEhPU19BUFBST1ZBTF9CVU5ETEVfVjFfQkVHSU5gIGFuZCBgTVlUSE9TX0FQUFJPVkFMX0JVTkRMRV9WMV9FTkRgLiBUaGUgaG9vayByZXR1cm5zIHRoZSBvbmx5IHZhbGlkIHN0YXRlbWVudDoKCmBgYHRleHQKQVBQUk9WRSBNWVRIT1MgUlVOIDxydW4taWQ+IEJVTkRMRSA8YnVuZGxlLWhhc2g+CmBgYAoKU3RvcCBhbmQgd2FpdCBmb3IgYSBuZXcgaHVtYW4gbWVzc2FnZSBjb250YWluaW5nIHRoYXQgZXhhY3Qgc3RhdGVtZW50Lgo=
+# Plan Contract
+
+## Exact planning schema
+
+The runtime accepts no undocumented fields. A criterion is exactly:
+
+```json
+{"id":"AC-1","pass_condition":"observable condition","verification":"specific check"}
+```
+
+A plan step is exactly:
+
+```json
+{"id":"P-1","surfaces":["src/exact-file.py"],"action":"Purpose, preconditions, dependencies, criteria covered, bounded action, and replan trigger.","verification":"Immediate check and criterion IDs.","rollback":"Exact reversal and prerequisites."}
+```
+
+A trailing slash makes a path recursive: `src/module/` covers descendants; `src/module` covers only that exact path. Use project-relative portable paths only. `external_effects` is always `[]`. The portable runtime does not support external effects, Git metadata mutations, permission-only changes, symlink/hardlink/junction creation, or directory-only mutations.
+
+For a non-mutating debug plan, use empty `paths` and empty step `surfaces`; exact diagnostic `commands` may remain. For `plan_only`, paths, commands, external effects, and surfaces are all empty.
+
+## Review packet
+
+Use the run ID supplied by SessionStart. An initial packet omits `replan_from`; every later packet includes `"replan_from":"UNKNOWNS_AND_BLINDSPOTS"`.
+
+MYTHOS_REVIEW_PACKET_V1_BEGIN
+```json
+{
+  "schema_version": 1,
+  "run_id": "m5-...",
+  "task_profile": "build",
+  "goal": "Observable outcome",
+  "intake": {
+    "outcome": "...",
+    "scope": "...",
+    "constraints": ["..."],
+    "non_goals": ["..."],
+    "authorization": "planning only before approval"
+  },
+  "territory_discovery": {
+    "repository_map": ["..."],
+    "instructions": ["AGENTS.md or none observed"],
+    "conventions": ["..."],
+    "baseline": "..."
+  },
+  "unknowns": {
+    "known_knowns": ["..."],
+    "known_unknowns": ["..."],
+    "unknown_knowns": ["..."],
+    "unknown_unknowns": ["..."],
+    "blindspot_pass": ["..."]
+  },
+  "options": {"status":"PASS","disposition":"Selected direction and rejected alternatives"},
+  "acceptance_criteria": [
+    {"id":"AC-1","pass_condition":"...","verification":"..."}
+  ],
+  "plan": [
+    {"id":"P-1","surfaces":["src/exact-file.py"],"action":"...","verification":"...","rollback":"..."}
+  ],
+  "mutation_scope": {
+    "paths": ["src/exact-file.py", "tests/unit/"],
+    "commands": ["python -B -m unittest tests.unit.test_feature"],
+    "external_effects": []
+  }
+}
+```
+MYTHOS_REVIEW_PACKET_V1_END
+
+Phase 4 `NOT_APPLICABLE` uses only a runtime-permitted code and exact evidence keys. Use `single_mechanical_outcome` with `only_viable_change` and `risk_assessment`, or `no_safe_executable_prototype` with `prototype_risk` and `non_mutating_alternative`. The portable package has no preapproval executable prototype runner; use non-mutating references or record the justified N/A result.
+
+## Critic receipt
+
+Launch only after the hook returns the sealed hash, and require host-observable fresh isolation.
+
+```text
+Verdict: PASS
+MYTHOS_CRITIC_RECEIPT_V1_BEGIN
+{"schema_version":1,"packet_hash":"<review_packet_hash>","verdict":"PASS","reviewed_sections":["task_profile","replan_provenance","original_request","context_manifest","goal","intake","territory_discovery","unknowns","options","acceptance_criteria","plan","mutation_scope"],"blocking_findings":[],"high_findings":[],"context_contamination":[]}
+MYTHOS_CRITIC_RECEIPT_V1_END
+```
+
+## Approval bundle
+
+Copy the planning fields without semantic change, then add only:
+
+```json
+{
+  "review_packet_hash": "<review_packet_hash>",
+  "critic": {
+    "adjudication": [
+      {"finding":"C-1 or none","disposition":"ACCEPT","evidence":"specific evidence"}
+    ]
+  }
+}
+```
+
+Place those keys in the full planning object and wrap it with `MYTHOS_APPROVAL_BUNDLE_V1_BEGIN` and `MYTHOS_APPROVAL_BUNDLE_V1_END`. The hook returns the only valid statement:
+
+```text
+APPROVE MYTHOS RUN <run-id> BUNDLE <bundle-hash>
+```
+
+Stop and wait for a new human message containing that exact statement.

@@ -1,1 +1,59 @@
-IyBEZWNpc2lvbiBBcnRpZmFjdHMKCiMjIERpcmVjdGlvbiBjYXJkCgpgYGB0ZXh0CkRpcmVjdGlvbjoKQ29yZSBzdHJhdGVneToKQ29uY3JldGUgYmVoYXZpb3I6CkNvbnN0cmFpbnRzIHNhdGlzZmllZDoKVHJhZGVvZmZzIGFuZCBmYWlsdXJlIG1vZGVzOgpPcGVyYXRpb25hbCBjb3N0OgpDb21wYXRpYmlsaXR5IGFuZCBtaWdyYXRpb246ClJldmVyc2liaWxpdHk6CkV2aWRlbmNlOgpgYGAKCk1lcmdlIHZhcmlhbnRzIHRoYXQgb25lIGltcGxlbWVudGF0aW9uIGNhbiBmdWxseSBhZG9wdCB0b2dldGhlcjsgdGhleSBhcmUgbm90IG11dHVhbGx5IGV4Y2x1c2l2ZS4KCiMjIFNlbWFudGljcyBtYXAKCmBgYHRleHQKUmVmZXJlbmNlIGNvbmNlcHQgfCBUYXJnZXQgY29uY2VwdCB8IFJlbGF0aW9uc2hpcCB8IExpZmVjeWNsZSBkaWZmZXJlbmNlIHwgUmlzayB8IFBPUlQvQURBUFQvUkVQTEFDRS9PTUlUCmBgYAoKTGlzdCBib3VuZGFyeSBjYXNlcyBhbmQgZ290Y2hhcyBhZnRlciB0aGUgbWFwLgoKIyMgUG9zdC1hcHByb3ZhbCBleHBlcmltZW50IHNwZWNpZmljYXRpb24KCkRvIG5vdCBleGVjdXRlIHRoaXMgc3BlY2lmaWNhdGlvbiBkdXJpbmcgcGhhc2UgNC4KCmBgYHRleHQKUXVlc3Rpb246Ckh5cG90aGVzZXM6Ck9ic2VydmFibGUgZGlzY3JpbWluYXRvcjoKRXhhY3QgYXBwcm92ZWQgcGF0aCBvciBjb21tYW5kOgpQZXJtaXR0ZWQgbG9jYWwgY29udGVudCBlZmZlY3RzOgpBdHRlbXB0IGxpbWl0OgpDbGVhbnVwOgpFeHBlY3RlZCBkZWNpc2lvbiBpbXBhY3Q6ClByb2R1Y3Rpb24gYXNzdW1wdGlvbnMgc3RpbGwgdW50ZXN0ZWQ6CmBgYAoKIyMgU2VsZWN0aW9uIHBhY2tldAoKYGBgdGV4dAoxLiAqKkRlY2lzaW9uIHRpdGxlKioKICAgLSBXaHkgdGhpcyBtYXR0ZXJzOiBleHBsYWluIHdoaWNoIGRvd25zdHJlYW0gZGVjaXNpb25zIGNoYW5nZS4KICAgLSBFdmlkZW5jZSBvciB1bmNlcnRhaW50eTogc3RhdGUgd2hhdCB3YXMgZm91bmQgYW5kIHdoYXQgcmVtYWlucyB1bmtub3duLgogICAtIEEuICoqUmVjb21tZW5kZWQgb3B0aW9uKiog4oCUIGV4cGxhaW4gdGhlIGJlbmVmaXQgYW5kIHRyYWRlb2ZmLgogICAtIEIuIEFsdGVybmF0aXZlIOKAlCBleHBsYWluIHRoZSBiZW5lZml0IGFuZCB0cmFkZW9mZi4KICAgLSBDLiBBbHRlcm5hdGl2ZSDigJQgZXhwbGFpbiB0aGUgYmVuZWZpdCBhbmQgdHJhZGVvZmYuCiAgIC0gRC4gT3RoZXIgLyBwcm92aWRlIGEgZGlmZmVyZW50IGNvbnN0cmFpbnQuCiAgIC0gSWYgdW5hbnN3ZXJlZDogc3RhdGUgd2hldGhlciB3b3JrIG11c3QgcGF1c2Ugb3Igd2hpY2ggY29uc2VydmF0aXZlIGRlZmF1bHQgd291bGQgYXBwbHkuCgpUcmFuc2xhdGUgdGhlIGRlY2lzaW9uIHRpdGxlLCBleHBsYW5hdG9yeSBsYWJlbHMsIG9wdGlvbiB0ZXh0LCBhbmQgZXhwbGFuYXRpb25zIGludG8gdGhlIHVzZXIncyBjdXJyZW50IGludGVyYWN0aW9uIGxhbmd1YWdlLiBQcmVzZXJ2ZSB0aGUgbnVtYmVyZWQgYm9sZCB0aXRsZSwgdGhyZWUtc3BhY2UtaW5kZW50ZWQgYnVsbGV0IHN0cnVjdHVyZSwgQS1EIG1hcmtlcnMsIGJvbGQgcmVjb21tZW5kZWQgQSBvcHRpb24sIGVtLWRhc2ggdHJhZGVvZmYgc2VwYXJhdG9ycyBmb3IgQS1DLCBleGFjdCBmaWVsZCBvcmRlciwgYW5kIGZpbmFsIHdhaXRpbmcgbWFya2VyLgpgYGAKCkZvciBhIHdhaXRpbmcgcmVzcG9uc2UsIG91dHB1dCBvbmx5IG9uZSB0byBmaXZlIGV4YWN0IGJsb2NrcyBpbiBzZXF1ZW50aWFsIG9yZGVyLCBvcHRpb25hbCBibGFuayBsaW5lcyBiZXR3ZWVuIGJsb2NrcywgYW5kIG9uZSBmaW5hbCBzdGFuZGFsb25lIGBNWVRIT1NfV0FJVElOR19GT1JfSFVNQU5fVjFgIGxpbmUuIFByZXNlcnZlIHRoZSB0aHJlZS1zcGFjZSBpbmRlbnRhdGlvbiBhbmQgZXhhY3QgZmllbGQgb3JkZXIuIEludHJvZHVjdG9yeSwgc3RhdHVzLCBvciB0cmFpbGluZyBwcm9zZSBpcyBpbnZhbGlkOyBtb3ZlIG5lY2Vzc2FyeSBjb250ZXh0IGludG8gdGhlIHJlcXVpcmVkIGZpZWxkcy4KCg==
+# Decision Artifacts
+
+## Direction card
+
+```text
+Direction:
+Core strategy:
+Concrete behavior:
+Constraints satisfied:
+Tradeoffs and failure modes:
+Operational cost:
+Compatibility and migration:
+Reversibility:
+Evidence:
+```
+
+Merge variants that one implementation can fully adopt together; they are not mutually exclusive.
+
+## Semantics map
+
+```text
+Reference concept | Target concept | Relationship | Lifecycle difference | Risk | PORT/ADAPT/REPLACE/OMIT
+```
+
+List boundary cases and gotchas after the map.
+
+## Post-approval experiment specification
+
+Do not execute this specification during phase 4.
+
+```text
+Question:
+Hypotheses:
+Observable discriminator:
+Exact approved path or command:
+Permitted local content effects:
+Attempt limit:
+Cleanup:
+Expected decision impact:
+Production assumptions still untested:
+```
+
+## Selection packet
+
+```text
+1. **Decision title**
+   - Why this matters: explain which downstream decisions change.
+   - Evidence or uncertainty: state what was found and what remains unknown.
+   - A. **Recommended option** — explain the benefit and tradeoff.
+   - B. Alternative — explain the benefit and tradeoff.
+   - C. Alternative — explain the benefit and tradeoff.
+   - D. Other / provide a different constraint.
+   - If unanswered: state whether work must pause or which conservative default would apply.
+
+Translate the decision title, explanatory labels, option text, and explanations into the user's current interaction language. Preserve the numbered bold title, three-space-indented bullet structure, A-D markers, bold recommended A option, em-dash tradeoff separators for A-C, exact field order, and final waiting marker.
+```
+
+For a waiting response, output only one to five exact blocks in sequential order, optional blank lines between blocks, and one final standalone `MYTHOS_WAITING_FOR_HUMAN_V1` line. Preserve the three-space indentation and exact field order. Introductory, status, or trailing prose is invalid; move necessary context into the required fields.
+

@@ -1,1 +1,42 @@
-IyBIYW5kb2ZmIGFuZCBDb21wcmVoZW5zaW9uCgojIyBSZWNvbmNpbGlhdGlvbgoKYGBgdGV4dApQbGFuIHN0ZXAgb3IgY3JpdGVyaW9uIHwgUGxhbm5lZCB8IEFjdHVhbCB8IEV2aWRlbmNlIHwgQ2xhc3NpZmljYXRpb24gfCBEaXNwb3NpdGlvbgpgYGAKCiMjIEhhbmRvZmYKCmBgYHRleHQKT3V0Y29tZToKVXNlci12aXNpYmxlIGJlaGF2aW9yOgpBcmNoaXRlY3R1cmUgYW5kIGRhdGEgZmxvdzoKS2V5IGZpbGVzIGFuZCBpbnRlcmZhY2VzOgpBY2NlcHRhbmNlIGV2aWRlbmNlOgpSZWplY3RlZCBhbHRlcm5hdGl2ZXM6CkRldmlhdGlvbnM6Cktub3duIGxpbWl0czoKUmlza3MgYW5kIG1vbml0b3Jpbmc6ClJvbGxiYWNrOgpPd25lciBhbmQgbmV4dCBhY3Rpb246CkludmFyaWFudCBmb3IgbWFpbnRhaW5lcnM6CmBgYAoKIyMgQ29tcHJlaGVuc2lvbiBxdWVzdGlvbgoKYGBgdGV4dAoxLiA8c2NlbmFyaW8tYmFzZWQgcXVlc3Rpb24+CkEuIDxwbGF1c2libGUgYW5zd2VyPgpCLiA8cGxhdXNpYmxlIGFuc3dlcj4KQy4gPHBsYXVzaWJsZSBhbnN3ZXI+CkQuIDxwbGF1c2libGUgYW5zd2VyPgoKRXZhbHVhdGVzOgpDb3JyZWN0IGFuc3dlcjoKV2h5OgpFdmlkZW5jZSBsb2NhdGlvbjoKRm9sbG93LXVwIGZvciBtaXNjb25jZXB0aW9uOgpgYGAKClRlc3QgYXBwbGljYXRpb24sIG5vdCByZWNhbGwuIFByZWZlciAid2hhdCBoYXBwZW5zIGlmIiBhbmQgIndoaWNoIGludmFyaWFudCBicmVha3MiIHF1ZXN0aW9ucy4gQ292ZXIgdGhlIGhpZ2hlc3QtcmlzayBhcmNoaXRlY3R1cmUsIGZhaWx1cmUsIHJvbGxiYWNrLCBhbmQgbWFpbnRlbmFuY2UgY29uY2VwdHMuIEtlZXAgdGhlIGFuc3dlciBrZXkgb3V0IG9mIHRoZSBpbml0aWFsIGh1bWFuLWZhY2luZyBxdWl6Lgo=
+# Handoff and Comprehension
+
+## Reconciliation
+
+```text
+Plan step or criterion | Planned | Actual | Evidence | Classification | Disposition
+```
+
+## Handoff
+
+```text
+Outcome:
+User-visible behavior:
+Architecture and data flow:
+Key files and interfaces:
+Acceptance evidence:
+Rejected alternatives:
+Deviations:
+Known limits:
+Risks and monitoring:
+Rollback:
+Owner and next action:
+Invariant for maintainers:
+```
+
+## Comprehension question
+
+```text
+1. <scenario-based question>
+A. <plausible answer>
+B. <plausible answer>
+C. <plausible answer>
+D. <plausible answer>
+
+Evaluates:
+Correct answer:
+Why:
+Evidence location:
+Follow-up for misconception:
+```
+
+Test application, not recall. Prefer "what happens if" and "which invariant breaks" questions. Cover the highest-risk architecture, failure, rollback, and maintenance concepts. Keep the answer key out of the initial human-facing quiz.

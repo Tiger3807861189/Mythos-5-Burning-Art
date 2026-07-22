@@ -1,1 +1,148 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCBkZXRlcm1pbmlzdGljIENvZGV4IGFuZCBDbGF1ZGUgQ29kZSBwYWNrYWdlcyBmcm9tIGNhbm9uaWNhbCBzb3VyY2VzLiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBoYXNobGliCmltcG9ydCBqc29uCmltcG9ydCBzaHV0aWwKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKU1VJVEUgPSAibXl0aG9zLTUtYnVybmluZy1hcnQiCgoKZGVmIHNoYTI1NihwYXRoOiBQYXRoKSAtPiBzdHI6CiAgICBkaWdlc3QgPSBoYXNobGliLnNoYTI1NigpCiAgICBkaWdlc3QudXBkYXRlKHBhdGgucmVhZF9ieXRlcygpKQogICAgcmV0dXJuIGRpZ2VzdC5oZXhkaWdlc3QoKQoKCmRlZiBzYWZlX3JlcGxhY2VfZGlyKHBhdGg6IFBhdGgsIHJvb3Q6IFBhdGgpIC0+IE5vbmU6CiAgICByZXNvbHZlZCA9IHBhdGgucmVzb2x2ZSgpCiAgICByb290X3Jlc29sdmVkID0gcm9vdC5yZXNvbHZlKCkKICAgIGlmIHJlc29sdmVkID09IHJvb3RfcmVzb2x2ZWQgb3Igcm9vdF9yZXNvbHZlZCBub3QgaW4gcmVzb2x2ZWQucGFyZW50czoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJSZWZ1c2luZyB0byByZXBsYWNlIHBhdGggb3V0c2lkZSBidWlsZCByb290OiB7cmVzb2x2ZWR9IikKICAgIGlmIHBhdGguZXhpc3RzKCk6CiAgICAgICAgc2h1dGlsLnJtdHJlZShwYXRoKQogICAgcGF0aC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCgoKZGVmIGNvcHlfdHJlZShzb3VyY2U6IFBhdGgsIGRlc3RpbmF0aW9uOiBQYXRoKSAtPiBOb25lOgogICAgaWYgbm90IHNvdXJjZS5pc19kaXIoKToKICAgICAgICByYWlzZSBGaWxlTm90Rm91bmRFcnJvcihzb3VyY2UpCiAgICBzaHV0aWwuY29weXRyZWUoc291cmNlLCBkZXN0aW5hdGlvbiwgZGlyc19leGlzdF9vaz1UcnVlKQoKCmRlZiByZW1vdmVfc2tpbGxfdWlfbWV0YWRhdGEocGFja2FnZV9za2lsbHM6IFBhdGgpIC0+IE5vbmU6CiAgICBmb3IgbWV0YWRhdGEgaW4gcGFja2FnZV9za2lsbHMuZ2xvYigiKi9hZ2VudHMiKToKICAgICAgICBpZiBtZXRhZGF0YS5pc19kaXIoKToKICAgICAgICAgICAgc2h1dGlsLnJtdHJlZShtZXRhZGF0YSkKCgpkZWYgd3JpdGVfYnVpbGRfbWFuaWZlc3QocGFja2FnZTogUGF0aCwgaG9zdDogc3RyKSAtPiBOb25lOgogICAgZmlsZXMgPSBbXQogICAgZm9yIHBhdGggaW4gc29ydGVkKHAgZm9yIHAgaW4gcGFja2FnZS5yZ2xvYigiKiIpIGlmIHAuaXNfZmlsZSgpKToKICAgICAgICBpZiBwYXRoLm5hbWUgPT0gImJ1aWxkLW1hbmlmZXN0Lmpzb24iOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGZpbGVzLmFwcGVuZCh7CiAgICAgICAgICAgICJwYXRoIjogcGF0aC5yZWxhdGl2ZV90byhwYWNrYWdlKS5hc19wb3NpeCgpLAogICAgICAgICAgICAic2hhMjU2Ijogc2hhMjU2KHBhdGgpLAogICAgICAgICAgICAiYnl0ZXMiOiBwYXRoLnN0YXQoKS5zdF9zaXplLAogICAgICAgIH0pCiAgICBwYXlsb2FkID0gewogICAgICAgICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgICAgICAgInN1aXRlIjogU1VJVEUsCiAgICAgICAgImhvc3QiOiBob3N0LAogICAgICAgICJnZW5lcmF0ZWQiOiBUcnVlLAogICAgICAgICJmaWxlcyI6IGZpbGVzLAogICAgfQogICAgKHBhY2thZ2UgLyAiYnVpbGQtbWFuaWZlc3QuanNvbiIpLndyaXRlX3RleHQoCiAgICAgICAganNvbi5kdW1wcyhwYXlsb2FkLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIsIG5ld2xpbmU9IlxuIgogICAgKQoKCmRlZiBidWlsZChyb290OiBQYXRoKSAtPiBOb25lOgogICAgcm9vdCA9IHJvb3QucmVzb2x2ZSgpCiAgICBzaGFyZWRfc2tpbGxzID0gcm9vdCAvICJzcmMiIC8gInNoYXJlZCIgLyAic2tpbGxzIgogICAgcnVudGltZSA9IHJvb3QgLyAic3JjIiAvICJzaGFyZWQiIC8gInJ1bnRpbWUiCiAgICBkaXN0X3Jvb3QgPSByb290IC8gImRpc3QiCiAgICBjb2RleF9vdXQgPSBkaXN0X3Jvb3QgLyAiY29kZXgiIC8gU1VJVEUKICAgIGNsYXVkZV9vdXQgPSBkaXN0X3Jvb3QgLyAiY2xhdWRlIiAvIFNVSVRFCgogICAgc2FmZV9yZXBsYWNlX2Rpcihjb2RleF9vdXQsIHJvb3QpCiAgICBzYWZlX3JlcGxhY2VfZGlyKGNsYXVkZV9vdXQsIHJvb3QpCgogICAgY29kZXhfc291cmNlID0gcm9vdCAvICJzcmMiIC8gImNvZGV4IiAvIFNVSVRFCiAgICBjbGF1ZGVfc291cmNlID0gcm9vdCAvICJzcmMiIC8gImNsYXVkZSIgLyBTVUlURQogICAgY29weV90cmVlKGNvZGV4X3NvdXJjZSwgY29kZXhfb3V0KQogICAgY29weV90cmVlKGNsYXVkZV9zb3VyY2UsIGNsYXVkZV9vdXQpCiAgICBjb3B5X3RyZWUoc2hhcmVkX3NraWxscywgY29kZXhfb3V0IC8gInNraWxscyIpCiAgICBjb3B5X3RyZWUoc2hhcmVkX3NraWxscywgY2xhdWRlX291dCAvICJza2lsbHMiKQogICAgcmVtb3ZlX3NraWxsX3VpX21ldGFkYXRhKGNsYXVkZV9vdXQgLyAic2tpbGxzIikKICAgIGNvcHlfdHJlZShydW50aW1lLCBjb2RleF9vdXQgLyAic2NyaXB0cyIpCiAgICBjb3B5X3RyZWUocnVudGltZSwgY2xhdWRlX291dCAvICJzY3JpcHRzIikKCiAgICBmb3IgcGF0aCBpbiBsaXN0KGNvZGV4X291dC5yZ2xvYigiX19weWNhY2hlX18iKSkgKyBsaXN0KGNsYXVkZV9vdXQucmdsb2IoIl9fcHljYWNoZV9fIikpOgogICAgICAgIHNodXRpbC5ybXRyZWUocGF0aCkKICAgIGZvciBwYXRoIGluIGxpc3QoY29kZXhfb3V0LnJnbG9iKCIqLnB5YyIpKSArIGxpc3QoY2xhdWRlX291dC5yZ2xvYigiKi5weWMiKSk6CiAgICAgICAgcGF0aC51bmxpbmsoKQoKICAgIHdyaXRlX2J1aWxkX21hbmlmZXN0KGNvZGV4X291dCwgImNvZGV4IikKICAgIHdyaXRlX2J1aWxkX21hbmlmZXN0KGNsYXVkZV9vdXQsICJjbGF1ZGUtY29kZSIpCgogICAgY29kZXhfbWFya2V0X3Jvb3QgPSByb290IC8gIm1hcmtldHBsYWNlcyIgLyAiY29kZXgiCiAgICBjb2RleF9jYXRhbG9nX3Jvb3QgPSBjb2RleF9tYXJrZXRfcm9vdCAvICIuYWdlbnRzIiAvICJwbHVnaW5zIgogICAgY2xhdWRlX21hcmtldF9yb290ID0gcm9vdCAvICJtYXJrZXRwbGFjZXMiIC8gImNsYXVkZSIKICAgIHNhZmVfcmVwbGFjZV9kaXIoY29kZXhfbWFya2V0X3Jvb3QsIHJvb3QpCiAgICBzYWZlX3JlcGxhY2VfZGlyKGNsYXVkZV9tYXJrZXRfcm9vdCwgcm9vdCkKICAgIGNvZGV4X2NhdGFsb2dfcm9vdC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAoY29kZXhfbWFya2V0X3Jvb3QgLyAicGx1Z2lucyIpLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIChjbGF1ZGVfbWFya2V0X3Jvb3QgLyAiLmNsYXVkZS1wbHVnaW4iKS5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAoY2xhdWRlX21hcmtldF9yb290IC8gInBsdWdpbnMiKS5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBjb3B5X3RyZWUoY29kZXhfb3V0LCBjb2RleF9tYXJrZXRfcm9vdCAvICJwbHVnaW5zIiAvIFNVSVRFKQogICAgY29weV90cmVlKGNsYXVkZV9vdXQsIGNsYXVkZV9tYXJrZXRfcm9vdCAvICJwbHVnaW5zIiAvIFNVSVRFKQogICAgY29kZXhfbWFya2V0cGxhY2UgPSB7CiAgICAgICAgIm5hbWUiOiAibXl0aG9zLTUtYnVybmluZy1hcnQtbG9jYWwiLAogICAgICAgICJpbnRlcmZhY2UiOiB7ImRpc3BsYXlOYW1lIjogIk15dGhvcyA1IEJ1cm5pbmcgQXJ0IExvY2FsIn0sCiAgICAgICAgInBsdWdpbnMiOiBbewogICAgICAgICAgICAibmFtZSI6IFNVSVRFLAogICAgICAgICAgICAic291cmNlIjogeyJzb3VyY2UiOiAibG9jYWwiLCAicGF0aCI6IGYiLi9wbHVnaW5zL3tTVUlURX0ifSwKICAgICAgICAgICAgInBvbGljeSI6IHsiaW5zdGFsbGF0aW9uIjogIkFWQUlMQUJMRSIsICJhdXRoZW50aWNhdGlvbiI6ICJPTl9JTlNUQUxMIn0sCiAgICAgICAgICAgICJjYXRlZ29yeSI6ICJEZXZlbG9wZXIgVG9vbHMiLAogICAgICAgIH1dLAogICAgfQogICAgY2xhdWRlX21hcmtldHBsYWNlID0gewogICAgICAgICJuYW1lIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0LWxvY2FsIiwKICAgICAgICAib3duZXIiOiB7Im5hbWUiOiAiTXl0aG9zIDUgQnVybmluZyBBcnQgUHJvamVjdCJ9LAogICAgICAgICJtZXRhZGF0YSI6IHsiZGVzY3JpcHRpb24iOiAiTG9jYWwgcG9ydGFibGUgZGlzdHJpYnV0aW9uIG9mIHRoZSBNeXRob3MgNSBCdXJuaW5nIEFydCB3b3JrZmxvdyBzdWl0ZS4ifSwKICAgICAgICAicGx1Z2lucyI6IFt7CiAgICAgICAgICAgICJuYW1lIjogU1VJVEUsCiAgICAgICAgICAgICJzb3VyY2UiOiBmIi4vcGx1Z2lucy97U1VJVEV9IiwKICAgICAgICAgICAgImRlc2NyaXB0aW9uIjogIkEgZ292ZXJuZWQgY29kaW5nIHdvcmtmbG93IHdpdGggcGxhbiBhcHByb3ZhbCwgaW5kZXBlbmRlbnQgcmV2aWV3LCBhbmQgZHVyYWJsZSBsb29wcy4iLAogICAgICAgICAgICAidmVyc2lvbiI6ICIwLjEuMCIsCiAgICAgICAgICAgICJhdXRob3IiOiB7Im5hbWUiOiAiTXl0aG9zIDUgQnVybmluZyBBcnQgUHJvamVjdCJ9LAogICAgICAgIH1dLAogICAgfQogICAgKGNvZGV4X2NhdGFsb2dfcm9vdCAvICJtYXJrZXRwbGFjZS5qc29uIikud3JpdGVfdGV4dCgKICAgICAgICBqc29uLmR1bXBzKGNvZGV4X21hcmtldHBsYWNlLCBpbmRlbnQ9MikgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSJcbiIKICAgICkKICAgIChjbGF1ZGVfbWFya2V0X3Jvb3QgLyAiLmNsYXVkZS1wbHVnaW4iIC8gIm1hcmtldHBsYWNlLmpzb24iKS53cml0ZV90ZXh0KAogICAgICAgIGpzb24uZHVtcHMoY2xhdWRlX21hcmtldHBsYWNlLCBpbmRlbnQ9MikgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSJcbiIKICAgICkKCgpkZWYgbWFpbigpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcm9vdCIsIHR5cGU9UGF0aCwgZGVmYXVsdD1QYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBidWlsZChhcmdzLnJvb3QpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICByYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSkKCgoK
+#!/usr/bin/env python3
+"""Build deterministic Codex and Claude Code packages from canonical sources."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import shutil
+from pathlib import Path
+
+
+SUITE = "mythos-5-burning-art"
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    digest.update(path.read_bytes())
+    return digest.hexdigest()
+
+
+def safe_replace_dir(path: Path, root: Path) -> None:
+    resolved = path.resolve()
+    root_resolved = root.resolve()
+    if resolved == root_resolved or root_resolved not in resolved.parents:
+        raise RuntimeError(f"Refusing to replace path outside build root: {resolved}")
+    if path.exists():
+        shutil.rmtree(path)
+    path.mkdir(parents=True, exist_ok=True)
+
+
+def copy_tree(source: Path, destination: Path) -> None:
+    if not source.is_dir():
+        raise FileNotFoundError(source)
+    shutil.copytree(source, destination, dirs_exist_ok=True)
+
+
+def remove_skill_ui_metadata(package_skills: Path) -> None:
+    for metadata in package_skills.glob("*/agents"):
+        if metadata.is_dir():
+            shutil.rmtree(metadata)
+
+
+def write_build_manifest(package: Path, host: str) -> None:
+    files = []
+    for path in sorted(p for p in package.rglob("*") if p.is_file()):
+        if path.name == "build-manifest.json":
+            continue
+        files.append({
+            "path": path.relative_to(package).as_posix(),
+            "sha256": sha256(path),
+            "bytes": path.stat().st_size,
+        })
+    payload = {
+        "schema_version": 1,
+        "suite": SUITE,
+        "host": host,
+        "generated": True,
+        "files": files,
+    }
+    (package / "build-manifest.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+
+
+def build(root: Path) -> None:
+    root = root.resolve()
+    shared_skills = root / "src" / "shared" / "skills"
+    runtime = root / "src" / "shared" / "runtime"
+    dist_root = root / "dist"
+    codex_out = dist_root / "codex" / SUITE
+    claude_out = dist_root / "claude" / SUITE
+
+    safe_replace_dir(codex_out, root)
+    safe_replace_dir(claude_out, root)
+
+    codex_source = root / "src" / "codex" / SUITE
+    claude_source = root / "src" / "claude" / SUITE
+    copy_tree(codex_source, codex_out)
+    copy_tree(claude_source, claude_out)
+    copy_tree(shared_skills, codex_out / "skills")
+    copy_tree(shared_skills, claude_out / "skills")
+    remove_skill_ui_metadata(claude_out / "skills")
+    copy_tree(runtime, codex_out / "scripts")
+    copy_tree(runtime, claude_out / "scripts")
+
+    for path in list(codex_out.rglob("__pycache__")) + list(claude_out.rglob("__pycache__")):
+        shutil.rmtree(path)
+    for path in list(codex_out.rglob("*.pyc")) + list(claude_out.rglob("*.pyc")):
+        path.unlink()
+
+    write_build_manifest(codex_out, "codex")
+    write_build_manifest(claude_out, "claude-code")
+
+    codex_market_root = root / "marketplaces" / "codex"
+    codex_catalog_root = codex_market_root / ".agents" / "plugins"
+    claude_market_root = root / "marketplaces" / "claude"
+    safe_replace_dir(codex_market_root, root)
+    safe_replace_dir(claude_market_root, root)
+    codex_catalog_root.mkdir(parents=True, exist_ok=True)
+    (codex_market_root / "plugins").mkdir(parents=True, exist_ok=True)
+    (claude_market_root / ".claude-plugin").mkdir(parents=True, exist_ok=True)
+    (claude_market_root / "plugins").mkdir(parents=True, exist_ok=True)
+    copy_tree(codex_out, codex_market_root / "plugins" / SUITE)
+    copy_tree(claude_out, claude_market_root / "plugins" / SUITE)
+    codex_marketplace = {
+        "name": "mythos-5-burning-art-local",
+        "interface": {"displayName": "Mythos 5 Burning Art Local"},
+        "plugins": [{
+            "name": SUITE,
+            "source": {"source": "local", "path": f"./plugins/{SUITE}"},
+            "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+            "category": "Developer Tools",
+        }],
+    }
+    claude_marketplace = {
+        "name": "mythos-5-burning-art-local",
+        "owner": {"name": "Mythos 5 Burning Art Project"},
+        "metadata": {"description": "Local portable distribution of the Mythos 5 Burning Art workflow suite."},
+        "plugins": [{
+            "name": SUITE,
+            "source": f"./plugins/{SUITE}",
+            "description": "A governed coding workflow with plan approval, independent review, and durable loops.",
+            "version": "0.1.0",
+            "author": {"name": "Mythos 5 Burning Art Project"},
+        }],
+    }
+    (codex_catalog_root / "marketplace.json").write_text(
+        json.dumps(codex_marketplace, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+    (claude_market_root / ".claude-plugin" / "marketplace.json").write_text(
+        json.dumps(claude_marketplace, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    args = parser.parse_args()
+    build(args.root)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+
+

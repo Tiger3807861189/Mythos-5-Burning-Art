@@ -1,1 +1,30 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwppbXBvcnQgdW5pdHRlc3QKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMl0Kc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihST09UIC8gInNjcmlwdHMiKSkKCmZyb20gdmFsaWRhdGVfc3VpdGUgaW1wb3J0IHZhbGlkYXRlX2NvZGV4X21hcmtldHBsYWNlCgoKY2xhc3MgQ29kZXhNYXJrZXRwbGFjZVJlc29sdXRpb25UZXN0cyh1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICBkZWYgdGVzdF9kZWNsYXJlZF9sb2NhbF9zb3VyY2VfcmVzb2x2ZXNfZnJvbV9tYXJrZXRwbGFjZV9yb290KHNlbGYpIC0+IE5vbmU6CiAgICAgICAgY2F0YWxvZyA9IFJPT1QgLyAibWFya2V0cGxhY2VzIiAvICJjb2RleCIgLyAiLmFnZW50cyIgLyAicGx1Z2lucyIgLyAibWFya2V0cGxhY2UuanNvbiIKICAgICAgICBwYXlsb2FkID0ganNvbi5sb2FkcyhjYXRhbG9nLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBkZWNsYXJlZCA9IHBheWxvYWRbInBsdWdpbnMiXVswXVsic291cmNlIl1bInBhdGgiXQogICAgICAgIHJlc29sdmVkID0gKFJPT1QgLyAibWFya2V0cGxhY2VzIiAvICJjb2RleCIgLyBkZWNsYXJlZCkucmVzb2x2ZSgpCgogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoCiAgICAgICAgICAgIHJlc29sdmVkLAogICAgICAgICAgICBST09UIC8gIm1hcmtldHBsYWNlcyIgLyAiY29kZXgiIC8gInBsdWdpbnMiIC8gIm15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgICApCiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKChyZXNvbHZlZCAvICIuY29kZXgtcGx1Z2luIiAvICJwbHVnaW4uanNvbiIpLmlzX2ZpbGUoKSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHZhbGlkYXRlX2NvZGV4X21hcmtldHBsYWNlKFJPT1QpLCBbXSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgdW5pdHRlc3QubWFpbigp
+from __future__ import annotations
+
+import json
+import sys
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from validate_suite import validate_codex_marketplace
+
+
+class CodexMarketplaceResolutionTests(unittest.TestCase):
+    def test_declared_local_source_resolves_from_marketplace_root(self) -> None:
+        catalog = ROOT / "marketplaces" / "codex" / ".agents" / "plugins" / "marketplace.json"
+        payload = json.loads(catalog.read_text(encoding="utf-8"))
+        declared = payload["plugins"][0]["source"]["path"]
+        resolved = (ROOT / "marketplaces" / "codex" / declared).resolve()
+
+        self.assertEqual(
+            resolved,
+            ROOT / "marketplaces" / "codex" / "plugins" / "mythos-5-burning-art",
+        )
+        self.assertTrue((resolved / ".codex-plugin" / "plugin.json").is_file())
+        self.assertEqual(validate_codex_marketplace(ROOT), [])
+
+
+if __name__ == "__main__":
+    unittest.main()

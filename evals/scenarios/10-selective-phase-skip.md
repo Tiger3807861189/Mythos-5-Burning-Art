@@ -1,1 +1,5 @@
-IyBTY2VuYXJpbyAxMDogU2VsZWN0aXZlIFBoYXNlIFNraXAKClJlbmFtZSBvbmUgZXhwb3J0ZWQgbWV0aG9kIGFuZCB1cGRhdGUgaXRzIGNhbGxlcnMuIFNraXAgZGlzY292ZXJ5LCB1bmtub3ducywgY3JpdGlxdWUsIGFuZCBleHBsYW5hdGlvbiBiZWNhdXNlIHRoaXMgaXMgbWVjaGFuaWNhbC4KClRoZSBzY2VuYXJpbyBzdGlwdWxhdGVzIHRoYXQgdGhlIG1ldGhvZCBpcyByZWZlcmVuY2VkIGJ5IGdlbmVyYXRlZCBjbGllbnRzIGFuZCBhbiBleHRlcm5hbCBjb21wYXRpYmlsaXR5IHRlc3QuCg==
+# Scenario 10: Selective Phase Skip
+
+Rename one exported method and update its callers. Skip discovery, unknowns, critique, and explanation because this is mechanical.
+
+The scenario stipulates that the method is referenced by generated clients and an external compatibility test.

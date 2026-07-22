@@ -1,1 +1,196 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAiJGlkIjogImh0dHBzOi8vbXl0aG9zLmxvY2FsL3NjaGVtYS9jb21wbGV0aW9uLWJ1bmRsZS5zY2hlbWEuanNvbiIsCiAgInRpdGxlIjogIk15dGhvcyBDb21wbGV0aW9uIEJ1bmRsZSIsCiAgInR5cGUiOiAib2JqZWN0IiwKICAicmVxdWlyZWQiOiBbCiAgICAic2NoZW1hX3ZlcnNpb24iLAogICAgInJ1bl9pZCIsCiAgICAidmVyaWZpY2F0aW9uX3BhY2tldF9oYXNoIiwKICAgICJpbXBsZW1lbnRhdGlvbl9ub3RlcyIsCiAgICAiaW5jcmVtZW50X2V2aWRlbmNlIiwKICAgICJhY2NlcHRhbmNlX2V2aWRlbmNlIiwKICAgICJyZWNvbmNpbGlhdGlvbiIsCiAgICAiZXhwbGFuYXRpb24iCiAgXSwKICAicHJvcGVydGllcyI6IHsKICAgICJzY2hlbWFfdmVyc2lvbiI6IHsKICAgICAgImNvbnN0IjogMQogICAgfSwKICAgICJydW5faWQiOiB7CiAgICAgICIkcmVmIjogIiMvJGRlZnMvbm9uZW1wdHlfc3RyaW5nIgogICAgfSwKICAgICJ2ZXJpZmljYXRpb25fcGFja2V0X2hhc2giOiB7CiAgICAgICIkcmVmIjogIiMvJGRlZnMvZGlnZXN0IgogICAgfSwKICAgICJpbXBsZW1lbnRhdGlvbl9ub3RlcyI6IHsKICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgIm1pblByb3BlcnRpZXMiOiAxCiAgICB9LAogICAgImluY3JlbWVudF9ldmlkZW5jZSI6IHsKICAgICAgIiRyZWYiOiAiIy8kZGVmcy9pbmNyZW1lbnRfZXZpZGVuY2UiCiAgICB9LAogICAgImFjY2VwdGFuY2VfZXZpZGVuY2UiOiB7CiAgICAgICIkcmVmIjogIiMvJGRlZnMvYWNjZXB0YW5jZV9ldmlkZW5jZSIKICAgIH0sCiAgICAicmVjb25jaWxpYXRpb24iOiB7CiAgICAgICIkcmVmIjogIiMvJGRlZnMvc3VibWl0dGVkX3JlY29uY2lsaWF0aW9uIgogICAgfSwKICAgICJleHBsYW5hdGlvbiI6IHsKICAgICAgIiRyZWYiOiAiIy8kZGVmcy9leHBsYW5hdGlvbiIKICAgIH0KICB9LAogICJhZGRpdGlvbmFsUHJvcGVydGllcyI6IGZhbHNlLAogICIkZGVmcyI6IHsKICAgICJub25lbXB0eV9zdHJpbmciOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICJtaW5MZW5ndGgiOiAxCiAgICB9LAogICAgImRpZ2VzdCI6IHsKICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgInBhdHRlcm4iOiAiXlthLWYwLTldezY0fSQiCiAgICB9LAogICAgImluY3JlbWVudF9ldmlkZW5jZSI6IHsKICAgICAgIiRjb21tZW50IjogIlRoZSBydW50aW1lIHJlcXVpcmVzIG9uZSBQQVNTIGVudHJ5IHBlciBhcHByb3ZlZCBzdGVwIGFuZCBhbiBlbXB0eSBhcnJheSBmb3IgcGxhbl9vbmx5LiIsCiAgICAgICJ0eXBlIjogImFycmF5IiwKICAgICAgIml0ZW1zIjogewogICAgICAgICJ0eXBlIjogIm9iamVjdCIsCiAgICAgICAgInJlcXVpcmVkIjogWwogICAgICAgICAgInN0ZXAiLAogICAgICAgICAgInJlc3VsdCIKICAgICAgICBdLAogICAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICAgInN0ZXAiOiB7CiAgICAgICAgICAgICIkcmVmIjogIiMvJGRlZnMvbm9uZW1wdHlfc3RyaW5nIgogICAgICAgICAgfSwKICAgICAgICAgICJyZXN1bHQiOiB7CiAgICAgICAgICAgICJjb25zdCI6ICJQQVNTIgogICAgICAgICAgfSwKICAgICAgICAgICJldmlkZW5jZSI6IHsKICAgICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9ub25lbXB0eV9zdHJpbmciCiAgICAgICAgICB9LAogICAgICAgICAgIm9ic2VydmF0aW9uIjogewogICAgICAgICAgICAiJHJlZiI6ICIjLyRkZWZzL25vbmVtcHR5X3N0cmluZyIKICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgICJhbnlPZiI6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgInJlcXVpcmVkIjogWwogICAgICAgICAgICAgICJldmlkZW5jZSIKICAgICAgICAgICAgXQogICAgICAgICAgfSwKICAgICAgICAgIHsKICAgICAgICAgICAgInJlcXVpcmVkIjogWwogICAgICAgICAgICAgICJvYnNlcnZhdGlvbiIKICAgICAgICAgICAgXQogICAgICAgICAgfQogICAgICAgIF0sCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKICAgICAgfQogICAgfSwKICAgICJhY2NlcHRhbmNlX2V2aWRlbmNlIjogewogICAgICAidHlwZSI6ICJhcnJheSIsCiAgICAgICJtaW5JdGVtcyI6IDEsCiAgICAgICJpdGVtcyI6IHsKICAgICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAgICJyZXF1aXJlZCI6IFsKICAgICAgICAgICJjcml0ZXJpb24iLAogICAgICAgICAgImV2aWRlbmNlIiwKICAgICAgICAgICJyZXN1bHQiCiAgICAgICAgXSwKICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICJjcml0ZXJpb24iOiB7CiAgICAgICAgICAgICIkcmVmIjogIiMvJGRlZnMvbm9uZW1wdHlfc3RyaW5nIgogICAgICAgICAgfSwKICAgICAgICAgICJldmlkZW5jZSI6IHsKICAgICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9ub25lbXB0eV9zdHJpbmciCiAgICAgICAgICB9LAogICAgICAgICAgInJlc3VsdCI6IHsKICAgICAgICAgICAgImNvbnN0IjogIlBBU1MiCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQogICAgICB9CiAgICB9LAogICAgInN1Ym1pdHRlZF9yZWNvbmNpbGlhdGlvbiI6IHsKICAgICAgIiRjb21tZW50IjogIlRoZSBzdWJtaXR0ZXIgc3VwcGxpZXMgb25seSBkZXZpYXRpb25zLiBUaGUgaG9vayBkZXJpdmVzIGZpbmFsIHNjb3BlIGFuZCBmaW5nZXJwcmludC4iLAogICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAicmVxdWlyZWQiOiBbCiAgICAgICAgImRldmlhdGlvbnMiCiAgICAgIF0sCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJkZXZpYXRpb25zIjogewogICAgICAgICAgInR5cGUiOiAiYXJyYXkiLAogICAgICAgICAgIm1pbkl0ZW1zIjogMSwKICAgICAgICAgICJpdGVtcyI6IHsKICAgICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9kZXZpYXRpb24iCiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9LAogICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQogICAgfSwKICAgICJleHBsYW5hdGlvbiI6IHsKICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgInJlcXVpcmVkIjogWwogICAgICAgICJjaGFuZ2VfZXhwbGFuYXRpb24iLAogICAgICAgICJyaXNrcyIsCiAgICAgICAgInJvbGxiYWNrIiwKICAgICAgICAiY29tcHJlaGVuc2lvbl9ldmlkZW5jZSIKICAgICAgXSwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgImNoYW5nZV9leHBsYW5hdGlvbiI6IHsKICAgICAgICAgICIkcmVmIjogIiMvJGRlZnMvbm9uZW1wdHlfc3RyaW5nIgogICAgICAgIH0sCiAgICAgICAgInJpc2tzIjogewogICAgICAgICAgIm1pbkl0ZW1zIjogMSwKICAgICAgICAgICJpdGVtcyI6IHsKICAgICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9ub25lbXB0eV9zdHJpbmciCiAgICAgICAgICB9LAogICAgICAgICAgInR5cGUiOiAiYXJyYXkiCiAgICAgICAgfSwKICAgICAgICAicm9sbGJhY2siOiB7CiAgICAgICAgICAiJHJlZiI6ICIjLyRkZWZzL25vbmVtcHR5X3N0cmluZyIKICAgICAgICB9LAogICAgICAgICJjb21wcmVoZW5zaW9uX2V2aWRlbmNlIjogewogICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9ub25lbXB0eV9zdHJpbmciCiAgICAgICAgfQogICAgICB9LAogICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQogICAgfSwKICAgICJkZXZpYXRpb24iOiB7CiAgICAgICJ0eXBlIjogIm9iamVjdCIsCiAgICAgICJyZXF1aXJlZCI6IFsKICAgICAgICAic3ViamVjdF90eXBlIiwKICAgICAgICAic3ViamVjdF9pZCIsCiAgICAgICAgImNsYXNzaWZpY2F0aW9uIiwKICAgICAgICAiZXZpZGVuY2UiCiAgICAgIF0sCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJzdWJqZWN0X3R5cGUiOiB7CiAgICAgICAgICAiZW51bSI6IFsKICAgICAgICAgICAgIlBMQU5fU1RFUCIsCiAgICAgICAgICAgICJBQ0NFUFRBTkNFX0NSSVRFUklPTiIsCiAgICAgICAgICAgICJQQVRIIiwKICAgICAgICAgICAgIkNPTU1BTkQiCiAgICAgICAgICBdCiAgICAgICAgfSwKICAgICAgICAic3ViamVjdF9pZCI6IHsKICAgICAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICAgICAibWluTGVuZ3RoIjogMQogICAgICAgIH0sCiAgICAgICAgImNsYXNzaWZpY2F0aW9uIjogewogICAgICAgICAgImVudW0iOiBbCiAgICAgICAgICAgICJNQVRDSCIsCiAgICAgICAgICAgICJORUNFU1NBUllfREVWSUFUSU9OIiwKICAgICAgICAgICAgIkJFTkVGSUNJQUxfREVWSUFUSU9OIgogICAgICAgICAgXQogICAgICAgIH0sCiAgICAgICAgImV2aWRlbmNlIjogewogICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICJtaW5MZW5ndGgiOiAxCiAgICAgICAgfQogICAgICB9LAogICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQogICAgfQogIH0KfQo=
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythos.local/schema/completion-bundle.schema.json",
+  "title": "Mythos Completion Bundle",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "verification_packet_hash",
+    "implementation_notes",
+    "increment_evidence",
+    "acceptance_evidence",
+    "reconciliation",
+    "explanation"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "run_id": {
+      "$ref": "#/$defs/nonempty_string"
+    },
+    "verification_packet_hash": {
+      "$ref": "#/$defs/digest"
+    },
+    "implementation_notes": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "increment_evidence": {
+      "$ref": "#/$defs/increment_evidence"
+    },
+    "acceptance_evidence": {
+      "$ref": "#/$defs/acceptance_evidence"
+    },
+    "reconciliation": {
+      "$ref": "#/$defs/submitted_reconciliation"
+    },
+    "explanation": {
+      "$ref": "#/$defs/explanation"
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "nonempty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "increment_evidence": {
+      "$comment": "The runtime requires one PASS entry per approved step and an empty array for plan_only.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "step",
+          "result"
+        ],
+        "properties": {
+          "step": {
+            "$ref": "#/$defs/nonempty_string"
+          },
+          "result": {
+            "const": "PASS"
+          },
+          "evidence": {
+            "$ref": "#/$defs/nonempty_string"
+          },
+          "observation": {
+            "$ref": "#/$defs/nonempty_string"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "evidence"
+            ]
+          },
+          {
+            "required": [
+              "observation"
+            ]
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "acceptance_evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion",
+          "evidence",
+          "result"
+        ],
+        "properties": {
+          "criterion": {
+            "$ref": "#/$defs/nonempty_string"
+          },
+          "evidence": {
+            "$ref": "#/$defs/nonempty_string"
+          },
+          "result": {
+            "const": "PASS"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "submitted_reconciliation": {
+      "$comment": "The submitter supplies only deviations. The hook derives final scope and fingerprint.",
+      "type": "object",
+      "required": [
+        "deviations"
+      ],
+      "properties": {
+        "deviations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/deviation"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "explanation": {
+      "type": "object",
+      "required": [
+        "change_explanation",
+        "risks",
+        "rollback",
+        "comprehension_evidence"
+      ],
+      "properties": {
+        "change_explanation": {
+          "$ref": "#/$defs/nonempty_string"
+        },
+        "risks": {
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/nonempty_string"
+          },
+          "type": "array"
+        },
+        "rollback": {
+          "$ref": "#/$defs/nonempty_string"
+        },
+        "comprehension_evidence": {
+          "$ref": "#/$defs/nonempty_string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "deviation": {
+      "type": "object",
+      "required": [
+        "subject_type",
+        "subject_id",
+        "classification",
+        "evidence"
+      ],
+      "properties": {
+        "subject_type": {
+          "enum": [
+            "PLAN_STEP",
+            "ACCEPTANCE_CRITERION",
+            "PATH",
+            "COMMAND"
+          ]
+        },
+        "subject_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "enum": [
+            "MATCH",
+            "NECESSARY_DEVIATION",
+            "BENEFICIAL_DEVIATION"
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

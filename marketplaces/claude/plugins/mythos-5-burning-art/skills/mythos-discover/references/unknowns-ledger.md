@@ -1,1 +1,48 @@
-IyBVbmtub3ducyBMZWRnZXIKClVzZSBvbmUgZXZpZGVuY2UgcmVjb3JkIHBlciBpbXBvcnRhbnQgY2xhaW06CgpgYGB0ZXh0CklEOgpDbGFpbToKQ2xhc3M6IE9CU0VSVkVEIHwgSU5GRVJSRUQgfCBIVU1BTl9TVEFURUQKRXZpZGVuY2U6CkNvbmZpZGVuY2U6IEhJR0ggfCBNRURJVU0gfCBMT1cKRGVjaXNpb24gYWZmZWN0ZWQ6ClJlY2hlY2sgdHJpZ2dlcjoKYGBgCgpVc2Ugb25lIHJlY29yZCBwZXIgdW5rbm93bjoKCmBgYHRleHQKSUQ6ClF1YWRyYW50OiBLTk9XTl9LTk9XTiB8IEtOT1dOX1VOS05PV04gfCBVTktOT1dOX0tOT1dOIHwgVU5LTk9XTl9VTktOT1dOClF1ZXN0aW9uIG9yIGZhY3Q6CldoeSBpdCBtYXR0ZXJzOgpDdXJyZW50IGV2aWRlbmNlOgpSZXNvbHV0aW9uIGFjdGlvbjoKT3duZXI6IEFHRU5UIHwgSFVNQU4gfCBFWFRFUk5BTApNdXN0IHJlc29sdmUgYmVmb3JlIHBoYXNlOgpTdGF0dXM6IE9QRU4gfCBSRVNPTFZFRCB8IEFDQ0VQVEVEX1JJU0sKYGBgCgpDaGVjayBvciBqdXN0aWZ5IGV4Y2x1c2lvbiBvZiBlYWNoIGJsaW5kc3BvdCBjYXRlZ29yeToKCjEuIFVzZXJzLCBjYWxsZXJzLCBhY2Nlc3NpYmlsaXR5LCBhbmQgbG9jYWxpemF0aW9uLgoyLiBSZXRyaWVzLCBpZGVtcG90ZW5jeSwgY29uY3VycmVuY3ksIG9yZGVyaW5nLCBjYW5jZWxsYXRpb24sIGFuZCBwYXJ0aWFsIGZhaWx1cmUuCjMuIEVtcHR5LCBtYWxmb3JtZWQsIGxhcmdlLCBsZWdhY3ksIGNvbmZpZGVudGlhbCwgaXJyZXZlcnNpYmxlLCBhbmQgdmVyc2lvbmVkIGRhdGEuCjQuIFByb2Nlc3MsIG5ldHdvcmssIGZpbGVzeXN0ZW0sIGRhdGFiYXNlLCBzZXJ2aWNlLCB0cnVzdCwgdGVuYW50LCBwYWNrYWdlLCBhbmQgcGxhdGZvcm0gYm91bmRhcmllcy4KNS4gUHVibGljIGNvbnRyYWN0cywgc2F2ZWQgZGF0YSwgb2xkIGNsaWVudHMsIHBhdGhzLCBhbmQgcnVudGltZSB2ZXJzaW9ucy4KNi4gT2JzZXJ2YWJpbGl0eSwgcm9sbG91dCwgcm9sbGJhY2ssIHJlY292ZXJ5LCBsaW1pdHMsIGNvc3RzLCBhbmQgb3duZXJzaGlwLgo3LiBBdXRoZW50aWNhdGlvbiwgYXV0aG9yaXphdGlvbiwgaW5qZWN0aW9uLCBzZWNyZXRzLCBhbmQgc2FuZGJveCBsaW1pdHMuCjguIFBlcmZvcm1hbmNlLCByZWxpYWJpbGl0eSwgbWFpbnRhaW5hYmlsaXR5LCB0ZXN0YWJpbGl0eSwgYW5kIGRldGVybWluaXNtLgo5LiBIdW1hbiB0YXN0ZSwgdm9jYWJ1bGFyeSBnYXBzLCB1bnN0YXRlZCBub24tZ29hbHMsIGFuZCBhY2NlcHRhbmNlIGF1dGhvcml0eS4KMTAuIFJlZmVyZW5jZSBzeW50YXggd2hvc2Ugc2VtYW50aWNzLCBsaWZlY3ljbGUsIG93bmVyc2hpcCwgb3IgZmFpbHVyZSBtb2RlbCBkbyBub3QgbWF0Y2guCgpNYXAgYmxhc3QgcmFkaXVzIGFzOgoKYGBgdGV4dApTdXJmYWNlIC0+IENvbnN1bWVyIG9yIGRlcGVuZGVuY3kgLT4gQ29udHJhY3QgLT4gRXZpZGVuY2UgLT4gRmFpbHVyZSBjb25zZXF1ZW5jZQpgYGAKCk9yZGVyIGh1bWFuIGRlY2lzaW9ucyBieSB0aGUgYW1vdW50IG9mIGFyY2hpdGVjdHVyZSB0aGV5IGNhbiBpbnZhbGlkYXRlLgo=
+# Unknowns Ledger
+
+Use one evidence record per important claim:
+
+```text
+ID:
+Claim:
+Class: OBSERVED | INFERRED | HUMAN_STATED
+Evidence:
+Confidence: HIGH | MEDIUM | LOW
+Decision affected:
+Recheck trigger:
+```
+
+Use one record per unknown:
+
+```text
+ID:
+Quadrant: KNOWN_KNOWN | KNOWN_UNKNOWN | UNKNOWN_KNOWN | UNKNOWN_UNKNOWN
+Question or fact:
+Why it matters:
+Current evidence:
+Resolution action:
+Owner: AGENT | HUMAN | EXTERNAL
+Must resolve before phase:
+Status: OPEN | RESOLVED | ACCEPTED_RISK
+```
+
+Check or justify exclusion of each blindspot category:
+
+1. Users, callers, accessibility, and localization.
+2. Retries, idempotency, concurrency, ordering, cancellation, and partial failure.
+3. Empty, malformed, large, legacy, confidential, irreversible, and versioned data.
+4. Process, network, filesystem, database, service, trust, tenant, package, and platform boundaries.
+5. Public contracts, saved data, old clients, paths, and runtime versions.
+6. Observability, rollout, rollback, recovery, limits, costs, and ownership.
+7. Authentication, authorization, injection, secrets, and sandbox limits.
+8. Performance, reliability, maintainability, testability, and determinism.
+9. Human taste, vocabulary gaps, unstated non-goals, and acceptance authority.
+10. Reference syntax whose semantics, lifecycle, ownership, or failure model do not match.
+
+Map blast radius as:
+
+```text
+Surface -> Consumer or dependency -> Contract -> Evidence -> Failure consequence
+```
+
+Order human decisions by the amount of architecture they can invalidate.

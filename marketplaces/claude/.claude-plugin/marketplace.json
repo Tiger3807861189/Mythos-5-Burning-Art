@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0LWxvY2FsIiwKICAib3duZXIiOiB7CiAgICAibmFtZSI6ICJNeXRob3MgNSBCdXJuaW5nIEFydCBQcm9qZWN0IgogIH0sCiAgIm1ldGFkYXRhIjogewogICAgImRlc2NyaXB0aW9uIjogIkxvY2FsIHBvcnRhYmxlIGRpc3RyaWJ1dGlvbiBvZiB0aGUgTXl0aG9zIDUgQnVybmluZyBBcnQgd29ya2Zsb3cgc3VpdGUuIgogIH0sCiAgInBsdWdpbnMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgInNvdXJjZSI6ICIuL3BsdWdpbnMvbXl0aG9zLTUtYnVybmluZy1hcnQiLAogICAgICAiZGVzY3JpcHRpb24iOiAiQSBnb3Zlcm5lZCBjb2Rpbmcgd29ya2Zsb3cgd2l0aCBwbGFuIGFwcHJvdmFsLCBpbmRlcGVuZGVudCByZXZpZXcsIGFuZCBkdXJhYmxlIGxvb3BzLiIsCiAgICAgICJ2ZXJzaW9uIjogIjAuMS4wIiwKICAgICAgImF1dGhvciI6IHsKICAgICAgICAibmFtZSI6ICJNeXRob3MgNSBCdXJuaW5nIEFydCBQcm9qZWN0IgogICAgICB9CiAgICB9CiAgXQp9Cg==
+{
+  "name": "mythos-5-burning-art-local",
+  "owner": {
+    "name": "Mythos 5 Burning Art Project"
+  },
+  "metadata": {
+    "description": "Local portable distribution of the Mythos 5 Burning Art workflow suite."
+  },
+  "plugins": [
+    {
+      "name": "mythos-5-burning-art",
+      "source": "./plugins/mythos-5-burning-art",
+      "description": "A governed coding workflow with plan approval, independent review, and durable loops.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Mythos 5 Burning Art Project"
+      }
+    }
+  ]
+}

@@ -1,1 +1,4 @@
-aW50ZXJmYWNlOgogIGRpc3BsYXlfbmFtZTogIk15dGhvcyBPcHRpb25zIgogIHNob3J0X2Rlc2NyaXB0aW9uOiAiQ29tcGFyZSBvcHRpb25zIGJlZm9yZSBpbXBsZW1lbnRhdGlvbiIKICBkZWZhdWx0X3Byb21wdDogIlVzZSAkbXl0aG9zLW9wdGlvbnMgdG8gY29tcGFyZSByZWFsIGFsdGVybmF0aXZlcywgbWFwIHJlZmVyZW5jZSBzZW1hbnRpY3MsIGFuZCBzcGVjaWZ5IHBvc3QtYXBwcm92YWwgZXhwZXJpbWVudHMgc2FmZWx5LiIK
+interface:
+  display_name: "Mythos Options"
+  short_description: "Compare options before implementation"
+  default_prompt: "Use $mythos-options to compare real alternatives, map reference semantics, and specify post-approval experiments safely."

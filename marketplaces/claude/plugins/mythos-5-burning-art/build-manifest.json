@@ -1,1 +1,193 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgInN1aXRlIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAiaG9zdCI6ICJjbGF1ZGUtY29kZSIsCiAgImdlbmVyYXRlZCI6IHRydWUsCiAgImZpbGVzIjogWwogICAgewogICAgICAicGF0aCI6ICIuY2xhdWRlLXBsdWdpbi9wbHVnaW4uanNvbiIsCiAgICAgICJzaGEyNTYiOiAiYWRkNzI5Y2Q3YTkzNjUyZDY2MGU3ZWJkZjRmOGJkNmFlOTcyYjQzNWU1MjU5YjlkNGFmODk4MTAzYWQ2ZTIwZiIsCiAgICAgICJieXRlcyI6IDYwMwogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAiYWdlbnRzL215dGhvcy1wbGFuLWNyaXRpYy5tZCIsCiAgICAgICJzaGEyNTYiOiAiZDA1YzczMWViMTcwYWFmZGU4NzVmMWFmYzVkOWM1Y2FhYWFkOGEwYmI2MTk4OGNjYWM4MmM3NTkzMjM4NGExYyIsCiAgICAgICJieXRlcyI6IDIwMjMKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogImFnZW50cy9teXRob3MtdmVyaWZpZXIubWQiLAogICAgICAic2hhMjU2IjogIjdkYzhmMjlkNDIzY2NjZTllMWMxZWY3OTgyMjFjZjhlNGIzNGRlYjI3ZDdlNGNiNTlhMGNhODkzMDFiMmMzNGYiLAogICAgICAiYnl0ZXMiOiAyMDQzCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJob29rcy9ob29rcy5qc29uIiwKICAgICAgInNoYTI1NiI6ICJlNjc0ODMwZGQzMmFhMGM0NDZlZGUwNGVmYzUxNGMwZDY4NTc0ZDllMDdkMGRmNDRhYzRjODVjOWVmZmE4ZmIwIiwKICAgICAgImJ5dGVzIjogMjI1OAogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfaG9vay5weSIsCiAgICAgICJzaGEyNTYiOiAiMjk3NjNlMWFhOWFiZWRkNmYyY2NmYjM2NWJiOTAyMTA3YTlkZTJlZTE3YzZmODFjYzRiNGM5NGNlNTJjODg2YSIsCiAgICAgICJieXRlcyI6IDI5MwogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfcnVudGltZS9fX2luaXRfXy5weSIsCiAgICAgICJzaGEyNTYiOiAiZDBiMjc4MmQ2M2YwNzczNzY4NmZhZTgzYzY0YWZmYjQ5MDlhMjE0ZDBkMzY0ZTU5Zjc5ODVmZTI2NTE5MGFjOCIsCiAgICAgICJieXRlcyI6IDY5NAogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfcnVudGltZS9fX21haW5fXy5weSIsCiAgICAgICJzaGEyNTYiOiAiNzZmYTkxNmU5M2UwYWUxYTZjMWJiNTFkY2MwYmNmMjg5YzAxNGU5Zjc2MGE0NzE2NWY4YTg0NDAxY2NmNDFkNyIsCiAgICAgICJieXRlcyI6IDQ5CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL2FwcHJvdmFsLnB5IiwKICAgICAgInNoYTI1NiI6ICJmN2I5YmE5Zjk1YzUyYTM0YjdlZGYzZDU3Mzk2MTk2NTA0N2JjNTljYmZiODVjYTM1NjM0YmQxYzIzNWQ4NjJlIiwKICAgICAgImJ5dGVzIjogNjU0OQogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfcnVudGltZS9jYW5vbmljYWwucHkiLAogICAgICAic2hhMjU2IjogIjk5NWJjOTc1YzBjMzU3NTJlYzE1NzliOTJmZjQ1YTEzN2RlYWMwYzE0YmI1NTQ3ZDJmYjU3YzQ1NDIzNmY4NDQiLAogICAgICAiYnl0ZXMiOiAxMzMzMQogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfcnVudGltZS9jbGkucHkiLAogICAgICAic2hhMjU2IjogImQyNzNlODE2NGJkNTAwYTMwNzdjNTYwMDViNzA0NGE3Y2U1MTRiYjBmZTRlNzViMDkxOGE0ZDZjYjBlYTNmMGQiLAogICAgICAiYnl0ZXMiOiAxMDk2CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL2hvb2tzLnB5IiwKICAgICAgInNoYTI1NiI6ICI1MDQ1MTQwYTE4NTc1MTI3NmNmZDM0MzU0NDY0MmFiNjIzODM5MmE5NDllNjY3MWJiMGRhNDk1YjkxNWU4ZDVjIiwKICAgICAgImJ5dGVzIjogMTIxNDQ4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL2xpZmVjeWNsZS5weSIsCiAgICAgICJzaGEyNTYiOiAiYjNhZWEzZGRhMmZlMDk5YzJmMTAyMTUyNGI2ZmMwNTFiODIxOGMyZTA0MGVhZmZhYjczMGY0NGY1NzNlNjc0MSIsCiAgICAgICJieXRlcyI6IDQ2NDYKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInNjcmlwdHMvbXl0aG9zX3J1bnRpbWUvbG9ja2luZy5weSIsCiAgICAgICJzaGEyNTYiOiAiNDYwOTFhZDNlYjc4YjU2ZGM0YThmYTljMjY3ZWIxZjdlYzBlYzM5Zjc1YTUyODA5Yjg0MDNlZmE2YzVjYWEzMSIsCiAgICAgICJieXRlcyI6IDQ0NzMKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInNjcmlwdHMvbXl0aG9zX3J1bnRpbWUvcGF0aHMucHkiLAogICAgICAic2hhMjU2IjogImMwOTY5YzBiMDZiYjU4MTg2ZDlmMDBkMGUyNzkwMjEwNWFiMjE2NjQ4ZTI2YWUyNTBjNDI0NDhlZjk5MGUwOTUiLAogICAgICAiYnl0ZXMiOiAyNDQ4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL3BvbGljeS5weSIsCiAgICAgICJzaGEyNTYiOiAiYTRmNDdhNzFjNmYxOWMxMzExY2M0ZDk4OTJjNWVhNTQ2MjNiMzU2YmY1ODZmZjNkZGMyODNmNzQ4MzQwZGMxNCIsCiAgICAgICJieXRlcyI6IDEzOTI4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL3Byb3RvY29sLnB5IiwKICAgICAgInNoYTI1NiI6ICI2N2ZiOTIxMDA4ZTRhOWRlOTYwNWMxNWQ0ZDkzYjJkNjcxMGQyMGYwNDAzMGZmZTYxMTMyZGY1Y2EwNDYzNGIzIiwKICAgICAgImJ5dGVzIjogMjg4OQogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2NyaXB0cy9teXRob3NfcnVudGltZS9zdGF0ZS5weSIsCiAgICAgICJzaGEyNTYiOiAiMThjMWFlZTk4Y2M2M2EwNjBjYjAyMDgwYTY2MmNiZjA4YjUxODFiZmYxMmEzODMzMTFjZGE0ZmVkNmU5ZTcxZCIsCiAgICAgICJieXRlcyI6IDI2OTE0CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzY3JpcHRzL215dGhvc19ydW50aW1lL3N0b3JhZ2UucHkiLAogICAgICAic2hhMjU2IjogIjE2MGU1ODZlMjg5YjViOTc4YjAxMmM3YTUzZjM3MGQzZmYyYmI2Mzk0ZGVjZDk3NjI1Yjc0MjNiOWYxMzA5NjMiLAogICAgICAiYnl0ZXMiOiA0MTg4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLWJ1aWxkL3JlZmVyZW5jZXMvaW1wbGVtZW50YXRpb24tbm90ZXMubWQiLAogICAgICAic2hhMjU2IjogImNkYmIwNDhhY2UzODM3ZTdjMTM3ZjgwMWExZTJkODM4YTE4NmZlZmQ0ZGE0Yzk1OTkwNjMwNzA5ZGEyM2JhODciLAogICAgICAiYnl0ZXMiOiAxMDUwCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLWJ1aWxkL1NLSUxMLm1kIiwKICAgICAgInNoYTI1NiI6ICJkYmYxMmZhNWYxYTE2NTc0ZTZiYTM0MDczNDE1YTgwODdmMzU3NjUwNTczYjAwN2U4MTVmNDZkZTRjMDY1OTc2IiwKICAgICAgImJ5dGVzIjogMzQwMwogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2tpbGxzL215dGhvcy1kZWJ1Zy9yZWZlcmVuY2VzL2h5cG90aGVzaXMtbGVkZ2VyLm1kIiwKICAgICAgInNoYTI1NiI6ICI3MzBkMGVjNDk1NjA2NmJmMjZmNTM3ZTc4ZmM0YmI2MWYyM2Q4ZTEwNTJjZDBiMTMxZGVmYTUzOTQzYmY4YTkyIiwKICAgICAgImJ5dGVzIjogNzUyCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLWRlYnVnL1NLSUxMLm1kIiwKICAgICAgInNoYTI1NiI6ICIyYzFiMmZiNTQ2NzA5OGI4YWMwYmI4NWNkYTUwMTlkY2RmNTc3MzgxZjI3NjFhZDBkYjJjZDk4NmJlOTk1ZTNhIiwKICAgICAgImJ5dGVzIjogMzM2MwogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2tpbGxzL215dGhvcy1kaXNjb3Zlci9yZWZlcmVuY2VzL3Vua25vd25zLWxlZGdlci5tZCIsCiAgICAgICJzaGEyNTYiOiAiMjQ1NDUxMDNlOTdmOGM5ZDVlZDlmOTczYzkyNDkwZDczNjcwNWQyNTFhYWE2NDIxMWMxY2M3NTczZThiOGU4MSIsCiAgICAgICJieXRlcyI6IDE1MzUKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInNraWxscy9teXRob3MtZGlzY292ZXIvU0tJTEwubWQiLAogICAgICAic2hhMjU2IjogIjAwNjEzNzFmYWY4MzQ3MzJjNzM1OTYzZDk1NzIwNjI5ZWViMTYxN2U2YTJjNzk3Yzk1ZjI2NmYxMGI3NzU1MjQiLAogICAgICAiYnl0ZXMiOiAzNzA4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLWV4cGxhaW4vcmVmZXJlbmNlcy9oYW5kb2ZmLWFuZC1xdWl6Lm1kIiwKICAgICAgInNoYTI1NiI6ICIwMDBjMWFiNGUwMThkYTYwNDI4MDJmMTk4YTg1NDUyNWQ0YzgwNmNlNDYyYzkzYmE3ZTI4NDc4Y2I1OTRmMGQzIiwKICAgICAgImJ5dGVzIjogODgxCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLWV4cGxhaW4vU0tJTEwubWQiLAogICAgICAic2hhMjU2IjogImU4OGRkMGU3YmFmOTYxM2VjOTE0MmE1OTgzMjJiOWIwYzI0MWQzYTZjYjQ5NDI1YWFlNjFiZWU4M2EzMjM1OTEiLAogICAgICAiYnl0ZXMiOiAyNzkzCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLW9wdGlvbnMvcmVmZXJlbmNlcy9kZWNpc2lvbi1hcnRpZmFjdHMubWQiLAogICAgICAic2hhMjU2IjogImViNWFhOGM3OThmMTY3ZDhmYmYyOWM4OGE3Y2FiM2UzNDMzZTJiNTg5NmFlOWJmNzg5Yzk2YWQyYzc1YWRlZTIiLAogICAgICAiYnl0ZXMiOiAyMDA1CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLW9wdGlvbnMvU0tJTEwubWQiLAogICAgICAic2hhMjU2IjogIjg4YjExMTAyN2EwYzgyY2YyOTI4YjhlOTM4Y2RhYmE5YTllMmM0ZjcxNjVhNGVmNTVjNzQwMzJlZjhiYjcwY2YiLAogICAgICAiYnl0ZXMiOiAzNDIzCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLW9yY2hlc3RyYXRlL3JlZmVyZW5jZXMvYXR0ZW1wdC1jb250cmFjdC5tZCIsCiAgICAgICJzaGEyNTYiOiAiZGVkNDJhNThjODdjYzRkN2I5ZGE1NDJjNGYxYzk0NGQ0OWE1YzBiNTZiZGI0NjVkYWFkNjM0ZTVkYjZhN2ZkZiIsCiAgICAgICJieXRlcyI6IDMwNjMKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInNraWxscy9teXRob3Mtb3JjaGVzdHJhdGUvcmVmZXJlbmNlcy9saWZlY3ljbGUtY29udHJhY3QubWQiLAogICAgICAic2hhMjU2IjogIjJhYjA5YWI2YTQ5MWU3ZWRmYzU1MDU0ZmIzZjE1YzhkNDFmZDMxM2ZkZmUwNTQyZWYzNjg0NWM1OTAzNGJlNjkiLAogICAgICAiYnl0ZXMiOiA1OTM2CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLW9yY2hlc3RyYXRlL1NLSUxMLm1kIiwKICAgICAgInNoYTI1NiI6ICI0Yzc2ODI5OTUzZDhhOTQ3MDNkMGUzNzI3ZjAyZTE1NDY3ODRhMDk2MGY2YzNhZGViYWM2OTY3MTFjOWE3MjlhIiwKICAgICAgImJ5dGVzIjogMTQwNTAKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInNraWxscy9teXRob3MtcGxhbi9yZWZlcmVuY2VzL3BsYW4tY29udHJhY3QubWQiLAogICAgICAic2hhMjU2IjogImNiNzU5YWRhODJhNGQxZWFhMTAyOGIyMjg5ODBhZDY0MTQ5N2VkYjkxYjc0NTFlN2Y5YTNmZGQ1MGY2NGJiOWQiLAogICAgICAiYnl0ZXMiOiAzOTIzCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLXBsYW4vU0tJTEwubWQiLAogICAgICAic2hhMjU2IjogIjYwZTViZTY4NjY2ZGM3OGY2MzM3OGIyYTAyMDBjMDAyM2ZhYzJkYWY5MWNhN2UwOWU0YjUxZjJlYmU4OGY3MTAiLAogICAgICAiYnl0ZXMiOiA0NTk5CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLXJlcGFpci9yZWZlcmVuY2VzL3JlcGFpci1jb250cmFjdC5tZCIsCiAgICAgICJzaGEyNTYiOiAiOGJhZTBmMmUzNGFkOTQ5ZGU1YjIxYjM1NzQwY2ZiZTA2NzMxOTZjOGYxYzc0OTIwOGZkMzc2NDMyNjRiZWIxZiIsCiAgICAgICJieXRlcyI6IDgyNwogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic2tpbGxzL215dGhvcy1yZXBhaXIvU0tJTEwubWQiLAogICAgICAic2hhMjU2IjogIjdiMGIzODFhYzUyMDZkNWY4NDYwZTcwZTBiMTU2MTk1MDk4M2I1MmViMWIwZWMzYWNmMTRmZDFhNjMyYTgzOTMiLAogICAgICAiYnl0ZXMiOiAyODM4CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLXZlcmlmeS9yZWZlcmVuY2VzL3ZlcmlmaWNhdGlvbi1yZXBvcnQubWQiLAogICAgICAic2hhMjU2IjogIjMwZWMzMDY5M2JmMjcxMzI2NzMwYzczZTM4ZTk5NDNjY2M0NjdiMzlhMmU2MWMxYjgwNmJiMjYwYzZiZjZjZGQiLAogICAgICAiYnl0ZXMiOiAzNzY2CiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJza2lsbHMvbXl0aG9zLXZlcmlmeS9TS0lMTC5tZCIsCiAgICAgICJzaGEyNTYiOiAiMTMzNzY4MTRiYThkZWVhZTk0YTExYjgyNGNjMzMyNGZjZGVjZTQ0OTQzYjgzZTNmYmIxNTEyM2RiZDFkYTFlYyIsCiAgICAgICJieXRlcyI6IDM4NzAKICAgIH0KICBdCn0K
+{
+  "schema_version": 1,
+  "suite": "mythos-5-burning-art",
+  "host": "claude-code",
+  "generated": true,
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "add729cd7a93652d660e7ebdf4f8bd6ae972b435e5259b9d4af898103ad6e20f",
+      "bytes": 603
+    },
+    {
+      "path": "agents/mythos-plan-critic.md",
+      "sha256": "d05c731eb170aafde875f1afc5d9c5caaaad8a0bb61988ccac82c75932384a1c",
+      "bytes": 2023
+    },
+    {
+      "path": "agents/mythos-verifier.md",
+      "sha256": "7dc8f29d423ccce9e1c1ef798221cf8e4b34deb27d7e4cb59a0ca89301b2c34f",
+      "bytes": 2043
+    },
+    {
+      "path": "hooks/hooks.json",
+      "sha256": "e674830dd32aa0c446ede04efc514c0d68574d9e07d0df44ac4c85c9effa8fb0",
+      "bytes": 2258
+    },
+    {
+      "path": "scripts/mythos_hook.py",
+      "sha256": "29763e1aa9abedd6f2ccfb365bb902107a9de2ee17c6f81cc4b4c94ce52c886a",
+      "bytes": 293
+    },
+    {
+      "path": "scripts/mythos_runtime/__init__.py",
+      "sha256": "d0b2782d63f07737686fae83c64affb4909a214d0d364e59f7985fe265190ac8",
+      "bytes": 694
+    },
+    {
+      "path": "scripts/mythos_runtime/__main__.py",
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "bytes": 49
+    },
+    {
+      "path": "scripts/mythos_runtime/approval.py",
+      "sha256": "f7b9ba9f95c52a34b7edf3d573961965047bc59cbfb85ca35634bd1c235d862e",
+      "bytes": 6549
+    },
+    {
+      "path": "scripts/mythos_runtime/canonical.py",
+      "sha256": "995bc975c0c35752ec1579b92ff45a137deac0c14bb5547d2fb57c454236f844",
+      "bytes": 13331
+    },
+    {
+      "path": "scripts/mythos_runtime/cli.py",
+      "sha256": "d273e8164bd500a3077c56005b7044a7ce514bb0fe4e75b0918a4d6cb0ea3f0d",
+      "bytes": 1096
+    },
+    {
+      "path": "scripts/mythos_runtime/hooks.py",
+      "sha256": "5045140a185751276cfd343544642ab6238392a949e6671bb0da495b915e8d5c",
+      "bytes": 121448
+    },
+    {
+      "path": "scripts/mythos_runtime/lifecycle.py",
+      "sha256": "b3aea3dda2fe099c2f1021524b6fc051b8218c2e040eaffab730f44f573e6741",
+      "bytes": 4646
+    },
+    {
+      "path": "scripts/mythos_runtime/locking.py",
+      "sha256": "46091ad3eb78b56dc4a8fa9c267eb1f7ec0ec39f75a52809b8403efa6c5caa31",
+      "bytes": 4473
+    },
+    {
+      "path": "scripts/mythos_runtime/paths.py",
+      "sha256": "c0969c0b06bb58186d9f00d0e27902105ab216648e26ae250c42448ef990e095",
+      "bytes": 2448
+    },
+    {
+      "path": "scripts/mythos_runtime/policy.py",
+      "sha256": "a4f47a71c6f19c1311cc4d9892c5ea54623b356bf586ff3ddc283f748340dc14",
+      "bytes": 13928
+    },
+    {
+      "path": "scripts/mythos_runtime/protocol.py",
+      "sha256": "67fb921008e4a9de9605c15d4d93b2d6710d20f04030ffe61132df5ca04634b3",
+      "bytes": 2889
+    },
+    {
+      "path": "scripts/mythos_runtime/state.py",
+      "sha256": "18c1aee98cc63a060cb02080a662cbf08b5181bff12a383311cda4fed6e9e71d",
+      "bytes": 26914
+    },
+    {
+      "path": "scripts/mythos_runtime/storage.py",
+      "sha256": "160e586e289b5b978b012c7a53f370d3ff2bb6394decd97625b7423b9f130963",
+      "bytes": 4188
+    },
+    {
+      "path": "skills/mythos-build/references/implementation-notes.md",
+      "sha256": "cdbb048ace3837e7c137f801a1e2d838a186fefd4da4c95990630709da23ba87",
+      "bytes": 1050
+    },
+    {
+      "path": "skills/mythos-build/SKILL.md",
+      "sha256": "dbf12fa5f1a16574e6ba34073415a8087f357650573b007e815f46de4c065976",
+      "bytes": 3403
+    },
+    {
+      "path": "skills/mythos-debug/references/hypothesis-ledger.md",
+      "sha256": "730d0ec4956066bf26f537e78fc4bb61f23d8e1052cd0b131defa53943bf8a92",
+      "bytes": 752
+    },
+    {
+      "path": "skills/mythos-debug/SKILL.md",
+      "sha256": "2c1b2fb5467098b8ac0bb85cda5019dcdf577381f2761ad0db2cd986be995e3a",
+      "bytes": 3363
+    },
+    {
+      "path": "skills/mythos-discover/references/unknowns-ledger.md",
+      "sha256": "24545103e97f8c9d5ed9f973c92490d736705d251aaa64211c1cc7573e8b8e81",
+      "bytes": 1535
+    },
+    {
+      "path": "skills/mythos-discover/SKILL.md",
+      "sha256": "0061371faf834732c735963d95720629eeb1617e6a2c797c95f266f10b775524",
+      "bytes": 3708
+    },
+    {
+      "path": "skills/mythos-explain/references/handoff-and-quiz.md",
+      "sha256": "000c1ab4e018da6042802f198a854525d4c806ce462c93ba7e28478cb594f0d3",
+      "bytes": 881
+    },
+    {
+      "path": "skills/mythos-explain/SKILL.md",
+      "sha256": "e88dd0e7baf9613ec9142a598322b9b0c241d3a6cb49425aae61bee83a323591",
+      "bytes": 2793
+    },
+    {
+      "path": "skills/mythos-options/references/decision-artifacts.md",
+      "sha256": "eb5aa8c798f167d8fbf29c88a7cab3e3433e2b5896ae9bf789c96ad2c75adee2",
+      "bytes": 2005
+    },
+    {
+      "path": "skills/mythos-options/SKILL.md",
+      "sha256": "88b111027a0c82cf2928b8e938cdaba9a9e2c4f7165a4ef55c74032ef8bb70cf",
+      "bytes": 3423
+    },
+    {
+      "path": "skills/mythos-orchestrate/references/attempt-contract.md",
+      "sha256": "ded42a58c87cc4d7b9da542c4f1c944d49a5c0b56bdb465daad634e5db6a7fdf",
+      "bytes": 3063
+    },
+    {
+      "path": "skills/mythos-orchestrate/references/lifecycle-contract.md",
+      "sha256": "2ab09ab6a491e7edfc55054fb3f15c8d41fd313fdfe0542ef36845c59034be69",
+      "bytes": 5936
+    },
+    {
+      "path": "skills/mythos-orchestrate/SKILL.md",
+      "sha256": "4c76829953d8a94703d0e3727f02e1546784a0960f6c3adebac696711c9a729a",
+      "bytes": 14050
+    },
+    {
+      "path": "skills/mythos-plan/references/plan-contract.md",
+      "sha256": "cb759ada82a4d1eaa1028b228980ad641497edb91b7451e7f9a3fdd50f64bb9d",
+      "bytes": 3923
+    },
+    {
+      "path": "skills/mythos-plan/SKILL.md",
+      "sha256": "60e5be68666dc78f63378b2a0200c0023fac2daf91ca7e09e4b51f2ebe88f710",
+      "bytes": 4599
+    },
+    {
+      "path": "skills/mythos-repair/references/repair-contract.md",
+      "sha256": "8bae0f2e34ad949de5b21b35740cfbe0673196c8f1c749208fd37643264beb1f",
+      "bytes": 827
+    },
+    {
+      "path": "skills/mythos-repair/SKILL.md",
+      "sha256": "7b0b381ac5206d5f8460e70e0b1561950983b52eb1b0ec3acf14fd1a632a8393",
+      "bytes": 2838
+    },
+    {
+      "path": "skills/mythos-verify/references/verification-report.md",
+      "sha256": "30ec30693bf271326730c73e38e9943ccc467b39a2e61c1b806bb260c6bf6cdd",
+      "bytes": 3766
+    },
+    {
+      "path": "skills/mythos-verify/SKILL.md",
+      "sha256": "13376814ba8deeae94a11b824cc3324fcdece44943b83e3fbb15123dbd1da1ec",
+      "bytes": 3870
+    }
+  ]
+}

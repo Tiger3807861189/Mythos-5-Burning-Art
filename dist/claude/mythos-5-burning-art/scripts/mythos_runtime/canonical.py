@@ -1,1 +1,356 @@
-IiIiQ2Fub25pY2FsIGRhdGEsIHBhdGgsIGFuZCBwcm9qZWN0IGlkZW50aXR5IGhlbHBlcnMuCgpUaGUgY2Fub25pY2FsIEpTT04gZm9ybWF0IGlzIFVURi04LCBORkMtbm9ybWFsaXplZCwgTEYtb25seSwgY29tcGFjdCwgYW5kCnNvcnRlZCBieSBrZXkuICBIYXNoZXMgaW4gdGhlIHJ1bnRpbWUgYWx3YXlzIG9wZXJhdGUgb24gdGhpcyByZXByZXNlbnRhdGlvbi4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYmFzZTY0CmltcG9ydCBoYXNobGliCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHVuaWNvZGVkYXRhCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aCwgUHVyZVBvc2l4UGF0aCwgUHVyZVdpbmRvd3NQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBBbnksIEl0ZXJhYmxlCgoKU0NIRU1BX1ZFUlNJT04gPSAiMSIKX1dJTkRPV1NfQUJTT0xVVEUgPSByZS5jb21waWxlKHIiXig/OltBLVphLXpdOltcXC9dfFxcXFwpIikKCgpkZWYgX25vcm1hbGl6ZSh2YWx1ZTogQW55KSAtPiBBbnk6CiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCBzdHIpOgogICAgICAgIHJldHVybiB1bmljb2RlZGF0YS5ub3JtYWxpemUoIk5GQyIsIHZhbHVlLnJlcGxhY2UoIlxyXG4iLCAiXG4iKS5yZXBsYWNlKCJcciIsICJcbiIpKQogICAgaWYgaXNpbnN0YW5jZSh2YWx1ZSwgZGljdCk6CiAgICAgICAgcmV0dXJuIHtfbm9ybWFsaXplKHN0cihrZXkpKTogX25vcm1hbGl6ZShpdGVtKSBmb3Iga2V5LCBpdGVtIGluIHZhbHVlLml0ZW1zKCl9CiAgICBpZiBpc2luc3RhbmNlKHZhbHVlLCAobGlzdCwgdHVwbGUpKToKICAgICAgICByZXR1cm4gW19ub3JtYWxpemUoaXRlbSkgZm9yIGl0ZW0gaW4gdmFsdWVdCiAgICBpZiB2YWx1ZSBpcyBOb25lIG9yIGlzaW5zdGFuY2UodmFsdWUsIChib29sLCBpbnQsIGZsb2F0KSk6CiAgICAgICAgcmV0dXJuIHZhbHVlCiAgICByYWlzZSBUeXBlRXJyb3IoZiJVbnN1cHBvcnRlZCBjYW5vbmljYWwgSlNPTiB2YWx1ZToge3R5cGUodmFsdWUpLl9fbmFtZV9ffSIpCgoKZGVmIGNhbm9uaWNhbF9qc29uKHZhbHVlOiBBbnkpIC0+IGJ5dGVzOgogICAgIiIiUmV0dXJuIHRoZSBvbmUgY2Fub25pY2FsIFVURi04IHJlcHJlc2VudGF0aW9uIHVzZWQgYnkgYWxsIGhhc2hlcy4iIiIKCiAgICBub3JtYWxpemVkID0gX25vcm1hbGl6ZSh2YWx1ZSkKICAgIHRleHQgPSBqc29uLmR1bXBzKAogICAgICAgIG5vcm1hbGl6ZWQsCiAgICAgICAgZW5zdXJlX2FzY2lpPUZhbHNlLAogICAgICAgIGFsbG93X25hbj1GYWxzZSwKICAgICAgICBzb3J0X2tleXM9VHJ1ZSwKICAgICAgICBzZXBhcmF0b3JzPSgiLCIsICI6IiksCiAgICApCiAgICByZXR1cm4gdGV4dC5lbmNvZGUoInV0Zi04IikKCgpkZWYgY2Fub25pY2FsX3RleHQodmFsdWU6IEFueSkgLT4gc3RyOgogICAgcmV0dXJuIGNhbm9uaWNhbF9qc29uKHZhbHVlKS5kZWNvZGUoInV0Zi04IikgKyAiXG4iCgoKZGVmIGRpZ2VzdCh2YWx1ZTogQW55KSAtPiBzdHI6CiAgICByZXR1cm4gaGFzaGxpYi5zaGEyNTYoY2Fub25pY2FsX2pzb24odmFsdWUpKS5oZXhkaWdlc3QoKQoKCmRlZiBkaWdlc3RfYnl0ZXModmFsdWU6IGJ5dGVzKSAtPiBzdHI6CiAgICByZXR1cm4gaGFzaGxpYi5zaGEyNTYodmFsdWUpLmhleGRpZ2VzdCgpCgoKZGVmIG5vcm1hbGl6ZV9wYXRoX3RleHQocGF0aDogc3RyIHwgb3MuUGF0aExpa2Vbc3RyXSwgKiwgcGxhdGZvcm06IHN0ciB8IE5vbmUgPSBOb25lKSAtPiBzdHI6CiAgICAiIiJOb3JtYWxpemUgYSBwYXRoIGZvciBpZGVudGl0eSB3aXRob3V0IHJlcXVpcmluZyBpdCB0byBleGlzdC4KCiAgICBXaW5kb3dzIHBhdGhzIGFyZSBjYXNlLWZvbGRlZCBiZWNhdXNlIGRyaXZlIGFuZCBVTkMgcGF0aHMgYXJlIG5vcm1hbGx5CiAgICBjYXNlLWluc2Vuc2l0aXZlLiBQT1NJWCBwYXRocyByZXRhaW4gY2FzZS4gU2VwYXJhdG9ycyBhcmUgYWx3YXlzIGAvYC4KICAgICIiIgoKICAgIHJhdyA9IHVuaWNvZGVkYXRhLm5vcm1hbGl6ZSgiTkZDIiwgb3MuZnNwYXRoKHBhdGgpKS5yZXBsYWNlKCJcciIsICIiKS5zdHJpcCgpCiAgICB3aW5kb3dzID0gcGxhdGZvcm0gPT0gIndpbmRvd3MiIG9yIChwbGF0Zm9ybSBpcyBOb25lIGFuZCBib29sKF9XSU5ET1dTX0FCU09MVVRFLm1hdGNoKHJhdykpKQogICAgaWYgd2luZG93czoKICAgICAgICBjYW5kaWRhdGUgPSBzdHIoUHVyZVdpbmRvd3NQYXRoKHJhdykpLnJlcGxhY2UoIlxcIiwgIi8iKQogICAgICAgIHJldHVybiBjYW5kaWRhdGUuY2FzZWZvbGQoKQogICAgcmV0dXJuIHN0cihQdXJlUG9zaXhQYXRoKHJhdy5yZXBsYWNlKCJcXCIsICIvIikpKQoKCmRlZiBjYW5vbmljYWxfZXhpc3RpbmdfcGF0aChwYXRoOiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdKSAtPiBzdHI6CiAgICByZXNvbHZlZCA9IFBhdGgocGF0aCkuZXhwYW5kdXNlcigpLnJlc29sdmUoc3RyaWN0PUZhbHNlKQogICAgdGV4dCA9IHVuaWNvZGVkYXRhLm5vcm1hbGl6ZSgiTkZDIiwgc3RyKHJlc29sdmVkKSkucmVwbGFjZSgiXFwiLCAiLyIpCiAgICBpZiBvcy5uYW1lID09ICJudCI6CiAgICAgICAgdGV4dCA9IHRleHQuY2FzZWZvbGQoKQogICAgcmV0dXJuIHRleHQKCgpkZWYgX2dpdChyb290OiBQYXRoLCAqYXJndW1lbnRzOiBzdHIpIC0+IHN0ciB8IE5vbmU6CiAgICB0cnk6CiAgICAgICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgIFsiZ2l0IiwgIi1DIiwgc3RyKHJvb3QpLCAqYXJndW1lbnRzXSwKICAgICAgICAgICAgY2hlY2s9RmFsc2UsCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgIHRleHQ9VHJ1ZSwKICAgICAgICAgICAgZW5jb2Rpbmc9InV0Zi04IiwKICAgICAgICAgICAgZXJyb3JzPSJyZXBsYWNlIiwKICAgICAgICAgICAgdGltZW91dD0xMCwKICAgICAgICAgICAgZW52PXsqKm9zLmVudmlyb24sICJHSVRfT1BUSU9OQUxfTE9DS1MiOiAiMCJ9LAogICAgICAgICkKICAgIGV4Y2VwdCAoRmlsZU5vdEZvdW5kRXJyb3IsIE9TRXJyb3IsIHN1YnByb2Nlc3MuVGltZW91dEV4cGlyZWQpOgogICAgICAgIHJldHVybiBOb25lCiAgICBpZiByZXN1bHQucmV0dXJuY29kZSAhPSAwOgogICAgICAgIHJldHVybiBOb25lCiAgICByZXR1cm4gcmVzdWx0LnN0ZG91dC5zdHJpcCgpCgoKZGVmIF9naXRfYnl0ZXMocm9vdDogUGF0aCwgKmFyZ3VtZW50czogc3RyKSAtPiBieXRlcyB8IE5vbmU6CiAgICB0cnk6CiAgICAgICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgIFsiZ2l0IiwgIi1DIiwgc3RyKHJvb3QpLCAqYXJndW1lbnRzXSwKICAgICAgICAgICAgY2hlY2s9RmFsc2UsCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgIHRpbWVvdXQ9MjAsCiAgICAgICAgICAgIGVudj17Kipvcy5lbnZpcm9uLCAiR0lUX09QVElPTkFMX0xPQ0tTIjogIjAifSwKICAgICAgICApCiAgICBleGNlcHQgKEZpbGVOb3RGb3VuZEVycm9yLCBPU0Vycm9yLCBzdWJwcm9jZXNzLlRpbWVvdXRFeHBpcmVkKToKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIHJlc3VsdC5zdGRvdXQgaWYgcmVzdWx0LnJldHVybmNvZGUgPT0gMCBlbHNlIE5vbmUKCgpkZWYgcHJvamVjdF9pZGVudGl0eShwYXRoOiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdKSAtPiBkaWN0W3N0ciwgc3RyIHwgYm9vbF06CiAgICAiIiJSZXR1cm4gc3RhYmxlIHJlcG9zaXRvcnkgYW5kIHdvcmt0cmVlIGlkZW50aXRpZXMgZm9yIGFuIGV4aXN0aW5nIHByb2plY3QuIiIiCgogICAgc3RhcnQgPSBQYXRoKHBhdGgpLmV4cGFuZHVzZXIoKS5yZXNvbHZlKHN0cmljdD1GYWxzZSkKICAgIHRvcCA9IF9naXQoc3RhcnQsICJyZXYtcGFyc2UiLCAiLS1zaG93LXRvcGxldmVsIikKICAgIGlmIHRvcDoKICAgICAgICB3b3JrdHJlZSA9IFBhdGgodG9wKS5yZXNvbHZlKHN0cmljdD1GYWxzZSkKICAgICAgICBjb21tb24gPSBfZ2l0KHdvcmt0cmVlLCAicmV2LXBhcnNlIiwgIi0tcGF0aC1mb3JtYXQ9YWJzb2x1dGUiLCAiLS1naXQtY29tbW9uLWRpciIpCiAgICAgICAgaWYgbm90IGNvbW1vbjoKICAgICAgICAgICAgY29tbW9uID0gX2dpdCh3b3JrdHJlZSwgInJldi1wYXJzZSIsICItLWdpdC1jb21tb24tZGlyIikKICAgICAgICBjb21tb25fcGF0aCA9IFBhdGgoY29tbW9uKSBpZiBjb21tb24gZWxzZSB3b3JrdHJlZSAvICIuZ2l0IgogICAgICAgIGlmIG5vdCBjb21tb25fcGF0aC5pc19hYnNvbHV0ZSgpOgogICAgICAgICAgICBjb21tb25fcGF0aCA9IHdvcmt0cmVlIC8gY29tbW9uX3BhdGgKICAgICAgICByZXBvc2l0b3J5X2tleSA9IGNhbm9uaWNhbF9leGlzdGluZ19wYXRoKGNvbW1vbl9wYXRoKQogICAgICAgIHdvcmt0cmVlX2tleSA9IGNhbm9uaWNhbF9leGlzdGluZ19wYXRoKHdvcmt0cmVlKQogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJpc19naXQiOiBUcnVlLAogICAgICAgICAgICAicHJvamVjdF9yb290Ijogd29ya3RyZWVfa2V5LAogICAgICAgICAgICAicmVwb3NpdG9yeV9pZCI6IGRpZ2VzdCh7ImtpbmQiOiAiZ2l0LWNvbW1vbi1kaXIiLCAicGF0aCI6IHJlcG9zaXRvcnlfa2V5fSksCiAgICAgICAgICAgICJ3b3JrdHJlZV9pZCI6IGRpZ2VzdCh7ImtpbmQiOiAiZ2l0LXdvcmt0cmVlIiwgInBhdGgiOiB3b3JrdHJlZV9rZXl9KSwKICAgICAgICB9CiAgICByb290X2tleSA9IGNhbm9uaWNhbF9leGlzdGluZ19wYXRoKHN0YXJ0KQogICAgaWRlbnRpZmllciA9IGRpZ2VzdCh7ImtpbmQiOiAiZGlyZWN0b3J5IiwgInBhdGgiOiByb290X2tleX0pCiAgICByZXR1cm4gewogICAgICAgICJpc19naXQiOiBGYWxzZSwKICAgICAgICAicHJvamVjdF9yb290Ijogcm9vdF9rZXksCiAgICAgICAgInJlcG9zaXRvcnlfaWQiOiBpZGVudGlmaWVyLAogICAgICAgICJ3b3JrdHJlZV9pZCI6IGlkZW50aWZpZXIsCiAgICB9CgoKZGVmIF9pdGVyX3Byb2plY3RfZmlsZXMocm9vdDogUGF0aCkgLT4gSXRlcmFibGVbUGF0aF06CiAgICBmb3IgZGlyZWN0b3J5LCBuYW1lcywgZmlsZXMgaW4gb3Mud2Fsayhyb290LCBmb2xsb3dsaW5rcz1GYWxzZSk6CiAgICAgICAgbmFtZXNbOl0gPSBzb3J0ZWQobmFtZSBmb3IgbmFtZSBpbiBuYW1lcyBpZiBuYW1lICE9ICIuZ2l0IikKICAgICAgICBmb3IgbmFtZSBpbiBzb3J0ZWQoZmlsZXMpOgogICAgICAgICAgICB5aWVsZCBQYXRoKGRpcmVjdG9yeSkgLyBuYW1lCgoKX0RFRkFVTFRfRVhDTFVERURfRElSUyA9IHsKICAgICIuY2FjaGUiLCAiLm15cHlfY2FjaGUiLCAiLnB5dGVzdF9jYWNoZSIsICIucnVmZl9jYWNoZSIsICIudG94IiwKICAgICIudmVudiIsICJfX3B5Y2FjaGVfXyIsICJidWlsZCIsICJjb3ZlcmFnZSIsICJkaXN0IiwgIm5vZGVfbW9kdWxlcyIsCiAgICAidGFyZ2V0IiwgInZlbnYiLAp9CgoKZGVmIF9zY29wZV9pbmNsdWRlc19kaXJlY3RvcnkocmVsYXRpdmU6IHN0ciwgaW5jbHVkZV9wYXRoczogSXRlcmFibGVbc3RyXSkgLT4gYm9vbDoKICAgIHByZWZpeCA9IG5vcm1hbGl6ZV9wYXRoX3RleHQocmVsYXRpdmUsIHBsYXRmb3JtPSJwb3NpeCIpLnJzdHJpcCgiLyIpCiAgICByZXR1cm4gYW55KAogICAgICAgIG5vcm1hbGl6ZV9wYXRoX3RleHQoaXRlbSwgcGxhdGZvcm09InBvc2l4IikucnN0cmlwKCIvIikgPT0gcHJlZml4CiAgICAgICAgb3Igbm9ybWFsaXplX3BhdGhfdGV4dChpdGVtLCBwbGF0Zm9ybT0icG9zaXgiKS5zdGFydHN3aXRoKHByZWZpeCArICIvIikKICAgICAgICBmb3IgaXRlbSBpbiBpbmNsdWRlX3BhdGhzCiAgICApCgoKZGVmIHByb2plY3RfY29udGVudF9zbmFwc2hvdCgKICAgIHBhdGg6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0sCiAgICAqLAogICAgaW5jbHVkZV9wYXRoczogSXRlcmFibGVbc3RyXSA9ICgpLAogICAgaW5jbHVkZV9nZW5lcmF0ZWQ6IGJvb2wgPSBGYWxzZSwKKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHJdXToKICAgICIiIkNhcHR1cmUgZXhhY3QgcmVndWxhci1maWxlIGJ5dGVzIGFuZCBsaW5rLXRhcmdldCBieXRlcyBmb3IgaG9vay1vd25lZCB2ZXJpZmljYXRpb24uCgogICAgQ29tbW9uIGdlbmVyYXRlZCBkZXBlbmRlbmN5L2NhY2hlIHJvb3RzIGFyZSBza2lwcGVkIHVubGVzcyBhbiBhcHByb3ZlZCBwYXRoCiAgICBleHBsaWNpdGx5IHRhcmdldHMgdGhlbSBvciBgYGluY2x1ZGVfZ2VuZXJhdGVkYGAgaXMgdHJ1ZS4gQ29tbWFuZC1iZWFyaW5nCiAgICBzY29wZXMgc2V0IHRoYXQgZmxhZyBiZWNhdXNlIGFuIGV4YWN0IHNoZWxsIGNvbW1hbmQgY2FuIG11dGF0ZSBhbnkgbG9jYWwKICAgIGdlbmVyYXRlZCByb290LiBPcmRpbmFyeSByZXBvc2l0b3JpZXMgcmVtYWluIGJvdW5kZWQgd2hlbiBubyBjb21tYW5kIGV4aXN0cy4KICAgICIiIgoKICAgIHJvb3QgPSBQYXRoKHBhdGgpLmV4cGFuZHVzZXIoKS5yZXNvbHZlKHN0cmljdD1GYWxzZSkKICAgIHRvcCA9IF9naXQocm9vdCwgInJldi1wYXJzZSIsICItLXNob3ctdG9wbGV2ZWwiKQogICAgaWYgdG9wOgogICAgICAgIHJvb3QgPSBQYXRoKHRvcCkucmVzb2x2ZShzdHJpY3Q9RmFsc2UpCiAgICBpZiBub3Qgcm9vdC5leGlzdHMoKToKICAgICAgICByZXR1cm4gW10KICAgIGluY2x1ZGVzID0gdHVwbGUoc3RyKGl0ZW0pIGZvciBpdGVtIGluIGluY2x1ZGVfcGF0aHMpCiAgICBlbnRyaWVzOiBsaXN0W2RpY3Rbc3RyLCBzdHJdXSA9IFtdCiAgICBmb3IgZGlyZWN0b3J5LCBuYW1lcywgZmlsZXMgaW4gb3Mud2Fsayhyb290LCBmb2xsb3dsaW5rcz1GYWxzZSk6CiAgICAgICAgZGlyZWN0b3J5X3BhdGggPSBQYXRoKGRpcmVjdG9yeSkKICAgICAgICByZXRhaW5lZDogbGlzdFtzdHJdID0gW10KICAgICAgICBmb3IgbmFtZSBpbiBzb3J0ZWQobmFtZXMpOgogICAgICAgICAgICBpZiBuYW1lID09ICIuZ2l0IjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGNhbmRpZGF0ZSA9IGRpcmVjdG9yeV9wYXRoIC8gbmFtZQogICAgICAgICAgICByZWxhdGl2ZSA9IG5vcm1hbGl6ZV9wYXRoX3RleHQoY2FuZGlkYXRlLnJlbGF0aXZlX3RvKHJvb3QpLmFzX3Bvc2l4KCksIHBsYXRmb3JtPSJwb3NpeCIpCiAgICAgICAgICAgIGlmIG5hbWUuY2FzZWZvbGQoKSBpbiBfREVGQVVMVF9FWENMVURFRF9ESVJTIGFuZCBub3QgaW5jbHVkZV9nZW5lcmF0ZWQgYW5kIG5vdCBfc2NvcGVfaW5jbHVkZXNfZGlyZWN0b3J5KHJlbGF0aXZlLCBpbmNsdWRlcyk6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBpZiBjYW5kaWRhdGUuaXNfc3ltbGluaygpOgogICAgICAgICAgICAgICAgdGFyZ2V0ID0gb3MucmVhZGxpbmsoY2FuZGlkYXRlKQogICAgICAgICAgICAgICAgcmF3ID0gdGFyZ2V0LmVuY29kZSgidXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKQogICAgICAgICAgICAgICAgZW50cmllcy5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICJwYXRoIjogcmVsYXRpdmUsCiAgICAgICAgICAgICAgICAgICAgImtpbmQiOiAic3ltbGluayIsCiAgICAgICAgICAgICAgICAgICAgInNoYTI1NiI6IGRpZ2VzdF9ieXRlcyhyYXcpLAogICAgICAgICAgICAgICAgICAgICJlbmNvZGluZyI6ICJiYXNlNjQiLAogICAgICAgICAgICAgICAgICAgICJkYXRhIjogYmFzZTY0LmI2NGVuY29kZShyYXcpLmRlY29kZSgiYXNjaWkiKSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByZXRhaW5lZC5hcHBlbmQobmFtZSkKICAgICAgICBuYW1lc1s6XSA9IHJldGFpbmVkCiAgICAgICAgZm9yIG5hbWUgaW4gc29ydGVkKGZpbGVzKToKICAgICAgICAgICAgY2FuZGlkYXRlID0gZGlyZWN0b3J5X3BhdGggLyBuYW1lCiAgICAgICAgICAgIHJlbGF0aXZlID0gbm9ybWFsaXplX3BhdGhfdGV4dChjYW5kaWRhdGUucmVsYXRpdmVfdG8ocm9vdCkuYXNfcG9zaXgoKSwgcGxhdGZvcm09InBvc2l4IikKICAgICAgICAgICAgaWYgY2FuZGlkYXRlLmlzX3N5bWxpbmsoKToKICAgICAgICAgICAgICAgIHRhcmdldCA9IG9zLnJlYWRsaW5rKGNhbmRpZGF0ZSkKICAgICAgICAgICAgICAgIHJhdyA9IHRhcmdldC5lbmNvZGUoInV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikKICAgICAgICAgICAgICAgIGVudHJpZXMuYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAicGF0aCI6IHJlbGF0aXZlLAogICAgICAgICAgICAgICAgICAgICJraW5kIjogInN5bWxpbmsiLAogICAgICAgICAgICAgICAgICAgICJzaGEyNTYiOiBkaWdlc3RfYnl0ZXMocmF3KSwKICAgICAgICAgICAgICAgICAgICAiZW5jb2RpbmciOiAiYmFzZTY0IiwKICAgICAgICAgICAgICAgICAgICAiZGF0YSI6IGJhc2U2NC5iNjRlbmNvZGUocmF3KS5kZWNvZGUoImFzY2lpIiksCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcmF3ID0gY2FuZGlkYXRlLnJlYWRfYnl0ZXMoKQogICAgICAgICAgICAgICAgZW50cmllcy5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICJwYXRoIjogcmVsYXRpdmUsCiAgICAgICAgICAgICAgICAgICAgImtpbmQiOiAiZmlsZSIsCiAgICAgICAgICAgICAgICAgICAgInNoYTI1NiI6IGRpZ2VzdF9ieXRlcyhyYXcpLAogICAgICAgICAgICAgICAgICAgICJlbmNvZGluZyI6ICJiYXNlNjQiLAogICAgICAgICAgICAgICAgICAgICJkYXRhIjogYmFzZTY0LmI2NGVuY29kZShyYXcpLmRlY29kZSgiYXNjaWkiKSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIGV4Y2VwdCAoT1NFcnJvciwgUGVybWlzc2lvbkVycm9yKSBhcyBlcnJvcjoKICAgICAgICAgICAgICAgIGVudHJpZXMuYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAicGF0aCI6IHJlbGF0aXZlLAogICAgICAgICAgICAgICAgICAgICJraW5kIjogInVucmVhZGFibGUiLAogICAgICAgICAgICAgICAgICAgICJzaGEyNTYiOiBkaWdlc3QoeyJ1bnJlYWRhYmxlIjogdHlwZShlcnJvcikuX19uYW1lX199KSwKICAgICAgICAgICAgICAgIH0pCiAgICByZXR1cm4gc29ydGVkKGVudHJpZXMsIGtleT1sYW1iZGEgaXRlbTogKGl0ZW1bInBhdGgiXSwgaXRlbVsia2luZCJdLCBpdGVtWyJzaGEyNTYiXSkpCgoKZGVmIHByb2plY3RfY29udGVudF9tYW5pZmVzdCgKICAgIHBhdGg6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0sCiAgICAqLAogICAgaW5jbHVkZV9wYXRoczogSXRlcmFibGVbc3RyXSA9ICgpLAogICAgaW5jbHVkZV9nZW5lcmF0ZWQ6IGJvb2wgPSBGYWxzZSwKKSAtPiBsaXN0W2RpY3Rbc3RyLCBzdHJdXToKICAgICIiIlJldHVybiB0aGUgY29udGVudC1vbmx5IHZpZXcgb2YgYSBob29rLW93bmVkIHByb2plY3Qgc25hcHNob3QuIiIiCgogICAgcmV0dXJuIFsKICAgICAgICB7InBhdGgiOiBpdGVtWyJwYXRoIl0sICJraW5kIjogaXRlbVsia2luZCJdLCAic2hhMjU2IjogaXRlbVsic2hhMjU2Il19CiAgICAgICAgZm9yIGl0ZW0gaW4gcHJvamVjdF9jb250ZW50X3NuYXBzaG90KAogICAgICAgICAgICBwYXRoLCBpbmNsdWRlX3BhdGhzPWluY2x1ZGVfcGF0aHMsIGluY2x1ZGVfZ2VuZXJhdGVkPWluY2x1ZGVfZ2VuZXJhdGVkLAogICAgICAgICkKICAgIF0KZGVmIGNvbXB1dGVfYmFzZV9maW5nZXJwcmludChwYXRoOiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdKSAtPiBzdHI6CiAgICAiIiJGaW5nZXJwcmludCB0cmFja2VkIGFuZCByZWxldmFudCB1bnRyYWNrZWQgcHJvamVjdCBjb250ZW50LgoKICAgIEdpdC1pZ25vcmVkIGdlbmVyYXRlZCB0cmVlcyBhcmUgZXhjbHVkZWQgZnJvbSB0aGUgZ2xvYmFsIHN0YWxlLXBsYW4gZ3VhcmQuCiAgICBBcHByb3ZlZCBwYXRocyBpbiBzdWNoIHRyZWVzIGFyZSBzZXBhcmF0ZWx5IGNhcHR1cmVkIGJ5IHRoZSBzY29wZWQgY29udGVudAogICAgc25hcHNob3QgdXNlZCBieSB0aGUgbXV0YXRpb24gYW5kIHZlcmlmaWNhdGlvbiBnYXRlcy4KICAgICIiIgoKICAgIHJvb3QgPSBQYXRoKHBhdGgpLmV4cGFuZHVzZXIoKS5yZXNvbHZlKHN0cmljdD1GYWxzZSkKICAgIHRvcCA9IF9naXQocm9vdCwgInJldi1wYXJzZSIsICItLXNob3ctdG9wbGV2ZWwiKQogICAgaWYgdG9wOgogICAgICAgIGdpdF9yb290ID0gUGF0aCh0b3ApCiAgICAgICAgaGVhZCA9IF9naXQoZ2l0X3Jvb3QsICJyZXYtcGFyc2UiLCAiSEVBRCIpIG9yICJVTkJPUk4iCiAgICAgICAgdHJhY2tlZF9kaWZmID0gX2dpdF9ieXRlcygKICAgICAgICAgICAgZ2l0X3Jvb3QsICItYyIsICJjb3JlLmZzbW9uaXRvcj1mYWxzZSIsICJkaWZmIiwgIi0tYmluYXJ5IiwKICAgICAgICAgICAgIi0tbm8tZXh0LWRpZmYiLCAiLS1uby10ZXh0Y29udiIsICJIRUFEIiwgIi0tIiwKICAgICAgICApCiAgICAgICAgaWYgdHJhY2tlZF9kaWZmIGlzIE5vbmU6CiAgICAgICAgICAgIHRyYWNrZWRfZGlmZiA9IF9naXRfYnl0ZXMoCiAgICAgICAgICAgICAgICBnaXRfcm9vdCwgIi1jIiwgImNvcmUuZnNtb25pdG9yPWZhbHNlIiwgImRpZmYiLCAiLS1iaW5hcnkiLAogICAgICAgICAgICAgICAgIi0tbm8tZXh0LWRpZmYiLCAiLS1uby10ZXh0Y29udiIsICItLWNhY2hlZCIsICItLSIsCiAgICAgICAgICAgICkgb3IgYiIiCiAgICAgICAgc3RhdHVzID0gX2dpdF9ieXRlcygKICAgICAgICAgICAgZ2l0X3Jvb3QsICItYyIsICJjb3JlLmZzbW9uaXRvcj1mYWxzZSIsICJzdGF0dXMiLAogICAgICAgICAgICAiLS1wb3JjZWxhaW49djIiLCAiLXoiLCAiLS11bnRyYWNrZWQtZmlsZXM9YWxsIiwKICAgICAgICApIG9yIGIiIgogICAgICAgIHRyYWNrZWRfb3V0cHV0ID0gX2dpdF9ieXRlcyhnaXRfcm9vdCwgImxzLWZpbGVzIiwgIi16Iikgb3IgYiIiCiAgICAgICAgdW50cmFja2VkX291dHB1dCA9IF9naXRfYnl0ZXMoCiAgICAgICAgICAgIGdpdF9yb290LCAibHMtZmlsZXMiLCAiLS1vdGhlcnMiLCAiLS1leGNsdWRlLXN0YW5kYXJkIiwgIi16IiwKICAgICAgICApIG9yIGIiIgoKICAgICAgICBkZWYgY29udGVudF9lbnRyaWVzKHJhd19wYXRoczogYnl0ZXMpIC0+IGxpc3RbZGljdFtzdHIsIHN0cl1dOgogICAgICAgICAgICBlbnRyaWVzOiBsaXN0W2RpY3Rbc3RyLCBzdHJdXSA9IFtdCiAgICAgICAgICAgIGZvciByYXdfcGF0aCBpbiBzb3J0ZWQoaXRlbSBmb3IgaXRlbSBpbiByYXdfcGF0aHMuc3BsaXQoYiJcMCIpIGlmIGl0ZW0pOgogICAgICAgICAgICAgICAgcmVsYXRpdmUgPSByYXdfcGF0aC5kZWNvZGUoInV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikKICAgICAgICAgICAgICAgIHBhcnRzID0gUHVyZVBvc2l4UGF0aChyZWxhdGl2ZSkucGFydHMKICAgICAgICAgICAgICAgIGlmIGFueShwYXJ0ID09ICIuZ2l0IiBmb3IgcGFydCBpbiBwYXJ0cyk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIGlmIGFueShwYXJ0LmNhc2Vmb2xkKCkgaW4gX0RFRkFVTFRfRVhDTFVERURfRElSUyBmb3IgcGFydCBpbiBwYXJ0cyk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIGZpbGVfcGF0aCA9IGdpdF9yb290IC8gcmVsYXRpdmUKICAgICAgICAgICAgICAgIGlmIGZpbGVfcGF0aC5pc19zeW1saW5rKCk6CiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBkaWdlc3RfYnl0ZXMob3MucmVhZGxpbmsoZmlsZV9wYXRoKS5lbmNvZGUoInV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikpCiAgICAgICAgICAgICAgICAgICAga2luZCA9ICJzeW1saW5rIgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gZGlnZXN0X2J5dGVzKGZpbGVfcGF0aC5yZWFkX2J5dGVzKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIGtpbmQgPSAiZmlsZSIKICAgICAgICAgICAgICAgICAgICBleGNlcHQgKE9TRXJyb3IsIFBlcm1pc3Npb25FcnJvcikgYXMgZXJyb3I6CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gZGlnZXN0KHsidW5yZWFkYWJsZSI6IHR5cGUoZXJyb3IpLl9fbmFtZV9ffSkKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9ICJ1bnJlYWRhYmxlIgogICAgICAgICAgICAgICAgZW50cmllcy5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICJwYXRoIjogbm9ybWFsaXplX3BhdGhfdGV4dChyZWxhdGl2ZSwgcGxhdGZvcm09InBvc2l4IiksCiAgICAgICAgICAgICAgICAgICAgImtpbmQiOiBraW5kLAogICAgICAgICAgICAgICAgICAgICJzaGEyNTYiOiB2YWx1ZSwKICAgICAgICAgICAgICAgIH0pCiAgICAgICAgICAgIHJldHVybiBlbnRyaWVzCgogICAgICAgIHJldHVybiBkaWdlc3QoewogICAgICAgICAgICAia2luZCI6ICJnaXQiLAogICAgICAgICAgICAiaGVhZCI6IGhlYWQsCiAgICAgICAgICAgICJ0cmFja2VkX2RpZmZfc2hhMjU2IjogZGlnZXN0X2J5dGVzKHRyYWNrZWRfZGlmZiksCiAgICAgICAgICAgICJ0cmFja2VkIjogY29udGVudF9lbnRyaWVzKHRyYWNrZWRfb3V0cHV0KSwKICAgICAgICAgICAgInN0YXR1c19zaGEyNTYiOiBkaWdlc3RfYnl0ZXMoc3RhdHVzKSwKICAgICAgICAgICAgInVudHJhY2tlZCI6IGNvbnRlbnRfZW50cmllcyh1bnRyYWNrZWRfb3V0cHV0KSwKICAgICAgICB9KQoKICAgIGlmIG5vdCByb290LmV4aXN0cygpOgogICAgICAgIHJldHVybiBkaWdlc3QoeyJraW5kIjogIm1pc3NpbmciLCAicm9vdCI6IGNhbm9uaWNhbF9leGlzdGluZ19wYXRoKHJvb3QpfSkKICAgIHJldHVybiBkaWdlc3QoeyJraW5kIjogImRpcmVjdG9yeSIsICJlbnRyaWVzIjogcHJvamVjdF9jb250ZW50X21hbmlmZXN0KHJvb3QpfSkKZGVmIHBsYW5fbWF0ZXJpYWwoCiAgICAqLAogICAgcGxhbjogQW55LAogICAgc2NvcGU6IEFueSwKICAgIGFjY2VwdGFuY2U6IEFueSwKICAgIGNyaXRpYzogQW55LAogICAgYmFzZV9maW5nZXJwcmludDogc3RyLAopIC0+IGRpY3Rbc3RyLCBzdHJdOgogICAgIiIiQnVpbGQgaGFzaGVzIHdob3NlIGNoYW5nZXMgaW52YWxpZGF0ZSBhbiBhcHByb3ZhbC4iIiIKCiAgICBtYXRlcmlhbCA9IHsKICAgICAgICAiYmFzZV9maW5nZXJwcmludCI6IGJhc2VfZmluZ2VycHJpbnQsCiAgICAgICAgInBsYW5faGFzaCI6IGRpZ2VzdChwbGFuKSwKICAgICAgICAic2NvcGVfaGFzaCI6IGRpZ2VzdChzY29wZSksCiAgICAgICAgImFjY2VwdGFuY2VfaGFzaCI6IGRpZ2VzdChhY2NlcHRhbmNlKSwKICAgICAgICAiY3JpdGljX2hhc2giOiBkaWdlc3QoY3JpdGljKSwKICAgIH0KICAgIG1hdGVyaWFsWyJidW5kbGVfaGFzaCJdID0gZGlnZXN0KHsic2NoZW1hIjogU0NIRU1BX1ZFUlNJT04sICoqbWF0ZXJpYWx9KQogICAgcmV0dXJuIG1hdGVyaWFsCgoKCgoK
+"""Canonical data, path, and project identity helpers.
+
+The canonical JSON format is UTF-8, NFC-normalized, LF-only, compact, and
+sorted by key.  Hashes in the runtime always operate on this representation.
+"""
+
+from __future__ import annotations
+
+import base64
+import hashlib
+import json
+import os
+import re
+import subprocess
+import unicodedata
+from pathlib import Path, PurePosixPath, PureWindowsPath
+from typing import Any, Iterable
+
+
+SCHEMA_VERSION = "1"
+_WINDOWS_ABSOLUTE = re.compile(r"^(?:[A-Za-z]:[\\/]|\\\\)")
+
+
+def _normalize(value: Any) -> Any:
+    if isinstance(value, str):
+        return unicodedata.normalize("NFC", value.replace("\r\n", "\n").replace("\r", "\n"))
+    if isinstance(value, dict):
+        return {_normalize(str(key)): _normalize(item) for key, item in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_normalize(item) for item in value]
+    if value is None or isinstance(value, (bool, int, float)):
+        return value
+    raise TypeError(f"Unsupported canonical JSON value: {type(value).__name__}")
+
+
+def canonical_json(value: Any) -> bytes:
+    """Return the one canonical UTF-8 representation used by all hashes."""
+
+    normalized = _normalize(value)
+    text = json.dumps(
+        normalized,
+        ensure_ascii=False,
+        allow_nan=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return text.encode("utf-8")
+
+
+def canonical_text(value: Any) -> str:
+    return canonical_json(value).decode("utf-8") + "\n"
+
+
+def digest(value: Any) -> str:
+    return hashlib.sha256(canonical_json(value)).hexdigest()
+
+
+def digest_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def normalize_path_text(path: str | os.PathLike[str], *, platform: str | None = None) -> str:
+    """Normalize a path for identity without requiring it to exist.
+
+    Windows paths are case-folded because drive and UNC paths are normally
+    case-insensitive. POSIX paths retain case. Separators are always `/`.
+    """
+
+    raw = unicodedata.normalize("NFC", os.fspath(path)).replace("\r", "").strip()
+    windows = platform == "windows" or (platform is None and bool(_WINDOWS_ABSOLUTE.match(raw)))
+    if windows:
+        candidate = str(PureWindowsPath(raw)).replace("\\", "/")
+        return candidate.casefold()
+    return str(PurePosixPath(raw.replace("\\", "/")))
+
+
+def canonical_existing_path(path: str | os.PathLike[str]) -> str:
+    resolved = Path(path).expanduser().resolve(strict=False)
+    text = unicodedata.normalize("NFC", str(resolved)).replace("\\", "/")
+    if os.name == "nt":
+        text = text.casefold()
+    return text
+
+
+def _git(root: Path, *arguments: str) -> str | None:
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(root), *arguments],
+            check=False,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=10,
+            env={**os.environ, "GIT_OPTIONAL_LOCKS": "0"},
+        )
+    except (FileNotFoundError, OSError, subprocess.TimeoutExpired):
+        return None
+    if result.returncode != 0:
+        return None
+    return result.stdout.strip()
+
+
+def _git_bytes(root: Path, *arguments: str) -> bytes | None:
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(root), *arguments],
+            check=False,
+            capture_output=True,
+            timeout=20,
+            env={**os.environ, "GIT_OPTIONAL_LOCKS": "0"},
+        )
+    except (FileNotFoundError, OSError, subprocess.TimeoutExpired):
+        return None
+    return result.stdout if result.returncode == 0 else None
+
+
+def project_identity(path: str | os.PathLike[str]) -> dict[str, str | bool]:
+    """Return stable repository and worktree identities for an existing project."""
+
+    start = Path(path).expanduser().resolve(strict=False)
+    top = _git(start, "rev-parse", "--show-toplevel")
+    if top:
+        worktree = Path(top).resolve(strict=False)
+        common = _git(worktree, "rev-parse", "--path-format=absolute", "--git-common-dir")
+        if not common:
+            common = _git(worktree, "rev-parse", "--git-common-dir")
+        common_path = Path(common) if common else worktree / ".git"
+        if not common_path.is_absolute():
+            common_path = worktree / common_path
+        repository_key = canonical_existing_path(common_path)
+        worktree_key = canonical_existing_path(worktree)
+        return {
+            "is_git": True,
+            "project_root": worktree_key,
+            "repository_id": digest({"kind": "git-common-dir", "path": repository_key}),
+            "worktree_id": digest({"kind": "git-worktree", "path": worktree_key}),
+        }
+    root_key = canonical_existing_path(start)
+    identifier = digest({"kind": "directory", "path": root_key})
+    return {
+        "is_git": False,
+        "project_root": root_key,
+        "repository_id": identifier,
+        "worktree_id": identifier,
+    }
+
+
+def _iter_project_files(root: Path) -> Iterable[Path]:
+    for directory, names, files in os.walk(root, followlinks=False):
+        names[:] = sorted(name for name in names if name != ".git")
+        for name in sorted(files):
+            yield Path(directory) / name
+
+
+_DEFAULT_EXCLUDED_DIRS = {
+    ".cache", ".mypy_cache", ".pytest_cache", ".ruff_cache", ".tox",
+    ".venv", "__pycache__", "build", "coverage", "dist", "node_modules",
+    "target", "venv",
+}
+
+
+def _scope_includes_directory(relative: str, include_paths: Iterable[str]) -> bool:
+    prefix = normalize_path_text(relative, platform="posix").rstrip("/")
+    return any(
+        normalize_path_text(item, platform="posix").rstrip("/") == prefix
+        or normalize_path_text(item, platform="posix").startswith(prefix + "/")
+        for item in include_paths
+    )
+
+
+def project_content_snapshot(
+    path: str | os.PathLike[str],
+    *,
+    include_paths: Iterable[str] = (),
+    include_generated: bool = False,
+) -> list[dict[str, str]]:
+    """Capture exact regular-file bytes and link-target bytes for hook-owned verification.
+
+    Common generated dependency/cache roots are skipped unless an approved path
+    explicitly targets them or ``include_generated`` is true. Command-bearing
+    scopes set that flag because an exact shell command can mutate any local
+    generated root. Ordinary repositories remain bounded when no command exists.
+    """
+
+    root = Path(path).expanduser().resolve(strict=False)
+    top = _git(root, "rev-parse", "--show-toplevel")
+    if top:
+        root = Path(top).resolve(strict=False)
+    if not root.exists():
+        return []
+    includes = tuple(str(item) for item in include_paths)
+    entries: list[dict[str, str]] = []
+    for directory, names, files in os.walk(root, followlinks=False):
+        directory_path = Path(directory)
+        retained: list[str] = []
+        for name in sorted(names):
+            if name == ".git":
+                continue
+            candidate = directory_path / name
+            relative = normalize_path_text(candidate.relative_to(root).as_posix(), platform="posix")
+            if name.casefold() in _DEFAULT_EXCLUDED_DIRS and not include_generated and not _scope_includes_directory(relative, includes):
+                continue
+            if candidate.is_symlink():
+                target = os.readlink(candidate)
+                raw = target.encode("utf-8", errors="replace")
+                entries.append({
+                    "path": relative,
+                    "kind": "symlink",
+                    "sha256": digest_bytes(raw),
+                    "encoding": "base64",
+                    "data": base64.b64encode(raw).decode("ascii"),
+                })
+            else:
+                retained.append(name)
+        names[:] = retained
+        for name in sorted(files):
+            candidate = directory_path / name
+            relative = normalize_path_text(candidate.relative_to(root).as_posix(), platform="posix")
+            if candidate.is_symlink():
+                target = os.readlink(candidate)
+                raw = target.encode("utf-8", errors="replace")
+                entries.append({
+                    "path": relative,
+                    "kind": "symlink",
+                    "sha256": digest_bytes(raw),
+                    "encoding": "base64",
+                    "data": base64.b64encode(raw).decode("ascii"),
+                })
+                continue
+            try:
+                raw = candidate.read_bytes()
+                entries.append({
+                    "path": relative,
+                    "kind": "file",
+                    "sha256": digest_bytes(raw),
+                    "encoding": "base64",
+                    "data": base64.b64encode(raw).decode("ascii"),
+                })
+            except (OSError, PermissionError) as error:
+                entries.append({
+                    "path": relative,
+                    "kind": "unreadable",
+                    "sha256": digest({"unreadable": type(error).__name__}),
+                })
+    return sorted(entries, key=lambda item: (item["path"], item["kind"], item["sha256"]))
+
+
+def project_content_manifest(
+    path: str | os.PathLike[str],
+    *,
+    include_paths: Iterable[str] = (),
+    include_generated: bool = False,
+) -> list[dict[str, str]]:
+    """Return the content-only view of a hook-owned project snapshot."""
+
+    return [
+        {"path": item["path"], "kind": item["kind"], "sha256": item["sha256"]}
+        for item in project_content_snapshot(
+            path, include_paths=include_paths, include_generated=include_generated,
+        )
+    ]
+def compute_base_fingerprint(path: str | os.PathLike[str]) -> str:
+    """Fingerprint tracked and relevant untracked project content.
+
+    Git-ignored generated trees are excluded from the global stale-plan guard.
+    Approved paths in such trees are separately captured by the scoped content
+    snapshot used by the mutation and verification gates.
+    """
+
+    root = Path(path).expanduser().resolve(strict=False)
+    top = _git(root, "rev-parse", "--show-toplevel")
+    if top:
+        git_root = Path(top)
+        head = _git(git_root, "rev-parse", "HEAD") or "UNBORN"
+        tracked_diff = _git_bytes(
+            git_root, "-c", "core.fsmonitor=false", "diff", "--binary",
+            "--no-ext-diff", "--no-textconv", "HEAD", "--",
+        )
+        if tracked_diff is None:
+            tracked_diff = _git_bytes(
+                git_root, "-c", "core.fsmonitor=false", "diff", "--binary",
+                "--no-ext-diff", "--no-textconv", "--cached", "--",
+            ) or b""
+        status = _git_bytes(
+            git_root, "-c", "core.fsmonitor=false", "status",
+            "--porcelain=v2", "-z", "--untracked-files=all",
+        ) or b""
+        tracked_output = _git_bytes(git_root, "ls-files", "-z") or b""
+        untracked_output = _git_bytes(
+            git_root, "ls-files", "--others", "--exclude-standard", "-z",
+        ) or b""
+
+        def content_entries(raw_paths: bytes) -> list[dict[str, str]]:
+            entries: list[dict[str, str]] = []
+            for raw_path in sorted(item for item in raw_paths.split(b"\0") if item):
+                relative = raw_path.decode("utf-8", errors="replace")
+                parts = PurePosixPath(relative).parts
+                if any(part == ".git" for part in parts):
+                    continue
+                if any(part.casefold() in _DEFAULT_EXCLUDED_DIRS for part in parts):
+                    continue
+                file_path = git_root / relative
+                if file_path.is_symlink():
+                    value = digest_bytes(os.readlink(file_path).encode("utf-8", errors="replace"))
+                    kind = "symlink"
+                else:
+                    try:
+                        value = digest_bytes(file_path.read_bytes())
+                        kind = "file"
+                    except (OSError, PermissionError) as error:
+                        value = digest({"unreadable": type(error).__name__})
+                        kind = "unreadable"
+                entries.append({
+                    "path": normalize_path_text(relative, platform="posix"),
+                    "kind": kind,
+                    "sha256": value,
+                })
+            return entries
+
+        return digest({
+            "kind": "git",
+            "head": head,
+            "tracked_diff_sha256": digest_bytes(tracked_diff),
+            "tracked": content_entries(tracked_output),
+            "status_sha256": digest_bytes(status),
+            "untracked": content_entries(untracked_output),
+        })
+
+    if not root.exists():
+        return digest({"kind": "missing", "root": canonical_existing_path(root)})
+    return digest({"kind": "directory", "entries": project_content_manifest(root)})
+def plan_material(
+    *,
+    plan: Any,
+    scope: Any,
+    acceptance: Any,
+    critic: Any,
+    base_fingerprint: str,
+) -> dict[str, str]:
+    """Build hashes whose changes invalidate an approval."""
+
+    material = {
+        "base_fingerprint": base_fingerprint,
+        "plan_hash": digest(plan),
+        "scope_hash": digest(scope),
+        "acceptance_hash": digest(acceptance),
+        "critic_hash": digest(critic),
+    }
+    material["bundle_hash"] = digest({"schema": SCHEMA_VERSION, **material})
+    return material
+
+
+
+
+

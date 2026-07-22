@@ -1,1 +1,75 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJQb3J0YWJsZSByZWFkaW5lc3MgY2hlY2sgZm9yIE15dGhvcyA1IEJ1cm5pbmcgQXJ0LiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc2h1dGlsCmltcG9ydCBzeXMKaW1wb3J0IHRlbXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBzdGF0ZV9yb290KCkgLT4gUGF0aDoKICAgIG92ZXJyaWRlID0gb3MuZW52aXJvbi5nZXQoIk1ZVEhPUzVfU1RBVEVfSE9NRSIpCiAgICBpZiBvdmVycmlkZToKICAgICAgICByZXR1cm4gUGF0aChvdmVycmlkZSkuZXhwYW5kdXNlcigpLnJlc29sdmUoc3RyaWN0PUZhbHNlKQogICAgaG9tZSA9IFBhdGguaG9tZSgpCiAgICBpZiBzeXMucGxhdGZvcm0uc3RhcnRzd2l0aCgid2luIik6CiAgICAgICAgcmV0dXJuIFBhdGgob3MuZW52aXJvbi5nZXQoIkxPQ0FMQVBQREFUQSIsIGhvbWUgLyAiQXBwRGF0YSIgLyAiTG9jYWwiKSkgLyAiTXl0aG9zNUJ1cm5pbmdBcnQiIC8gIlN0YXRlIgogICAgaWYgc3lzLnBsYXRmb3JtID09ICJkYXJ3aW4iOgogICAgICAgIHJldHVybiBob21lIC8gIkxpYnJhcnkiIC8gIkFwcGxpY2F0aW9uIFN1cHBvcnQiIC8gIk15dGhvczVCdXJuaW5nQXJ0IiAvICJTdGF0ZSIKICAgIHJldHVybiBQYXRoKG9zLmVudmlyb24uZ2V0KCJYREdfU1RBVEVfSE9NRSIsIGhvbWUgLyAiLmxvY2FsIiAvICJzdGF0ZSIpKSAvICJteXRob3MtNS1idXJuaW5nLWFydCIKCgpkZWYgbWFpbigpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcm9vdCIsIHR5cGU9UGF0aCwgZGVmYXVsdD1QYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0taG9zdCIsIGNob2ljZXM9WyJjb2RleCIsICJjbGF1ZGUiLCAiYm90aCJdLCBkZWZhdWx0PSJib3RoIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc2tpcC13cml0ZS1wcm9iZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQogICAgcm9vdCA9IGFyZ3Mucm9vdC5leHBhbmR1c2VyKCkucmVzb2x2ZSgpCiAgICBjaGVja3M6IGxpc3RbZGljdFtzdHIsIG9iamVjdF1dID0gW10KCiAgICB2ZXJzaW9uX29rID0gc3lzLnZlcnNpb25faW5mbyA+PSAoMywgMTEpCiAgICBjaGVja3MuYXBwZW5kKHsiY2hlY2siOiAicHl0aG9uX3ZlcnNpb24iLCAib2siOiB2ZXJzaW9uX29rLCAidmFsdWUiOiBzeXMudmVyc2lvbi5zcGxpdCgpWzBdLCAicmVxdWlyZWQiOiAiPj0zLjExIn0pCiAgICByZXF1aXJlZCA9IFtyb290IC8gInNwZWMiLCByb290IC8gInJlcG8ta2l0cyIsIHJvb3QgLyAic2NyaXB0cyIsIHJvb3QgLyAic3JjIiAvICJzaGFyZWQiIC8gInNraWxscyJdCiAgICBtaXNzaW5nID0gW3N0cihwYXRoKSBmb3IgcGF0aCBpbiByZXF1aXJlZCBpZiBub3QgcGF0aC5leGlzdHMoKV0KICAgIGNoZWNrcy5hcHBlbmQoeyJjaGVjayI6ICJzdWl0ZV9sYXlvdXQiLCAib2siOiBub3QgbWlzc2luZywgIm1pc3NpbmciOiBtaXNzaW5nfSkKCiAgICBob3N0cyA9IFsiY29kZXgiLCAiY2xhdWRlIl0gaWYgYXJncy5ob3N0ID09ICJib3RoIiBlbHNlIFthcmdzLmhvc3RdCiAgICBmb3IgaG9zdCBpbiBob3N0czoKICAgICAgICBleGVjdXRhYmxlID0gc2h1dGlsLndoaWNoKGhvc3QpCiAgICAgICAgY2hlY2tzLmFwcGVuZCh7ImNoZWNrIjogZiJ7aG9zdH1fZXhlY3V0YWJsZSIsICJvayI6IGV4ZWN1dGFibGUgaXMgbm90IE5vbmUsICJ2YWx1ZSI6IGV4ZWN1dGFibGV9KQogICAgICAgIHNvdXJjZSA9IHJvb3QgLyAic3JjIiAvIGhvc3QgLyAibXl0aG9zLTUtYnVybmluZy1hcnQiCiAgICAgICAgY2hlY2tzLmFwcGVuZCh7ImNoZWNrIjogZiJ7aG9zdH1fYWRhcHRlciIsICJvayI6IHNvdXJjZS5pc19kaXIoKSwgInZhbHVlIjogc3RyKHNvdXJjZSl9KQoKICAgIHRhcmdldCA9IHN0YXRlX3Jvb3QoKQogICAgd3JpdGVfb2sgPSBUcnVlCiAgICBlcnJvcjogc3RyIHwgTm9uZSA9IE5vbmUKICAgIGlmIG5vdCBhcmdzLnNraXBfd3JpdGVfcHJvYmU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICB0YXJnZXQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgICAgICBkZXNjcmlwdG9yLCBuYW1lID0gdGVtcGZpbGUubWtzdGVtcChwcmVmaXg9InByZWZsaWdodC0iLCBzdWZmaXg9Ii50bXAiLCBkaXI9dGFyZ2V0KQogICAgICAgICAgICBvcy5jbG9zZShkZXNjcmlwdG9yKQogICAgICAgICAgICBQYXRoKG5hbWUpLnVubGluaygpCiAgICAgICAgZXhjZXB0IE9TRXJyb3IgYXMgZXhjOgogICAgICAgICAgICB3cml0ZV9vayA9IEZhbHNlCiAgICAgICAgICAgIGVycm9yID0gZiJ7dHlwZShleGMpLl9fbmFtZV9ffToge2V4Y30iCiAgICBjaGVja3MuYXBwZW5kKHsKICAgICAgICAiY2hlY2siOiAic3RhdGVfcm9vdCIsCiAgICAgICAgIm9rIjogTm9uZSBpZiBhcmdzLnNraXBfd3JpdGVfcHJvYmUgZWxzZSB3cml0ZV9vaywKICAgICAgICAic2tpcHBlZCI6IGFyZ3Muc2tpcF93cml0ZV9wcm9iZSwKICAgICAgICAidmFsdWUiOiBzdHIodGFyZ2V0KSwKICAgICAgICAiZXJyb3IiOiBlcnJvciwKICAgIH0pCgogICAgb2sgPSBhbGwoYm9vbChpdGVtWyJvayJdKSBmb3IgaXRlbSBpbiBjaGVja3MgaWYgbm90IGl0ZW0uZ2V0KCJza2lwcGVkIikpCiAgICBwcmludChqc29uLmR1bXBzKHsib2siOiBvaywgImNoZWNrcyI6IGNoZWNrc30sIGluZGVudD0yKSkKICAgIHJldHVybiAwIGlmIG9rIGVsc2UgMQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICByYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSk=
+#!/usr/bin/env python3
+"""Portable readiness check for Mythos 5 Burning Art."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import shutil
+import sys
+import tempfile
+from pathlib import Path
+
+
+def state_root() -> Path:
+    override = os.environ.get("MYTHOS5_STATE_HOME")
+    if override:
+        return Path(override).expanduser().resolve(strict=False)
+    home = Path.home()
+    if sys.platform.startswith("win"):
+        return Path(os.environ.get("LOCALAPPDATA", home / "AppData" / "Local")) / "Mythos5BurningArt" / "State"
+    if sys.platform == "darwin":
+        return home / "Library" / "Application Support" / "Mythos5BurningArt" / "State"
+    return Path(os.environ.get("XDG_STATE_HOME", home / ".local" / "state")) / "mythos-5-burning-art"
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument("--host", choices=["codex", "claude", "both"], default="both")
+    parser.add_argument("--skip-write-probe", action="store_true")
+    args = parser.parse_args()
+    root = args.root.expanduser().resolve()
+    checks: list[dict[str, object]] = []
+
+    version_ok = sys.version_info >= (3, 11)
+    checks.append({"check": "python_version", "ok": version_ok, "value": sys.version.split()[0], "required": ">=3.11"})
+    required = [root / "spec", root / "repo-kits", root / "scripts", root / "src" / "shared" / "skills"]
+    missing = [str(path) for path in required if not path.exists()]
+    checks.append({"check": "suite_layout", "ok": not missing, "missing": missing})
+
+    hosts = ["codex", "claude"] if args.host == "both" else [args.host]
+    for host in hosts:
+        executable = shutil.which(host)
+        checks.append({"check": f"{host}_executable", "ok": executable is not None, "value": executable})
+        source = root / "src" / host / "mythos-5-burning-art"
+        checks.append({"check": f"{host}_adapter", "ok": source.is_dir(), "value": str(source)})
+
+    target = state_root()
+    write_ok = True
+    error: str | None = None
+    if not args.skip_write_probe:
+        try:
+            target.mkdir(parents=True, exist_ok=True)
+            descriptor, name = tempfile.mkstemp(prefix="preflight-", suffix=".tmp", dir=target)
+            os.close(descriptor)
+            Path(name).unlink()
+        except OSError as exc:
+            write_ok = False
+            error = f"{type(exc).__name__}: {exc}"
+    checks.append({
+        "check": "state_root",
+        "ok": None if args.skip_write_probe else write_ok,
+        "skipped": args.skip_write_probe,
+        "value": str(target),
+        "error": error,
+    })
+
+    ok = all(bool(item["ok"]) for item in checks if not item.get("skipped"))
+    print(json.dumps({"ok": ok, "checks": checks}, indent=2))
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

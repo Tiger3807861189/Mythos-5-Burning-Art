@@ -1,1 +1,139 @@
-IiIiUG9ydGFibGUgYWR2aXNvcnkgZmlsZSBsb2NraW5nIGZvciBXaW5kb3dzLCBtYWNPUywgYW5kIExpbnV4LiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGVycm5vCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgc29ja2V0CmltcG9ydCB0aW1lCmltcG9ydCB1dWlkCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgQ2FsbGFibGUKCmZyb20gLmNhbm9uaWNhbCBpbXBvcnQgY2Fub25pY2FsX3RleHQKCgpjbGFzcyBMb2NrVGltZW91dChUaW1lb3V0RXJyb3IpOgogICAgcGFzcwoKCmNsYXNzIEZpbGVMb2NrOgogICAgIiIiQSBwZXJzaXN0ZW50LXBhdGggT1MgYWR2aXNvcnkgbG9jay4KCiAgICBUaGUgb3BlcmF0aW5nIHN5c3RlbSBvd25zIHRoZSBsb2NrLCBzbyBwcm9jZXNzIHRlcm1pbmF0aW9uIHJlbGVhc2VzIGl0CiAgICB3aXRob3V0IGFueSBwYXRobmFtZSB0YWtlb3Zlci4gVGhlIGZpbGUgaXMgaW50ZW50aW9uYWxseSBuZXZlciB1bmxpbmtlZDoKICAgIHJlbW92aW5nIGEgbG9jayBwYXRobmFtZSB3aGlsZSBhbm90aGVyIHByb2Nlc3MgY2FuIG9wZW4gaXQgY3JlYXRlcyBhIHJhY2UuCiAgICBgYHN0YWxlX2FmdGVyYGAgcmVtYWlucyBhY2NlcHRlZCBmb3IgYmFja3dhcmQgY29tcGF0aWJpbGl0eSBidXQgaXMgbm90CiAgICBuZWVkZWQgYnkgdGhpcyBpbXBsZW1lbnRhdGlvbi4KICAgICIiIgoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIHBhdGg6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0sCiAgICAgICAgKiwKICAgICAgICB0aW1lb3V0OiBmbG9hdCA9IDEwLjAsCiAgICAgICAgc3RhbGVfYWZ0ZXI6IGZsb2F0ID0gNjAuMCwKICAgICAgICBwb2xsX2ludGVydmFsOiBmbG9hdCA9IDAuMDUsCiAgICAgICAgY2xvY2s6IENhbGxhYmxlW1tdLCBmbG9hdF0gPSB0aW1lLnRpbWUsCiAgICApIC0+IE5vbmU6CiAgICAgICAgc2VsZi5wYXRoID0gUGF0aChwYXRoKQogICAgICAgIHNlbGYudGltZW91dCA9IHRpbWVvdXQKICAgICAgICBzZWxmLnN0YWxlX2FmdGVyID0gc3RhbGVfYWZ0ZXIKICAgICAgICBzZWxmLnBvbGxfaW50ZXJ2YWwgPSBwb2xsX2ludGVydmFsCiAgICAgICAgc2VsZi5jbG9jayA9IGNsb2NrCiAgICAgICAgc2VsZi50b2tlbiA9IHV1aWQudXVpZDQoKS5oZXgKICAgICAgICBzZWxmLl9kZXNjcmlwdG9yOiBpbnQgfCBOb25lID0gTm9uZQogICAgICAgIHNlbGYuX2hlbGQgPSBGYWxzZQoKICAgIGRlZiBfbWV0YWRhdGEoc2VsZikgLT4gZGljdFtzdHIsIG9iamVjdF06CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgInBpZCI6IG9zLmdldHBpZCgpLAogICAgICAgICAgICAiaG9zdCI6IHNvY2tldC5nZXRob3N0bmFtZSgpLAogICAgICAgICAgICAiY3JlYXRlZF9hdCI6IHNlbGYuY2xvY2soKSwKICAgICAgICAgICAgInRva2VuIjogc2VsZi50b2tlbiwKICAgICAgICB9CgogICAgZGVmIF90cnlfbG9jayhzZWxmLCBkZXNjcmlwdG9yOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgaWYgb3MubmFtZSA9PSAibnQiOgogICAgICAgICAgICBpbXBvcnQgbXN2Y3J0CgogICAgICAgICAgICBvcy5sc2VlayhkZXNjcmlwdG9yLCAwLCBvcy5TRUVLX1NFVCkKICAgICAgICAgICAgbXN2Y3J0LmxvY2tpbmcoZGVzY3JpcHRvciwgbXN2Y3J0LkxLX05CTENLLCAxKQogICAgICAgICAgICByZXR1cm4KICAgICAgICBpbXBvcnQgZmNudGwKCiAgICAgICAgZmNudGwuZmxvY2soZGVzY3JpcHRvciwgZmNudGwuTE9DS19FWCB8IGZjbnRsLkxPQ0tfTkIpCgogICAgZGVmIF91bmxvY2soc2VsZiwgZGVzY3JpcHRvcjogaW50KSAtPiBOb25lOgogICAgICAgIGlmIG9zLm5hbWUgPT0gIm50IjoKICAgICAgICAgICAgaW1wb3J0IG1zdmNydAoKICAgICAgICAgICAgb3MubHNlZWsoZGVzY3JpcHRvciwgMCwgb3MuU0VFS19TRVQpCiAgICAgICAgICAgIG1zdmNydC5sb2NraW5nKGRlc2NyaXB0b3IsIG1zdmNydC5MS19VTkxDSywgMSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgaW1wb3J0IGZjbnRsCgogICAgICAgIGZjbnRsLmZsb2NrKGRlc2NyaXB0b3IsIGZjbnRsLkxPQ0tfVU4pCgogICAgZGVmIF93cml0ZV9tZXRhZGF0YShzZWxmLCBkZXNjcmlwdG9yOiBpbnQpIC0+IE5vbmU6CiAgICAgICAgcGF5bG9hZCA9IGNhbm9uaWNhbF90ZXh0KHNlbGYuX21ldGFkYXRhKCkpLmVuY29kZSgidXRmLTgiKQogICAgICAgIG9zLmxzZWVrKGRlc2NyaXB0b3IsIDAsIG9zLlNFRUtfU0VUKQogICAgICAgIG9zLndyaXRlKGRlc2NyaXB0b3IsIGJ5dGVzKFswXSkpCiAgICAgICAgb3MubHNlZWsoZGVzY3JpcHRvciwgMSwgb3MuU0VFS19TRVQpCiAgICAgICAgb3MuZnRydW5jYXRlKGRlc2NyaXB0b3IsIDEpCiAgICAgICAgb3Mud3JpdGUoZGVzY3JpcHRvciwgcGF5bG9hZCkKICAgICAgICBvcy5mc3luYyhkZXNjcmlwdG9yKQoKICAgIGRlZiBfcmVhZChzZWxmKSAtPiBkaWN0W3N0ciwgb2JqZWN0XSB8IE5vbmU6CiAgICAgICAgdHJ5OgogICAgICAgICAgICByYXcgPSBzZWxmLnBhdGgucmVhZF9ieXRlcygpCiAgICAgICAgICAgIGlmIHJhdy5zdGFydHN3aXRoKGIiXDAiKToKICAgICAgICAgICAgICAgIHJhdyA9IHJhd1sxOl0KICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMocmF3LmRlY29kZSgidXRmLTgiKSkgaWYgcmF3IGVsc2UgTm9uZQogICAgICAgIGV4Y2VwdCAoT1NFcnJvciwgVW5pY29kZURlY29kZUVycm9yLCBqc29uLkpTT05EZWNvZGVFcnJvciwgVHlwZUVycm9yKToKICAgICAgICAgICAgcmV0dXJuIE5vbmUKCiAgICBkZWYgYWNxdWlyZShzZWxmKSAtPiAiRmlsZUxvY2siOgogICAgICAgIHNlbGYucGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgIGRlYWRsaW5lID0gdGltZS5tb25vdG9uaWMoKSArIHNlbGYudGltZW91dAogICAgICAgIHdoaWxlIFRydWU6CiAgICAgICAgICAgIGRlc2NyaXB0b3I6IGludCB8IE5vbmUgPSBOb25lCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGRlc2NyaXB0b3IgPSBvcy5vcGVuKHNlbGYucGF0aCwgb3MuT19SRFdSIHwgb3MuT19DUkVBVCwgMG82MDApCiAgICAgICAgICAgICAgICBpZiBvcy5mc3RhdChkZXNjcmlwdG9yKS5zdF9zaXplID09IDA6CiAgICAgICAgICAgICAgICAgICAgb3Mud3JpdGUoZGVzY3JpcHRvciwgYiJcMCIpCiAgICAgICAgICAgICAgICAgICAgb3MuZnN5bmMoZGVzY3JpcHRvcikKICAgICAgICAgICAgICAgIHNlbGYuX3RyeV9sb2NrKGRlc2NyaXB0b3IpCiAgICAgICAgICAgICAgICBzZWxmLl93cml0ZV9tZXRhZGF0YShkZXNjcmlwdG9yKQogICAgICAgICAgICAgICAgc2VsZi5fZGVzY3JpcHRvciA9IGRlc2NyaXB0b3IKICAgICAgICAgICAgICAgIHNlbGYuX2hlbGQgPSBUcnVlCiAgICAgICAgICAgICAgICByZXR1cm4gc2VsZgogICAgICAgICAgICBleGNlcHQgT1NFcnJvciBhcyBlcnJvcjoKICAgICAgICAgICAgICAgIGlmIGRlc2NyaXB0b3IgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgb3MuY2xvc2UoZGVzY3JpcHRvcikKICAgICAgICAgICAgICAgIHJldHJ5YWJsZSA9IGVycm9yLmVycm5vIGluIHsKICAgICAgICAgICAgICAgICAgICBlcnJuby5FQUNDRVMsIGVycm5vLkVBR0FJTiwgZXJybm8uRURFQURMSywgZXJybm8uRVBFUk0sCiAgICAgICAgICAgICAgICB9IG9yIGlzaW5zdGFuY2UoZXJyb3IsIFBlcm1pc3Npb25FcnJvcikKICAgICAgICAgICAgICAgIGlmIG5vdCByZXRyeWFibGU6CiAgICAgICAgICAgICAgICAgICAgcmFpc2UKICAgICAgICAgICAgICAgIGlmIHRpbWUubW9ub3RvbmljKCkgPj0gZGVhZGxpbmU6CiAgICAgICAgICAgICAgICAgICAgcmFpc2UgTG9ja1RpbWVvdXQoZiJUaW1lZCBvdXQgd2FpdGluZyBmb3IgbG9jazoge3NlbGYucGF0aH0iKSBmcm9tIGVycm9yCiAgICAgICAgICAgICAgICB0aW1lLnNsZWVwKHNlbGYucG9sbF9pbnRlcnZhbCkKCiAgICBkZWYgcmVsZWFzZShzZWxmKSAtPiBOb25lOgogICAgICAgIGRlc2NyaXB0b3IgPSBzZWxmLl9kZXNjcmlwdG9yCiAgICAgICAgaWYgbm90IHNlbGYuX2hlbGQgb3IgZGVzY3JpcHRvciBpcyBOb25lOgogICAgICAgICAgICByZXR1cm4KICAgICAgICB0cnk6CiAgICAgICAgICAgIHNlbGYuX3VubG9jayhkZXNjcmlwdG9yKQogICAgICAgIGZpbmFsbHk6CiAgICAgICAgICAgIG9zLmNsb3NlKGRlc2NyaXB0b3IpCiAgICAgICAgICAgIHNlbGYuX2Rlc2NyaXB0b3IgPSBOb25lCiAgICAgICAgICAgIHNlbGYuX2hlbGQgPSBGYWxzZQoKICAgIGRlZiBfX2VudGVyX18oc2VsZikgLT4gIkZpbGVMb2NrIjoKICAgICAgICByZXR1cm4gc2VsZi5hY3F1aXJlKCkKCiAgICBkZWYgX19leGl0X18oc2VsZiwgZXhjX3R5cGU6IG9iamVjdCwgZXhjOiBvYmplY3QsIHRyYWNlYmFjazogb2JqZWN0KSAtPiBOb25lOgogICAgICAgIHNlbGYucmVsZWFzZSgp
+"""Portable advisory file locking for Windows, macOS, and Linux."""
+
+from __future__ import annotations
+
+import errno
+import json
+import os
+import socket
+import time
+import uuid
+from pathlib import Path
+from typing import Callable
+
+from .canonical import canonical_text
+
+
+class LockTimeout(TimeoutError):
+    pass
+
+
+class FileLock:
+    """A persistent-path OS advisory lock.
+
+    The operating system owns the lock, so process termination releases it
+    without any pathname takeover. The file is intentionally never unlinked:
+    removing a lock pathname while another process can open it creates a race.
+    ``stale_after`` remains accepted for backward compatibility but is not
+    needed by this implementation.
+    """
+
+    def __init__(
+        self,
+        path: str | os.PathLike[str],
+        *,
+        timeout: float = 10.0,
+        stale_after: float = 60.0,
+        poll_interval: float = 0.05,
+        clock: Callable[[], float] = time.time,
+    ) -> None:
+        self.path = Path(path)
+        self.timeout = timeout
+        self.stale_after = stale_after
+        self.poll_interval = poll_interval
+        self.clock = clock
+        self.token = uuid.uuid4().hex
+        self._descriptor: int | None = None
+        self._held = False
+
+    def _metadata(self) -> dict[str, object]:
+        return {
+            "pid": os.getpid(),
+            "host": socket.gethostname(),
+            "created_at": self.clock(),
+            "token": self.token,
+        }
+
+    def _try_lock(self, descriptor: int) -> None:
+        if os.name == "nt":
+            import msvcrt
+
+            os.lseek(descriptor, 0, os.SEEK_SET)
+            msvcrt.locking(descriptor, msvcrt.LK_NBLCK, 1)
+            return
+        import fcntl
+
+        fcntl.flock(descriptor, fcntl.LOCK_EX | fcntl.LOCK_NB)
+
+    def _unlock(self, descriptor: int) -> None:
+        if os.name == "nt":
+            import msvcrt
+
+            os.lseek(descriptor, 0, os.SEEK_SET)
+            msvcrt.locking(descriptor, msvcrt.LK_UNLCK, 1)
+            return
+        import fcntl
+
+        fcntl.flock(descriptor, fcntl.LOCK_UN)
+
+    def _write_metadata(self, descriptor: int) -> None:
+        payload = canonical_text(self._metadata()).encode("utf-8")
+        os.lseek(descriptor, 0, os.SEEK_SET)
+        os.write(descriptor, bytes([0]))
+        os.lseek(descriptor, 1, os.SEEK_SET)
+        os.ftruncate(descriptor, 1)
+        os.write(descriptor, payload)
+        os.fsync(descriptor)
+
+    def _read(self) -> dict[str, object] | None:
+        try:
+            raw = self.path.read_bytes()
+            if raw.startswith(b"\0"):
+                raw = raw[1:]
+            return json.loads(raw.decode("utf-8")) if raw else None
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError, TypeError):
+            return None
+
+    def acquire(self) -> "FileLock":
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        deadline = time.monotonic() + self.timeout
+        while True:
+            descriptor: int | None = None
+            try:
+                descriptor = os.open(self.path, os.O_RDWR | os.O_CREAT, 0o600)
+                if os.fstat(descriptor).st_size == 0:
+                    os.write(descriptor, b"\0")
+                    os.fsync(descriptor)
+                self._try_lock(descriptor)
+                self._write_metadata(descriptor)
+                self._descriptor = descriptor
+                self._held = True
+                return self
+            except OSError as error:
+                if descriptor is not None:
+                    os.close(descriptor)
+                retryable = error.errno in {
+                    errno.EACCES, errno.EAGAIN, errno.EDEADLK, errno.EPERM,
+                } or isinstance(error, PermissionError)
+                if not retryable:
+                    raise
+                if time.monotonic() >= deadline:
+                    raise LockTimeout(f"Timed out waiting for lock: {self.path}") from error
+                time.sleep(self.poll_interval)
+
+    def release(self) -> None:
+        descriptor = self._descriptor
+        if not self._held or descriptor is None:
+            return
+        try:
+            self._unlock(descriptor)
+        finally:
+            os.close(descriptor)
+            self._descriptor = None
+            self._held = False
+
+    def __enter__(self) -> "FileLock":
+        return self.acquire()
+
+    def __exit__(self, exc_type: object, exc: object, traceback: object) -> None:
+        self.release()

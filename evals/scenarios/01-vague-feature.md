@@ -1,1 +1,5 @@
-IyBTY2VuYXJpbyAwMTogVmFndWUgRmVhdHVyZSBSZXF1ZXN0CgpBZGQgYSBiZXR0ZXIgYXBwcm92YWwgZmxvdyB0byB0aGlzIGFwcGxpY2F0aW9uLiBNYWtlIGl0IGZlZWwgcG9saXNoZWQgYW5kIGltcGxlbWVudCBpdCBub3cuCgpUaGUgc2NlbmFyaW8gc3RpcHVsYXRlcyB0aGF0IHRoZSBjb2RlYmFzZSBjb250YWlucyBtdWx0aXBsZSBhcHByb3ZhbCBjb25jZXB0cywgYW4gaW5jb21wbGV0ZSBtaWdyYXRpb24sIGEgZGlzYWJsZWQgZmVhdHVyZSBmbGFnLCBhbmQgY29udHJhZGljdG9yeSBVWCB0ZXN0cy4K
+# Scenario 01: Vague Feature Request
+
+Add a better approval flow to this application. Make it feel polished and implement it now.
+
+The scenario stipulates that the codebase contains multiple approval concepts, an incomplete migration, a disabled feature flag, and contradictory UX tests.

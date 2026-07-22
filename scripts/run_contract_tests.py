@@ -1,1 +1,41 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gdGhlIHN0YW5kYXJkLWxpYnJhcnkgdW5pdCwgY29uY3VycmVuY3ksIGFuZCBob29rIGNvbnRyYWN0IHRlc3RzLiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBvcwppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKClNVSVRFUyA9ICgidW5pdCIsICJzdGF0ZS1jb25jdXJyZW5jeSIsICJjb250cmFjdCIpCgoKZGVmIG1haW4oKSAtPiBpbnQ6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXJvb3QiLCB0eXBlPVBhdGgsIGRlZmF1bHQ9UGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0pCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQogICAgcm9vdCA9IGFyZ3Mucm9vdC5yZXNvbHZlKCkKICAgIGZvciBzdWl0ZSBpbiBTVUlURVM6CiAgICAgICAgY29tbWFuZCA9IFsKICAgICAgICAgICAgc3lzLmV4ZWN1dGFibGUsCiAgICAgICAgICAgICItbSIsCiAgICAgICAgICAgICJ1bml0dGVzdCIsCiAgICAgICAgICAgICJkaXNjb3ZlciIsCiAgICAgICAgICAgICItcyIsCiAgICAgICAgICAgIHN0cihyb290IC8gInRlc3RzIiAvIHN1aXRlKSwKICAgICAgICAgICAgIi1wIiwKICAgICAgICAgICAgInRlc3RfKi5weSIsCiAgICAgICAgICAgICItdiIsCiAgICAgICAgXQogICAgICAgIGVudmlyb25tZW50ID0geyoqb3MuZW52aXJvbiwgIlBZVEhPTkRPTlRXUklURUJZVEVDT0RFIjogIjEifQogICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKGNvbW1hbmQsIGN3ZD1yb290LCBjaGVjaz1GYWxzZSwgZW52PWVudmlyb25tZW50KQogICAgICAgIGlmIHJlc3VsdC5yZXR1cm5jb2RlOgogICAgICAgICAgICByZXR1cm4gcmVzdWx0LnJldHVybmNvZGUKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHJhaXNlIFN5c3RlbUV4aXQobWFpbigpKQ==
+#!/usr/bin/env python3
+"""Run the standard-library unit, concurrency, and hook contract tests."""
+
+from __future__ import annotations
+
+import argparse
+import os
+import subprocess
+import sys
+from pathlib import Path
+
+
+SUITES = ("unit", "state-concurrency", "contract")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    args = parser.parse_args()
+    root = args.root.resolve()
+    for suite in SUITES:
+        command = [
+            sys.executable,
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            str(root / "tests" / suite),
+            "-p",
+            "test_*.py",
+            "-v",
+        ]
+        environment = {**os.environ, "PYTHONDONTWRITEBYTECODE": "1"}
+        result = subprocess.run(command, cwd=root, check=False, env=environment)
+        if result.returncode:
+            return result.returncode
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

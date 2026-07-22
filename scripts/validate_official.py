@@ -1,1 +1,222 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gY3VycmVudCBob3N0LXByb3ZpZGVkIHZhbGlkYXRvcnMgYW5kIHByZXNlcnZlIGhhc2gtYm91bmQgcmVsZWFzZSBldmlkZW5jZS4iIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgZGF0ZXRpbWUgYXMgZHQKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHN5cwppbXBvcnQgdGVtcGZpbGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKClNVSVRFID0gIm15dGhvcy01LWJ1cm5pbmctYXJ0IgpTS0lMTFMgPSAoCiAgICAibXl0aG9zLWJ1aWxkIiwKICAgICJteXRob3MtZGVidWciLAogICAgIm15dGhvcy1kaXNjb3ZlciIsCiAgICAibXl0aG9zLWV4cGxhaW4iLAogICAgIm15dGhvcy1vcHRpb25zIiwKICAgICJteXRob3Mtb3JjaGVzdHJhdGUiLAogICAgIm15dGhvcy1wbGFuIiwKICAgICJteXRob3MtcmVwYWlyIiwKICAgICJteXRob3MtdmVyaWZ5IiwKKQoKCmRlZiBzaGEyNTYocGF0aDogUGF0aCkgLT4gc3RyOgogICAgcmV0dXJuIGhhc2hsaWIuc2hhMjU2KHBhdGgucmVhZF9ieXRlcygpKS5oZXhkaWdlc3QoKQoKCmRlZiBkZWZhdWx0X3ZhbGlkYXRvcihyZWxhdGl2ZTogc3RyKSAtPiBQYXRoOgogICAgaG9tZSA9IFBhdGgob3MuZW52aXJvbi5nZXQoIkNPREVYX0hPTUUiLCBQYXRoLmhvbWUoKSAvICIuY29kZXgiKSkKICAgIHJldHVybiBob21lIC8gInNraWxscyIgLyAiLnN5c3RlbSIgLyByZWxhdGl2ZQoKCmRlZiBjbGVhbl9vdXRwdXQodmFsdWU6IHN0ciB8IE5vbmUsIHJvb3Q6IFBhdGgpIC0+IHN0cjoKICAgIHRleHQgPSAodmFsdWUgb3IgIiIpLnJlcGxhY2Uoc3RyKHJvb3QpLCAiPHN1aXRlLXJvb3Q+IikKICAgIHJldHVybiB0ZXh0LnN0cmlwKClbLTQwMDA6XQoKCmRlZiBydW5fY2hlY2soCiAgICAqLAogICAgY2hlY2tfaWQ6IHN0ciwKICAgIHZhbGlkYXRvcl9pZDogc3RyLAogICAgY29tbWFuZDogbGlzdFtzdHJdLAogICAgdGFyZ2V0OiBQYXRoLAogICAgcm9vdDogUGF0aCwKKSAtPiBkaWN0W3N0ciwgQW55XToKICAgIGNvbXBsZXRlZCA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgIGNvbW1hbmQsCiAgICAgICAgY3dkPXJvb3QsCiAgICAgICAgZW52PXsqKm9zLmVudmlyb24sICJQWVRIT05VVEY4IjogIjEiLCAiUFlUSE9OSU9FTkNPRElORyI6ICJ1dGYtOCJ9LAogICAgICAgIHRleHQ9VHJ1ZSwKICAgICAgICBlbmNvZGluZz0idXRmLTgiLAogICAgICAgIGVycm9ycz0icmVwbGFjZSIsCiAgICAgICAgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwKICAgICAgICB0aW1lb3V0PTEyMCwKICAgICAgICBjaGVjaz1GYWxzZSwKICAgICkKICAgIHJldHVybiB7CiAgICAgICAgImlkIjogY2hlY2tfaWQsCiAgICAgICAgInZhbGlkYXRvciI6IHZhbGlkYXRvcl9pZCwKICAgICAgICAidGFyZ2V0IjogdGFyZ2V0LnJlbGF0aXZlX3RvKHJvb3QpLmFzX3Bvc2l4KCksCiAgICAgICAgInJldHVybmNvZGUiOiBjb21wbGV0ZWQucmV0dXJuY29kZSwKICAgICAgICAic3Rkb3V0IjogY2xlYW5fb3V0cHV0KGNvbXBsZXRlZC5zdGRvdXQsIHJvb3QpLAogICAgICAgICJzdGRlcnIiOiBjbGVhbl9vdXRwdXQoY29tcGxldGVkLnN0ZGVyciwgcm9vdCksCiAgICB9CgoKZGVmIGF0b21pY19qc29uKHBhdGg6IFBhdGgsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBOb25lOgogICAgcGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgZGVzY3JpcHRvciwgdGVtcG9yYXJ5ID0gdGVtcGZpbGUubWtzdGVtcChwcmVmaXg9cGF0aC5uYW1lICsgIi4iLCBzdWZmaXg9Ii50bXAiLCBkaXI9cGF0aC5wYXJlbnQpCiAgICB0cnk6CiAgICAgICAgd2l0aCBvcy5mZG9wZW4oZGVzY3JpcHRvciwgInciLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSJcbiIpIGFzIHN0cmVhbToKICAgICAgICAgICAganNvbi5kdW1wKHBheWxvYWQsIHN0cmVhbSwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikKICAgICAgICAgICAgc3RyZWFtLndyaXRlKCJcbiIpCiAgICAgICAgICAgIHN0cmVhbS5mbHVzaCgpCiAgICAgICAgICAgIG9zLmZzeW5jKHN0cmVhbS5maWxlbm8oKSkKICAgICAgICBvcy5yZXBsYWNlKHRlbXBvcmFyeSwgcGF0aCkKICAgIGZpbmFsbHk6CiAgICAgICAgaWYgb3MucGF0aC5leGlzdHModGVtcG9yYXJ5KToKICAgICAgICAgICAgb3MudW5saW5rKHRlbXBvcmFyeSkKCgpkZWYgbWFpbigpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcm9vdCIsIHR5cGU9UGF0aCwgZGVmYXVsdD1QYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tc2tpbGwtdmFsaWRhdG9yIiwKICAgICAgICB0eXBlPVBhdGgsCiAgICAgICAgZGVmYXVsdD1kZWZhdWx0X3ZhbGlkYXRvcigic2tpbGwtY3JlYXRvci9zY3JpcHRzL3F1aWNrX3ZhbGlkYXRlLnB5IiksCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWNvZGV4LXBsdWdpbi12YWxpZGF0b3IiLAogICAgICAgIHR5cGU9UGF0aCwKICAgICAgICBkZWZhdWx0PWRlZmF1bHRfdmFsaWRhdG9yKCJwbHVnaW4tY3JlYXRvci9zY3JpcHRzL3ZhbGlkYXRlX3BsdWdpbi5weSIpLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1jbGF1ZGUtZXhlY3V0YWJsZSIsIGRlZmF1bHQ9c2h1dGlsLndoaWNoKCJjbGF1ZGUiKSBvciAiIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tb3V0cHV0IiwKICAgICAgICB0eXBlPVBhdGgsCiAgICAgICAgZGVmYXVsdD1QYXRoKCJldmFscy9yZXN1bHRzL29mZmljaWFsLXZhbGlkYXRpb24uanNvbiIpLAogICAgKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKICAgIHJvb3QgPSBhcmdzLnJvb3QucmVzb2x2ZSgpCiAgICBvdXRwdXQgPSBhcmdzLm91dHB1dCBpZiBhcmdzLm91dHB1dC5pc19hYnNvbHV0ZSgpIGVsc2Ugcm9vdCAvIGFyZ3Mub3V0cHV0CiAgICBza2lsbF92YWxpZGF0b3IgPSBhcmdzLnNraWxsX3ZhbGlkYXRvci5leHBhbmR1c2VyKCkucmVzb2x2ZShzdHJpY3Q9RmFsc2UpCiAgICBjb2RleF92YWxpZGF0b3IgPSBhcmdzLmNvZGV4X3BsdWdpbl92YWxpZGF0b3IuZXhwYW5kdXNlcigpLnJlc29sdmUoc3RyaWN0PUZhbHNlKQogICAgZmFpbHVyZXM6IGxpc3Rbc3RyXSA9IFtdCiAgICBmb3IgbGFiZWwsIHBhdGggaW4gKAogICAgICAgICgiT3BlbkFJIFNraWxsIHZhbGlkYXRvciIsIHNraWxsX3ZhbGlkYXRvciksCiAgICAgICAgKCJPcGVuQUkgQ29kZXggcGx1Z2luIHZhbGlkYXRvciIsIGNvZGV4X3ZhbGlkYXRvciksCiAgICApOgogICAgICAgIGlmIG5vdCBwYXRoLmlzX2ZpbGUoKToKICAgICAgICAgICAgZmFpbHVyZXMuYXBwZW5kKGYie2xhYmVsfSBub3QgZm91bmQ6IHtwYXRofSIpCiAgICBjbGF1ZGUgPSBzdHIoYXJncy5jbGF1ZGVfZXhlY3V0YWJsZSkuc3RyaXAoKQogICAgaWYgbm90IGNsYXVkZToKICAgICAgICBmYWlsdXJlcy5hcHBlbmQoIkNsYXVkZSBDb2RlIGV4ZWN1dGFibGUgd2FzIG5vdCBmb3VuZDsgcGFzcyAtLWNsYXVkZS1leGVjdXRhYmxlIikKICAgIGlmIGZhaWx1cmVzOgogICAgICAgIGZvciBmYWlsdXJlIGluIGZhaWx1cmVzOgogICAgICAgICAgICBwcmludChmIkVSUk9SOiB7ZmFpbHVyZX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmV0dXJuIDIKCiAgICBjaGVja3M6IGxpc3RbZGljdFtzdHIsIEFueV1dID0gW10KICAgIGZvciBza2lsbCBpbiBTS0lMTFM6CiAgICAgICAgdGFyZ2V0ID0gcm9vdCAvICJzcmMiIC8gInNoYXJlZCIgLyAic2tpbGxzIiAvIHNraWxsCiAgICAgICAgY2hlY2tzLmFwcGVuZChydW5fY2hlY2soCiAgICAgICAgICAgIGNoZWNrX2lkPWYic2tpbGw6e3NraWxsfSIsCiAgICAgICAgICAgIHZhbGlkYXRvcl9pZD0ib3BlbmFpLXNraWxsLWNyZWF0b3ItcXVpY2stdmFsaWRhdGUiLAogICAgICAgICAgICBjb21tYW5kPVtzeXMuZXhlY3V0YWJsZSwgc3RyKHNraWxsX3ZhbGlkYXRvciksIHN0cih0YXJnZXQpXSwKICAgICAgICAgICAgdGFyZ2V0PXRhcmdldCwKICAgICAgICAgICAgcm9vdD1yb290LAogICAgICAgICkpCiAgICBmb3IgbGFiZWwsIHRhcmdldCBpbiAoCiAgICAgICAgKCJjb2RleC1wbHVnaW46ZGlzdCIsIHJvb3QgLyAiZGlzdCIgLyAiY29kZXgiIC8gU1VJVEUpLAogICAgICAgICgKICAgICAgICAgICAgImNvZGV4LXBsdWdpbjptYXJrZXRwbGFjZSIsCiAgICAgICAgICAgIHJvb3QgLyAibWFya2V0cGxhY2VzIiAvICJjb2RleCIgLyAicGx1Z2lucyIgLyBTVUlURSwKICAgICAgICApLAogICAgKToKICAgICAgICBjaGVja3MuYXBwZW5kKHJ1bl9jaGVjaygKICAgICAgICAgICAgY2hlY2tfaWQ9bGFiZWwsCiAgICAgICAgICAgIHZhbGlkYXRvcl9pZD0ib3BlbmFpLXBsdWdpbi1jcmVhdG9yLXZhbGlkYXRlLXBsdWdpbiIsCiAgICAgICAgICAgIGNvbW1hbmQ9W3N5cy5leGVjdXRhYmxlLCBzdHIoY29kZXhfdmFsaWRhdG9yKSwgc3RyKHRhcmdldCldLAogICAgICAgICAgICB0YXJnZXQ9dGFyZ2V0LAogICAgICAgICAgICByb290PXJvb3QsCiAgICAgICAgKSkKICAgIGZvciBsYWJlbCwgdGFyZ2V0IGluICgKICAgICAgICAoImNsYXVkZS1wbHVnaW46ZGlzdCIsIHJvb3QgLyAiZGlzdCIgLyAiY2xhdWRlIiAvIFNVSVRFKSwKICAgICAgICAoImNsYXVkZS1wbHVnaW46bWFya2V0cGxhY2UiLCByb290IC8gIm1hcmtldHBsYWNlcyIgLyAiY2xhdWRlIiAvICJwbHVnaW5zIiAvIFNVSVRFKSwKICAgICk6CiAgICAgICAgY2hlY2tzLmFwcGVuZChydW5fY2hlY2soCiAgICAgICAgICAgIGNoZWNrX2lkPWxhYmVsLAogICAgICAgICAgICB2YWxpZGF0b3JfaWQ9ImNsYXVkZS1jb2RlLXBsdWdpbi12YWxpZGF0ZSIsCiAgICAgICAgICAgIGNvbW1hbmQ9W2NsYXVkZSwgInBsdWdpbiIsICJ2YWxpZGF0ZSIsIHN0cih0YXJnZXQpXSwKICAgICAgICAgICAgdGFyZ2V0PXRhcmdldCwKICAgICAgICAgICAgcm9vdD1yb290LAogICAgICAgICkpCgogICAgdmVyc2lvbiA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgIFtjbGF1ZGUsICItLXZlcnNpb24iXSwKICAgICAgICBjd2Q9cm9vdCwKICAgICAgICBlbnY9eyoqb3MuZW52aXJvbiwgIlBZVEhPTlVURjgiOiAiMSIsICJQWVRIT05JT0VOQ09ESU5HIjogInV0Zi04In0sCiAgICAgICAgdGV4dD1UcnVlLAogICAgICAgIGVuY29kaW5nPSJ1dGYtOCIsCiAgICAgICAgZXJyb3JzPSJyZXBsYWNlIiwKICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgICAgIHRpbWVvdXQ9MzAsCiAgICAgICAgY2hlY2s9RmFsc2UsCiAgICApCiAgICBiaW5kaW5nX3BhdGhzID0gWwogICAgICAgICoocm9vdCAvICJzcmMiIC8gInNoYXJlZCIgLyAic2tpbGxzIiAvIHNraWxsIC8gIlNLSUxMLm1kIiBmb3Igc2tpbGwgaW4gU0tJTExTKSwKICAgICAgICByb290IC8gInNyYyIgLyAiY29kZXgiIC8gU1VJVEUgLyAiLmNvZGV4LXBsdWdpbiIgLyAicGx1Z2luLmpzb24iLAogICAgICAgIHJvb3QgLyAic3JjIiAvICJjbGF1ZGUiIC8gU1VJVEUgLyAiLmNsYXVkZS1wbHVnaW4iIC8gInBsdWdpbi5qc29uIiwKICAgICAgICByb290IC8gImRpc3QiIC8gImNvZGV4IiAvIFNVSVRFIC8gImJ1aWxkLW1hbmlmZXN0Lmpzb24iLAogICAgICAgIHJvb3QgLyAiZGlzdCIgLyAiY2xhdWRlIiAvIFNVSVRFIC8gImJ1aWxkLW1hbmlmZXN0Lmpzb24iLAogICAgICAgIHJvb3QgLyAibWFya2V0cGxhY2VzIiAvICJjb2RleCIgLyAiLmFnZW50cyIgLyAicGx1Z2lucyIgLyAibWFya2V0cGxhY2UuanNvbiIsCiAgICAgICAgcm9vdCAvICJtYXJrZXRwbGFjZXMiIC8gImNsYXVkZSIgLyAiLmNsYXVkZS1wbHVnaW4iIC8gIm1hcmtldHBsYWNlLmpzb24iLAogICAgICAgIHJvb3QgLyAic2NyaXB0cyIgLyAidmFsaWRhdGVfb2ZmaWNpYWwucHkiLAogICAgXQogICAgbWlzc2luZyA9IFtwYXRoIGZvciBwYXRoIGluIGJpbmRpbmdfcGF0aHMgaWYgbm90IHBhdGguaXNfZmlsZSgpXQogICAgZmFpbGVkID0gW2NoZWNrIGZvciBjaGVjayBpbiBjaGVja3MgaWYgY2hlY2tbInJldHVybmNvZGUiXSAhPSAwXQogICAgc3RhdHVzID0gIlBBU1MiIGlmIG5vdCBtaXNzaW5nIGFuZCBub3QgZmFpbGVkIGFuZCB2ZXJzaW9uLnJldHVybmNvZGUgPT0gMCBlbHNlICJGQUlMIgogICAgcGF5bG9hZCA9IHsKICAgICAgICAic2NoZW1hX3ZlcnNpb24iOiAxLAogICAgICAgICJzdWl0ZSI6IFNVSVRFLAogICAgICAgICJzdGF0dXMiOiBzdGF0dXMsCiAgICAgICAgInZhbGlkYXRlZF9hdF91dGMiOiBkdC5kYXRldGltZS5ub3coZHQudGltZXpvbmUudXRjKS5yZXBsYWNlKG1pY3Jvc2Vjb25kPTApLmlzb2Zvcm1hdCgpLAogICAgICAgICJweXRob25fdmVyc2lvbiI6IHN5cy52ZXJzaW9uLnNwbGl0KClbMF0sCiAgICAgICAgInZhbGlkYXRvcnMiOiB7CiAgICAgICAgICAgICJvcGVuYWlfc2tpbGxfdmFsaWRhdG9yX3NoYTI1NiI6IHNoYTI1Nihza2lsbF92YWxpZGF0b3IpLAogICAgICAgICAgICAib3BlbmFpX2NvZGV4X3BsdWdpbl92YWxpZGF0b3Jfc2hhMjU2Ijogc2hhMjU2KGNvZGV4X3ZhbGlkYXRvciksCiAgICAgICAgICAgICJjbGF1ZGVfY29kZV92ZXJzaW9uIjogY2xlYW5fb3V0cHV0KHZlcnNpb24uc3Rkb3V0IG9yIHZlcnNpb24uc3RkZXJyLCByb290KSwKICAgICAgICB9LAogICAgICAgICJjaGVja3MiOiBjaGVja3MsCiAgICAgICAgImJpbmRpbmdzIjogewogICAgICAgICAgICBwYXRoLnJlbGF0aXZlX3RvKHJvb3QpLmFzX3Bvc2l4KCk6IHNoYTI1NihwYXRoKQogICAgICAgICAgICBmb3IgcGF0aCBpbiBiaW5kaW5nX3BhdGhzCiAgICAgICAgICAgIGlmIHBhdGguaXNfZmlsZSgpCiAgICAgICAgfSwKICAgICAgICAibWlzc2luZ19iaW5kaW5ncyI6IFtwYXRoLnJlbGF0aXZlX3RvKHJvb3QpLmFzX3Bvc2l4KCkgZm9yIHBhdGggaW4gbWlzc2luZ10sCiAgICB9CiAgICBhdG9taWNfanNvbihvdXRwdXQsIHBheWxvYWQpCiAgICBpZiBzdGF0dXMgIT0gIlBBU1MiOgogICAgICAgIGZvciBjaGVjayBpbiBmYWlsZWQ6CiAgICAgICAgICAgIHByaW50KGYiRVJST1I6IHtjaGVja1snaWQnXX0gZmFpbGVkOiB7Y2hlY2tbJ3N0ZGVyciddIG9yIGNoZWNrWydzdGRvdXQnXX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgZm9yIHBhdGggaW4gbWlzc2luZzoKICAgICAgICAgICAgcHJpbnQoZiJFUlJPUjogTWlzc2luZyBiaW5kaW5nOiB7cGF0aH0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgaWYgdmVyc2lvbi5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgICAgIHByaW50KCJFUlJPUjogY2xhdWRlIC0tdmVyc2lvbiBmYWlsZWQiLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmV0dXJuIDEKICAgIHByaW50KGYiT2ZmaWNpYWwgdmFsaWRhdG9yIGV2aWRlbmNlIHBhc3NlZCBhbmQgd2FzIHdyaXR0ZW4gdG8ge291dHB1dH0iKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+"""Run current host-provided validators and preserve hash-bound release evidence."""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import hashlib
+import json
+import os
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+from typing import Any
+
+SUITE = "mythos-5-burning-art"
+SKILLS = (
+    "mythos-build",
+    "mythos-debug",
+    "mythos-discover",
+    "mythos-explain",
+    "mythos-options",
+    "mythos-orchestrate",
+    "mythos-plan",
+    "mythos-repair",
+    "mythos-verify",
+)
+
+
+def sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def default_validator(relative: str) -> Path:
+    home = Path(os.environ.get("CODEX_HOME", Path.home() / ".codex"))
+    return home / "skills" / ".system" / relative
+
+
+def clean_output(value: str | None, root: Path) -> str:
+    text = (value or "").replace(str(root), "<suite-root>")
+    return text.strip()[-4000:]
+
+
+def run_check(
+    *,
+    check_id: str,
+    validator_id: str,
+    command: list[str],
+    target: Path,
+    root: Path,
+) -> dict[str, Any]:
+    completed = subprocess.run(
+        command,
+        cwd=root,
+        env={**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"},
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        capture_output=True,
+        timeout=120,
+        check=False,
+    )
+    return {
+        "id": check_id,
+        "validator": validator_id,
+        "target": target.relative_to(root).as_posix(),
+        "returncode": completed.returncode,
+        "stdout": clean_output(completed.stdout, root),
+        "stderr": clean_output(completed.stderr, root),
+    }
+
+
+def atomic_json(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temporary = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:
+            json.dump(payload, stream, ensure_ascii=False, indent=2)
+            stream.write("\n")
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument(
+        "--skill-validator",
+        type=Path,
+        default=default_validator("skill-creator/scripts/quick_validate.py"),
+    )
+    parser.add_argument(
+        "--codex-plugin-validator",
+        type=Path,
+        default=default_validator("plugin-creator/scripts/validate_plugin.py"),
+    )
+    parser.add_argument("--claude-executable", default=shutil.which("claude") or "")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path("evals/results/official-validation.json"),
+    )
+    args = parser.parse_args()
+    root = args.root.resolve()
+    output = args.output if args.output.is_absolute() else root / args.output
+    skill_validator = args.skill_validator.expanduser().resolve(strict=False)
+    codex_validator = args.codex_plugin_validator.expanduser().resolve(strict=False)
+    failures: list[str] = []
+    for label, path in (
+        ("OpenAI Skill validator", skill_validator),
+        ("OpenAI Codex plugin validator", codex_validator),
+    ):
+        if not path.is_file():
+            failures.append(f"{label} not found: {path}")
+    claude = str(args.claude_executable).strip()
+    if not claude:
+        failures.append("Claude Code executable was not found; pass --claude-executable")
+    if failures:
+        for failure in failures:
+            print(f"ERROR: {failure}", file=sys.stderr)
+        return 2
+
+    checks: list[dict[str, Any]] = []
+    for skill in SKILLS:
+        target = root / "src" / "shared" / "skills" / skill
+        checks.append(run_check(
+            check_id=f"skill:{skill}",
+            validator_id="openai-skill-creator-quick-validate",
+            command=[sys.executable, str(skill_validator), str(target)],
+            target=target,
+            root=root,
+        ))
+    for label, target in (
+        ("codex-plugin:dist", root / "dist" / "codex" / SUITE),
+        (
+            "codex-plugin:marketplace",
+            root / "marketplaces" / "codex" / "plugins" / SUITE,
+        ),
+    ):
+        checks.append(run_check(
+            check_id=label,
+            validator_id="openai-plugin-creator-validate-plugin",
+            command=[sys.executable, str(codex_validator), str(target)],
+            target=target,
+            root=root,
+        ))
+    for label, target in (
+        ("claude-plugin:dist", root / "dist" / "claude" / SUITE),
+        ("claude-plugin:marketplace", root / "marketplaces" / "claude" / "plugins" / SUITE),
+    ):
+        checks.append(run_check(
+            check_id=label,
+            validator_id="claude-code-plugin-validate",
+            command=[claude, "plugin", "validate", str(target)],
+            target=target,
+            root=root,
+        ))
+
+    version = subprocess.run(
+        [claude, "--version"],
+        cwd=root,
+        env={**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"},
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        capture_output=True,
+        timeout=30,
+        check=False,
+    )
+    binding_paths = [
+        *(root / "src" / "shared" / "skills" / skill / "SKILL.md" for skill in SKILLS),
+        root / "src" / "codex" / SUITE / ".codex-plugin" / "plugin.json",
+        root / "src" / "claude" / SUITE / ".claude-plugin" / "plugin.json",
+        root / "dist" / "codex" / SUITE / "build-manifest.json",
+        root / "dist" / "claude" / SUITE / "build-manifest.json",
+        root / "marketplaces" / "codex" / ".agents" / "plugins" / "marketplace.json",
+        root / "marketplaces" / "claude" / ".claude-plugin" / "marketplace.json",
+        root / "scripts" / "validate_official.py",
+    ]
+    missing = [path for path in binding_paths if not path.is_file()]
+    failed = [check for check in checks if check["returncode"] != 0]
+    status = "PASS" if not missing and not failed and version.returncode == 0 else "FAIL"
+    payload = {
+        "schema_version": 1,
+        "suite": SUITE,
+        "status": status,
+        "validated_at_utc": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
+        "python_version": sys.version.split()[0],
+        "validators": {
+            "openai_skill_validator_sha256": sha256(skill_validator),
+            "openai_codex_plugin_validator_sha256": sha256(codex_validator),
+            "claude_code_version": clean_output(version.stdout or version.stderr, root),
+        },
+        "checks": checks,
+        "bindings": {
+            path.relative_to(root).as_posix(): sha256(path)
+            for path in binding_paths
+            if path.is_file()
+        },
+        "missing_bindings": [path.relative_to(root).as_posix() for path in missing],
+    }
+    atomic_json(output, payload)
+    if status != "PASS":
+        for check in failed:
+            print(f"ERROR: {check['id']} failed: {check['stderr'] or check['stdout']}", file=sys.stderr)
+        for path in missing:
+            print(f"ERROR: Missing binding: {path}", file=sys.stderr)
+        if version.returncode != 0:
+            print("ERROR: claude --version failed", file=sys.stderr)
+        return 1
+    print(f"Official validator evidence passed and was written to {output}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,1 +1,10 @@
-MS4gKipIb3cgc2hvdWxkIGFjY291bnQgbWVyZ2luZyBoYW5kbGUgYW4gYXJjaGl2ZWQgc291cmNlIG9yIHRhcmdldCBhY2NvdW50IHVuZGVyIGxlZ2FsIGhvbGQ/KioKICAgLSBXaHkgdGhpcyBtYXR0ZXJzOiBBIG1lcmdlIGNvdWxkIGRlbGV0ZSwgcmVsb2NhdGUsIGRlZHVwbGljYXRlLCBvciBvYnNjdXJlIHJlY29yZHMgdGhhdCBtdXN0IHJlbWFpbiBwcmVzZXJ2ZWQgYW5kIHRyYWNlYWJsZS4KICAgLSBFdmlkZW5jZSBvciB1bmNlcnRhaW50eTogVGhlIGFwcHJvdmVkIHBsYW4gaXMgbm93IGludmFsaWQgYW5kIGFwcHJvdmFsIGludmFsaWRhdGVkOyBwaGFzZSAzIFVOS05PV05TX0FORF9CTElORFNQT1RTIGlzIGFjdGl2ZSwgcGhhc2UgOSBpcyBibG9ja2VkLCBhbmQgaG9sZCBkZXRlY3Rpb24sIGN1c3RvZHksIGF1ZGl0LCBhY2NlcHRhbmNlLCBhbmQgcm9sbGJhY2sgcnVsZXMgcmVtYWluIHVua25vd24uCiAgIC0gQS4gKipSZWNvbW1lbmRlZCBvcHRpb24qKiDigJQgRXhjbHVkZSBoZWxkIGFjY291bnRzIGFuZCBsZWF2ZSBhbGwgcHJvdGVjdGVkIGRhdGEgdW5jaGFuZ2VkLgogICAtIEIuIEFsdGVybmF0aXZlIOKAlCBJbXBsZW1lbnQgYSBob2xkLWF3YXJlIGF0b21pYyBtZXJnZSBvbmx5IGFmdGVyIGF1dGhvcml0YXRpdmUgcHJlc2VydmF0aW9uIGFuZCBsaW5lYWdlIHJ1bGVzIGFyZSBzdXBwbGllZC4KICAgLSBDLiBBbHRlcm5hdGl2ZSDigJQgU3VzcGVuZCBhbGwgYWNjb3VudCBtZXJnZXMgdW50aWwgYSBmb3JtYWwgY29tcGxpYW5jZSBwb2xpY3kgZXhpc3RzLgogICAtIEQuIEtlZXAgdGhlIG9yaWdpbmFsIGJlaGF2aW9yIGRlc3BpdGUgdW5hY2NlcHRhYmxlIHJldGVudGlvbiByaXNrLgogICAtIElmIHVuYW5zd2VyZWQ6IFJlbWFpbiBwYXVzZWQ7IHJlcXVpcmUgcmV2aXNlZCBjcml0ZXJpYSBhbmQgcGxhbiwgYSBmcmVzaCBpbmRlcGVuZGVudCBjcml0aWMsIGFuZCBuZXcgZXhwbGljaXQgYXBwcm92YWwuCgpNWVRIT1NfV0FJVElOR19GT1JfSFVNQU5fVjE=
+1. **How should account merging handle an archived source or target account under legal hold?**
+   - Why this matters: A merge could delete, relocate, deduplicate, or obscure records that must remain preserved and traceable.
+   - Evidence or uncertainty: The approved plan is now invalid and approval invalidated; phase 3 UNKNOWNS_AND_BLINDSPOTS is active, phase 9 is blocked, and hold detection, custody, audit, acceptance, and rollback rules remain unknown.
+   - A. **Recommended option** — Exclude held accounts and leave all protected data unchanged.
+   - B. Alternative — Implement a hold-aware atomic merge only after authoritative preservation and lineage rules are supplied.
+   - C. Alternative — Suspend all account merges until a formal compliance policy exists.
+   - D. Keep the original behavior despite unacceptable retention risk.
+   - If unanswered: Remain paused; require revised criteria and plan, a fresh independent critic, and new explicit approval.
+
+MYTHOS_WAITING_FOR_HUMAN_V1

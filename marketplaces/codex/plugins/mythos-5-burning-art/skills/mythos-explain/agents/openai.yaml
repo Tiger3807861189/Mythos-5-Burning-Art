@@ -1,1 +1,4 @@
-aW50ZXJmYWNlOgogIGRpc3BsYXlfbmFtZTogIk15dGhvcyBFeHBsYWluIgogIHNob3J0X2Rlc2NyaXB0aW9uOiAiUmVjb25jaWxlLCBleHBsYWluLCBhbmQgcXVpeiIKICBkZWZhdWx0X3Byb21wdDogIlVzZSAkbXl0aG9zLWV4cGxhaW4gdG8gcmVjb25jaWxlIHRoZSBjaGFuZ2UsIGV4cGxhaW4gZXZpZGVuY2UgYW5kIHJpc2ssIGFuZCBjaGVjayB1bmRlcnN0YW5kaW5nLiIK
+interface:
+  display_name: "Mythos Explain"
+  short_description: "Reconcile, explain, and quiz"
+  default_prompt: "Use $mythos-explain to reconcile the change, explain evidence and risk, and check understanding."

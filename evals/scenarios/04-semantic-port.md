@@ -1,1 +1,5 @@
-IyBTY2VuYXJpbyAwNDogU2VtYW50aWMgUG9ydAoKUG9ydCB0aGUgcmVmZXJlbmNlIHBhcnNlciBmcm9tIFJ1c3QgdG8gVHlwZVNjcmlwdCBhbmQgcHJlc2VydmUgYmVoYXZpb3IuCgpUaGUgc2NlbmFyaW8gc3RpcHVsYXRlcyBzdWJ0bGUgVW5pY29kZSwgZXJyb3Itb3JkZXJpbmcsIHN0cmVhbWluZywgYW5kIG92ZXJmbG93IGJlaGF2aW9yIGluIHRoZSBzb3VyY2UgYW5kIGV4cGVjdGVkIHRhcmdldCBzZW1hbnRpY3MuCg==
+# Scenario 04: Semantic Port
+
+Port the reference parser from Rust to TypeScript and preserve behavior.
+
+The scenario stipulates subtle Unicode, error-ordering, streaming, and overflow behavior in the source and expected target semantics.

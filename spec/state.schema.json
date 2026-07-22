@@ -1,1 +1,318 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAiJGlkIjogImh0dHBzOi8vbXl0aG9zLmxvY2FsL3NjaGVtYS9zdGF0ZS5zY2hlbWEuanNvbiIsCiAgInRpdGxlIjogIk15dGhvcyBSdW50aW1lIFN0YXRlIFNuYXBzaG90IiwKICAidHlwZSI6ICJvYmplY3QiLAogICJyZXF1aXJlZCI6IFsKICAgICJzY2hlbWFfdmVyc2lvbiIsCiAgICAicnVuX2lkIiwKICAgICJzZXNzaW9uX2lkIiwKICAgICJwcm9qZWN0IiwKICAgICJ0YXNrX3Byb2ZpbGUiLAogICAgInBoYXNlIiwKICAgICJwaGFzZV9zdGF0dXNlcyIsCiAgICAicGhhc2VfcmVjb3JkcyIsCiAgICAiZXZpZGVuY2UiLAogICAgImF0dGVtcHRzIiwKICAgICJyZXBlYXRlZF9ub19nYWluX2ZhaWx1cmVzIiwKICAgICJtdXN0X3N0b3AiLAogICAgInRlcm1pbmFsX3N0YXRlIiwKICAgICJ0ZXJtaW5hbF9yZWFzb24iLAogICAgInRlcm1pbmFsX2V2aWRlbmNlIiwKICAgICJyZXN1bWVfY29uZGl0aW9uIiwKICAgICJsYXN0X3NlcXVlbmNlIgogIF0sCiAgInByb3BlcnRpZXMiOiB7CiAgICAic2NoZW1hX3ZlcnNpb24iOiB7CiAgICAgICJjb25zdCI6ICIxIgogICAgfSwKICAgICJydW5faWQiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICJwYXR0ZXJuIjogIl5bQS1aYS16MC05Xy1dKyQiCiAgICB9LAogICAgInNlc3Npb25faWQiOiB7CiAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICJtaW5MZW5ndGgiOiAxCiAgICB9LAogICAgInByb2plY3QiOiB7CiAgICAgICJ0eXBlIjogIm9iamVjdCIsCiAgICAgICJyZXF1aXJlZCI6IFsKICAgICAgICAiaXNfZ2l0IiwKICAgICAgICAicHJvamVjdF9yb290IiwKICAgICAgICAicmVwb3NpdG9yeV9pZCIsCiAgICAgICAgIndvcmt0cmVlX2lkIgogICAgICBdLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAiaXNfZ2l0IjogewogICAgICAgICAgInR5cGUiOiAiYm9vbGVhbiIKICAgICAgICB9LAogICAgICAgICJwcm9qZWN0X3Jvb3QiOiB7CiAgICAgICAgICAidHlwZSI6ICJzdHJpbmciLAogICAgICAgICAgIm1pbkxlbmd0aCI6IDEKICAgICAgICB9LAogICAgICAgICJyZXBvc2l0b3J5X2lkIjogewogICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICJwYXR0ZXJuIjogIl5bYS1mMC05XXs2NH0kIgogICAgICAgIH0sCiAgICAgICAgIndvcmt0cmVlX2lkIjogewogICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICJwYXR0ZXJuIjogIl5bYS1mMC05XXs2NH0kIgogICAgICAgIH0KICAgICAgfSwKICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKICAgIH0sCiAgICAidGFza19wcm9maWxlIjogewogICAgICAiZW51bSI6IFsKICAgICAgICAiYnVpbGQiLAogICAgICAgICJkZWJ1ZyIsCiAgICAgICAgInJlcGFpciIsCiAgICAgICAgInBsYW5fb25seSIKICAgICAgXQogICAgfSwKICAgICJwaGFzZSI6IHsKICAgICAgIiRyZWYiOiAiIy8kZGVmcy9waGFzZSIKICAgIH0sCiAgICAicGhhc2Vfc3RhdHVzZXMiOiB7CiAgICAgICJ0eXBlIjogIm9iamVjdCIsCiAgICAgICJyZXF1aXJlZCI6IFsKICAgICAgICAiSU5UQUtFIiwKICAgICAgICAiVEVSUklUT1JZX0RJU0NPVkVSWSIsCiAgICAgICAgIlVOS05PV05TX0FORF9CTElORFNQT1RTIiwKICAgICAgICAiT1BUSU9OU19SRUZFUkVOQ0VTX09SX1BST1RPVFlQRVMiLAogICAgICAgICJBQ0NFUFRBTkNFX0NSSVRFUklBIiwKICAgICAgICAiSU1QTEVNRU5UQVRJT05fUExBTiIsCiAgICAgICAgIklOREVQRU5ERU5UX1BMQU5fQ1JJVElRVUUiLAogICAgICAgICJBV0FJVElOR19IVU1BTl9QTEFOX0FQUFJPVkFMIiwKICAgICAgICAiSU1QTEVNRU5UQVRJT05fTE9PUCIsCiAgICAgICAgIklOREVQRU5ERU5UX1ZFUklGSUNBVElPTiIsCiAgICAgICAgIlBMQU5fVlNfQUNUVUFMX1JFQ09OQ0lMSUFUSU9OIiwKICAgICAgICAiRVhQTEFOQVRJT05fQU5EX0NPTVBSRUhFTlNJT05fQ0hFQ0siLAogICAgICAgICJET05FIgogICAgICBdLAogICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiB7CiAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9waGFzZV9zdGF0dXMiCiAgICAgIH0KICAgIH0sCiAgICAicGhhc2VfcmVjb3JkcyI6IHsKICAgICAgInR5cGUiOiAiYXJyYXkiLAogICAgICAiaXRlbXMiOiB7CiAgICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgICAicmVxdWlyZWQiOiBbCiAgICAgICAgICAicGhhc2UiLAogICAgICAgICAgIm91dGNvbWUiLAogICAgICAgICAgInJlYXNvbiIsCiAgICAgICAgICAiZXZpZGVuY2UiLAogICAgICAgICAgIm5vdF9hcHBsaWNhYmxlX2NvZGUiCiAgICAgICAgXSwKICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICJwaGFzZSI6IHsKICAgICAgICAgICAgIiRyZWYiOiAiIy8kZGVmcy9waGFzZSIKICAgICAgICAgIH0sCiAgICAgICAgICAib3V0Y29tZSI6IHsKICAgICAgICAgICAgImVudW0iOiBbCiAgICAgICAgICAgICAgIlBBU1MiLAogICAgICAgICAgICAgICJOT1RfQVBQTElDQUJMRSIKICAgICAgICAgICAgXQogICAgICAgICAgfSwKICAgICAgICAgICJyZWFzb24iOiB7CiAgICAgICAgICAgICJ0eXBlIjogWwogICAgICAgICAgICAgICJzdHJpbmciLAogICAgICAgICAgICAgICJudWxsIgogICAgICAgICAgICBdCiAgICAgICAgICB9LAogICAgICAgICAgImV2aWRlbmNlIjogewogICAgICAgICAgICAidHlwZSI6ICJvYmplY3QiCiAgICAgICAgICB9LAogICAgICAgICAgIm5vdF9hcHBsaWNhYmxlX2NvZGUiOiB7CiAgICAgICAgICAgICJ0eXBlIjogWwogICAgICAgICAgICAgICJzdHJpbmciLAogICAgICAgICAgICAgICJudWxsIgogICAgICAgICAgICBdCiAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQogICAgICB9CiAgICB9LAogICAgImV2aWRlbmNlIjogewogICAgICAidHlwZSI6ICJvYmplY3QiCiAgICB9LAogICAgImF0dGVtcHRzIjogewogICAgICAidHlwZSI6ICJhcnJheSIsCiAgICAgICJpdGVtcyI6IHsKICAgICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAgICJyZXF1aXJlZCI6IFsKICAgICAgICAgICJmaW5nZXJwcmludCIsCiAgICAgICAgICAicGhhc2UiLAogICAgICAgICAgImFwcHJvdmFsX2J1bmRsZV9oYXNoIiwKICAgICAgICAgICJhY3RfaWQiLAogICAgICAgICAgInRvb2xfbmFtZSIsCiAgICAgICAgICAidG9vbF9pbnB1dF9oYXNoIiwKICAgICAgICAgICJ0b29sX3VzZV9pZCIsCiAgICAgICAgICAicGVybWlzc2lvbl9yZXF1ZXN0X29ic2VydmVkIiwKICAgICAgICAgICJwZXJtaXNzaW9uX3JlcXVlc3RfY291bnQiLAogICAgICAgICAgInByb2plY3RfZmluZ2VycHJpbnRfYmVmb3JlIiwKICAgICAgICAgICJhdXRob3JpdHlfdmFsaWRfYXRfY2xvc2UiLAogICAgICAgICAgImF1dGhvcml0eV9pbnZhbGlkX3JlYXNvbnMiLAogICAgICAgICAgInNjb3BlX3ZhbGlkX2F0X2Nsb3NlIiwKICAgICAgICAgICJ1bmFwcHJvdmVkX3BhdGhzIiwKICAgICAgICAgICJzdGVwIiwKICAgICAgICAgICJoeXBvdGhlc2lzIiwKICAgICAgICAgICJhY3Rpb24iLAogICAgICAgICAgImV2aWRlbmNlX3NuYXBzaG90IiwKICAgICAgICAgICJmYWlsZWQiLAogICAgICAgICAgImV2aWRlbmNlX2dhaW4iLAogICAgICAgICAgInByb2plY3RfZmluZ2VycHJpbnQiCiAgICAgICAgXSwKICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICJmaW5nZXJwcmludCI6IHsKICAgICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICAgInBhdHRlcm4iOiAiXlthLWYwLTldezY0fSQiCiAgICAgICAgICB9LAogICAgICAgICAgInBoYXNlIjogewogICAgICAgICAgICAiJHJlZiI6ICIjLyRkZWZzL3BoYXNlIgogICAgICAgICAgfSwKICAgICAgICAgICJhcHByb3ZhbF9idW5kbGVfaGFzaCI6IHsKICAgICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICAgInBhdHRlcm4iOiAiXlthLWYwLTldezY0fSQiCiAgICAgICAgICB9LAogICAgICAgICAgImFjdF9pZCI6IHsKICAgICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICAgInBhdHRlcm4iOiAiXlthLWYwLTldezMyfSQiCiAgICAgICAgICB9LAogICAgICAgICAgInRvb2xfbmFtZSI6IHsKICAgICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICAgIm1pbkxlbmd0aCI6IDEKICAgICAgICAgIH0sCiAgICAgICAgICAidG9vbF9pbnB1dF9oYXNoIjogewogICAgICAgICAgICAidHlwZSI6ICJzdHJpbmciLAogICAgICAgICAgICAicGF0dGVybiI6ICJeW2EtZjAtOV17NjR9JCIKICAgICAgICAgIH0sCiAgICAgICAgICAidG9vbF91c2VfaWQiOiB7CiAgICAgICAgICAgICJ0eXBlIjogWwogICAgICAgICAgICAgICJzdHJpbmciLAogICAgICAgICAgICAgICJudWxsIgogICAgICAgICAgICBdCiAgICAgICAgICB9LAogICAgICAgICAgInBlcm1pc3Npb25fcmVxdWVzdF9vYnNlcnZlZCI6IHsKICAgICAgICAgICAgInR5cGUiOiAiYm9vbGVhbiIKICAgICAgICAgIH0sCiAgICAgICAgICAicGVybWlzc2lvbl9yZXF1ZXN0X2NvdW50IjogewogICAgICAgICAgICAidHlwZSI6ICJpbnRlZ2VyIiwKICAgICAgICAgICAgIm1pbmltdW0iOiAwCiAgICAgICAgICB9LAogICAgICAgICAgInByb2plY3RfZmluZ2VycHJpbnRfYmVmb3JlIjogewogICAgICAgICAgICAidHlwZSI6ICJzdHJpbmciLAogICAgICAgICAgICAicGF0dGVybiI6ICJeW2EtZjAtOV17NjR9JCIKICAgICAgICAgIH0sCiAgICAgICAgICAiYXV0aG9yaXR5X3ZhbGlkX2F0X2Nsb3NlIjogewogICAgICAgICAgICAidHlwZSI6ICJib29sZWFuIgogICAgICAgICAgfSwKICAgICAgICAgICJhdXRob3JpdHlfaW52YWxpZF9yZWFzb25zIjogewogICAgICAgICAgICAidHlwZSI6ICJhcnJheSIsCiAgICAgICAgICAgICJpdGVtcyI6IHsKICAgICAgICAgICAgICAidHlwZSI6ICJzdHJpbmciCiAgICAgICAgICAgIH0KICAgICAgICAgIH0sCiAgICAgICAgICAic3RlcCI6IHsKICAgICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICAgIm1pbkxlbmd0aCI6IDEKICAgICAgICAgIH0sCiAgICAgICAgICAiaHlwb3RoZXNpcyI6IHt9LAogICAgICAgICAgImFjdGlvbiI6IHt9LAogICAgICAgICAgImV2aWRlbmNlX3NuYXBzaG90Ijoge30sCiAgICAgICAgICAiZmFpbGVkIjogewogICAgICAgICAgICAidHlwZSI6ICJib29sZWFuIgogICAgICAgICAgfSwKICAgICAgICAgICJldmlkZW5jZV9nYWluIjogewogICAgICAgICAgICAidHlwZSI6ICJib29sZWFuIgogICAgICAgICAgfSwKICAgICAgICAgICJwcm9qZWN0X2ZpbmdlcnByaW50IjogewogICAgICAgICAgICAidHlwZSI6ICJzdHJpbmciLAogICAgICAgICAgICAicGF0dGVybiI6ICJeW2EtZjAtOV17NjR9JCIKICAgICAgICAgIH0sCiAgICAgICAgICAic2NvcGVfdmFsaWRfYXRfY2xvc2UiOiB7CiAgICAgICAgICAgICJ0eXBlIjogImJvb2xlYW4iCiAgICAgICAgICB9LAogICAgICAgICAgInVuYXBwcm92ZWRfcGF0aHMiOiB7CiAgICAgICAgICAgICJ0eXBlIjogImFycmF5IiwKICAgICAgICAgICAgInVuaXF1ZUl0ZW1zIjogdHJ1ZSwKICAgICAgICAgICAgIml0ZW1zIjogewogICAgICAgICAgICAgICJ0eXBlIjogInN0cmluZyIsCiAgICAgICAgICAgICAgIm1pbkxlbmd0aCI6IDEKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKICAgICAgfQogICAgfSwKICAgICJyZXBlYXRlZF9ub19nYWluX2ZhaWx1cmVzIjogewogICAgICAidHlwZSI6ICJpbnRlZ2VyIiwKICAgICAgIm1pbmltdW0iOiAwCiAgICB9LAogICAgIm11c3Rfc3RvcCI6IHsKICAgICAgInR5cGUiOiAiYm9vbGVhbiIKICAgIH0sCiAgICAidGVybWluYWxfc3RhdGUiOiB7CiAgICAgICJlbnVtIjogWwogICAgICAgIG51bGwsCiAgICAgICAgIkRPTkUiLAogICAgICAgICJCTE9DS0VEIiwKICAgICAgICAiTkVFRFNfSFVNQU5fSlVER01FTlQiLAogICAgICAgICJBV0FJVElOR19IVU1BTl9JTlBVVCIsCiAgICAgICAgIkFXQUlUSU5HX0hVTUFOX1BMQU5fQVBQUk9WQUwiLAogICAgICAgICJWRVJJRklDQVRJT05fRkFJTEVEIgogICAgICBdCiAgICB9LAogICAgInRlcm1pbmFsX3JlYXNvbiI6IHsKICAgICAgInR5cGUiOiBbCiAgICAgICAgInN0cmluZyIsCiAgICAgICAgIm51bGwiCiAgICAgIF0KICAgIH0sCiAgICAidGVybWluYWxfZXZpZGVuY2UiOiB7CiAgICAgICJ0eXBlIjogWwogICAgICAgICJvYmplY3QiLAogICAgICAgICJudWxsIgogICAgICBdCiAgICB9LAogICAgInJlc3VtZV9jb25kaXRpb24iOiB7CiAgICAgICJ0eXBlIjogWwogICAgICAgICJzdHJpbmciLAogICAgICAgICJudWxsIgogICAgICBdCiAgICB9LAogICAgImxhc3Rfc2VxdWVuY2UiOiB7CiAgICAgICJ0eXBlIjogImludGVnZXIiLAogICAgICAibWluaW11bSI6IDEKICAgIH0KICB9LAogICIkZGVmcyI6IHsKICAgICJwaGFzZSI6IHsKICAgICAgImVudW0iOiBbCiAgICAgICAgIklOVEFLRSIsCiAgICAgICAgIlRFUlJJVE9SWV9ESVNDT1ZFUlkiLAogICAgICAgICJVTktOT1dOU19BTkRfQkxJTkRTUE9UUyIsCiAgICAgICAgIk9QVElPTlNfUkVGRVJFTkNFU19PUl9QUk9UT1RZUEVTIiwKICAgICAgICAiQUNDRVBUQU5DRV9DUklURVJJQSIsCiAgICAgICAgIklNUExFTUVOVEFUSU9OX1BMQU4iLAogICAgICAgICJJTkRFUEVOREVOVF9QTEFOX0NSSVRJUVVFIiwKICAgICAgICAiQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTCIsCiAgICAgICAgIklNUExFTUVOVEFUSU9OX0xPT1AiLAogICAgICAgICJJTkRFUEVOREVOVF9WRVJJRklDQVRJT04iLAogICAgICAgICJQTEFOX1ZTX0FDVFVBTF9SRUNPTkNJTElBVElPTiIsCiAgICAgICAgIkVYUExBTkFUSU9OX0FORF9DT01QUkVIRU5TSU9OX0NIRUNLIiwKICAgICAgICAiRE9ORSIKICAgICAgXQogICAgfSwKICAgICJwaGFzZV9zdGF0dXMiOiB7CiAgICAgICJlbnVtIjogWwogICAgICAgICJQRU5ESU5HIiwKICAgICAgICAiQUNUSVZFIiwKICAgICAgICAiUEFTUyIsCiAgICAgICAgIkJMT0NLRUQiLAogICAgICAgICJOT1RfQVBQTElDQUJMRSIKICAgICAgXQogICAgfQogIH0sCiAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKfQo=
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythos.local/schema/state.schema.json",
+  "title": "Mythos Runtime State Snapshot",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "session_id",
+    "project",
+    "task_profile",
+    "phase",
+    "phase_statuses",
+    "phase_records",
+    "evidence",
+    "attempts",
+    "repeated_no_gain_failures",
+    "must_stop",
+    "terminal_state",
+    "terminal_reason",
+    "terminal_evidence",
+    "resume_condition",
+    "last_sequence"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "object",
+      "required": [
+        "is_git",
+        "project_root",
+        "repository_id",
+        "worktree_id"
+      ],
+      "properties": {
+        "is_git": {
+          "type": "boolean"
+        },
+        "project_root": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repository_id": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "worktree_id": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "task_profile": {
+      "enum": [
+        "build",
+        "debug",
+        "repair",
+        "plan_only"
+      ]
+    },
+    "phase": {
+      "$ref": "#/$defs/phase"
+    },
+    "phase_statuses": {
+      "type": "object",
+      "required": [
+        "INTAKE",
+        "TERRITORY_DISCOVERY",
+        "UNKNOWNS_AND_BLINDSPOTS",
+        "OPTIONS_REFERENCES_OR_PROTOTYPES",
+        "ACCEPTANCE_CRITERIA",
+        "IMPLEMENTATION_PLAN",
+        "INDEPENDENT_PLAN_CRITIQUE",
+        "AWAITING_HUMAN_PLAN_APPROVAL",
+        "IMPLEMENTATION_LOOP",
+        "INDEPENDENT_VERIFICATION",
+        "PLAN_VS_ACTUAL_RECONCILIATION",
+        "EXPLANATION_AND_COMPREHENSION_CHECK",
+        "DONE"
+      ],
+      "additionalProperties": {
+        "$ref": "#/$defs/phase_status"
+      }
+    },
+    "phase_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "phase",
+          "outcome",
+          "reason",
+          "evidence",
+          "not_applicable_code"
+        ],
+        "properties": {
+          "phase": {
+            "$ref": "#/$defs/phase"
+          },
+          "outcome": {
+            "enum": [
+              "PASS",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "object"
+          },
+          "not_applicable_code": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "fingerprint",
+          "phase",
+          "approval_bundle_hash",
+          "act_id",
+          "tool_name",
+          "tool_input_hash",
+          "tool_use_id",
+          "permission_request_observed",
+          "permission_request_count",
+          "project_fingerprint_before",
+          "authority_valid_at_close",
+          "authority_invalid_reasons",
+          "scope_valid_at_close",
+          "unapproved_paths",
+          "step",
+          "hypothesis",
+          "action",
+          "evidence_snapshot",
+          "failed",
+          "evidence_gain",
+          "project_fingerprint"
+        ],
+        "properties": {
+          "fingerprint": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "phase": {
+            "$ref": "#/$defs/phase"
+          },
+          "approval_bundle_hash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "act_id": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{32}$"
+          },
+          "tool_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "tool_input_hash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "tool_use_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "permission_request_observed": {
+            "type": "boolean"
+          },
+          "permission_request_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "project_fingerprint_before": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "authority_valid_at_close": {
+            "type": "boolean"
+          },
+          "authority_invalid_reasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "step": {
+            "type": "string",
+            "minLength": 1
+          },
+          "hypothesis": {},
+          "action": {},
+          "evidence_snapshot": {},
+          "failed": {
+            "type": "boolean"
+          },
+          "evidence_gain": {
+            "type": "boolean"
+          },
+          "project_fingerprint": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "scope_valid_at_close": {
+            "type": "boolean"
+          },
+          "unapproved_paths": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "repeated_no_gain_failures": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "must_stop": {
+      "type": "boolean"
+    },
+    "terminal_state": {
+      "enum": [
+        null,
+        "DONE",
+        "BLOCKED",
+        "NEEDS_HUMAN_JUDGMENT",
+        "AWAITING_HUMAN_INPUT",
+        "AWAITING_HUMAN_PLAN_APPROVAL",
+        "VERIFICATION_FAILED"
+      ]
+    },
+    "terminal_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "terminal_evidence": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "resume_condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_sequence": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "$defs": {
+    "phase": {
+      "enum": [
+        "INTAKE",
+        "TERRITORY_DISCOVERY",
+        "UNKNOWNS_AND_BLINDSPOTS",
+        "OPTIONS_REFERENCES_OR_PROTOTYPES",
+        "ACCEPTANCE_CRITERIA",
+        "IMPLEMENTATION_PLAN",
+        "INDEPENDENT_PLAN_CRITIQUE",
+        "AWAITING_HUMAN_PLAN_APPROVAL",
+        "IMPLEMENTATION_LOOP",
+        "INDEPENDENT_VERIFICATION",
+        "PLAN_VS_ACTUAL_RECONCILIATION",
+        "EXPLANATION_AND_COMPREHENSION_CHECK",
+        "DONE"
+      ]
+    },
+    "phase_status": {
+      "enum": [
+        "PENDING",
+        "ACTIVE",
+        "PASS",
+        "BLOCKED",
+        "NOT_APPLICABLE"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

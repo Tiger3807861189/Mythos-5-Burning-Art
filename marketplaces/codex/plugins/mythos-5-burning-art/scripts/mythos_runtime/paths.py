@@ -1,1 +1,68 @@
-IiIiUG9ydGFibGUgcGVyLXVzZXIgc3RhdGUgcGF0aHMuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCgpBUFBMSUNBVElPTl9OQU1FID0gIk15dGhvczVCdXJuaW5nQXJ0IgoKCmRlZiB1c2VyX3N0YXRlX3Jvb3QoCiAgICAqLAogICAgcGxhdGZvcm06IHN0ciB8IE5vbmUgPSBOb25lLAogICAgZW52aXJvbjogZGljdFtzdHIsIHN0cl0gfCBOb25lID0gTm9uZSwKICAgIGhvbWU6IHN0ciB8IG9zLlBhdGhMaWtlW3N0cl0gfCBOb25lID0gTm9uZSwKKSAtPiBQYXRoOgogICAgIiIiUmV0dXJuIGEgbmV1dHJhbCB1c2VyLWxldmVsIHN0YXRlIHJvb3QgdXNpbmcgcGxhdGZvcm0gY29udmVudGlvbnMuIiIiCgogICAgZW52ID0gb3MuZW52aXJvbiBpZiBlbnZpcm9uIGlzIE5vbmUgZWxzZSBlbnZpcm9uCiAgICBzZWxlY3RlZCA9IHBsYXRmb3JtIG9yIHN5cy5wbGF0Zm9ybQogICAgaG9tZV9wYXRoID0gUGF0aChob21lKS5leHBhbmR1c2VyKCkgaWYgaG9tZSBpcyBub3QgTm9uZSBlbHNlIFBhdGguaG9tZSgpCiAgICBvdmVycmlkZSA9IGVudi5nZXQoIk1ZVEhPUzVfU1RBVEVfSE9NRSIpCiAgICBpZiBvdmVycmlkZToKICAgICAgICByZXR1cm4gUGF0aChvdmVycmlkZSkuZXhwYW5kdXNlcigpLnJlc29sdmUoc3RyaWN0PUZhbHNlKQogICAgaWYgc2VsZWN0ZWQuc3RhcnRzd2l0aCgid2luIik6CiAgICAgICAgYmFzZSA9IFBhdGgoZW52LmdldCgiTE9DQUxBUFBEQVRBIiwgaG9tZV9wYXRoIC8gIkFwcERhdGEiIC8gIkxvY2FsIikpCiAgICAgICAgcmV0dXJuIGJhc2UgLyBBUFBMSUNBVElPTl9OQU1FIC8gIlN0YXRlIgogICAgaWYgc2VsZWN0ZWQgPT0gImRhcndpbiI6CiAgICAgICAgcmV0dXJuIGhvbWVfcGF0aCAvICJMaWJyYXJ5IiAvICJBcHBsaWNhdGlvbiBTdXBwb3J0IiAvIEFQUExJQ0FUSU9OX05BTUUgLyAiU3RhdGUiCiAgICBiYXNlID0gUGF0aChlbnYuZ2V0KCJYREdfU1RBVEVfSE9NRSIsIGhvbWVfcGF0aCAvICIubG9jYWwiIC8gInN0YXRlIikpCiAgICByZXR1cm4gYmFzZSAvICJteXRob3MtNS1idXJuaW5nLWFydCIKCgpkZWYgcHJlcGFyZV9wcml2YXRlX2RpcmVjdG9yeShwYXRoOiBQYXRoKSAtPiBQYXRoOgogICAgaWYgb3MubmFtZSA9PSAibnQiOgogICAgICAgICMgUE9TSVggbW9kZSBiaXRzIGRvIG5vdCBtb2RlbCBXaW5kb3dzIEFDTHMuIFByZXNlcnZlIHRoZSBpbmhlcml0ZWQKICAgICAgICAjIHBlci11c2VyIEFDTCBpbnN0ZWFkIG9mIGFwcGx5aW5nIGEgbW9kZSB0aGF0IGNhbiBsb2NrIG91dCByZXN0cmljdGVkCiAgICAgICAgIyBjaGlsZCB0b2tlbnMgdXNlZCBieSBJREUgY29kaW5nIGFnZW50cy4KICAgICAgICBwYXRoLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICByZXR1cm4gcGF0aAogICAgcGF0aC5ta2Rpcihtb2RlPTBvNzAwLCBwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICB0cnk6CiAgICAgICAgcGF0aC5jaG1vZCgwbzcwMCkKICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgIHBhc3MKICAgIHJldHVybiBwYXRoCgoKZGVmIHJ1bl9wYXRocyhyb290OiBQYXRoLCByZXBvc2l0b3J5X2lkOiBzdHIsIHdvcmt0cmVlX2lkOiBzdHIsIHJ1bl9pZDogc3RyKSAtPiBkaWN0W3N0ciwgUGF0aF06CiAgICAjIEtlZXAgdGhlIHN0b3JhZ2UgcGF0aCBiZWxvdyBsZWdhY3kgV2luZG93cyBNQVhfUEFUSCB3aGlsZSByZXRhaW5pbmcgOTYtYml0CiAgICAjIGNvbGxpc2lvbiByZXNpc3RhbmNlIGZvciBlYWNoIGluZGVwZW5kZW50bHkgaGFzaGVkIHJlcG9zaXRvcnkvd29ya3RyZWUga2V5LgogICAgcmVwb3NpdG9yeV9rZXkgPSByZXBvc2l0b3J5X2lkWzoyNF0KICAgIHdvcmt0cmVlX2tleSA9IHdvcmt0cmVlX2lkWzoyNF0KICAgIHByb2plY3QgPSByb290IC8gInAiIC8gcmVwb3NpdG9yeV9rZXkgLyAidyIgLyB3b3JrdHJlZV9rZXkKICAgIHJ1biA9IHByb2plY3QgLyAiciIgLyBydW5faWQKICAgIHJldHVybiB7CiAgICAgICAgInJ1biI6IHJ1biwKICAgICAgICAiYWdlbnQiOiBydW4gLyAiYWdlbnQiLAogICAgICAgICJhdXRob3JpdHkiOiBydW4gLyAiYXV0aG9yaXR5IiwKICAgICAgICAiZXZlbnRzIjogcnVuIC8gImFnZW50IiAvICJldmVudHMuanNvbmwiLAogICAgICAgICJzbmFwc2hvdCI6IHJ1biAvICJhZ2VudCIgLyAic3RhdGUuanNvbiIsCiAgICAgICAgInJ1bl9sb2NrIjogcnVuIC8gImFnZW50IiAvICJydW4ubG9jayIsCiAgICAgICAgImF1dGhvcml0eV9sb2ciOiBydW4gLyAiYXV0aG9yaXR5IiAvICJldmVudHMuanNvbmwiLAogICAgICAgICJhcHByb3ZhbCI6IHJ1biAvICJhdXRob3JpdHkiIC8gImFwcHJvdmFsLmpzb24iLAogICAgICAgICJhdXRob3JpdHlfa2V5Ijogcm9vdCAvICJhdXRob3JpdHkua2V5IiwKICAgIH0K
+"""Portable per-user state paths."""
+
+from __future__ import annotations
+
+import os
+import sys
+from pathlib import Path
+
+
+APPLICATION_NAME = "Mythos5BurningArt"
+
+
+def user_state_root(
+    *,
+    platform: str | None = None,
+    environ: dict[str, str] | None = None,
+    home: str | os.PathLike[str] | None = None,
+) -> Path:
+    """Return a neutral user-level state root using platform conventions."""
+
+    env = os.environ if environ is None else environ
+    selected = platform or sys.platform
+    home_path = Path(home).expanduser() if home is not None else Path.home()
+    override = env.get("MYTHOS5_STATE_HOME")
+    if override:
+        return Path(override).expanduser().resolve(strict=False)
+    if selected.startswith("win"):
+        base = Path(env.get("LOCALAPPDATA", home_path / "AppData" / "Local"))
+        return base / APPLICATION_NAME / "State"
+    if selected == "darwin":
+        return home_path / "Library" / "Application Support" / APPLICATION_NAME / "State"
+    base = Path(env.get("XDG_STATE_HOME", home_path / ".local" / "state"))
+    return base / "mythos-5-burning-art"
+
+
+def prepare_private_directory(path: Path) -> Path:
+    if os.name == "nt":
+        # POSIX mode bits do not model Windows ACLs. Preserve the inherited
+        # per-user ACL instead of applying a mode that can lock out restricted
+        # child tokens used by IDE coding agents.
+        path.mkdir(parents=True, exist_ok=True)
+        return path
+    path.mkdir(mode=0o700, parents=True, exist_ok=True)
+    try:
+        path.chmod(0o700)
+    except OSError:
+        pass
+    return path
+
+
+def run_paths(root: Path, repository_id: str, worktree_id: str, run_id: str) -> dict[str, Path]:
+    # Keep the storage path below legacy Windows MAX_PATH while retaining 96-bit
+    # collision resistance for each independently hashed repository/worktree key.
+    repository_key = repository_id[:24]
+    worktree_key = worktree_id[:24]
+    project = root / "p" / repository_key / "w" / worktree_key
+    run = project / "r" / run_id
+    return {
+        "run": run,
+        "agent": run / "agent",
+        "authority": run / "authority",
+        "events": run / "agent" / "events.jsonl",
+        "snapshot": run / "agent" / "state.json",
+        "run_lock": run / "agent" / "run.lock",
+        "authority_log": run / "authority" / "events.jsonl",
+        "approval": run / "authority" / "approval.json",
+        "authority_key": root / "authority.key",
+    }

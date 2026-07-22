@@ -1,1 +1,17 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAiJGlkIjogImh0dHBzOi8vbXl0aG9zLmxvY2FsL3NjaGVtYS90ZXJtaW5hbC1wYWNrZXQuc2NoZW1hLmpzb24iLAogICJ0aXRsZSI6ICJNeXRob3MgRXhwbGljaXQgTm9uLVN1Y2Nlc3MgVGVybWluYWwgUGFja2V0IiwKICAidHlwZSI6ICJvYmplY3QiLAogICJyZXF1aXJlZCI6IFsic2NoZW1hX3ZlcnNpb24iLCAicnVuX2lkIiwgInRlcm1pbmFsX3N0YXRlIiwgImN1cnJlbnRfcGhhc2UiLCAicmVhc29uIiwgImV2aWRlbmNlIiwgInJlc3VtZV9jb25kaXRpb24iXSwKICAicHJvcGVydGllcyI6IHsKICAgICJzY2hlbWFfdmVyc2lvbiI6IHsiY29uc3QiOiAxfSwKICAgICJydW5faWQiOiB7InR5cGUiOiAic3RyaW5nIiwgIm1pbkxlbmd0aCI6IDF9LAogICAgInRlcm1pbmFsX3N0YXRlIjogeyJlbnVtIjogWyJCTE9DS0VEIiwgIk5FRURTX0hVTUFOX0pVREdNRU5UIl19LAogICAgImN1cnJlbnRfcGhhc2UiOiB7ImVudW0iOiBbIklOVEFLRSIsICJURVJSSVRPUllfRElTQ09WRVJZIiwgIlVOS05PV05TX0FORF9CTElORFNQT1RTIiwgIk9QVElPTlNfUkVGRVJFTkNFU19PUl9QUk9UT1RZUEVTIiwgIkFDQ0VQVEFOQ0VfQ1JJVEVSSUEiLCAiSU1QTEVNRU5UQVRJT05fUExBTiIsICJJTkRFUEVOREVOVF9QTEFOX0NSSVRJUVVFIiwgIkFXQUlUSU5HX0hVTUFOX1BMQU5fQVBQUk9WQUwiLCAiSU1QTEVNRU5UQVRJT05fTE9PUCIsICJJTkRFUEVOREVOVF9WRVJJRklDQVRJT04iLCAiUExBTl9WU19BQ1RVQUxfUkVDT05DSUxJQVRJT04iLCAiRVhQTEFOQVRJT05fQU5EX0NPTVBSRUhFTlNJT05fQ0hFQ0siXX0sCiAgICAicmVhc29uIjogeyJ0eXBlIjogInN0cmluZyIsICJtaW5MZW5ndGgiOiAxfSwKICAgICJldmlkZW5jZSI6IHsidHlwZSI6ICJvYmplY3QiLCAibWluUHJvcGVydGllcyI6IDF9LAogICAgInJlc3VtZV9jb25kaXRpb24iOiB7InR5cGUiOiAic3RyaW5nIiwgIm1pbkxlbmd0aCI6IDF9CiAgfSwKICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQp9
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythos.local/schema/terminal-packet.schema.json",
+  "title": "Mythos Explicit Non-Success Terminal Packet",
+  "type": "object",
+  "required": ["schema_version", "run_id", "terminal_state", "current_phase", "reason", "evidence", "resume_condition"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "terminal_state": {"enum": ["BLOCKED", "NEEDS_HUMAN_JUDGMENT"]},
+    "current_phase": {"enum": ["INTAKE", "TERRITORY_DISCOVERY", "UNKNOWNS_AND_BLINDSPOTS", "OPTIONS_REFERENCES_OR_PROTOTYPES", "ACCEPTANCE_CRITERIA", "IMPLEMENTATION_PLAN", "INDEPENDENT_PLAN_CRITIQUE", "AWAITING_HUMAN_PLAN_APPROVAL", "IMPLEMENTATION_LOOP", "INDEPENDENT_VERIFICATION", "PLAN_VS_ACTUAL_RECONCILIATION", "EXPLANATION_AND_COMPREHENSION_CHECK"]},
+    "reason": {"type": "string", "minLength": 1},
+    "evidence": {"type": "object", "minProperties": 1},
+    "resume_condition": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

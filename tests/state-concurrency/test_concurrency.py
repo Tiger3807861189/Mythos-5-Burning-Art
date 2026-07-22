@@ -1,1 +1,76 @@
-ZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHN5cwppbXBvcnQgdGVtcGZpbGUKaW1wb3J0IHVuaXR0ZXN0CmZyb20gY29uY3VycmVudC5mdXR1cmVzIGltcG9ydCBUaHJlYWRQb29sRXhlY3V0b3IKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpSVU5USU1FID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMl0gLyAic3JjIiAvICJzaGFyZWQiIC8gInJ1bnRpbWUiCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUlVOVElNRSkpCgpmcm9tIG15dGhvc19ydW50aW1lLmFwcHJvdmFsIGltcG9ydCBBdXRob3JpdHlTdG9yZQpmcm9tIG15dGhvc19ydW50aW1lLnN0YXRlIGltcG9ydCBSdW50aW1lU3RvcmUKZnJvbSBteXRob3NfcnVudGltZS5zdG9yYWdlIGltcG9ydCBFdmVudExvZwoKCmNsYXNzIENvbmN1cnJlbmN5VGVzdHModW5pdHRlc3QuVGVzdENhc2UpOgogICAgZGVmIHRlc3Rfc2VxdWVuY2VzX3JlbWFpbl9tb25vdG9uaWNfdW5kZXJfY29udGVudGlvbihzZWxmKSAtPiBOb25lOgogICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KCkgYXMgZGlyZWN0b3J5OgogICAgICAgICAgICBsb2cgPSBFdmVudExvZyhQYXRoKGRpcmVjdG9yeSkgLyAiZXZlbnRzLmpzb25sIikKICAgICAgICAgICAgd2l0aCBUaHJlYWRQb29sRXhlY3V0b3IobWF4X3dvcmtlcnM9OCkgYXMgcG9vbDoKICAgICAgICAgICAgICAgIGxpc3QocG9vbC5tYXAobGFtYmRhIHZhbHVlOiBsb2cuYXBwZW5kKHsidmFsdWUiOiB2YWx1ZX0pLCByYW5nZSg0MCkpKQogICAgICAgICAgICByZWNvcmRzID0gbG9nLnJlYWRfdmVyaWZpZWQoKQogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKFtpdGVtWyJzZXF1ZW5jZSJdIGZvciBpdGVtIGluIHJlY29yZHNdLCBsaXN0KHJhbmdlKDEsIDQxKSkpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoe2l0ZW1bInBheWxvYWQiXVsidmFsdWUiXSBmb3IgaXRlbSBpbiByZWNvcmRzfSwgc2V0KHJhbmdlKDQwKSkpCgoKICAgIGRlZiB0ZXN0X2luaXRpYWxpemVfaXNfc2luZ2xldG9uX3VuZGVyX2NvbnRlbnRpb25fYW5kX3BhdGhzX2FyZV9zaG9ydChzZWxmKSAtPiBOb25lOgogICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KCkgYXMgZGlyZWN0b3J5OgogICAgICAgICAgICByb290ID0gUGF0aChkaXJlY3RvcnkpCiAgICAgICAgICAgIHByb2plY3QgPSByb290IC8gInByb2plY3QiCiAgICAgICAgICAgIHByb2plY3QubWtkaXIoKQogICAgICAgICAgICBzdGF0ZV9yb290ID0gcm9vdCAvICJzdGF0ZSIKICAgICAgICAgICAgc3RvcmUgPSBSdW50aW1lU3RvcmUocHJvamVjdCwgIm01LWNvbmN1cnJlbnQiLCByb290PXN0YXRlX3Jvb3QpCiAgICAgICAgICAgIHdpdGggVGhyZWFkUG9vbEV4ZWN1dG9yKG1heF93b3JrZXJzPTgpIGFzIHBvb2w6CiAgICAgICAgICAgICAgICBzdGF0ZXMgPSBsaXN0KHBvb2wubWFwKAogICAgICAgICAgICAgICAgICAgIGxhbWJkYSBfOiBzdG9yZS5pbml0aWFsaXplKHNlc3Npb25faWQ9InNlc3Npb24tMSIsIHRhc2tfcHJvZmlsZT0iYnVpbGQiKSwKICAgICAgICAgICAgICAgICAgICByYW5nZSgyNCksCiAgICAgICAgICAgICAgICApKQogICAgICAgICAgICBzZWxmLmFzc2VydFRydWUoYWxsKGl0ZW1bImxhc3Rfc2VxdWVuY2UiXSA9PSAxIGZvciBpdGVtIGluIHN0YXRlcykpCiAgICAgICAgICAgIHJlY29yZHMgPSBzdG9yZS5sb2cucmVhZF92ZXJpZmllZCgpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGVuKHJlY29yZHMpLCAxKQogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKHJlY29yZHNbMF1bInBheWxvYWQiXVsib3BlcmF0aW9uIl0sICJpbml0aWFsaXplIikKICAgICAgICAgICAgc2VsZi5hc3NlcnRMZXNzKGxlbihzdHIoc3RvcmUucGF0aHNbImFwcHJvdmFsIl0pKSwgMjQwKQoKICAgIGRlZiB0ZXN0X2F1dGhvcml0eV9rZXlfZmlyc3RfdXNlX2lzX3NpbmdsZXRvbl91bmRlcl9jb250ZW50aW9uKHNlbGYpIC0+IE5vbmU6CiAgICAgICAgd2l0aCB0ZW1wZmlsZS5UZW1wb3JhcnlEaXJlY3RvcnkoKSBhcyBkaXJlY3Rvcnk6CiAgICAgICAgICAgIHJvb3QgPSBQYXRoKGRpcmVjdG9yeSkKICAgICAgICAgICAgcHJvamVjdCA9IHJvb3QgLyAicHJvamVjdCIKICAgICAgICAgICAgcHJvamVjdC5ta2RpcigpCiAgICAgICAgICAgIHN0b3JlID0gUnVudGltZVN0b3JlKHByb2plY3QsICJrZXktcmFjZSIsIHJvb3Q9cm9vdCAvICJzdGF0ZSIpCiAgICAgICAgICAgIHN0b3JlLmluaXRpYWxpemUoc2Vzc2lvbl9pZD0ic2Vzc2lvbi1rZXkiLCB0YXNrX3Byb2ZpbGU9ImJ1aWxkIikKICAgICAgICAgICAgYXV0aG9yaXR5ID0gQXV0aG9yaXR5U3RvcmUoc3RvcmUucGF0aHMpCiAgICAgICAgICAgIHdpdGggVGhyZWFkUG9vbEV4ZWN1dG9yKG1heF93b3JrZXJzPTgpIGFzIHBvb2w6CiAgICAgICAgICAgICAgICBrZXlzID0gbGlzdChwb29sLm1hcChsYW1iZGEgXzogYXV0aG9yaXR5Ll9rZXkoKSwgcmFuZ2UoMzIpKSkKICAgICAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGFsbChrZXkgPT0ga2V5c1swXSBmb3Iga2V5IGluIGtleXMpKQogICAgICAgICAgICBzZWxmLmFzc2VydEVxdWFsKGxlbihrZXlzWzBdKSwgMzIpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwoc3RvcmUucGF0aHNbImF1dGhvcml0eV9rZXkiXS5yZWFkX2J5dGVzKCksIGtleXNbMF0pCiAgICBkZWYgdGVzdF9kaXN0aW5jdF9wcm9qZWN0X2lkZW50aXRpZXNfZG9fbm90X3NoYXJlX3J1bl9zdGF0ZShzZWxmKSAtPiBOb25lOgogICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KCkgYXMgZGlyZWN0b3J5OgogICAgICAgICAgICByb290ID0gUGF0aChkaXJlY3RvcnkpCiAgICAgICAgICAgIGZpcnN0ID0gcm9vdCAvICJmaXJzdCIKICAgICAgICAgICAgc2Vjb25kID0gcm9vdCAvICJzZWNvbmQiCiAgICAgICAgICAgIGZpcnN0Lm1rZGlyKCkKICAgICAgICAgICAgc2Vjb25kLm1rZGlyKCkKICAgICAgICAgICAgc3RhdGVfcm9vdCA9IHJvb3QgLyAic3RhdGUiCiAgICAgICAgICAgIGxlZnQgPSBSdW50aW1lU3RvcmUoZmlyc3QsICJzYW1lLXJ1biIsIHJvb3Q9c3RhdGVfcm9vdCkKICAgICAgICAgICAgcmlnaHQgPSBSdW50aW1lU3RvcmUoc2Vjb25kLCAic2FtZS1ydW4iLCByb290PXN0YXRlX3Jvb3QpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0Tm90RXF1YWwobGVmdC5pZGVudGl0eSwgcmlnaHQuaWRlbnRpdHkpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0Tm90RXF1YWwobGVmdC5wYXRoc1sicnVuIl0sIHJpZ2h0LnBhdGhzWyJydW4iXSkKICAgICAgICAgICAgbGVmdC5pbml0aWFsaXplKHNlc3Npb25faWQ9ImxlZnQiLCB0YXNrX3Byb2ZpbGU9ImJ1aWxkIikKICAgICAgICAgICAgcmlnaHQuaW5pdGlhbGl6ZShzZXNzaW9uX2lkPSJyaWdodCIsIHRhc2tfcHJvZmlsZT0icmVwYWlyIikKICAgICAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChsZWZ0LmxvYWQoKVsic2Vzc2lvbl9pZCJdLCAibGVmdCIpCiAgICAgICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwocmlnaHQubG9hZCgpWyJzZXNzaW9uX2lkIl0sICJyaWdodCIpCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB1bml0dGVzdC5tYWluKCkK
+from __future__ import annotations
+
+import sys
+import tempfile
+import unittest
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+
+RUNTIME = Path(__file__).resolve().parents[2] / "src" / "shared" / "runtime"
+sys.path.insert(0, str(RUNTIME))
+
+from mythos_runtime.approval import AuthorityStore
+from mythos_runtime.state import RuntimeStore
+from mythos_runtime.storage import EventLog
+
+
+class ConcurrencyTests(unittest.TestCase):
+    def test_sequences_remain_monotonic_under_contention(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            log = EventLog(Path(directory) / "events.jsonl")
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                list(pool.map(lambda value: log.append({"value": value}), range(40)))
+            records = log.read_verified()
+            self.assertEqual([item["sequence"] for item in records], list(range(1, 41)))
+            self.assertEqual({item["payload"]["value"] for item in records}, set(range(40)))
+
+
+    def test_initialize_is_singleton_under_contention_and_paths_are_short(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            project = root / "project"
+            project.mkdir()
+            state_root = root / "state"
+            store = RuntimeStore(project, "m5-concurrent", root=state_root)
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                states = list(pool.map(
+                    lambda _: store.initialize(session_id="session-1", task_profile="build"),
+                    range(24),
+                ))
+            self.assertTrue(all(item["last_sequence"] == 1 for item in states))
+            records = store.log.read_verified()
+            self.assertEqual(len(records), 1)
+            self.assertEqual(records[0]["payload"]["operation"], "initialize")
+            self.assertLess(len(str(store.paths["approval"])), 240)
+
+    def test_authority_key_first_use_is_singleton_under_contention(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            project = root / "project"
+            project.mkdir()
+            store = RuntimeStore(project, "key-race", root=root / "state")
+            store.initialize(session_id="session-key", task_profile="build")
+            authority = AuthorityStore(store.paths)
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                keys = list(pool.map(lambda _: authority._key(), range(32)))
+            self.assertTrue(all(key == keys[0] for key in keys))
+            self.assertEqual(len(keys[0]), 32)
+            self.assertEqual(store.paths["authority_key"].read_bytes(), keys[0])
+    def test_distinct_project_identities_do_not_share_run_state(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first = root / "first"
+            second = root / "second"
+            first.mkdir()
+            second.mkdir()
+            state_root = root / "state"
+            left = RuntimeStore(first, "same-run", root=state_root)
+            right = RuntimeStore(second, "same-run", root=state_root)
+            self.assertNotEqual(left.identity, right.identity)
+            self.assertNotEqual(left.paths["run"], right.paths["run"])
+            left.initialize(session_id="left", task_profile="build")
+            right.initialize(session_id="right", task_profile="repair")
+            self.assertEqual(left.load()["session_id"], "left")
+            self.assertEqual(right.load()["session_id"], "right")
+if __name__ == "__main__":
+    unittest.main()

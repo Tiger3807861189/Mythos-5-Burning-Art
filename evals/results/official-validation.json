@@ -1,1 +1,137 @@
-ewogICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgInN1aXRlIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAic3RhdHVzIjogIlBBU1MiLAogICJ2YWxpZGF0ZWRfYXRfdXRjIjogIjIwMjYtMDctMjJUMDg6NDk6MTQrMDA6MDAiLAogICJweXRob25fdmVyc2lvbiI6ICIzLjEzLjUiLAogICJ2YWxpZGF0b3JzIjogewogICAgIm9wZW5haV9za2lsbF92YWxpZGF0b3Jfc2hhMjU2IjogIjUzNDdhMGEwOWNmYjU0NmJiYTFjMGQxYTMwZGFlMGEyMzNkOWEwNWY1N2JkNGU3ODc3MTU1YzU4OGJjZGFiZjciLAogICAgIm9wZW5haV9jb2RleF9wbHVnaW5fdmFsaWRhdG9yX3NoYTI1NiI6ICI0ZTg0YzkxMTQ3OWU0ZDE1OGQ3MjNlZDhjY2M4ODFkMzQ5OWU1ODBmYmY1NjUwZTYwZDM3OWExYTI1YWMzMTg2IiwKICAgICJjbGF1ZGVfY29kZV92ZXJzaW9uIjogIjIuMS4xMTIgKENsYXVkZSBDb2RlKSIKICB9LAogICJjaGVja3MiOiBbCiAgICB7CiAgICAgICJpZCI6ICJza2lsbDpteXRob3MtYnVpbGQiLAogICAgICAidmFsaWRhdG9yIjogIm9wZW5haS1za2lsbC1jcmVhdG9yLXF1aWNrLXZhbGlkYXRlIiwKICAgICAgInRhcmdldCI6ICJzcmMvc2hhcmVkL3NraWxscy9teXRob3MtYnVpbGQiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiU2tpbGwgaXMgdmFsaWQhIiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAic2tpbGw6bXl0aG9zLWRlYnVnIiwKICAgICAgInZhbGlkYXRvciI6ICJvcGVuYWktc2tpbGwtY3JlYXRvci1xdWljay12YWxpZGF0ZSIsCiAgICAgICJ0YXJnZXQiOiAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLWRlYnVnIiwKICAgICAgInJldHVybmNvZGUiOiAwLAogICAgICAic3Rkb3V0IjogIlNraWxsIGlzIHZhbGlkISIsCiAgICAgICJzdGRlcnIiOiAiIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInNraWxsOm15dGhvcy1kaXNjb3ZlciIsCiAgICAgICJ2YWxpZGF0b3IiOiAib3BlbmFpLXNraWxsLWNyZWF0b3ItcXVpY2stdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogInNyYy9zaGFyZWQvc2tpbGxzL215dGhvcy1kaXNjb3ZlciIsCiAgICAgICJyZXR1cm5jb2RlIjogMCwKICAgICAgInN0ZG91dCI6ICJTa2lsbCBpcyB2YWxpZCEiLAogICAgICAic3RkZXJyIjogIiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJza2lsbDpteXRob3MtZXhwbGFpbiIsCiAgICAgICJ2YWxpZGF0b3IiOiAib3BlbmFpLXNraWxsLWNyZWF0b3ItcXVpY2stdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogInNyYy9zaGFyZWQvc2tpbGxzL215dGhvcy1leHBsYWluIiwKICAgICAgInJldHVybmNvZGUiOiAwLAogICAgICAic3Rkb3V0IjogIlNraWxsIGlzIHZhbGlkISIsCiAgICAgICJzdGRlcnIiOiAiIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInNraWxsOm15dGhvcy1vcHRpb25zIiwKICAgICAgInZhbGlkYXRvciI6ICJvcGVuYWktc2tpbGwtY3JlYXRvci1xdWljay12YWxpZGF0ZSIsCiAgICAgICJ0YXJnZXQiOiAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLW9wdGlvbnMiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiU2tpbGwgaXMgdmFsaWQhIiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAic2tpbGw6bXl0aG9zLW9yY2hlc3RyYXRlIiwKICAgICAgInZhbGlkYXRvciI6ICJvcGVuYWktc2tpbGwtY3JlYXRvci1xdWljay12YWxpZGF0ZSIsCiAgICAgICJ0YXJnZXQiOiAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLW9yY2hlc3RyYXRlIiwKICAgICAgInJldHVybmNvZGUiOiAwLAogICAgICAic3Rkb3V0IjogIlNraWxsIGlzIHZhbGlkISIsCiAgICAgICJzdGRlcnIiOiAiIgogICAgfSwKICAgIHsKICAgICAgImlkIjogInNraWxsOm15dGhvcy1wbGFuIiwKICAgICAgInZhbGlkYXRvciI6ICJvcGVuYWktc2tpbGwtY3JlYXRvci1xdWljay12YWxpZGF0ZSIsCiAgICAgICJ0YXJnZXQiOiAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLXBsYW4iLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiU2tpbGwgaXMgdmFsaWQhIiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAic2tpbGw6bXl0aG9zLXJlcGFpciIsCiAgICAgICJ2YWxpZGF0b3IiOiAib3BlbmFpLXNraWxsLWNyZWF0b3ItcXVpY2stdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogInNyYy9zaGFyZWQvc2tpbGxzL215dGhvcy1yZXBhaXIiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiU2tpbGwgaXMgdmFsaWQhIiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAic2tpbGw6bXl0aG9zLXZlcmlmeSIsCiAgICAgICJ2YWxpZGF0b3IiOiAib3BlbmFpLXNraWxsLWNyZWF0b3ItcXVpY2stdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogInNyYy9zaGFyZWQvc2tpbGxzL215dGhvcy12ZXJpZnkiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiU2tpbGwgaXMgdmFsaWQhIiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiY29kZXgtcGx1Z2luOmRpc3QiLAogICAgICAidmFsaWRhdG9yIjogIm9wZW5haS1wbHVnaW4tY3JlYXRvci12YWxpZGF0ZS1wbHVnaW4iLAogICAgICAidGFyZ2V0IjogImRpc3QvY29kZXgvbXl0aG9zLTUtYnVybmluZy1hcnQiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiUGx1Z2luIHZhbGlkYXRpb24gcGFzc2VkOiA8c3VpdGUtcm9vdD5cXGRpc3RcXGNvZGV4XFxteXRob3MtNS1idXJuaW5nLWFydCIsCiAgICAgICJzdGRlcnIiOiAiIgogICAgfSwKICAgIHsKICAgICAgImlkIjogImNvZGV4LXBsdWdpbjptYXJrZXRwbGFjZSIsCiAgICAgICJ2YWxpZGF0b3IiOiAib3BlbmFpLXBsdWdpbi1jcmVhdG9yLXZhbGlkYXRlLXBsdWdpbiIsCiAgICAgICJ0YXJnZXQiOiAibWFya2V0cGxhY2VzL2NvZGV4L3BsdWdpbnMvbXl0aG9zLTUtYnVybmluZy1hcnQiLAogICAgICAicmV0dXJuY29kZSI6IDAsCiAgICAgICJzdGRvdXQiOiAiUGx1Z2luIHZhbGlkYXRpb24gcGFzc2VkOiA8c3VpdGUtcm9vdD5cXG1hcmtldHBsYWNlc1xcY29kZXhcXHBsdWdpbnNcXG15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgInN0ZGVyciI6ICIiCiAgICB9LAogICAgewogICAgICAiaWQiOiAiY2xhdWRlLXBsdWdpbjpkaXN0IiwKICAgICAgInZhbGlkYXRvciI6ICJjbGF1ZGUtY29kZS1wbHVnaW4tdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogImRpc3QvY2xhdWRlL215dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgInJldHVybmNvZGUiOiAwLAogICAgICAic3Rkb3V0IjogIlZhbGlkYXRpbmcgcGx1Z2luIG1hbmlmZXN0OiA8c3VpdGUtcm9vdD5cXGRpc3RcXGNsYXVkZVxcbXl0aG9zLTUtYnVybmluZy1hcnRcXC5jbGF1ZGUtcGx1Z2luXFxwbHVnaW4uanNvblxuXG7iiJogVmFsaWRhdGlvbiBwYXNzZWQiLAogICAgICAic3RkZXJyIjogIiIKICAgIH0sCiAgICB7CiAgICAgICJpZCI6ICJjbGF1ZGUtcGx1Z2luOm1hcmtldHBsYWNlIiwKICAgICAgInZhbGlkYXRvciI6ICJjbGF1ZGUtY29kZS1wbHVnaW4tdmFsaWRhdGUiLAogICAgICAidGFyZ2V0IjogIm1hcmtldHBsYWNlcy9jbGF1ZGUvcGx1Z2lucy9teXRob3MtNS1idXJuaW5nLWFydCIsCiAgICAgICJyZXR1cm5jb2RlIjogMCwKICAgICAgInN0ZG91dCI6ICJWYWxpZGF0aW5nIHBsdWdpbiBtYW5pZmVzdDogPHN1aXRlLXJvb3Q+XFxtYXJrZXRwbGFjZXNcXGNsYXVkZVxccGx1Z2luc1xcbXl0aG9zLTUtYnVybmluZy1hcnRcXC5jbGF1ZGUtcGx1Z2luXFxwbHVnaW4uanNvblxuXG7iiJogVmFsaWRhdGlvbiBwYXNzZWQiLAogICAgICAic3RkZXJyIjogIiIKICAgIH0KICBdLAogICJiaW5kaW5ncyI6IHsKICAgICJzcmMvc2hhcmVkL3NraWxscy9teXRob3MtYnVpbGQvU0tJTEwubWQiOiAiZGJmMTJmYTVmMWExNjU3NGU2YmEzNDA3MzQxNWE4MDg3ZjM1NzY1MDU3M2IwMDdlODE1ZjQ2ZGU0YzA2NTk3NiIsCiAgICAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLWRlYnVnL1NLSUxMLm1kIjogIjJjMWIyZmI1NDY3MDk4YjhhYzBiYjg1Y2RhNTAxOWRjZGY1NzczODFmMjc2MWFkMGRiMmNkOTg2YmU5OTVlM2EiLAogICAgInNyYy9zaGFyZWQvc2tpbGxzL215dGhvcy1kaXNjb3Zlci9TS0lMTC5tZCI6ICIwMDYxMzcxZmFmODM0NzMyYzczNTk2M2Q5NTcyMDYyOWVlYjE2MTdlNmEyYzc5N2M5NWYyNjZmMTBiNzc1NTI0IiwKICAgICJzcmMvc2hhcmVkL3NraWxscy9teXRob3MtZXhwbGFpbi9TS0lMTC5tZCI6ICJlODhkZDBlN2JhZjk2MTNlYzkxNDJhNTk4MzIyYjliMGMyNDFkM2E2Y2I0OTQyNWFhZTYxYmVlODNhMzIzNTkxIiwKICAgICJzcmMvc2hhcmVkL3NraWxscy9teXRob3Mtb3B0aW9ucy9TS0lMTC5tZCI6ICI4OGIxMTEwMjdhMGM4MmNmMjkyOGI4ZTkzOGNkYWJhOWE5ZTJjNGY3MTY1YTRlZjU1Yzc0MDMyZWY4YmI3MGNmIiwKICAgICJzcmMvc2hhcmVkL3NraWxscy9teXRob3Mtb3JjaGVzdHJhdGUvU0tJTEwubWQiOiAiNGM3NjgyOTk1M2Q4YTk0NzAzZDBlMzcyN2YwMmUxNTQ2Nzg0YTA5NjBmNmMzYWRlYmFjNjk2NzExYzlhNzI5YSIsCiAgICAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLXBsYW4vU0tJTEwubWQiOiAiNjBlNWJlNjg2NjZkYzc4ZjYzMzc4YjJhMDIwMGMwMDIzZmFjMmRhZjkxY2E3ZTA5ZTRiNTFmMmViZTg4ZjcxMCIsCiAgICAic3JjL3NoYXJlZC9za2lsbHMvbXl0aG9zLXJlcGFpci9TS0lMTC5tZCI6ICI3YjBiMzgxYWM1MjA2ZDVmODQ2MGU3MGUwYjE1NjE5NTA5ODNiNTJlYjFiMGVjM2FjZjE0ZmQxYTYzMmE4MzkzIiwKICAgICJzcmMvc2hhcmVkL3NraWxscy9teXRob3MtdmVyaWZ5L1NLSUxMLm1kIjogIjEzMzc2ODE0YmE4ZGVlYWU5NGExMWI4MjRjYzMzMjRmY2RlY2U0NDk0M2I4M2UzZmJiMTUxMjNkYmQxZGExZWMiLAogICAgInNyYy9jb2RleC9teXRob3MtNS1idXJuaW5nLWFydC8uY29kZXgtcGx1Z2luL3BsdWdpbi5qc29uIjogImY5N2ZlMTFmOTA4NzcyZDZiMzFkNzAyYjhmY2FiZDY4Y2VlNDc3ZWExZDVlNmIxNzc0MDMzNTQ5MDI0MmE1MGYiLAogICAgInNyYy9jbGF1ZGUvbXl0aG9zLTUtYnVybmluZy1hcnQvLmNsYXVkZS1wbHVnaW4vcGx1Z2luLmpzb24iOiAiYWRkNzI5Y2Q3YTkzNjUyZDY2MGU3ZWJkZjRmOGJkNmFlOTcyYjQzNWU1MjU5YjlkNGFmODk4MTAzYWQ2ZTIwZiIsCiAgICAiZGlzdC9jb2RleC9teXRob3MtNS1idXJuaW5nLWFydC9idWlsZC1tYW5pZmVzdC5qc29uIjogImUxNmJiMjBlMzRlMTRlNzk2ZTAxMWMxNjM0YWQyYjUwOGJhNDNhZTU2ZGE2N2M1ZmIxNmI3ZGUwOGY4ZWExOTgiLAogICAgImRpc3QvY2xhdWRlL215dGhvcy01LWJ1cm5pbmctYXJ0L2J1aWxkLW1hbmlmZXN0Lmpzb24iOiAiMGUxNzY0Y2ZiOTY1MmEyZGE4YjA0MzQxZWQ3OGUwZjQ5MDgyNDExNjcyODM3MzFiOTBhZTM3MDdiNTZmNDEwYiIsCiAgICAibWFya2V0cGxhY2VzL2NvZGV4Ly5hZ2VudHMvcGx1Z2lucy9tYXJrZXRwbGFjZS5qc29uIjogImE5MDNiMzkxMDIzOGUwNzRiMjQyZjRmYjQxMDg1M2I0YTMwZWFmOGMyOTdlODZkMmE4ZjgwY2QyNGFhNDkxOGYiLAogICAgIm1hcmtldHBsYWNlcy9jbGF1ZGUvLmNsYXVkZS1wbHVnaW4vbWFya2V0cGxhY2UuanNvbiI6ICI4MDk4YTFkYmNmY2VjZThjNjgwYzViMzNlZTM1ZjhkY2RiNGI4ODk1NDQ3MTBhOWJlOWIyMWU0NDQxNGM5NDk5IiwKICAgICJzY3JpcHRzL3ZhbGlkYXRlX29mZmljaWFsLnB5IjogImYxYzQ1ZDJmODY5Y2M1MDdkYzZmNGMxMmQwMDJkMjNlYmVjZmNjMWNlYjcxODUxMjBiYTQ2ZmRhYzhmNzg0YjQiCiAgfSwKICAibWlzc2luZ19iaW5kaW5ncyI6IFtdCn0K
+{
+  "schema_version": 1,
+  "suite": "mythos-5-burning-art",
+  "status": "PASS",
+  "validated_at_utc": "2026-07-22T08:49:14+00:00",
+  "python_version": "3.13.5",
+  "validators": {
+    "openai_skill_validator_sha256": "5347a0a09cfb546bba1c0d1a30dae0a233d9a05f57bd4e7877155c588bcdabf7",
+    "openai_codex_plugin_validator_sha256": "4e84c911479e4d158d723ed8ccc881d3499e580fbf5650e60d379a1a25ac3186",
+    "claude_code_version": "2.1.112 (Claude Code)"
+  },
+  "checks": [
+    {
+      "id": "skill:mythos-build",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-build",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-debug",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-debug",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-discover",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-discover",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-explain",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-explain",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-options",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-options",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-orchestrate",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-orchestrate",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-plan",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-plan",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-repair",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-repair",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "skill:mythos-verify",
+      "validator": "openai-skill-creator-quick-validate",
+      "target": "src/shared/skills/mythos-verify",
+      "returncode": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "id": "codex-plugin:dist",
+      "validator": "openai-plugin-creator-validate-plugin",
+      "target": "dist/codex/mythos-5-burning-art",
+      "returncode": 0,
+      "stdout": "Plugin validation passed: <suite-root>\\dist\\codex\\mythos-5-burning-art",
+      "stderr": ""
+    },
+    {
+      "id": "codex-plugin:marketplace",
+      "validator": "openai-plugin-creator-validate-plugin",
+      "target": "marketplaces/codex/plugins/mythos-5-burning-art",
+      "returncode": 0,
+      "stdout": "Plugin validation passed: <suite-root>\\marketplaces\\codex\\plugins\\mythos-5-burning-art",
+      "stderr": ""
+    },
+    {
+      "id": "claude-plugin:dist",
+      "validator": "claude-code-plugin-validate",
+      "target": "dist/claude/mythos-5-burning-art",
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <suite-root>\\dist\\claude\\mythos-5-burning-art\\.claude-plugin\\plugin.json\n\n√ Validation passed",
+      "stderr": ""
+    },
+    {
+      "id": "claude-plugin:marketplace",
+      "validator": "claude-code-plugin-validate",
+      "target": "marketplaces/claude/plugins/mythos-5-burning-art",
+      "returncode": 0,
+      "stdout": "Validating plugin manifest: <suite-root>\\marketplaces\\claude\\plugins\\mythos-5-burning-art\\.claude-plugin\\plugin.json\n\n√ Validation passed",
+      "stderr": ""
+    }
+  ],
+  "bindings": {
+    "src/shared/skills/mythos-build/SKILL.md": "dbf12fa5f1a16574e6ba34073415a8087f357650573b007e815f46de4c065976",
+    "src/shared/skills/mythos-debug/SKILL.md": "2c1b2fb5467098b8ac0bb85cda5019dcdf577381f2761ad0db2cd986be995e3a",
+    "src/shared/skills/mythos-discover/SKILL.md": "0061371faf834732c735963d95720629eeb1617e6a2c797c95f266f10b775524",
+    "src/shared/skills/mythos-explain/SKILL.md": "e88dd0e7baf9613ec9142a598322b9b0c241d3a6cb49425aae61bee83a323591",
+    "src/shared/skills/mythos-options/SKILL.md": "88b111027a0c82cf2928b8e938cdaba9a9e2c4f7165a4ef55c74032ef8bb70cf",
+    "src/shared/skills/mythos-orchestrate/SKILL.md": "4c76829953d8a94703d0e3727f02e1546784a0960f6c3adebac696711c9a729a",
+    "src/shared/skills/mythos-plan/SKILL.md": "60e5be68666dc78f63378b2a0200c0023fac2daf91ca7e09e4b51f2ebe88f710",
+    "src/shared/skills/mythos-repair/SKILL.md": "7b0b381ac5206d5f8460e70e0b1561950983b52eb1b0ec3acf14fd1a632a8393",
+    "src/shared/skills/mythos-verify/SKILL.md": "13376814ba8deeae94a11b824cc3324fcdece44943b83e3fbb15123dbd1da1ec",
+    "src/codex/mythos-5-burning-art/.codex-plugin/plugin.json": "f97fe11f908772d6b31d702b8fcabd68cee477ea1d5e6b17740335490242a50f",
+    "src/claude/mythos-5-burning-art/.claude-plugin/plugin.json": "add729cd7a93652d660e7ebdf4f8bd6ae972b435e5259b9d4af898103ad6e20f",
+    "dist/codex/mythos-5-burning-art/build-manifest.json": "e16bb20e34e14e796e011c1634ad2b508ba43ae56da67c5fb16b7de08f8ea198",
+    "dist/claude/mythos-5-burning-art/build-manifest.json": "0e1764cfb9652a2da8b04341ed78e0f4908241167283731b90ae3707b56f410b",
+    "marketplaces/codex/.agents/plugins/marketplace.json": "a903b3910238e074b242f4fb410853b4a30eaf8c297e86d2a8f80cd24aa4918f",
+    "marketplaces/claude/.claude-plugin/marketplace.json": "8098a1dbcfcece8c680c5b33ee35f8dcdb4b889544710a9be9b21e44414c9499",
+    "scripts/validate_official.py": "f1c45d2f869cc507dc6f4c12d002d23ebecfcc1ceb7185120ba46fdac8f784b4"
+  },
+  "missing_bindings": []
+}

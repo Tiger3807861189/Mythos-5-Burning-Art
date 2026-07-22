@@ -1,1 +1,125 @@
-IiIiVGhlIG1hbmRhdG9yeSB0aGlydGVlbi1waGFzZSBsaWZlY3ljbGUgYW5kIHRyYW5zaXRpb24gcG9saWN5LiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gZW51bSBpbXBvcnQgRW51bQpmcm9tIHR5cGluZyBpbXBvcnQgQW55CgoKY2xhc3MgUGhhc2Uoc3RyLCBFbnVtKToKICAgIElOVEFLRSA9ICJJTlRBS0UiCiAgICBURVJSSVRPUllfRElTQ09WRVJZID0gIlRFUlJJVE9SWV9ESVNDT1ZFUlkiCiAgICBVTktOT1dOU19BTkRfQkxJTkRTUE9UUyA9ICJVTktOT1dOU19BTkRfQkxJTkRTUE9UUyIKICAgIE9QVElPTlNfUkVGRVJFTkNFU19PUl9QUk9UT1RZUEVTID0gIk9QVElPTlNfUkVGRVJFTkNFU19PUl9QUk9UT1RZUEVTIgogICAgQUNDRVBUQU5DRV9DUklURVJJQSA9ICJBQ0NFUFRBTkNFX0NSSVRFUklBIgogICAgSU1QTEVNRU5UQVRJT05fUExBTiA9ICJJTVBMRU1FTlRBVElPTl9QTEFOIgogICAgSU5ERVBFTkRFTlRfUExBTl9DUklUSVFVRSA9ICJJTkRFUEVOREVOVF9QTEFOX0NSSVRJUVVFIgogICAgQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTCA9ICJBV0FJVElOR19IVU1BTl9QTEFOX0FQUFJPVkFMIgogICAgSU1QTEVNRU5UQVRJT05fTE9PUCA9ICJJTVBMRU1FTlRBVElPTl9MT09QIgogICAgSU5ERVBFTkRFTlRfVkVSSUZJQ0FUSU9OID0gIklOREVQRU5ERU5UX1ZFUklGSUNBVElPTiIKICAgIFBMQU5fVlNfQUNUVUFMX1JFQ09OQ0lMSUFUSU9OID0gIlBMQU5fVlNfQUNUVUFMX1JFQ09OQ0lMSUFUSU9OIgogICAgRVhQTEFOQVRJT05fQU5EX0NPTVBSRUhFTlNJT05fQ0hFQ0sgPSAiRVhQTEFOQVRJT05fQU5EX0NPTVBSRUhFTlNJT05fQ0hFQ0siCiAgICBET05FID0gIkRPTkUiCgoKUEhBU0VTID0gdHVwbGUoUGhhc2UpCgoKY2xhc3MgUGhhc2VTdGF0dXMoc3RyLCBFbnVtKToKICAgIFBFTkRJTkcgPSAiUEVORElORyIKICAgIEFDVElWRSA9ICJBQ1RJVkUiCiAgICBQQVNTID0gIlBBU1MiCiAgICBCTE9DS0VEID0gIkJMT0NLRUQiCiAgICBOT1RfQVBQTElDQUJMRSA9ICJOT1RfQVBQTElDQUJMRSIKCgpjbGFzcyBUZXJtaW5hbFN0YXRlKHN0ciwgRW51bSk6CiAgICBET05FID0gIkRPTkUiCiAgICBCTE9DS0VEID0gIkJMT0NLRUQiCiAgICBORUVEU19IVU1BTl9KVURHTUVOVCA9ICJORUVEU19IVU1BTl9KVURHTUVOVCIKICAgIEFXQUlUSU5HX0hVTUFOX0lOUFVUID0gIkFXQUlUSU5HX0hVTUFOX0lOUFVUIgogICAgQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTCA9ICJBV0FJVElOR19IVU1BTl9QTEFOX0FQUFJPVkFMIgogICAgVkVSSUZJQ0FUSU9OX0ZBSUxFRCA9ICJWRVJJRklDQVRJT05fRkFJTEVEIgoKCmNsYXNzIExpZmVjeWNsZUVycm9yKFZhbHVlRXJyb3IpOgogICAgcGFzcwoKCkxJTkVBUl9ORVhUID0ge2N1cnJlbnQ6IGZvbGxvd2luZyBmb3IgY3VycmVudCwgZm9sbG93aW5nIGluIHppcChQSEFTRVMsIFBIQVNFU1sxOl0pfQpCQUNLX0VER0VTID0gewogICAgUGhhc2UuQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTDoge1BoYXNlLlVOS05PV05TX0FORF9CTElORFNQT1RTfSwKICAgIFBoYXNlLklNUExFTUVOVEFUSU9OX0xPT1A6IHtQaGFzZS5VTktOT1dOU19BTkRfQkxJTkRTUE9UU30sCiAgICBQaGFzZS5JTkRFUEVOREVOVF9WRVJJRklDQVRJT046IHtQaGFzZS5VTktOT1dOU19BTkRfQkxJTkRTUE9UU30sCn0KCgpAZGF0YWNsYXNzKGZyb3plbj1UcnVlKQpjbGFzcyBOb3RBcHBsaWNhYmxlUnVsZToKICAgIHByb2ZpbGVzOiBmcm96ZW5zZXRbc3RyXQogICAgcmVxdWlyZWRfZXZpZGVuY2Vfa2V5czogZnJvemVuc2V0W3N0cl0KCgpOT1RfQVBQTElDQUJMRV9SVUxFUyA9IHsKICAgIFBoYXNlLk9QVElPTlNfUkVGRVJFTkNFU19PUl9QUk9UT1RZUEVTOiB7CiAgICAgICAgInNpbmdsZV9tZWNoYW5pY2FsX291dGNvbWUiOiBOb3RBcHBsaWNhYmxlUnVsZSgKICAgICAgICAgICAgcHJvZmlsZXM9ZnJvemVuc2V0KHsiYnVpbGQiLCAiZGVidWciLCAicmVwYWlyIn0pLAogICAgICAgICAgICByZXF1aXJlZF9ldmlkZW5jZV9rZXlzPWZyb3plbnNldCh7Im9ubHlfdmlhYmxlX2NoYW5nZSIsICJyaXNrX2Fzc2Vzc21lbnQifSksCiAgICAgICAgKSwKICAgICAgICAibm9fc2FmZV9leGVjdXRhYmxlX3Byb3RvdHlwZSI6IE5vdEFwcGxpY2FibGVSdWxlKAogICAgICAgICAgICBwcm9maWxlcz1mcm96ZW5zZXQoeyJidWlsZCIsICJkZWJ1ZyIsICJyZXBhaXIiLCAicGxhbl9vbmx5In0pLAogICAgICAgICAgICByZXF1aXJlZF9ldmlkZW5jZV9rZXlzPWZyb3plbnNldCh7InByb3RvdHlwZV9yaXNrIiwgIm5vbl9tdXRhdGluZ19hbHRlcm5hdGl2ZSJ9KSwKICAgICAgICApLAogICAgfSwKICAgIFBoYXNlLklNUExFTUVOVEFUSU9OX0xPT1A6IHsKICAgICAgICAicGxhbl9vbmx5X25vX211dGF0aW9uIjogTm90QXBwbGljYWJsZVJ1bGUoCiAgICAgICAgICAgIHByb2ZpbGVzPWZyb3plbnNldCh7InBsYW5fb25seSJ9KSwKICAgICAgICAgICAgcmVxdWlyZWRfZXZpZGVuY2Vfa2V5cz1mcm96ZW5zZXQoeyJhcHByb3ZlZF9wbGFuIiwgIm5vX211dGF0aW9uX3BlcmZvcm1lZCJ9KSwKICAgICAgICApLAogICAgfSwKfQoKCmRlZiB2YWxpZGF0ZV9ub3RfYXBwbGljYWJsZSgKICAgICosCiAgICBwaGFzZTogUGhhc2UsCiAgICBwcm9maWxlOiBzdHIsCiAgICBjb2RlOiBzdHIgfCBOb25lLAogICAgcmVhc29uOiBzdHIgfCBOb25lLAogICAgZXZpZGVuY2U6IGRpY3Rbc3RyLCBBbnldIHwgTm9uZSwKKSAtPiBOb25lOgogICAgaWYgbm90IGNvZGUgb3Igbm90IHJlYXNvbiBvciBub3QgcmVhc29uLnN0cmlwKCk6CiAgICAgICAgcmFpc2UgTGlmZWN5Y2xlRXJyb3IoIk5PVF9BUFBMSUNBQkxFIHJlcXVpcmVzIGEgcG9saWN5IGNvZGUgYW5kIGEgc3BlY2lmaWMgcmVhc29uIikKICAgIHJ1bGUgPSBOT1RfQVBQTElDQUJMRV9SVUxFUy5nZXQocGhhc2UsIHt9KS5nZXQoY29kZSkKICAgIGlmIG5vdCBydWxlOgogICAgICAgIHJhaXNlIExpZmVjeWNsZUVycm9yKGYiTk9UX0FQUExJQ0FCTEUgaXMgbm90IHBlcm1pdHRlZCBmb3Ige3BoYXNlLnZhbHVlfSB3aXRoIGNvZGUge2NvZGUhcn0iKQogICAgaWYgcHJvZmlsZSBub3QgaW4gcnVsZS5wcm9maWxlczoKICAgICAgICByYWlzZSBMaWZlY3ljbGVFcnJvcihmIk5PVF9BUFBMSUNBQkxFIGNvZGUge2NvZGUhcn0gaXMgbm90IHBlcm1pdHRlZCBmb3IgcHJvZmlsZSB7cHJvZmlsZSFyfSIpCiAgICBldmlkZW5jZSA9IGV2aWRlbmNlIG9yIHt9CiAgICBtaXNzaW5nID0gc29ydGVkKHJ1bGUucmVxdWlyZWRfZXZpZGVuY2Vfa2V5cy5kaWZmZXJlbmNlKGV2aWRlbmNlKSkKICAgIGlmIG1pc3Npbmc6CiAgICAgICAgcmFpc2UgTGlmZWN5Y2xlRXJyb3IoZiJOT1RfQVBQTElDQUJMRSBldmlkZW5jZSBpcyBtaXNzaW5nOiB7JywgJy5qb2luKG1pc3NpbmcpfSIpCiAgICBleHRyYXMgPSBzb3J0ZWQoc2V0KGV2aWRlbmNlKS5kaWZmZXJlbmNlKHJ1bGUucmVxdWlyZWRfZXZpZGVuY2Vfa2V5cykpCiAgICBpZiBleHRyYXM6CiAgICAgICAgcmFpc2UgTGlmZWN5Y2xlRXJyb3IoIk5PVF9BUFBMSUNBQkxFIGV2aWRlbmNlIGNvbnRhaW5zIHVuc3VwcG9ydGVkIGtleXM6ICIgKyAiLCAiLmpvaW4oZXh0cmFzKSkKICAgIGlmIGFueShub3QgaXNpbnN0YW5jZShldmlkZW5jZVtrZXldLCBzdHIpIG9yIG5vdCBldmlkZW5jZVtrZXldLnN0cmlwKCkgZm9yIGtleSBpbiBydWxlLnJlcXVpcmVkX2V2aWRlbmNlX2tleXMpOgogICAgICAgIHJhaXNlIExpZmVjeWNsZUVycm9yKCJOT1RfQVBQTElDQUJMRSBldmlkZW5jZSB2YWx1ZXMgbXVzdCBiZSBub24tZW1wdHkgc3RyaW5ncyIpCgoKZGVmIHZhbGlkYXRlX3RyYW5zaXRpb24oY3VycmVudDogUGhhc2UsIHRhcmdldDogUGhhc2UsICosIGFwcHJvdmFsX3ZhbGlkOiBib29sKSAtPiBOb25lOgogICAgYWxsb3dlZCA9IHtMSU5FQVJfTkVYVFtjdXJyZW50XX0gaWYgY3VycmVudCBpbiBMSU5FQVJfTkVYVCBlbHNlIHNldCgpCiAgICBhbGxvd2VkLnVwZGF0ZShCQUNLX0VER0VTLmdldChjdXJyZW50LCBzZXQoKSkpCiAgICBpZiB0YXJnZXQgbm90IGluIGFsbG93ZWQ6CiAgICAgICAgcmFpc2UgTGlmZWN5Y2xlRXJyb3IoZiJJbGxlZ2FsIGxpZmVjeWNsZSB0cmFuc2l0aW9uOiB7Y3VycmVudC52YWx1ZX0gLT4ge3RhcmdldC52YWx1ZX0iKQogICAgaWYgdGFyZ2V0IGlzIFBoYXNlLklNUExFTUVOVEFUSU9OX0xPT1AgYW5kIGN1cnJlbnQgaXMgUGhhc2UuQVdBSVRJTkdfSFVNQU5fUExBTl9BUFBST1ZBTDoKICAgICAgICBpZiBub3QgYXBwcm92YWxfdmFsaWQ6CiAgICAgICAgICAgIHJhaXNlIExpZmVjeWNsZUVycm9yKCJJbXBsZW1lbnRhdGlvbiBjYW5ub3Qgc3RhcnQgd2l0aG91dCBhIGN1cnJlbnQgaG9vay1vd25lZCBhcHByb3ZhbCIpCgoKZGVmIGRlZmF1bHRfcGhhc2Vfc3RhdHVzZXMoKSAtPiBkaWN0W3N0ciwgc3RyXToKICAgIHN0YXR1c2VzID0ge3BoYXNlLnZhbHVlOiBQaGFzZVN0YXR1cy5QRU5ESU5HLnZhbHVlIGZvciBwaGFzZSBpbiBQSEFTRVN9CiAgICBzdGF0dXNlc1tQaGFzZS5JTlRBS0UudmFsdWVdID0gUGhhc2VTdGF0dXMuQUNUSVZFLnZhbHVlCiAgICByZXR1cm4gc3RhdHVzZXMKCgo=
+"""The mandatory thirteen-phase lifecycle and transition policy."""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from enum import Enum
+from typing import Any
+
+
+class Phase(str, Enum):
+    INTAKE = "INTAKE"
+    TERRITORY_DISCOVERY = "TERRITORY_DISCOVERY"
+    UNKNOWNS_AND_BLINDSPOTS = "UNKNOWNS_AND_BLINDSPOTS"
+    OPTIONS_REFERENCES_OR_PROTOTYPES = "OPTIONS_REFERENCES_OR_PROTOTYPES"
+    ACCEPTANCE_CRITERIA = "ACCEPTANCE_CRITERIA"
+    IMPLEMENTATION_PLAN = "IMPLEMENTATION_PLAN"
+    INDEPENDENT_PLAN_CRITIQUE = "INDEPENDENT_PLAN_CRITIQUE"
+    AWAITING_HUMAN_PLAN_APPROVAL = "AWAITING_HUMAN_PLAN_APPROVAL"
+    IMPLEMENTATION_LOOP = "IMPLEMENTATION_LOOP"
+    INDEPENDENT_VERIFICATION = "INDEPENDENT_VERIFICATION"
+    PLAN_VS_ACTUAL_RECONCILIATION = "PLAN_VS_ACTUAL_RECONCILIATION"
+    EXPLANATION_AND_COMPREHENSION_CHECK = "EXPLANATION_AND_COMPREHENSION_CHECK"
+    DONE = "DONE"
+
+
+PHASES = tuple(Phase)
+
+
+class PhaseStatus(str, Enum):
+    PENDING = "PENDING"
+    ACTIVE = "ACTIVE"
+    PASS = "PASS"
+    BLOCKED = "BLOCKED"
+    NOT_APPLICABLE = "NOT_APPLICABLE"
+
+
+class TerminalState(str, Enum):
+    DONE = "DONE"
+    BLOCKED = "BLOCKED"
+    NEEDS_HUMAN_JUDGMENT = "NEEDS_HUMAN_JUDGMENT"
+    AWAITING_HUMAN_INPUT = "AWAITING_HUMAN_INPUT"
+    AWAITING_HUMAN_PLAN_APPROVAL = "AWAITING_HUMAN_PLAN_APPROVAL"
+    VERIFICATION_FAILED = "VERIFICATION_FAILED"
+
+
+class LifecycleError(ValueError):
+    pass
+
+
+LINEAR_NEXT = {current: following for current, following in zip(PHASES, PHASES[1:])}
+BACK_EDGES = {
+    Phase.AWAITING_HUMAN_PLAN_APPROVAL: {Phase.UNKNOWNS_AND_BLINDSPOTS},
+    Phase.IMPLEMENTATION_LOOP: {Phase.UNKNOWNS_AND_BLINDSPOTS},
+    Phase.INDEPENDENT_VERIFICATION: {Phase.UNKNOWNS_AND_BLINDSPOTS},
+}
+
+
+@dataclass(frozen=True)
+class NotApplicableRule:
+    profiles: frozenset[str]
+    required_evidence_keys: frozenset[str]
+
+
+NOT_APPLICABLE_RULES = {
+    Phase.OPTIONS_REFERENCES_OR_PROTOTYPES: {
+        "single_mechanical_outcome": NotApplicableRule(
+            profiles=frozenset({"build", "debug", "repair"}),
+            required_evidence_keys=frozenset({"only_viable_change", "risk_assessment"}),
+        ),
+        "no_safe_executable_prototype": NotApplicableRule(
+            profiles=frozenset({"build", "debug", "repair", "plan_only"}),
+            required_evidence_keys=frozenset({"prototype_risk", "non_mutating_alternative"}),
+        ),
+    },
+    Phase.IMPLEMENTATION_LOOP: {
+        "plan_only_no_mutation": NotApplicableRule(
+            profiles=frozenset({"plan_only"}),
+            required_evidence_keys=frozenset({"approved_plan", "no_mutation_performed"}),
+        ),
+    },
+}
+
+
+def validate_not_applicable(
+    *,
+    phase: Phase,
+    profile: str,
+    code: str | None,
+    reason: str | None,
+    evidence: dict[str, Any] | None,
+) -> None:
+    if not code or not reason or not reason.strip():
+        raise LifecycleError("NOT_APPLICABLE requires a policy code and a specific reason")
+    rule = NOT_APPLICABLE_RULES.get(phase, {}).get(code)
+    if not rule:
+        raise LifecycleError(f"NOT_APPLICABLE is not permitted for {phase.value} with code {code!r}")
+    if profile not in rule.profiles:
+        raise LifecycleError(f"NOT_APPLICABLE code {code!r} is not permitted for profile {profile!r}")
+    evidence = evidence or {}
+    missing = sorted(rule.required_evidence_keys.difference(evidence))
+    if missing:
+        raise LifecycleError(f"NOT_APPLICABLE evidence is missing: {', '.join(missing)}")
+    extras = sorted(set(evidence).difference(rule.required_evidence_keys))
+    if extras:
+        raise LifecycleError("NOT_APPLICABLE evidence contains unsupported keys: " + ", ".join(extras))
+    if any(not isinstance(evidence[key], str) or not evidence[key].strip() for key in rule.required_evidence_keys):
+        raise LifecycleError("NOT_APPLICABLE evidence values must be non-empty strings")
+
+
+def validate_transition(current: Phase, target: Phase, *, approval_valid: bool) -> None:
+    allowed = {LINEAR_NEXT[current]} if current in LINEAR_NEXT else set()
+    allowed.update(BACK_EDGES.get(current, set()))
+    if target not in allowed:
+        raise LifecycleError(f"Illegal lifecycle transition: {current.value} -> {target.value}")
+    if target is Phase.IMPLEMENTATION_LOOP and current is Phase.AWAITING_HUMAN_PLAN_APPROVAL:
+        if not approval_valid:
+            raise LifecycleError("Implementation cannot start without a current hook-owned approval")
+
+
+def default_phase_statuses() -> dict[str, str]:
+    statuses = {phase.value: PhaseStatus.PENDING.value for phase in PHASES}
+    statuses[Phase.INTAKE.value] = PhaseStatus.ACTIVE.value
+    return statuses
+
+

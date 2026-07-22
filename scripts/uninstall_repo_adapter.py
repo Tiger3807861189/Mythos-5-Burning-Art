@@ -1,1 +1,311 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSZXN1bWUgb3IgY29tcGxldGUgYSByZXBvc2l0b3J5LWFkYXB0ZXIgdW5pbnN0YWxsIHdpdGhvdXQgZXNjYXBpbmcgdGhlIHJlcG9zaXRvcnkuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGJhc2U2NAppbXBvcnQgaGFzaGxpYgppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgdGVtcGZpbGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKUlVOVElNRV9ST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0gLyAic3JjIiAvICJzaGFyZWQiIC8gInJ1bnRpbWUiCmlmIHN0cihSVU5USU1FX1JPT1QpIG5vdCBpbiBzeXMucGF0aDoKICAgIHN5cy5wYXRoLmluc2VydCgwLCBzdHIoUlVOVElNRV9ST09UKSkKCmZyb20gbXl0aG9zX3J1bnRpbWUubG9ja2luZyBpbXBvcnQgRmlsZUxvY2sKClJFUEFSU0VfUE9JTlQgPSAweDA0MDAKU0NIRU1BX1ZFUlNJT04gPSAzClJFQ09WRVJZX0ZJRUxEUyA9ICgKICAgICJjcmVhdGVkX2ZpbGUiLAogICAgInByaW9yX2V4aXN0cyIsCiAgICAicHJpb3JfY29udGVudF9iNjQiLAogICAgInByaW9yX2NvbnRlbnRfc2hhMjU2IiwKICAgICJjb250ZW50X3NoYTI1NiIsCiAgICAicmVzdWx0X2NvbnRlbnRfYjY0IiwKICAgICJjcmVhdGVkX2RpcmVjdG9yaWVzIiwKKQoKCmRlZiBzaGEyNTZfYnl0ZXModmFsdWU6IGJ5dGVzKSAtPiBzdHI6CiAgICByZXR1cm4gaGFzaGxpYi5zaGEyNTYodmFsdWUpLmhleGRpZ2VzdCgpCgoKZGVmIHBhdGhfZXhpc3RzKHBhdGg6IFBhdGgpIC0+IGJvb2w6CiAgICByZXR1cm4gb3MucGF0aC5sZXhpc3RzKHBhdGgpCgoKZGVmIGlzX3JlZGlyZWN0KHBhdGg6IFBhdGgpIC0+IGJvb2w6CiAgICBpZiBwYXRoLmlzX3N5bWxpbmsoKToKICAgICAgICByZXR1cm4gVHJ1ZQogICAgdHJ5OgogICAgICAgIGF0dHJpYnV0ZXMgPSBwYXRoLmxzdGF0KCkuc3RfZmlsZV9hdHRyaWJ1dGVzCiAgICBleGNlcHQgKEF0dHJpYnV0ZUVycm9yLCBGaWxlTm90Rm91bmRFcnJvciwgT1NFcnJvcik6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICByZXR1cm4gYm9vbChhdHRyaWJ1dGVzICYgUkVQQVJTRV9QT0lOVCkKCgpkZWYgbm9ybWFsaXplX3JlcG8ocGF0aDogUGF0aCkgLT4gUGF0aDoKICAgIGNhbmRpZGF0ZSA9IFBhdGgob3MucGF0aC5hYnNwYXRoKG9zLmZzcGF0aChwYXRoLmV4cGFuZHVzZXIoKSkpKQogICAgaWYgbm90IGNhbmRpZGF0ZS5pc19kaXIoKToKICAgICAgICByYWlzZSBOb3RBRGlyZWN0b3J5RXJyb3IoY2FuZGlkYXRlKQogICAgaWYgaXNfcmVkaXJlY3QoY2FuZGlkYXRlKToKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJSZXBvc2l0b3J5IHJvb3QgbXVzdCBub3QgYmUgYSBzeW1saW5rLCBqdW5jdGlvbiwgb3IgcmVwYXJzZSBwb2ludDoge2NhbmRpZGF0ZX0iKQogICAgcmV0dXJuIGNhbmRpZGF0ZS5yZXNvbHZlKCkKCgpkZWYgcmVsYXRpdmVfZGVzdGluYXRpb24ocmVwbzogUGF0aCwgcmVsYXRpdmU6IFBhdGggfCBzdHIpIC0+IFBhdGg6CiAgICByZWxhdGl2ZSA9IFBhdGgocmVsYXRpdmUpCiAgICBpZiByZWxhdGl2ZS5pc19hYnNvbHV0ZSgpIG9yICIuLiIgaW4gcmVsYXRpdmUucGFydHM6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYiTWFuaWZlc3QgZGVzdGluYXRpb24gaXMgbm90IHJlcG9zaXRvcnktcmVsYXRpdmU6IHtyZWxhdGl2ZX0iKQogICAgZGVzdGluYXRpb24gPSByZXBvLmpvaW5wYXRoKCpyZWxhdGl2ZS5wYXJ0cykKICAgIGN1cnNvciA9IHJlcG8KICAgIGZvciBwYXJ0IGluIHJlbGF0aXZlLnBhcnRzOgogICAgICAgIGN1cnNvciA9IGN1cnNvciAvIHBhcnQKICAgICAgICBpZiBwYXRoX2V4aXN0cyhjdXJzb3IpIGFuZCBpc19yZWRpcmVjdChjdXJzb3IpOgogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJNYW5pZmVzdCBkZXN0aW5hdGlvbiBjcm9zc2VzIGEgc3ltbGluaywganVuY3Rpb24sIG9yIHJlcGFyc2UgcG9pbnQ6IHtjdXJzb3J9IikKICAgIHJlc29sdmVkID0gZGVzdGluYXRpb24ucmVzb2x2ZShzdHJpY3Q9RmFsc2UpCiAgICBpZiByZXNvbHZlZCAhPSByZXBvIGFuZCByZXBvIG5vdCBpbiByZXNvbHZlZC5wYXJlbnRzOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIk1hbmlmZXN0IGRlc3RpbmF0aW9uIGVzY2FwZXMgcmVwb3NpdG9yeToge2Rlc3RpbmF0aW9ufSIpCiAgICByZXR1cm4gZGVzdGluYXRpb24KCgpkZWYgYWRhcHRlcl9sb2NrKHJlcG86IFBhdGgpIC0+IEZpbGVMb2NrOgogICAgY29uZmlndXJlZCA9IG9zLmVudmlyb24uZ2V0KCJNWVRIT1M1X1NUQVRFX0hPTUUiKQogICAgc3RhdGVfcm9vdCA9IFBhdGgoY29uZmlndXJlZCkuZXhwYW5kdXNlcigpLnJlc29sdmUoc3RyaWN0PUZhbHNlKSBpZiBjb25maWd1cmVkIGVsc2UgUGF0aCh0ZW1wZmlsZS5nZXR0ZW1wZGlyKCkpIC8gIm15dGhvcy01LWJ1cm5pbmctYXJ0IgogICAgdHJ5OgogICAgICAgIGlmIG9zLnBhdGgubm9ybWNhc2Uob3MucGF0aC5jb21tb25wYXRoKFtzdHIoc3RhdGVfcm9vdCksIHN0cihyZXBvKV0pKSA9PSBvcy5wYXRoLm5vcm1jYXNlKHN0cihyZXBvKSk6CiAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcigiTVlUSE9TNV9TVEFURV9IT01FIG11c3QgYmUgb3V0c2lkZSB0aGUgcmVwb3NpdG9yeSIpCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICBwYXNzCiAgICBrZXkgPSBoYXNobGliLnNoYTI1Nihvcy5wYXRoLm5vcm1jYXNlKHN0cihyZXBvKSkuZW5jb2RlKCJ1dGYtOCIpKS5oZXhkaWdlc3QoKQogICAgcmV0dXJuIEZpbGVMb2NrKHN0YXRlX3Jvb3QgLyAiYWRhcHRlci1sb2NrcyIgLyBmIntrZXl9LmxvY2siLCB0aW1lb3V0PTMwLjApCgoKZGVmIGF0b21pY193cml0ZV9ieXRlcyhyZXBvOiBQYXRoLCBkZXN0aW5hdGlvbjogUGF0aCwgcGF5bG9hZDogYnl0ZXMpIC0+IE5vbmU6CiAgICByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBkZXN0aW5hdGlvbi5yZWxhdGl2ZV90byhyZXBvKSkKICAgIGRlc3RpbmF0aW9uLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBkZXN0aW5hdGlvbi5yZWxhdGl2ZV90byhyZXBvKSkKICAgIGRlc2NyaXB0b3IsIHRlbXBvcmFyeV9uYW1lID0gdGVtcGZpbGUubWtzdGVtcChwcmVmaXg9ZiIue2Rlc3RpbmF0aW9uLm5hbWV9LiIsIHN1ZmZpeD0iLnRtcCIsIGRpcj1kZXN0aW5hdGlvbi5wYXJlbnQpCiAgICB0ZW1wb3JhcnkgPSBQYXRoKHRlbXBvcmFyeV9uYW1lKQogICAgdHJ5OgogICAgICAgIHdpdGggb3MuZmRvcGVuKGRlc2NyaXB0b3IsICJ3YiIpIGFzIGhhbmRsZToKICAgICAgICAgICAgaGFuZGxlLndyaXRlKHBheWxvYWQpCiAgICAgICAgICAgIGhhbmRsZS5mbHVzaCgpCiAgICAgICAgICAgIG9zLmZzeW5jKGhhbmRsZS5maWxlbm8oKSkKICAgICAgICByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBkZXN0aW5hdGlvbi5yZWxhdGl2ZV90byhyZXBvKSkKICAgICAgICBvcy5yZXBsYWNlKHRlbXBvcmFyeSwgZGVzdGluYXRpb24pCiAgICBmaW5hbGx5OgogICAgICAgIGlmIHBhdGhfZXhpc3RzKHRlbXBvcmFyeSk6CiAgICAgICAgICAgIHRlbXBvcmFyeS51bmxpbmsoKQoKZGVmIG1hbmlmZXN0X3BhdGgocmVwbzogUGF0aCwgaG9zdDogc3RyKSAtPiBQYXRoOgogICAgcmV0dXJuIHJlbGF0aXZlX2Rlc3RpbmF0aW9uKHJlcG8sIGYiLm15dGhvcy1hZGFwdGVyLWluc3RhbGwte2hvc3R9Lmpzb24iKQoKCmRlZiB3cml0ZV9tYW5pZmVzdChyZXBvOiBQYXRoLCBwYXRoOiBQYXRoLCBwYXlsb2FkOiBkaWN0KSAtPiBOb25lOgogICAgZW5jb2RlZCA9IChqc29uLmR1bXBzKHBheWxvYWQsIGluZGVudD0yKSArICJcbiIpLmVuY29kZSgidXRmLTgiKQogICAgYXRvbWljX3dyaXRlX2J5dGVzKHJlcG8sIHBhdGgsIGVuY29kZWQpCgoKZGVmIGxvYWRfbWFuaWZlc3QocmVwbzogUGF0aCwgaG9zdDogc3RyKSAtPiB0dXBsZVtQYXRoLCBkaWN0XToKICAgIHBhdGggPSBtYW5pZmVzdF9wYXRoKHJlcG8sIGhvc3QpCiAgICBwYXlsb2FkID0ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGlmIHBheWxvYWQuZ2V0KCJzY2hlbWFfdmVyc2lvbiIpICE9IFNDSEVNQV9WRVJTSU9OOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIlVuc3VwcG9ydGVkIGFkYXB0ZXIgbWFuaWZlc3Qgc2NoZW1hIGluIHtwYXRofSIpCiAgICBpZiBwYXlsb2FkLmdldCgiaG9zdCIpICE9IGhvc3Qgb3Igbm90IGlzaW5zdGFuY2UocGF5bG9hZC5nZXQoImNoYW5nZXMiKSwgbGlzdCk6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYiSW52YWxpZCBhZGFwdGVyIG1hbmlmZXN0OiB7cGF0aH0iKQogICAgZm9yIGVudHJ5IGluIHBheWxvYWRbImNoYW5nZXMiXToKICAgICAgICByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBlbnRyeS5nZXQoInBhdGgiLCAiIikpCiAgICByZXR1cm4gcGF0aCwgcGF5bG9hZAoKCmRlZiBsb2FkX290aGVyX21hbmlmZXN0KHJlcG86IFBhdGgsIGhvc3Q6IHN0cikgLT4gdHVwbGVbUGF0aCwgZGljdF0gfCBOb25lOgogICAgb3RoZXIgPSAiY2xhdWRlIiBpZiBob3N0ID09ICJjb2RleCIgZWxzZSAiY29kZXgiCiAgICBwYXRoID0gbWFuaWZlc3RfcGF0aChyZXBvLCBvdGhlcikKICAgIGlmIG5vdCBwYXRoX2V4aXN0cyhwYXRoKToKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIGxvYWRfbWFuaWZlc3QocmVwbywgb3RoZXIpCgoKZGVmIGRlY29kZWQoZW50cnk6IGRpY3QsIG5hbWU6IHN0cikgLT4gYnl0ZXMgfCBOb25lOgogICAgdmFsdWUgPSBlbnRyeS5nZXQobmFtZSkKICAgIHJldHVybiBiYXNlNjQuYjY0ZGVjb2RlKHZhbHVlKSBpZiB2YWx1ZSBpcyBub3QgTm9uZSBlbHNlIE5vbmUKCgpkZWYgZW50cnlfY29udGVudF9zdGF0ZShyZXBvOiBQYXRoLCBlbnRyeTogZGljdCkgLT4gc3RyOgogICAgZGVzdGluYXRpb24gPSByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBlbnRyeVsicGF0aCJdKQogICAgY3VycmVudCA9IGRlc3RpbmF0aW9uLnJlYWRfYnl0ZXMoKSBpZiBwYXRoX2V4aXN0cyhkZXN0aW5hdGlvbikgZWxzZSBOb25lCiAgICBwcmlvciA9IGRlY29kZWQoZW50cnksICJwcmlvcl9jb250ZW50X2I2NCIpIGlmIGVudHJ5LmdldCgicHJpb3JfZXhpc3RzIikgZWxzZSBOb25lCiAgICByZXN1bHQgPSBkZWNvZGVkKGVudHJ5LCAicmVzdWx0X2NvbnRlbnRfYjY0IikKICAgIGlmIGN1cnJlbnQgPT0gcmVzdWx0OgogICAgICAgIHJldHVybiAiaW5zdGFsbGVkIgogICAgaWYgY3VycmVudCA9PSBwcmlvcjoKICAgICAgICByZXR1cm4gInJlc3RvcmVkIgogICAgcmFpc2UgUnVudGltZUVycm9yKGYiUmVmdXNpbmcgdG8gYWx0ZXIgbW9kaWZpZWQgYWRhcHRlciBjb250ZW50OiB7ZGVzdGluYXRpb259IikKCgpkZWYgYWN0aXZlX3JlZmVyZW5jZShyZXBvOiBQYXRoLCBwYXlsb2FkOiBkaWN0IHwgTm9uZSwgcmVsYXRpdmU6IHN0cikgLT4gaW50IHwgTm9uZToKICAgIGlmIHBheWxvYWQgaXMgTm9uZToKICAgICAgICByZXR1cm4gTm9uZQogICAgZm9yIGluZGV4LCBlbnRyeSBpbiBlbnVtZXJhdGUocGF5bG9hZC5nZXQoImNoYW5nZXMiLCBbXSkpOgogICAgICAgIGlmIGVudHJ5LmdldCgicGF0aCIpICE9IHJlbGF0aXZlIG9yIGVudHJ5LmdldCgidW5pbnN0YWxsX3N0YXRlIiwgImFjdGl2ZSIpID09ICJkb25lIjoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBzdGF0ZSA9IGVudHJ5X2NvbnRlbnRfc3RhdGUocmVwbywgZW50cnkpCiAgICAgICAgaWYgc3RhdGUgPT0gImluc3RhbGxlZCI6CiAgICAgICAgICAgIHJldHVybiBpbmRleAogICAgcmV0dXJuIE5vbmUKCgpkZWYgcHVibGljX2FjdGlvbihhY3Rpb246IGRpY3QpIC0+IGRpY3Q6CiAgICByZXR1cm4ge2tleTogdmFsdWUgZm9yIGtleSwgdmFsdWUgaW4gYWN0aW9uLml0ZW1zKCkgaWYga2V5IG5vdCBpbiB7Im90aGVyX2luZGV4IiwgInN0YXRlIn19CgoKZGVmIHBsYW5fYWN0aW9ucyhyZXBvOiBQYXRoLCBwYXlsb2FkOiBkaWN0LCBvdGhlcl9wYXlsb2FkOiBkaWN0IHwgTm9uZSkgLT4gbGlzdFtkaWN0XToKICAgIGFjdGlvbnM6IGxpc3RbZGljdF0gPSBbXQogICAgZm9yIGluZGV4IGluIHJhbmdlKGxlbihwYXlsb2FkWyJjaGFuZ2VzIl0pIC0gMSwgLTEsIC0xKToKICAgICAgICBlbnRyeSA9IHBheWxvYWRbImNoYW5nZXMiXVtpbmRleF0KICAgICAgICBkZXN0aW5hdGlvbiA9IHJlbGF0aXZlX2Rlc3RpbmF0aW9uKHJlcG8sIGVudHJ5WyJwYXRoIl0pCiAgICAgICAgaWYgZW50cnkuZ2V0KCJ1bmluc3RhbGxfc3RhdGUiLCAiYWN0aXZlIikgPT0gImRvbmUiOgogICAgICAgICAgICBhY3Rpb25zLmFwcGVuZCgKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAiaW5kZXgiOiBpbmRleCwKICAgICAgICAgICAgICAgICAgICAicGF0aCI6IHN0cihkZXN0aW5hdGlvbiksCiAgICAgICAgICAgICAgICAgICAgImtpbmQiOiBlbnRyeVsia2luZCJdLAogICAgICAgICAgICAgICAgICAgICJhY3Rpb24iOiAiYWxyZWFkeV9kb25lIiwKICAgICAgICAgICAgICAgICAgICAidHJhbnNmZXJfb3duZXJzaGlwIjogRmFsc2UsCiAgICAgICAgICAgICAgICAgICAgIm90aGVyX2luZGV4IjogTm9uZSwKICAgICAgICAgICAgICAgICAgICAic3RhdGUiOiAicmVzdG9yZWQiLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIHN0YXRlID0gZW50cnlfY29udGVudF9zdGF0ZShyZXBvLCBlbnRyeSkKICAgICAgICBvd25lZCA9IGJvb2woZW50cnkuZ2V0KCJvd25lZCIpKQogICAgICAgIG90aGVyX2luZGV4ID0gYWN0aXZlX3JlZmVyZW5jZShyZXBvLCBvdGhlcl9wYXlsb2FkLCBlbnRyeVsicGF0aCJdKQogICAgICAgIGlmIG5vdCBvd25lZDoKICAgICAgICAgICAgYWN0aW9uID0gImtlZXBfcHJlZXhpc3RpbmciCiAgICAgICAgZWxpZiBzdGF0ZSA9PSAicmVzdG9yZWQiOgogICAgICAgICAgICBhY3Rpb24gPSAiYWxyZWFkeV9yZW1vdmVkIgogICAgICAgIGVsaWYgb3RoZXJfaW5kZXggaXMgbm90IE5vbmU6CiAgICAgICAgICAgIGFjdGlvbiA9ICJrZWVwX3NoYXJlZCIKICAgICAgICBlbHNlOgogICAgICAgICAgICBhY3Rpb24gPSAicmVtb3ZlIgogICAgICAgIGFjdGlvbnMuYXBwZW5kKAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaW5kZXgiOiBpbmRleCwKICAgICAgICAgICAgICAgICJwYXRoIjogc3RyKGRlc3RpbmF0aW9uKSwKICAgICAgICAgICAgICAgICJraW5kIjogZW50cnlbImtpbmQiXSwKICAgICAgICAgICAgICAgICJhY3Rpb24iOiBhY3Rpb24sCiAgICAgICAgICAgICAgICAidHJhbnNmZXJfb3duZXJzaGlwIjogYm9vbChhY3Rpb24gPT0gImtlZXBfc2hhcmVkIiBhbmQgb3duZWQpLAogICAgICAgICAgICAgICAgIm90aGVyX2luZGV4Ijogb3RoZXJfaW5kZXgsCiAgICAgICAgICAgICAgICAic3RhdGUiOiBzdGF0ZSwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIHJldHVybiBhY3Rpb25zCgoKZGVmIHRyYW5zZmVyX293bmVyc2hpcChzb3VyY2U6IGRpY3QsIHRhcmdldDogZGljdCkgLT4gTm9uZToKICAgIHRhcmdldFsib3duZWQiXSA9IFRydWUKICAgIHRhcmdldFsiaW5zdGFsbF9zdGF0ZSJdID0gImFwcGxpZWQiCiAgICBmb3IgZmllbGQgaW4gUkVDT1ZFUllfRklFTERTOgogICAgICAgIHRhcmdldFtmaWVsZF0gPSBzb3VyY2UuZ2V0KGZpZWxkKQoKCmRlZiByZXN0b3JlX293bmVkX2VudHJ5KHJlcG86IFBhdGgsIGVudHJ5OiBkaWN0KSAtPiBOb25lOgogICAgZGVzdGluYXRpb24gPSByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCBlbnRyeVsicGF0aCJdKQogICAgc3RhdGUgPSBlbnRyeV9jb250ZW50X3N0YXRlKHJlcG8sIGVudHJ5KQogICAgaWYgc3RhdGUgPT0gInJlc3RvcmVkIjoKICAgICAgICByZXR1cm4KICAgIHByaW9yID0gZGVjb2RlZChlbnRyeSwgInByaW9yX2NvbnRlbnRfYjY0IikgaWYgZW50cnkuZ2V0KCJwcmlvcl9leGlzdHMiKSBlbHNlIE5vbmUKICAgIGlmIHByaW9yIGlzIE5vbmU6CiAgICAgICAgZGVzdGluYXRpb24udW5saW5rKCkKICAgIGVsc2U6CiAgICAgICAgYXRvbWljX3dyaXRlX2J5dGVzKHJlcG8sIGRlc3RpbmF0aW9uLCBwcmlvcikKCgpkZWYgcmVtb3ZlX2NyZWF0ZWRfZGlyZWN0b3JpZXMocmVwbzogUGF0aCwgZW50cmllczogbGlzdFtkaWN0XSkgLT4gTm9uZToKICAgIGRpcmVjdG9yaWVzID0gewogICAgICAgIHJlbGF0aXZlCiAgICAgICAgZm9yIGVudHJ5IGluIGVudHJpZXMKICAgICAgICBpZiBlbnRyeS5nZXQoIm93bmVkIikKICAgICAgICBmb3IgcmVsYXRpdmUgaW4gZW50cnkuZ2V0KCJjcmVhdGVkX2RpcmVjdG9yaWVzIiwgW10pCiAgICB9CiAgICBmb3IgcmVsYXRpdmUgaW4gc29ydGVkKGRpcmVjdG9yaWVzLCBrZXk9bGFtYmRhIGl0ZW06IGxlbihQYXRoKGl0ZW0pLnBhcnRzKSwgcmV2ZXJzZT1UcnVlKToKICAgICAgICBkaXJlY3RvcnkgPSByZWxhdGl2ZV9kZXN0aW5hdGlvbihyZXBvLCByZWxhdGl2ZSkKICAgICAgICBpZiBwYXRoX2V4aXN0cyhkaXJlY3RvcnkpIGFuZCBkaXJlY3RvcnkuaXNfZGlyKCkgYW5kIG5vdCBhbnkoZGlyZWN0b3J5Lml0ZXJkaXIoKSk6CiAgICAgICAgICAgIGRpcmVjdG9yeS5ybWRpcigpCgoKZGVmIF91bmluc3RhbGxfbG9ja2VkKHJlcG86IFBhdGgsIGhvc3Q6IHN0ciwgZHJ5X3J1bjogYm9vbCwgZmFpbF9hZnRlcjogaW50IHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbZGljdF06CiAgICByZXBvID0gbm9ybWFsaXplX3JlcG8ocmVwbykKICAgIG1hbmlmZXN0LCBwYXlsb2FkID0gbG9hZF9tYW5pZmVzdChyZXBvLCBob3N0KQogICAgb3RoZXJfcmVjb3JkID0gbG9hZF9vdGhlcl9tYW5pZmVzdChyZXBvLCBob3N0KQogICAgb3RoZXJfcGF0aCA9IG90aGVyX3JlY29yZFswXSBpZiBvdGhlcl9yZWNvcmQgZWxzZSBOb25lCiAgICBvdGhlcl9wYXlsb2FkID0gb3RoZXJfcmVjb3JkWzFdIGlmIG90aGVyX3JlY29yZCBlbHNlIE5vbmUKICAgIGFjdGlvbnMgPSBwbGFuX2FjdGlvbnMocmVwbywgcGF5bG9hZCwgb3RoZXJfcGF5bG9hZCkKICAgIGlmIGRyeV9ydW46CiAgICAgICAgcmV0dXJuIFtwdWJsaWNfYWN0aW9uKGFjdGlvbikgZm9yIGFjdGlvbiBpbiBhY3Rpb25zXQoKICAgIG11dGF0aW9ucyA9IDAKICAgIHBheWxvYWRbInN0YXR1cyJdID0gInVuaW5zdGFsbGluZyIKICAgIHdyaXRlX21hbmlmZXN0KHJlcG8sIG1hbmlmZXN0LCBwYXlsb2FkKQogICAgZm9yIGFjdGlvbiBpbiBhY3Rpb25zOgogICAgICAgIGVudHJ5ID0gcGF5bG9hZFsiY2hhbmdlcyJdW2FjdGlvblsiaW5kZXgiXV0KICAgICAgICBpZiBlbnRyeS5nZXQoInVuaW5zdGFsbF9zdGF0ZSIsICJhY3RpdmUiKSA9PSAiZG9uZSI6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGlmIGFjdGlvblsidHJhbnNmZXJfb3duZXJzaGlwIl06CiAgICAgICAgICAgIGlmIG90aGVyX3BheWxvYWQgaXMgTm9uZSBvciBvdGhlcl9wYXRoIGlzIE5vbmUgb3IgYWN0aW9uWyJvdGhlcl9pbmRleCJdIGlzIE5vbmU6CiAgICAgICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJTaGFyZWQgb3duZXJzaGlwIHRhcmdldCBkaXNhcHBlYXJlZCBmb3Ige2VudHJ5WydwYXRoJ119IikKICAgICAgICAgICAgdGFyZ2V0ID0gb3RoZXJfcGF5bG9hZFsiY2hhbmdlcyJdW2FjdGlvblsib3RoZXJfaW5kZXgiXV0KICAgICAgICAgICAgdHJhbnNmZXJfb3duZXJzaGlwKGVudHJ5LCB0YXJnZXQpCiAgICAgICAgICAgIHdyaXRlX21hbmlmZXN0KHJlcG8sIG90aGVyX3BhdGgsIG90aGVyX3BheWxvYWQpCiAgICAgICAgICAgIG11dGF0aW9ucyArPSAxCiAgICAgICAgICAgIGlmIGZhaWxfYWZ0ZXIgaXMgbm90IE5vbmUgYW5kIG11dGF0aW9ucyA+PSBmYWlsX2FmdGVyOgogICAgICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJTaW11bGF0ZWQgbWlkLXVuaW5zdGFsbCBmYWlsdXJlIikKICAgICAgICBlbGlmIGFjdGlvblsiYWN0aW9uIl0gPT0gInJlbW92ZSI6CiAgICAgICAgICAgIHJlc3RvcmVfb3duZWRfZW50cnkocmVwbywgZW50cnkpCiAgICAgICAgICAgIG11dGF0aW9ucyArPSAxCiAgICAgICAgICAgIGlmIGZhaWxfYWZ0ZXIgaXMgbm90IE5vbmUgYW5kIG11dGF0aW9ucyA+PSBmYWlsX2FmdGVyOgogICAgICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJTaW11bGF0ZWQgbWlkLXVuaW5zdGFsbCBmYWlsdXJlIikKCiAgICAgICAgZW50cnlbInVuaW5zdGFsbF9zdGF0ZSJdID0gImRvbmUiCiAgICAgICAgd3JpdGVfbWFuaWZlc3QocmVwbywgbWFuaWZlc3QsIHBheWxvYWQpCgogICAgcmVtb3ZlX2NyZWF0ZWRfZGlyZWN0b3JpZXMocmVwbywgcGF5bG9hZFsiY2hhbmdlcyJdKQogICAgbWFuaWZlc3QudW5saW5rKCkKICAgIHJldHVybiBbcHVibGljX2FjdGlvbihhY3Rpb24pIGZvciBhY3Rpb24gaW4gYWN0aW9uc10KCgpkZWYgdW5pbnN0YWxsKHJlcG86IFBhdGgsIGhvc3Q6IHN0ciwgZHJ5X3J1bjogYm9vbCwgZmFpbF9hZnRlcjogaW50IHwgTm9uZSA9IE5vbmUpIC0+IGxpc3RbZGljdF06CiAgICByZXBvID0gbm9ybWFsaXplX3JlcG8ocmVwbykKICAgIGlmIGRyeV9ydW46CiAgICAgICAgcmV0dXJuIF91bmluc3RhbGxfbG9ja2VkKHJlcG8sIGhvc3QsIFRydWUsIGZhaWxfYWZ0ZXIpCiAgICB3aXRoIGFkYXB0ZXJfbG9jayhyZXBvKToKICAgICAgICByZXR1cm4gX3VuaW5zdGFsbF9sb2NrZWQocmVwbywgaG9zdCwgRmFsc2UsIGZhaWxfYWZ0ZXIpCgpkZWYgbWFpbigpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcmVwbyIsIHR5cGU9UGF0aCwgcmVxdWlyZWQ9VHJ1ZSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0taG9zdCIsIGNob2ljZXM9WyJjb2RleCIsICJjbGF1ZGUiXSwgcmVxdWlyZWQ9VHJ1ZSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tYXBwbHkiLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJBcHBseSByZW1vdmFsLiBUaGUgZGVmYXVsdCBpcyBhIGRyeSBydW4uIikKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBpbmplY3RlZCA9IG9zLmVudmlyb24uZ2V0KCJNWVRIT1NfQURBUFRFUl9URVNUX0ZBSUxfVU5JTlNUQUxMX0FGVEVSIikKICAgIGZhaWxfYWZ0ZXIgPSBpbnQoaW5qZWN0ZWQpIGlmIGluamVjdGVkIGVsc2UgTm9uZQogICAgYWN0aW9ucyA9IHVuaW5zdGFsbChhcmdzLnJlcG8sIGFyZ3MuaG9zdCwgZHJ5X3J1bj1ub3QgYXJncy5hcHBseSwgZmFpbF9hZnRlcj1mYWlsX2FmdGVyKQogICAgcHJpbnQoanNvbi5kdW1wcyh7Im1vZGUiOiAiYXBwbHkiIGlmIGFyZ3MuYXBwbHkgZWxzZSAiZHJ5LXJ1biIsICJob3N0IjogYXJncy5ob3N0LCAiYWN0aW9ucyI6IGFjdGlvbnN9LCBpbmRlbnQ9MikpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB0cnk6CiAgICAgICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzoKICAgICAgICBwcmludChmIkFkYXB0ZXIgcmVtb3ZhbCBmYWlsZWQ6IHtleGN9IiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgIHJhaXNlIFN5c3RlbUV4aXQoMSk=
+#!/usr/bin/env python3
+"""Resume or complete a repository-adapter uninstall without escaping the repository."""
+
+from __future__ import annotations
+
+import argparse
+import base64
+import hashlib
+import json
+import os
+import sys
+import tempfile
+from pathlib import Path
+
+
+RUNTIME_ROOT = Path(__file__).resolve().parents[1] / "src" / "shared" / "runtime"
+if str(RUNTIME_ROOT) not in sys.path:
+    sys.path.insert(0, str(RUNTIME_ROOT))
+
+from mythos_runtime.locking import FileLock
+
+REPARSE_POINT = 0x0400
+SCHEMA_VERSION = 3
+RECOVERY_FIELDS = (
+    "created_file",
+    "prior_exists",
+    "prior_content_b64",
+    "prior_content_sha256",
+    "content_sha256",
+    "result_content_b64",
+    "created_directories",
+)
+
+
+def sha256_bytes(value: bytes) -> str:
+    return hashlib.sha256(value).hexdigest()
+
+
+def path_exists(path: Path) -> bool:
+    return os.path.lexists(path)
+
+
+def is_redirect(path: Path) -> bool:
+    if path.is_symlink():
+        return True
+    try:
+        attributes = path.lstat().st_file_attributes
+    except (AttributeError, FileNotFoundError, OSError):
+        return False
+    return bool(attributes & REPARSE_POINT)
+
+
+def normalize_repo(path: Path) -> Path:
+    candidate = Path(os.path.abspath(os.fspath(path.expanduser())))
+    if not candidate.is_dir():
+        raise NotADirectoryError(candidate)
+    if is_redirect(candidate):
+        raise RuntimeError(f"Repository root must not be a symlink, junction, or reparse point: {candidate}")
+    return candidate.resolve()
+
+
+def relative_destination(repo: Path, relative: Path | str) -> Path:
+    relative = Path(relative)
+    if relative.is_absolute() or ".." in relative.parts:
+        raise RuntimeError(f"Manifest destination is not repository-relative: {relative}")
+    destination = repo.joinpath(*relative.parts)
+    cursor = repo
+    for part in relative.parts:
+        cursor = cursor / part
+        if path_exists(cursor) and is_redirect(cursor):
+            raise RuntimeError(f"Manifest destination crosses a symlink, junction, or reparse point: {cursor}")
+    resolved = destination.resolve(strict=False)
+    if resolved != repo and repo not in resolved.parents:
+        raise RuntimeError(f"Manifest destination escapes repository: {destination}")
+    return destination
+
+
+def adapter_lock(repo: Path) -> FileLock:
+    configured = os.environ.get("MYTHOS5_STATE_HOME")
+    state_root = Path(configured).expanduser().resolve(strict=False) if configured else Path(tempfile.gettempdir()) / "mythos-5-burning-art"
+    try:
+        if os.path.normcase(os.path.commonpath([str(state_root), str(repo)])) == os.path.normcase(str(repo)):
+            raise RuntimeError("MYTHOS5_STATE_HOME must be outside the repository")
+    except ValueError:
+        pass
+    key = hashlib.sha256(os.path.normcase(str(repo)).encode("utf-8")).hexdigest()
+    return FileLock(state_root / "adapter-locks" / f"{key}.lock", timeout=30.0)
+
+
+def atomic_write_bytes(repo: Path, destination: Path, payload: bytes) -> None:
+    relative_destination(repo, destination.relative_to(repo))
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    relative_destination(repo, destination.relative_to(repo))
+    descriptor, temporary_name = tempfile.mkstemp(prefix=f".{destination.name}.", suffix=".tmp", dir=destination.parent)
+    temporary = Path(temporary_name)
+    try:
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        relative_destination(repo, destination.relative_to(repo))
+        os.replace(temporary, destination)
+    finally:
+        if path_exists(temporary):
+            temporary.unlink()
+
+def manifest_path(repo: Path, host: str) -> Path:
+    return relative_destination(repo, f".mythos-adapter-install-{host}.json")
+
+
+def write_manifest(repo: Path, path: Path, payload: dict) -> None:
+    encoded = (json.dumps(payload, indent=2) + "\n").encode("utf-8")
+    atomic_write_bytes(repo, path, encoded)
+
+
+def load_manifest(repo: Path, host: str) -> tuple[Path, dict]:
+    path = manifest_path(repo, host)
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != SCHEMA_VERSION:
+        raise RuntimeError(f"Unsupported adapter manifest schema in {path}")
+    if payload.get("host") != host or not isinstance(payload.get("changes"), list):
+        raise RuntimeError(f"Invalid adapter manifest: {path}")
+    for entry in payload["changes"]:
+        relative_destination(repo, entry.get("path", ""))
+    return path, payload
+
+
+def load_other_manifest(repo: Path, host: str) -> tuple[Path, dict] | None:
+    other = "claude" if host == "codex" else "codex"
+    path = manifest_path(repo, other)
+    if not path_exists(path):
+        return None
+    return load_manifest(repo, other)
+
+
+def decoded(entry: dict, name: str) -> bytes | None:
+    value = entry.get(name)
+    return base64.b64decode(value) if value is not None else None
+
+
+def entry_content_state(repo: Path, entry: dict) -> str:
+    destination = relative_destination(repo, entry["path"])
+    current = destination.read_bytes() if path_exists(destination) else None
+    prior = decoded(entry, "prior_content_b64") if entry.get("prior_exists") else None
+    result = decoded(entry, "result_content_b64")
+    if current == result:
+        return "installed"
+    if current == prior:
+        return "restored"
+    raise RuntimeError(f"Refusing to alter modified adapter content: {destination}")
+
+
+def active_reference(repo: Path, payload: dict | None, relative: str) -> int | None:
+    if payload is None:
+        return None
+    for index, entry in enumerate(payload.get("changes", [])):
+        if entry.get("path") != relative or entry.get("uninstall_state", "active") == "done":
+            continue
+        state = entry_content_state(repo, entry)
+        if state == "installed":
+            return index
+    return None
+
+
+def public_action(action: dict) -> dict:
+    return {key: value for key, value in action.items() if key not in {"other_index", "state"}}
+
+
+def plan_actions(repo: Path, payload: dict, other_payload: dict | None) -> list[dict]:
+    actions: list[dict] = []
+    for index in range(len(payload["changes"]) - 1, -1, -1):
+        entry = payload["changes"][index]
+        destination = relative_destination(repo, entry["path"])
+        if entry.get("uninstall_state", "active") == "done":
+            actions.append(
+                {
+                    "index": index,
+                    "path": str(destination),
+                    "kind": entry["kind"],
+                    "action": "already_done",
+                    "transfer_ownership": False,
+                    "other_index": None,
+                    "state": "restored",
+                }
+            )
+            continue
+
+        state = entry_content_state(repo, entry)
+        owned = bool(entry.get("owned"))
+        other_index = active_reference(repo, other_payload, entry["path"])
+        if not owned:
+            action = "keep_preexisting"
+        elif state == "restored":
+            action = "already_removed"
+        elif other_index is not None:
+            action = "keep_shared"
+        else:
+            action = "remove"
+        actions.append(
+            {
+                "index": index,
+                "path": str(destination),
+                "kind": entry["kind"],
+                "action": action,
+                "transfer_ownership": bool(action == "keep_shared" and owned),
+                "other_index": other_index,
+                "state": state,
+            }
+        )
+    return actions
+
+
+def transfer_ownership(source: dict, target: dict) -> None:
+    target["owned"] = True
+    target["install_state"] = "applied"
+    for field in RECOVERY_FIELDS:
+        target[field] = source.get(field)
+
+
+def restore_owned_entry(repo: Path, entry: dict) -> None:
+    destination = relative_destination(repo, entry["path"])
+    state = entry_content_state(repo, entry)
+    if state == "restored":
+        return
+    prior = decoded(entry, "prior_content_b64") if entry.get("prior_exists") else None
+    if prior is None:
+        destination.unlink()
+    else:
+        atomic_write_bytes(repo, destination, prior)
+
+
+def remove_created_directories(repo: Path, entries: list[dict]) -> None:
+    directories = {
+        relative
+        for entry in entries
+        if entry.get("owned")
+        for relative in entry.get("created_directories", [])
+    }
+    for relative in sorted(directories, key=lambda item: len(Path(item).parts), reverse=True):
+        directory = relative_destination(repo, relative)
+        if path_exists(directory) and directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
+
+
+def _uninstall_locked(repo: Path, host: str, dry_run: bool, fail_after: int | None = None) -> list[dict]:
+    repo = normalize_repo(repo)
+    manifest, payload = load_manifest(repo, host)
+    other_record = load_other_manifest(repo, host)
+    other_path = other_record[0] if other_record else None
+    other_payload = other_record[1] if other_record else None
+    actions = plan_actions(repo, payload, other_payload)
+    if dry_run:
+        return [public_action(action) for action in actions]
+
+    mutations = 0
+    payload["status"] = "uninstalling"
+    write_manifest(repo, manifest, payload)
+    for action in actions:
+        entry = payload["changes"][action["index"]]
+        if entry.get("uninstall_state", "active") == "done":
+            continue
+
+        if action["transfer_ownership"]:
+            if other_payload is None or other_path is None or action["other_index"] is None:
+                raise RuntimeError(f"Shared ownership target disappeared for {entry['path']}")
+            target = other_payload["changes"][action["other_index"]]
+            transfer_ownership(entry, target)
+            write_manifest(repo, other_path, other_payload)
+            mutations += 1
+            if fail_after is not None and mutations >= fail_after:
+                raise RuntimeError("Simulated mid-uninstall failure")
+        elif action["action"] == "remove":
+            restore_owned_entry(repo, entry)
+            mutations += 1
+            if fail_after is not None and mutations >= fail_after:
+                raise RuntimeError("Simulated mid-uninstall failure")
+
+        entry["uninstall_state"] = "done"
+        write_manifest(repo, manifest, payload)
+
+    remove_created_directories(repo, payload["changes"])
+    manifest.unlink()
+    return [public_action(action) for action in actions]
+
+
+def uninstall(repo: Path, host: str, dry_run: bool, fail_after: int | None = None) -> list[dict]:
+    repo = normalize_repo(repo)
+    if dry_run:
+        return _uninstall_locked(repo, host, True, fail_after)
+    with adapter_lock(repo):
+        return _uninstall_locked(repo, host, False, fail_after)
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repo", type=Path, required=True)
+    parser.add_argument("--host", choices=["codex", "claude"], required=True)
+    parser.add_argument("--apply", action="store_true", help="Apply removal. The default is a dry run.")
+    args = parser.parse_args()
+    injected = os.environ.get("MYTHOS_ADAPTER_TEST_FAIL_UNINSTALL_AFTER")
+    fail_after = int(injected) if injected else None
+    actions = uninstall(args.repo, args.host, dry_run=not args.apply, fail_after=fail_after)
+    print(json.dumps({"mode": "apply" if args.apply else "dry-run", "host": args.host, "actions": actions}, indent=2))
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except Exception as exc:
+        print(f"Adapter removal failed: {exc}", file=sys.stderr)
+        raise SystemExit(1)

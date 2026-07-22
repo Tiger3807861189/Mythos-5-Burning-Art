@@ -1,1 +1,383 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gZGV0ZXJtaW5pc3RpYyBzdHJ1Y3R1cmFsIGFuZCBsYW5ndWFnZSBjaGVja3MgZm9yIHRoZSBzdWl0ZS4iIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgaGFzaGxpYgppbXBvcnQganNvbgppbXBvcnQgcmUKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCnN5cy5kb250X3dyaXRlX2J5dGVjb2RlID0gVHJ1ZQpzeXMucGF0aC5pbnNlcnQoMCwgc3RyKFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnQpKQpmcm9tIHZlcmlmeV9ldmFscyBpbXBvcnQgdmVyaWZ5IGFzIHZlcmlmeV9ldmFsdWF0aW9ucwoKCkhBTiA9IHJlLmNvbXBpbGUociJbXHUzNDAwLVx1NGRiZlx1NGUwMC1cdTlmZmZcdWY5MDAtXHVmYWZmXSIpClVOUkVTT0xWRUQgPSByZS5jb21waWxlKHIiXGIiICsgIlRPIiArIHIiRE9cYnxcYiIgKyAiRklYIiArIHIiTUVcYnxcWyIgKyAiVE8iICsgIkRPfHBsYWNlIiArIHIiaG9sZGVyIiwgcmUuSUdOT1JFQ0FTRSkKVEVYVF9TVUZGSVhFUyA9IHsiLm1kIiwgIi5qc29uIiwgIi55YW1sIiwgIi55bWwiLCAiLnB5IiwgIi50b21sIiwgIi50eHQiLCAiLnJ1bGVzIiwgIi5zaCIsICIuY21kIiwgIi5wczEifQpTS0lMTFMgPSB7CiAgICAibXl0aG9zLW9yY2hlc3RyYXRlIiwgIm15dGhvcy1kaXNjb3ZlciIsICJteXRob3Mtb3B0aW9ucyIsICJteXRob3MtcGxhbiIsCiAgICAibXl0aG9zLWJ1aWxkIiwgIm15dGhvcy1kZWJ1ZyIsICJteXRob3MtcmVwYWlyIiwgIm15dGhvcy12ZXJpZnkiLCAibXl0aG9zLWV4cGxhaW4iLAp9CgoKZGVmIHZhbGlkYXRlX2Zyb250bWF0dGVyKHBhdGg6IFBhdGgpIC0+IGxpc3Rbc3RyXToKICAgIGVycm9yczogbGlzdFtzdHJdID0gW10KICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKQogICAgaWYgbm90IHRleHQuc3RhcnRzd2l0aCgiLS0tXG4iKToKICAgICAgICByZXR1cm4gW2YiTWlzc2luZyBZQU1MIGZyb250bWF0dGVyOiB7cGF0aH0iXQogICAgcGFydHMgPSB0ZXh0LnNwbGl0KCItLS1cbiIsIDIpCiAgICBpZiBsZW4ocGFydHMpIDwgMzoKICAgICAgICByZXR1cm4gW2YiVW5jbG9zZWQgWUFNTCBmcm9udG1hdHRlcjoge3BhdGh9Il0KICAgIGtleXMgPSBbXQogICAgZm9yIGxpbmUgaW4gcGFydHNbMV0uc3BsaXRsaW5lcygpOgogICAgICAgIGlmIGxpbmUgYW5kIG5vdCBsaW5lLnN0YXJ0c3dpdGgoKCIgIiwgIlx0IiwgIiMiKSkgYW5kICI6IiBpbiBsaW5lOgogICAgICAgICAgICBrZXlzLmFwcGVuZChsaW5lLnNwbGl0KCI6IiwgMSlbMF0uc3RyaXAoKSkKICAgIGlmIGtleXMgIT0gWyJuYW1lIiwgImRlc2NyaXB0aW9uIl06CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIkZyb250bWF0dGVyIG11c3QgY29udGFpbiBvbmx5IG5hbWUgYW5kIGRlc2NyaXB0aW9uIGluIG9yZGVyOiB7cGF0aH0gKHtrZXlzfSkiKQogICAgcmV0dXJuIGVycm9ycwoKCmRlZiBzaGEyNTYocGF0aDogUGF0aCkgLT4gc3RyOgogICAgcmV0dXJuIGhhc2hsaWIuc2hhMjU2KHBhdGgucmVhZF9ieXRlcygpKS5oZXhkaWdlc3QoKQoKCmRlZiBpbnZlbnRvcnkocm9vdDogUGF0aCkgLT4gZGljdFtzdHIsIHN0cl06CiAgICByZXR1cm4gewogICAgICAgIHBhdGgucmVsYXRpdmVfdG8ocm9vdCkuYXNfcG9zaXgoKTogc2hhMjU2KHBhdGgpCiAgICAgICAgZm9yIHBhdGggaW4gc29ydGVkKGl0ZW0gZm9yIGl0ZW0gaW4gcm9vdC5yZ2xvYigiKiIpIGlmIGl0ZW0uaXNfZmlsZSgpKQogICAgfQoKCmRlZiBfc291cmNlX2ludmVudG9yeShyb290OiBQYXRoLCBob3N0OiBzdHIpIC0+IGRpY3Rbc3RyLCBzdHJdOgogICAgIiIiUmV0dXJuIHRoZSBleGFjdCBwYWNrYWdlIGludmVudG9yeSBleHBlY3RlZCBmcm9tIGNhbm9uaWNhbCBzb3VyY2VzLiIiIgogICAgc3VpdGUgPSAibXl0aG9zLTUtYnVybmluZy1hcnQiCiAgICByZXN1bHQ6IGRpY3Rbc3RyLCBzdHJdID0ge30KICAgIGhvc3Rfcm9vdCA9IHJvb3QgLyAic3JjIiAvIGhvc3QgLyBzdWl0ZQogICAgZm9yIHBhdGggaW4gc29ydGVkKGl0ZW0gZm9yIGl0ZW0gaW4gaG9zdF9yb290LnJnbG9iKCIqIikgaWYgaXRlbS5pc19maWxlKCkpOgogICAgICAgIGlmICJfX3B5Y2FjaGVfXyIgbm90IGluIHBhdGgucGFydHMgYW5kIHBhdGguc3VmZml4ICE9ICIucHljIjoKICAgICAgICAgICAgcmVzdWx0W3BhdGgucmVsYXRpdmVfdG8oaG9zdF9yb290KS5hc19wb3NpeCgpXSA9IHNoYTI1NihwYXRoKQogICAgc2tpbGxzID0gcm9vdCAvICJzcmMiIC8gInNoYXJlZCIgLyAic2tpbGxzIgogICAgZm9yIHBhdGggaW4gc29ydGVkKGl0ZW0gZm9yIGl0ZW0gaW4gc2tpbGxzLnJnbG9iKCIqIikgaWYgaXRlbS5pc19maWxlKCkpOgogICAgICAgIHJlbGF0aXZlID0gcGF0aC5yZWxhdGl2ZV90byhza2lsbHMpCiAgICAgICAgaWYgaG9zdCA9PSAiY2xhdWRlIiBhbmQgImFnZW50cyIgaW4gcmVsYXRpdmUucGFydHM6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgIl9fcHljYWNoZV9fIiBub3QgaW4gcmVsYXRpdmUucGFydHMgYW5kIHBhdGguc3VmZml4ICE9ICIucHljIjoKICAgICAgICAgICAgcmVzdWx0WyhQYXRoKCJza2lsbHMiKSAvIHJlbGF0aXZlKS5hc19wb3NpeCgpXSA9IHNoYTI1NihwYXRoKQogICAgcnVudGltZSA9IHJvb3QgLyAic3JjIiAvICJzaGFyZWQiIC8gInJ1bnRpbWUiCiAgICBmb3IgcGF0aCBpbiBzb3J0ZWQoaXRlbSBmb3IgaXRlbSBpbiBydW50aW1lLnJnbG9iKCIqIikgaWYgaXRlbS5pc19maWxlKCkpOgogICAgICAgIHJlbGF0aXZlID0gcGF0aC5yZWxhdGl2ZV90byhydW50aW1lKQogICAgICAgIGlmICJfX3B5Y2FjaGVfXyIgbm90IGluIHJlbGF0aXZlLnBhcnRzIGFuZCBwYXRoLnN1ZmZpeCAhPSAiLnB5YyI6CiAgICAgICAgICAgIHJlc3VsdFsoUGF0aCgic2NyaXB0cyIpIC8gcmVsYXRpdmUpLmFzX3Bvc2l4KCldID0gc2hhMjU2KHBhdGgpCiAgICByZXR1cm4gcmVzdWx0CgoKZGVmIHZhbGlkYXRlX3NvdXJjZV9wYXJpdHkocm9vdDogUGF0aCwgaG9zdDogc3RyLCBwYWNrYWdlOiBQYXRoKSAtPiBsaXN0W3N0cl06CiAgICBleHBlY3RlZCA9IF9zb3VyY2VfaW52ZW50b3J5KHJvb3QsIGhvc3QpCiAgICBhY3R1YWwgPSB7CiAgICAgICAgcGF0aC5yZWxhdGl2ZV90byhwYWNrYWdlKS5hc19wb3NpeCgpOiBzaGEyNTYocGF0aCkKICAgICAgICBmb3IgcGF0aCBpbiBzb3J0ZWQoaXRlbSBmb3IgaXRlbSBpbiBwYWNrYWdlLnJnbG9iKCIqIikgaWYgaXRlbS5pc19maWxlKCkpCiAgICAgICAgaWYgcGF0aC5uYW1lICE9ICJidWlsZC1tYW5pZmVzdC5qc29uIgogICAgfQogICAgaWYgZXhwZWN0ZWQgPT0gYWN0dWFsOgogICAgICAgIHJldHVybiBbXQogICAgbWlzc2luZyA9IHNvcnRlZChzZXQoZXhwZWN0ZWQpLmRpZmZlcmVuY2UoYWN0dWFsKSkKICAgIGV4dHJhID0gc29ydGVkKHNldChhY3R1YWwpLmRpZmZlcmVuY2UoZXhwZWN0ZWQpKQogICAgc3RhbGUgPSBzb3J0ZWQocGF0aCBmb3IgcGF0aCBpbiBzZXQoZXhwZWN0ZWQpLmludGVyc2VjdGlvbihhY3R1YWwpIGlmIGV4cGVjdGVkW3BhdGhdICE9IGFjdHVhbFtwYXRoXSkKICAgIHJldHVybiBbCiAgICAgICAgZiJTb3VyY2UtdG8tZGlzdHJpYnV0aW9uIHBhcml0eSBmYWlsZWQgZm9yIHtob3N0fTogIgogICAgICAgIGYibWlzc2luZz17bWlzc2luZ30sIGV4dHJhPXtleHRyYX0sIHN0YWxlPXtzdGFsZX0iCiAgICBdCgoKZGVmIHZhbGlkYXRlX2J1aWxkX21hbmlmZXN0KHBhY2thZ2U6IFBhdGgpIC0+IGxpc3Rbc3RyXToKICAgIGVycm9yczogbGlzdFtzdHJdID0gW10KICAgIG1hbmlmZXN0X3BhdGggPSBwYWNrYWdlIC8gImJ1aWxkLW1hbmlmZXN0Lmpzb24iCiAgICBpZiBub3QgbWFuaWZlc3RfcGF0aC5pc19maWxlKCk6CiAgICAgICAgcmV0dXJuIFtmIk1pc3NpbmcgYnVpbGQgbWFuaWZlc3Q6IHttYW5pZmVzdF9wYXRofSJdCiAgICBwYXlsb2FkID0ganNvbi5sb2FkcyhtYW5pZmVzdF9wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGV4cGVjdGVkID0ge2l0ZW1bInBhdGgiXTogaXRlbSBmb3IgaXRlbSBpbiBwYXlsb2FkLmdldCgiZmlsZXMiLCBbXSl9CiAgICBhY3R1YWwgPSB7CiAgICAgICAgcGF0aC5yZWxhdGl2ZV90byhwYWNrYWdlKS5hc19wb3NpeCgpOiBwYXRoCiAgICAgICAgZm9yIHBhdGggaW4gc29ydGVkKGl0ZW0gZm9yIGl0ZW0gaW4gcGFja2FnZS5yZ2xvYigiKiIpIGlmIGl0ZW0uaXNfZmlsZSgpIGFuZCBpdGVtICE9IG1hbmlmZXN0X3BhdGgpCiAgICB9CiAgICBpZiBzZXQoZXhwZWN0ZWQpICE9IHNldChhY3R1YWwpOgogICAgICAgIGVycm9ycy5hcHBlbmQoZiJCdWlsZCBtYW5pZmVzdCBpbnZlbnRvcnkgbWlzbWF0Y2g6IHtwYWNrYWdlfSIpCiAgICAgICAgcmV0dXJuIGVycm9ycwogICAgZm9yIHJlbGF0aXZlLCBwYXRoIGluIGFjdHVhbC5pdGVtcygpOgogICAgICAgIHJlY29yZCA9IGV4cGVjdGVkW3JlbGF0aXZlXQogICAgICAgIGlmIHJlY29yZC5nZXQoInNoYTI1NiIpICE9IHNoYTI1NihwYXRoKSBvciByZWNvcmQuZ2V0KCJieXRlcyIpICE9IHBhdGguc3RhdCgpLnN0X3NpemU6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJCdWlsZCBtYW5pZmVzdCBkaWdlc3QgbWlzbWF0Y2g6IHtwYXRofSIpCiAgICByZXR1cm4gZXJyb3JzCgoKZGVmIHZhbGlkYXRlX3NjaGVtYV9tZXRhKHNjaGVtYTogb2JqZWN0LCBwYXRoOiBQYXRoLCBwb2ludGVyOiBzdHIgPSAiJCIpIC0+IGxpc3Rbc3RyXToKICAgICIiIkNoZWNrIGhpZ2gtdmFsdWUgSlNPTiBTY2hlbWEga2V5d29yZCBzaGFwZXMgd2l0aG91dCBleHRlcm5hbCBwYWNrYWdlcy4iIiIKICAgIGVycm9yczogbGlzdFtzdHJdID0gW10KICAgIGlmIGlzaW5zdGFuY2Uoc2NoZW1hLCBkaWN0KToKICAgICAgICBmb3Iga2V5d29yZCBpbiAoImFsbE9mIiwgImFueU9mIiwgIm9uZU9mIiwgInByZWZpeEl0ZW1zIik6CiAgICAgICAgICAgIGlmIGtleXdvcmQgaW4gc2NoZW1hIGFuZCBub3QgaXNpbnN0YW5jZShzY2hlbWFba2V5d29yZF0sIGxpc3QpOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIkpTT04gU2NoZW1hIHtrZXl3b3JkfSBtdXN0IGJlIGFuIGFycmF5OiB7cGF0aH0gYXQge3BvaW50ZXJ9IikKICAgICAgICBpZiAicmVxdWlyZWQiIGluIHNjaGVtYSBhbmQgKAogICAgICAgICAgICBub3QgaXNpbnN0YW5jZShzY2hlbWFbInJlcXVpcmVkIl0sIGxpc3QpCiAgICAgICAgICAgIG9yIG5vdCBhbGwoaXNpbnN0YW5jZShpdGVtLCBzdHIpIGZvciBpdGVtIGluIHNjaGVtYVsicmVxdWlyZWQiXSkKICAgICAgICApOgogICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiSlNPTiBTY2hlbWEgcmVxdWlyZWQgbXVzdCBiZSBhIHN0cmluZyBhcnJheToge3BhdGh9IGF0IHtwb2ludGVyfSIpCiAgICAgICAgZm9yIGtleXdvcmQgaW4gKCJwcm9wZXJ0aWVzIiwgInBhdHRlcm5Qcm9wZXJ0aWVzIiwgIiRkZWZzIiwgImRlcGVuZGVudFNjaGVtYXMiKToKICAgICAgICAgICAgaWYga2V5d29yZCBpbiBzY2hlbWEgYW5kIG5vdCBpc2luc3RhbmNlKHNjaGVtYVtrZXl3b3JkXSwgZGljdCk6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiSlNPTiBTY2hlbWEge2tleXdvcmR9IG11c3QgYmUgYW4gb2JqZWN0OiB7cGF0aH0gYXQge3BvaW50ZXJ9IikKICAgICAgICBmb3Iga2V5LCB2YWx1ZSBpbiBzY2hlbWEuaXRlbXMoKToKICAgICAgICAgICAgZXJyb3JzLmV4dGVuZCh2YWxpZGF0ZV9zY2hlbWFfbWV0YSh2YWx1ZSwgcGF0aCwgZiJ7cG9pbnRlcn0ve2tleX0iKSkKICAgIGVsaWYgaXNpbnN0YW5jZShzY2hlbWEsIGxpc3QpOgogICAgICAgIGZvciBpbmRleCwgdmFsdWUgaW4gZW51bWVyYXRlKHNjaGVtYSk6CiAgICAgICAgICAgIGVycm9ycy5leHRlbmQodmFsaWRhdGVfc2NoZW1hX21ldGEodmFsdWUsIHBhdGgsIGYie3BvaW50ZXJ9L3tpbmRleH0iKSkKICAgIHJldHVybiBlcnJvcnMKCgpkZWYgdmFsaWRhdGVfcmV2aWV3ZXJfcmVjZWlwdF9zY2hlbWEoc2NoZW1hOiBvYmplY3QsIHBhdGg6IFBhdGgpIC0+IGxpc3Rbc3RyXToKICAgIGVycm9yczogbGlzdFtzdHJdID0gW10KICAgIGlmIG5vdCBpc2luc3RhbmNlKHNjaGVtYSwgZGljdCkgb3Igbm90IGlzaW5zdGFuY2Uoc2NoZW1hLmdldCgib25lT2YiKSwgbGlzdCk6CiAgICAgICAgcmV0dXJuIFtmIlJldmlld2VyIHJlY2VpcHQgc2NoZW1hIG11c3QgZGVmaW5lIG9uZU9mIGJyYW5jaGVzOiB7cGF0aH0iXQogICAgYnJhbmNoZXMgPSB7YnJhbmNoLmdldCgidGl0bGUiKTogYnJhbmNoIGZvciBicmFuY2ggaW4gc2NoZW1hWyJvbmVPZiJdIGlmIGlzaW5zdGFuY2UoYnJhbmNoLCBkaWN0KX0KICAgIGZvciB0aXRsZSBpbiAoIlBsYW4gY3JpdGljIHJlY2VpcHQiLCAiVmVyaWZpZXIgcmVjZWlwdCIpOgogICAgICAgIGJyYW5jaCA9IGJyYW5jaGVzLmdldCh0aXRsZSkKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShicmFuY2gsIGRpY3QpOgogICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiTWlzc2luZyByZXZpZXdlciByZWNlaXB0IGJyYW5jaCB7dGl0bGV9OiB7cGF0aH0iKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHByb3BlcnRpZXMgPSBicmFuY2guZ2V0KCJwcm9wZXJ0aWVzIiwge30pCiAgICAgICAgaWYgcHJvcGVydGllcy5nZXQoInZlcmRpY3QiKSAhPSB7ImNvbnN0IjogIlBBU1MifToKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmInt0aXRsZX0gbXVzdCBwdWJsaXNoIFBBU1MgYXMgdGhlIG9ubHkgYWNjZXB0ZWQgcmVjZWlwdCB2ZXJkaWN0OiB7cGF0aH0iKQogICAgICAgIGZvciBmaWVsZCBpbiAoImJsb2NraW5nX2ZpbmRpbmdzIiwgImhpZ2hfZmluZGluZ3MiLCAiY29udGV4dF9jb250YW1pbmF0aW9uIik6CiAgICAgICAgICAgIGRlZmluaXRpb24gPSBwcm9wZXJ0aWVzLmdldChmaWVsZCwge30pCiAgICAgICAgICAgIGlmIGRlZmluaXRpb24uZ2V0KCJ0eXBlIikgIT0gImFycmF5IiBvciBkZWZpbml0aW9uLmdldCgibWF4SXRlbXMiKSAhPSAwOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmInt0aXRsZX0ge2ZpZWxkfSBtdXN0IGJlIGFuIGV4cGxpY2l0IGVtcHR5IGFycmF5IGZvciBQQVNTOiB7cGF0aH0iKQogICAgICAgIGlmIHRpdGxlID09ICJWZXJpZmllciByZWNlaXB0IjoKICAgICAgICAgICAgZm9yIGZpZWxkIGluICgic2NvcGVfbWF0Y2hlc19hcHByb3ZhbCIsICJhcHByb3ZhbF9jdXJyZW50Iik6CiAgICAgICAgICAgICAgICBpZiBwcm9wZXJ0aWVzLmdldChmaWVsZCkgIT0geyJjb25zdCI6IFRydWV9OgogICAgICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJWZXJpZmllciByZWNlaXB0IHtmaWVsZH0gbXVzdCBiZSB0cnVlIGZvciBQQVNTOiB7cGF0aH0iKQogICAgcmV0dXJuIGVycm9ycwoKZGVmIHZhbGlkYXRlX3BsdWdpbl9tYW5pZmVzdChwYXRoOiBQYXRoLCBob3N0OiBzdHIpIC0+IGxpc3Rbc3RyXToKICAgIGVycm9yczogbGlzdFtzdHJdID0gW10KICAgIHRyeToKICAgICAgICBwYXlsb2FkID0ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOgogICAgICAgIHJldHVybiBbZiJJbnZhbGlkIHtob3N0fSBwbHVnaW4gbWFuaWZlc3Qge3BhdGh9OiB7ZXhjfSJdCiAgICByZXF1aXJlZCA9IHsibmFtZSIsICJ2ZXJzaW9uIiwgImRlc2NyaXB0aW9uIiwgImF1dGhvciIsICJrZXl3b3JkcyJ9CiAgICBtaXNzaW5nID0gc29ydGVkKHJlcXVpcmVkLmRpZmZlcmVuY2UocGF5bG9hZCkpIGlmIGlzaW5zdGFuY2UocGF5bG9hZCwgZGljdCkgZWxzZSBzb3J0ZWQocmVxdWlyZWQpCiAgICBpZiBub3QgaXNpbnN0YW5jZShwYXlsb2FkLCBkaWN0KSBvciBtaXNzaW5nOgogICAgICAgIHJldHVybiBbZiJ7aG9zdH0gcGx1Z2luIG1hbmlmZXN0IGxhY2tzIHJlcXVpcmVkIGZpZWxkcyB7bWlzc2luZ306IHtwYXRofSJdCiAgICBpZiBwYXlsb2FkLmdldCgibmFtZSIpICE9ICJteXRob3MtNS1idXJuaW5nLWFydCI6CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIntob3N0fSBwbHVnaW4gbWFuaWZlc3QgaGFzIHRoZSB3cm9uZyBuYW1lOiB7cGF0aH0iKQogICAgaWYgbm90IGlzaW5zdGFuY2UocGF5bG9hZC5nZXQoInZlcnNpb24iKSwgc3RyKSBvciByZS5mdWxsbWF0Y2gociJcZCtcLlxkK1wuXGQrIiwgcGF5bG9hZFsidmVyc2lvbiJdKSBpcyBOb25lOgogICAgICAgIGVycm9ycy5hcHBlbmQoZiJ7aG9zdH0gcGx1Z2luIG1hbmlmZXN0IHZlcnNpb24gaXMgbm90IHNlbWFudGljOiB7cGF0aH0iKQogICAgaWYgbm90IGlzaW5zdGFuY2UocGF5bG9hZC5nZXQoImRlc2NyaXB0aW9uIiksIHN0cikgb3Igbm90IHBheWxvYWRbImRlc2NyaXB0aW9uIl0uc3RyaXAoKToKICAgICAgICBlcnJvcnMuYXBwZW5kKGYie2hvc3R9IHBsdWdpbiBtYW5pZmVzdCBkZXNjcmlwdGlvbiBpcyBlbXB0eToge3BhdGh9IikKICAgIGF1dGhvciA9IHBheWxvYWQuZ2V0KCJhdXRob3IiKQogICAgaWYgbm90IGlzaW5zdGFuY2UoYXV0aG9yLCBkaWN0KSBvciBub3QgaXNpbnN0YW5jZShhdXRob3IuZ2V0KCJuYW1lIiksIHN0cikgb3Igbm90IGF1dGhvclsibmFtZSJdLnN0cmlwKCk6CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIntob3N0fSBwbHVnaW4gbWFuaWZlc3QgYXV0aG9yIGlzIGludmFsaWQ6IHtwYXRofSIpCiAgICBrZXl3b3JkcyA9IHBheWxvYWQuZ2V0KCJrZXl3b3JkcyIpCiAgICBpZiBub3QgaXNpbnN0YW5jZShrZXl3b3JkcywgbGlzdCkgb3Igbm90IGtleXdvcmRzIG9yIG5vdCBhbGwoaXNpbnN0YW5jZShpdGVtLCBzdHIpIGFuZCBpdGVtIGZvciBpdGVtIGluIGtleXdvcmRzKToKICAgICAgICBlcnJvcnMuYXBwZW5kKGYie2hvc3R9IHBsdWdpbiBtYW5pZmVzdCBrZXl3b3JkcyBhcmUgaW52YWxpZDoge3BhdGh9IikKICAgIGlmIGhvc3QgPT0gImNvZGV4IjoKICAgICAgICBpZiBwYXlsb2FkLmdldCgic2tpbGxzIikgIT0gIi4vc2tpbGxzLyIgb3Igbm90IGlzaW5zdGFuY2UocGF5bG9hZC5nZXQoImludGVyZmFjZSIpLCBkaWN0KToKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIkNvZGV4IHBsdWdpbiBtYW5pZmVzdCBsYWNrcyBza2lsbHMgb3IgaW50ZXJmYWNlIG1ldGFkYXRhOiB7cGF0aH0iKQogICAgZWxpZiBub3QgaXNpbnN0YW5jZShwYXlsb2FkLmdldCgidXNlckNvbmZpZyIpLCBkaWN0KToKICAgICAgICBlcnJvcnMuYXBwZW5kKGYiQ2xhdWRlIHBsdWdpbiBtYW5pZmVzdCBsYWNrcyB1c2VyQ29uZmlnOiB7cGF0aH0iKQogICAgcmV0dXJuIGVycm9ycwoKCmRlZiB2YWxpZGF0ZV9jb2RleF9tYXJrZXRwbGFjZShyb290OiBQYXRoKSAtPiBsaXN0W3N0cl06CiAgICBtYXJrZXRfcm9vdCA9IChyb290IC8gIm1hcmtldHBsYWNlcyIgLyAiY29kZXgiKS5yZXNvbHZlKCkKICAgIGNhdGFsb2cgPSBtYXJrZXRfcm9vdCAvICIuYWdlbnRzIiAvICJwbHVnaW5zIiAvICJtYXJrZXRwbGFjZS5qc29uIgogICAgaWYgbm90IGNhdGFsb2cuaXNfZmlsZSgpOgogICAgICAgIHJldHVybiBbZiJNaXNzaW5nIENvZGV4IG1hcmtldHBsYWNlIGNhdGFsb2c6IHtjYXRhbG9nfSJdCiAgICB0cnk6CiAgICAgICAgcGF5bG9hZCA9IGpzb24ubG9hZHMoY2F0YWxvZy5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGV4YzoKICAgICAgICByZXR1cm4gW2YiSW52YWxpZCBDb2RleCBtYXJrZXRwbGFjZSBjYXRhbG9nIHtjYXRhbG9nfToge2V4Y30iXQogICAgZXJyb3JzOiBsaXN0W3N0cl0gPSBbXQogICAgcGx1Z2lucyA9IHBheWxvYWQuZ2V0KCJwbHVnaW5zIikgaWYgaXNpbnN0YW5jZShwYXlsb2FkLCBkaWN0KSBlbHNlIE5vbmUKICAgIGlmIG5vdCBpc2luc3RhbmNlKHBsdWdpbnMsIGxpc3QpIG9yIGxlbihwbHVnaW5zKSAhPSAxIG9yIG5vdCBpc2luc3RhbmNlKHBsdWdpbnNbMF0sIGRpY3QpOgogICAgICAgIHJldHVybiBbZiJDb2RleCBtYXJrZXRwbGFjZSBtdXN0IGNvbnRhaW4gZXhhY3RseSBvbmUgcGx1Z2luIGVudHJ5OiB7Y2F0YWxvZ30iXQogICAgZW50cnkgPSBwbHVnaW5zWzBdCiAgICBzb3VyY2UgPSBlbnRyeS5nZXQoInNvdXJjZSIpCiAgICBpZiBlbnRyeS5nZXQoIm5hbWUiKSAhPSAibXl0aG9zLTUtYnVybmluZy1hcnQiIG9yIG5vdCBpc2luc3RhbmNlKHNvdXJjZSwgZGljdCk6CiAgICAgICAgcmV0dXJuIFtmIkNvZGV4IG1hcmtldHBsYWNlIHBsdWdpbiBlbnRyeSBpcyBpbnZhbGlkOiB7Y2F0YWxvZ30iXQogICAgZGVjbGFyZWQgPSBzb3VyY2UuZ2V0KCJwYXRoIikKICAgIGlmIHNvdXJjZS5nZXQoInNvdXJjZSIpICE9ICJsb2NhbCIgb3Igbm90IGlzaW5zdGFuY2UoZGVjbGFyZWQsIHN0cikgb3Igbm90IGRlY2xhcmVkLnN0cmlwKCk6CiAgICAgICAgcmV0dXJuIFtmIkNvZGV4IG1hcmtldHBsYWNlIGxvY2FsIHNvdXJjZSBpcyBpbnZhbGlkOiB7Y2F0YWxvZ30iXQogICAgZGVjbGFyZWRfcGF0aCA9IFBhdGgoZGVjbGFyZWQpCiAgICBpZiBkZWNsYXJlZF9wYXRoLmlzX2Fic29sdXRlKCk6CiAgICAgICAgcmV0dXJuIFtmIkNvZGV4IG1hcmtldHBsYWNlIHNvdXJjZSBtdXN0IGJlIG1hcmtldHBsYWNlLXJvb3QtcmVsYXRpdmU6IHtjYXRhbG9nfSJdCiAgICByZXNvbHZlZCA9IChtYXJrZXRfcm9vdCAvIGRlY2xhcmVkX3BhdGgpLnJlc29sdmUoKQogICAgdHJ5OgogICAgICAgIHJlc29sdmVkLnJlbGF0aXZlX3RvKG1hcmtldF9yb290KQogICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgcmV0dXJuIFtmIkNvZGV4IG1hcmtldHBsYWNlIHNvdXJjZSBlc2NhcGVzIHRoZSBtYXJrZXRwbGFjZSByb290OiB7Y2F0YWxvZ30iXQogICAgaWYgcmVzb2x2ZWQgIT0gbWFya2V0X3Jvb3QgLyAicGx1Z2lucyIgLyAibXl0aG9zLTUtYnVybmluZy1hcnQiOgogICAgICAgIGVycm9ycy5hcHBlbmQoZiJDb2RleCBtYXJrZXRwbGFjZSBzb3VyY2UgcmVzb2x2ZXMgdG8gYW4gdW5leHBlY3RlZCBwYXRoOiB7cmVzb2x2ZWR9IikKICAgIGlmIG5vdCByZXNvbHZlZC5pc19kaXIoKToKICAgICAgICBlcnJvcnMuYXBwZW5kKGYiQ29kZXggbWFya2V0cGxhY2Ugc291cmNlIGRvZXMgbm90IHJlc29sdmUgdG8gYSBwYWNrYWdlOiB7cmVzb2x2ZWR9IikKICAgIGVsaWYgbm90IChyZXNvbHZlZCAvICIuY29kZXgtcGx1Z2luIiAvICJwbHVnaW4uanNvbiIpLmlzX2ZpbGUoKToKICAgICAgICBlcnJvcnMuYXBwZW5kKGYiQ29kZXggbWFya2V0cGxhY2Ugc291cmNlIGxhY2tzIGEgcGx1Z2luIG1hbmlmZXN0OiB7cmVzb2x2ZWR9IikKICAgIHJldHVybiBlcnJvcnMKZGVmIHZhbGlkYXRlX29mZmljaWFsX2V2aWRlbmNlKHJvb3Q6IFBhdGgpIC0+IGxpc3Rbc3RyXToKICAgIHBhdGggPSByb290IC8gImV2YWxzIiAvICJyZXN1bHRzIiAvICJvZmZpY2lhbC12YWxpZGF0aW9uLmpzb24iCiAgICBpZiBub3QgcGF0aC5pc19maWxlKCk6CiAgICAgICAgcmV0dXJuIFtmIk1pc3Npbmcgb2ZmaWNpYWwgdmFsaWRhdG9yIGV2aWRlbmNlOiB7cGF0aH0iXQogICAgdHJ5OgogICAgICAgIHBheWxvYWQgPSBqc29uLmxvYWRzKHBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleGM6CiAgICAgICAgcmV0dXJuIFtmIkludmFsaWQgb2ZmaWNpYWwgdmFsaWRhdG9yIGV2aWRlbmNlIHtwYXRofToge2V4Y30iXQogICAgZXJyb3JzOiBsaXN0W3N0cl0gPSBbXQogICAgaWYgcGF5bG9hZC5nZXQoInNjaGVtYV92ZXJzaW9uIikgIT0gMSBvciBwYXlsb2FkLmdldCgic3VpdGUiKSAhPSAibXl0aG9zLTUtYnVybmluZy1hcnQiIG9yIHBheWxvYWQuZ2V0KCJzdGF0dXMiKSAhPSAiUEFTUyI6CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBldmlkZW5jZSBpcyBub3QgYSBQQVNTIGZvciB0aGlzIHN1aXRlOiB7cGF0aH0iKQogICAgZXhwZWN0ZWRfdGFyZ2V0cyA9IHsKICAgICAgICAqKntmInNraWxsOntza2lsbH0iOiBmInNyYy9zaGFyZWQvc2tpbGxzL3tza2lsbH0iIGZvciBza2lsbCBpbiBTS0lMTFN9LAogICAgICAgICJjb2RleC1wbHVnaW46ZGlzdCI6ICJkaXN0L2NvZGV4L215dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgICAiY29kZXgtcGx1Z2luOm1hcmtldHBsYWNlIjogIm1hcmtldHBsYWNlcy9jb2RleC9wbHVnaW5zL215dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgICAiY2xhdWRlLXBsdWdpbjpkaXN0IjogImRpc3QvY2xhdWRlL215dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgICAiY2xhdWRlLXBsdWdpbjptYXJrZXRwbGFjZSI6ICJtYXJrZXRwbGFjZXMvY2xhdWRlL3BsdWdpbnMvbXl0aG9zLTUtYnVybmluZy1hcnQiLAogICAgfQogICAgZXhwZWN0ZWRfY2hlY2tzID0gc2V0KGV4cGVjdGVkX3RhcmdldHMpCiAgICBjaGVja3MgPSBwYXlsb2FkLmdldCgiY2hlY2tzIikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGNoZWNrcywgbGlzdCk6CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBjaGVja3MgbXVzdCBiZSBhbiBhcnJheToge3BhdGh9IikKICAgIGVsc2U6CiAgICAgICAgaWRlbnRpZmllcnMgPSBbaXRlbS5nZXQoImlkIikgZm9yIGl0ZW0gaW4gY2hlY2tzIGlmIGlzaW5zdGFuY2UoaXRlbSwgZGljdCldCiAgICAgICAgaWYgc2V0KGlkZW50aWZpZXJzKSAhPSBleHBlY3RlZF9jaGVja3Mgb3IgbGVuKGlkZW50aWZpZXJzKSAhPSBsZW4oZXhwZWN0ZWRfY2hlY2tzKToKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBjaGVjayBjb3ZlcmFnZSBtaXNtYXRjaDoge3BhdGh9IikKICAgICAgICBmb3IgaXRlbSBpbiBjaGVja3M6CiAgICAgICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKGl0ZW0sIGRpY3QpIG9yIGl0ZW0uZ2V0KCJyZXR1cm5jb2RlIikgIT0gMDoKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJPZmZpY2lhbCB2YWxpZGF0b3IgY2hlY2sgZGlkIG5vdCBwYXNzOiB7aXRlbX0iKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgZXhwZWN0ZWRfdGFyZ2V0ID0gZXhwZWN0ZWRfdGFyZ2V0cy5nZXQoaXRlbS5nZXQoImlkIikpCiAgICAgICAgICAgIGlmIGV4cGVjdGVkX3RhcmdldCBpcyBub3QgTm9uZSBhbmQgaXRlbS5nZXQoInRhcmdldCIpICE9IGV4cGVjdGVkX3RhcmdldDoKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJPZmZpY2lhbCB2YWxpZGF0b3IgY2hlY2sgdGFyZ2V0ZWQgdGhlIHdyb25nIHBhdGg6IHtpdGVtfSIpCiAgICB2YWxpZGF0b3JzID0gcGF5bG9hZC5nZXQoInZhbGlkYXRvcnMiKQogICAgaWYgbm90IGlzaW5zdGFuY2UodmFsaWRhdG9ycywgZGljdCk6CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBpZGVudGl0aWVzIGFyZSBtaXNzaW5nOiB7cGF0aH0iKQogICAgZWxzZToKICAgICAgICBmb3Iga2V5IGluICgib3BlbmFpX3NraWxsX3ZhbGlkYXRvcl9zaGEyNTYiLCAib3BlbmFpX2NvZGV4X3BsdWdpbl92YWxpZGF0b3Jfc2hhMjU2Iik6CiAgICAgICAgICAgIHZhbHVlID0gdmFsaWRhdG9ycy5nZXQoa2V5KQogICAgICAgICAgICBpZiBub3QgaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBvciByZS5mdWxsbWF0Y2gociJbYS1mMC05XXs2NH0iLCB2YWx1ZSkgaXMgTm9uZToKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJPZmZpY2lhbCB2YWxpZGF0b3IgZGlnZXN0IGlzIGludmFsaWQgZm9yIHtrZXl9OiB7cGF0aH0iKQogICAgICAgIGlmIG5vdCBpc2luc3RhbmNlKHZhbGlkYXRvcnMuZ2V0KCJjbGF1ZGVfY29kZV92ZXJzaW9uIiksIHN0cikgb3Igbm90IHZhbGlkYXRvcnNbImNsYXVkZV9jb2RlX3ZlcnNpb24iXS5zdHJpcCgpOgogICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiQ2xhdWRlIENvZGUgdmFsaWRhdG9yIHZlcnNpb24gaXMgbWlzc2luZzoge3BhdGh9IikKICAgIGJpbmRpbmdzID0gcGF5bG9hZC5nZXQoImJpbmRpbmdzIikKICAgIGlmIG5vdCBpc2luc3RhbmNlKGJpbmRpbmdzLCBkaWN0KToKICAgICAgICByZXR1cm4gZXJyb3JzICsgW2YiT2ZmaWNpYWwgdmFsaWRhdG9yIGJpbmRpbmdzIGFyZSBtaXNzaW5nOiB7cGF0aH0iXQogICAgcmVxdWlyZWRfYmluZGluZ3MgPSB7CiAgICAgICAgKihmInNyYy9zaGFyZWQvc2tpbGxzL3tza2lsbH0vU0tJTEwubWQiIGZvciBza2lsbCBpbiBTS0lMTFMpLAogICAgICAgICJzcmMvY29kZXgvbXl0aG9zLTUtYnVybmluZy1hcnQvLmNvZGV4LXBsdWdpbi9wbHVnaW4uanNvbiIsCiAgICAgICAgInNyYy9jbGF1ZGUvbXl0aG9zLTUtYnVybmluZy1hcnQvLmNsYXVkZS1wbHVnaW4vcGx1Z2luLmpzb24iLAogICAgICAgICJkaXN0L2NvZGV4L215dGhvcy01LWJ1cm5pbmctYXJ0L2J1aWxkLW1hbmlmZXN0Lmpzb24iLAogICAgICAgICJkaXN0L2NsYXVkZS9teXRob3MtNS1idXJuaW5nLWFydC9idWlsZC1tYW5pZmVzdC5qc29uIiwKICAgICAgICAibWFya2V0cGxhY2VzL2NvZGV4Ly5hZ2VudHMvcGx1Z2lucy9tYXJrZXRwbGFjZS5qc29uIiwKICAgICAgICAibWFya2V0cGxhY2VzL2NsYXVkZS8uY2xhdWRlLXBsdWdpbi9tYXJrZXRwbGFjZS5qc29uIiwKICAgICAgICAic2NyaXB0cy92YWxpZGF0ZV9vZmZpY2lhbC5weSIsCiAgICB9CiAgICBpZiBzZXQoYmluZGluZ3MpICE9IHJlcXVpcmVkX2JpbmRpbmdzOgogICAgICAgIGVycm9ycy5hcHBlbmQoZiJPZmZpY2lhbCB2YWxpZGF0b3IgYmluZGluZyBjb3ZlcmFnZSBtaXNtYXRjaDoge3BhdGh9IikKICAgIGZvciByZWxhdGl2ZSwgZXhwZWN0ZWQgaW4gYmluZGluZ3MuaXRlbXMoKToKICAgICAgICB0YXJnZXQgPSByb290IC8gcmVsYXRpdmUKICAgICAgICBpZiBub3QgdGFyZ2V0LmlzX2ZpbGUoKSBvciBub3QgaXNpbnN0YW5jZShleHBlY3RlZCwgc3RyKSBvciBzaGEyNTYodGFyZ2V0KSAhPSBleHBlY3RlZDoKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBldmlkZW5jZSBpcyBzdGFsZSBmb3Ige3JlbGF0aXZlfToge3BhdGh9IikKICAgIGlmIHBheWxvYWQuZ2V0KCJtaXNzaW5nX2JpbmRpbmdzIikgIT0gW106CiAgICAgICAgZXJyb3JzLmFwcGVuZChmIk9mZmljaWFsIHZhbGlkYXRvciBldmlkZW5jZSByZXBvcnRzIG1pc3NpbmcgYmluZGluZ3M6IHtwYXRofSIpCiAgICByZXR1cm4gZXJyb3JzCgpkZWYgdmFsaWRhdGUocm9vdDogUGF0aCkgLT4gbGlzdFtzdHJdOgogICAgZXJyb3JzOiBsaXN0W3N0cl0gPSBbXQogICAgcm9vdCA9IHJvb3QucmVzb2x2ZSgpCiAgICBmb3IgcGF0aCBpbiByb290LnJnbG9iKCIqIik6CiAgICAgICAgaWYgbm90IHBhdGguaXNfZmlsZSgpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmICJfX3B5Y2FjaGVfXyIgaW4gcGF0aC5wYXJ0cyBvciBwYXRoLnN1ZmZpeCA9PSAiLnB5YyI6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJHZW5lcmF0ZWQgUHl0aG9uIGNhY2hlIGlzIHByb2hpYml0ZWQgaW4gdGhlIHJlbGVhc2UgdHJlZToge3BhdGh9IikKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBwYXRoLnN1ZmZpeC5sb3dlcigpID09ICIuanNvbiI6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHBheWxvYWQgPSBqc29uLmxvYWRzKHBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgICAgICAgICAgICAgaWYgcGF0aC5wYXJlbnQgPT0gcm9vdCAvICJzcGVjIiBhbmQgcGF0aC5uYW1lLmVuZHN3aXRoKCIuc2NoZW1hLmpzb24iKToKICAgICAgICAgICAgICAgICAgICBlcnJvcnMuZXh0ZW5kKHZhbGlkYXRlX3NjaGVtYV9tZXRhKHBheWxvYWQsIHBhdGgpKQogICAgICAgICAgICAgICAgICAgIGlmIHBhdGgubmFtZSA9PSAicmV2aWV3ZXItcmVjZWlwdC5zY2hlbWEuanNvbiI6CiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9ycy5leHRlbmQodmFsaWRhdGVfcmV2aWV3ZXJfcmVjZWlwdF9zY2hlbWEocGF5bG9hZCwgcGF0aCkpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZXhjOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIkludmFsaWQgSlNPTiB7cGF0aH06IHtleGN9IikKICAgICAgICBpZiBwYXRoLnN1ZmZpeC5sb3dlcigpIGluIFRFWFRfU1VGRklYRVMgb3IgcGF0aC5uYW1lIGluIHsiQUdFTlRTLm1kIiwgIkNMQVVERS5tZCIsICJTS0lMTC5tZCJ9OgogICAgICAgICAgICB0ZXh0ID0gcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICAgICAgaWYgVU5SRVNPTFZFRC5zZWFyY2godGV4dCk6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiVW5yZXNvbHZlZCBzY2FmZm9sZCBtYXJrZXIgaW4ge3BhdGh9IikKICAgICAgICAgICAgaWYgcGF0aCAhPSByb290IC8gIlJFQURNRS5tZCIgYW5kIEhBTi5zZWFyY2godGV4dCk6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiTm9uLUVuZ2xpc2ggSGFuIGNoYXJhY3RlciBpbiB7cGF0aH0iKQogICAgY2Fub25pY2FsID0gcm9vdCAvICJzcmMiIC8gInNoYXJlZCIgLyAic2tpbGxzIgogICAgZm91bmQgPSB7cGF0aC5uYW1lIGZvciBwYXRoIGluIGNhbm9uaWNhbC5pdGVyZGlyKCkgaWYgcGF0aC5pc19kaXIoKX0gaWYgY2Fub25pY2FsLmV4aXN0cygpIGVsc2Ugc2V0KCkKICAgIGlmIGZvdW5kICE9IFNLSUxMUzoKICAgICAgICBlcnJvcnMuYXBwZW5kKGYiQ2Fub25pY2FsIHNraWxsIHNldCBtaXNtYXRjaDogZXhwZWN0ZWQge3NvcnRlZChTS0lMTFMpfSwgZm91bmQge3NvcnRlZChmb3VuZCl9IikKICAgIGZvciBza2lsbCBpbiBzb3J0ZWQoZm91bmQpOgogICAgICAgIHNraWxsX2ZpbGUgPSBjYW5vbmljYWwgLyBza2lsbCAvICJTS0lMTC5tZCIKICAgICAgICBpZiBub3Qgc2tpbGxfZmlsZS5pc19maWxlKCk6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJNaXNzaW5nIFNLSUxMLm1kOiB7c2tpbGx9IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBlcnJvcnMuZXh0ZW5kKHZhbGlkYXRlX2Zyb250bWF0dGVyKHNraWxsX2ZpbGUpKQogICAgICAgIGlmIChjYW5vbmljYWwgLyBza2lsbCAvICJSRUFETUUubWQiKS5leGlzdHMoKToKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIlNraWxsIGNvbnRhaW5zIHByb2hpYml0ZWQgUkVBRE1FLm1kOiB7c2tpbGx9IikKICAgIGZvciBob3N0LCBtYW5pZmVzdCBpbiBbCiAgICAgICAgKCJjb2RleCIsIHJvb3QgLyAic3JjIiAvICJjb2RleCIgLyAibXl0aG9zLTUtYnVybmluZy1hcnQiIC8gIi5jb2RleC1wbHVnaW4iIC8gInBsdWdpbi5qc29uIiksCiAgICAgICAgKCJjbGF1ZGUiLCByb290IC8gInNyYyIgLyAiY2xhdWRlIiAvICJteXRob3MtNS1idXJuaW5nLWFydCIgLyAiLmNsYXVkZS1wbHVnaW4iIC8gInBsdWdpbi5qc29uIiksCiAgICBdOgogICAgICAgIGlmIG5vdCBtYW5pZmVzdC5pc19maWxlKCk6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJNaXNzaW5nIHBsdWdpbiBtYW5pZmVzdDoge21hbmlmZXN0fSIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgZXJyb3JzLmV4dGVuZCh2YWxpZGF0ZV9wbHVnaW5fbWFuaWZlc3QobWFuaWZlc3QsIGhvc3QpKQogICAgaWYgbm90IChyb290IC8gIlJFQURNRS5tZCIpLmlzX2ZpbGUoKToKICAgICAgICBlcnJvcnMuYXBwZW5kKCJNaXNzaW5nIHJvb3QgUkVBRE1FLm1kIikKICAgIGVycm9ycy5leHRlbmQodmVyaWZ5X2V2YWx1YXRpb25zKHJvb3QpKQogICAgZXJyb3JzLmV4dGVuZCh2YWxpZGF0ZV9jb2RleF9tYXJrZXRwbGFjZShyb290KSkKICAgIGVycm9ycy5leHRlbmQodmFsaWRhdGVfb2ZmaWNpYWxfZXZpZGVuY2Uocm9vdCkpCgogICAgY29kZXhfZGlzdCA9IHJvb3QgLyAiZGlzdCIgLyAiY29kZXgiIC8gIm15dGhvcy01LWJ1cm5pbmctYXJ0IgogICAgY2xhdWRlX2Rpc3QgPSByb290IC8gImRpc3QiIC8gImNsYXVkZSIgLyAibXl0aG9zLTUtYnVybmluZy1hcnQiCiAgICBmb3IgaG9zdCwgcGFja2FnZSBpbiAoKCJjb2RleCIsIGNvZGV4X2Rpc3QpLCAoImNsYXVkZSIsIGNsYXVkZV9kaXN0KSk6CiAgICAgICAgaWYgcGFja2FnZS5pc19kaXIoKToKICAgICAgICAgICAgZXJyb3JzLmV4dGVuZCh2YWxpZGF0ZV9idWlsZF9tYW5pZmVzdChwYWNrYWdlKSkKICAgICAgICAgICAgZXJyb3JzLmV4dGVuZCh2YWxpZGF0ZV9zb3VyY2VfcGFyaXR5KHJvb3QsIGhvc3QsIHBhY2thZ2UpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJNaXNzaW5nIGRpc3RyaWJ1dGlvbiBwYWNrYWdlOiB7cGFja2FnZX0iKQoKICAgIG1hcmtldHBsYWNlX3BhaXJzID0gKAogICAgICAgIChjb2RleF9kaXN0LCByb290IC8gIm1hcmtldHBsYWNlcyIgLyAiY29kZXgiIC8gInBsdWdpbnMiIC8gIm15dGhvcy01LWJ1cm5pbmctYXJ0IiksCiAgICAgICAgKGNsYXVkZV9kaXN0LCByb290IC8gIm1hcmtldHBsYWNlcyIgLyAiY2xhdWRlIiAvICJwbHVnaW5zIiAvICJteXRob3MtNS1idXJuaW5nLWFydCIpLAogICAgKQogICAgZm9yIHBhY2thZ2UsIG1hcmtldHBsYWNlX2NvcHkgaW4gbWFya2V0cGxhY2VfcGFpcnM6CiAgICAgICAgaWYgbm90IG1hcmtldHBsYWNlX2NvcHkuaXNfZGlyKCk6CiAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiJNaXNzaW5nIG1hcmtldHBsYWNlIHBhY2thZ2U6IHttYXJrZXRwbGFjZV9jb3B5fSIpCiAgICAgICAgZWxpZiBwYWNrYWdlLmlzX2RpcigpIGFuZCBpbnZlbnRvcnkocGFja2FnZSkgIT0gaW52ZW50b3J5KG1hcmtldHBsYWNlX2NvcHkpOgogICAgICAgICAgICBlcnJvcnMuYXBwZW5kKGYiTWFya2V0cGxhY2UgcGFja2FnZSBpcyBzdGFsZToge21hcmtldHBsYWNlX2NvcHl9IikKICAgIHJldHVybiBlcnJvcnMKCgpkZWYgbWFpbigpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcm9vdCIsIHR5cGU9UGF0aCwgZGVmYXVsdD1QYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCiAgICBlcnJvcnMgPSB2YWxpZGF0ZShhcmdzLnJvb3QpCiAgICBpZiBlcnJvcnM6CiAgICAgICAgZm9yIGVycm9yIGluIGVycm9yczoKICAgICAgICAgICAgcHJpbnQoZiJFUlJPUjoge2Vycm9yfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICByZXR1cm4gMQogICAgcHJpbnQoIlN1aXRlIHN0cnVjdHVyZSBhbmQgbGFuZ3VhZ2UgY2hlY2tzIHBhc3NlZC4iKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCgoKCgo=
+#!/usr/bin/env python3
+"""Run deterministic structural and language checks for the suite."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+import sys
+from pathlib import Path
+
+sys.dont_write_bytecode = True
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from verify_evals import verify as verify_evaluations
+
+
+HAN = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
+UNRESOLVED = re.compile(r"\b" + "TO" + r"DO\b|\b" + "FIX" + r"ME\b|\[" + "TO" + "DO|place" + r"holder", re.IGNORECASE)
+TEXT_SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".toml", ".txt", ".rules", ".sh", ".cmd", ".ps1"}
+SKILLS = {
+    "mythos-orchestrate", "mythos-discover", "mythos-options", "mythos-plan",
+    "mythos-build", "mythos-debug", "mythos-repair", "mythos-verify", "mythos-explain",
+}
+
+
+def validate_frontmatter(path: Path) -> list[str]:
+    errors: list[str] = []
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        return [f"Missing YAML frontmatter: {path}"]
+    parts = text.split("---\n", 2)
+    if len(parts) < 3:
+        return [f"Unclosed YAML frontmatter: {path}"]
+    keys = []
+    for line in parts[1].splitlines():
+        if line and not line.startswith((" ", "\t", "#")) and ":" in line:
+            keys.append(line.split(":", 1)[0].strip())
+    if keys != ["name", "description"]:
+        errors.append(f"Frontmatter must contain only name and description in order: {path} ({keys})")
+    return errors
+
+
+def sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def inventory(root: Path) -> dict[str, str]:
+    return {
+        path.relative_to(root).as_posix(): sha256(path)
+        for path in sorted(item for item in root.rglob("*") if item.is_file())
+    }
+
+
+def _source_inventory(root: Path, host: str) -> dict[str, str]:
+    """Return the exact package inventory expected from canonical sources."""
+    suite = "mythos-5-burning-art"
+    result: dict[str, str] = {}
+    host_root = root / "src" / host / suite
+    for path in sorted(item for item in host_root.rglob("*") if item.is_file()):
+        if "__pycache__" not in path.parts and path.suffix != ".pyc":
+            result[path.relative_to(host_root).as_posix()] = sha256(path)
+    skills = root / "src" / "shared" / "skills"
+    for path in sorted(item for item in skills.rglob("*") if item.is_file()):
+        relative = path.relative_to(skills)
+        if host == "claude" and "agents" in relative.parts:
+            continue
+        if "__pycache__" not in relative.parts and path.suffix != ".pyc":
+            result[(Path("skills") / relative).as_posix()] = sha256(path)
+    runtime = root / "src" / "shared" / "runtime"
+    for path in sorted(item for item in runtime.rglob("*") if item.is_file()):
+        relative = path.relative_to(runtime)
+        if "__pycache__" not in relative.parts and path.suffix != ".pyc":
+            result[(Path("scripts") / relative).as_posix()] = sha256(path)
+    return result
+
+
+def validate_source_parity(root: Path, host: str, package: Path) -> list[str]:
+    expected = _source_inventory(root, host)
+    actual = {
+        path.relative_to(package).as_posix(): sha256(path)
+        for path in sorted(item for item in package.rglob("*") if item.is_file())
+        if path.name != "build-manifest.json"
+    }
+    if expected == actual:
+        return []
+    missing = sorted(set(expected).difference(actual))
+    extra = sorted(set(actual).difference(expected))
+    stale = sorted(path for path in set(expected).intersection(actual) if expected[path] != actual[path])
+    return [
+        f"Source-to-distribution parity failed for {host}: "
+        f"missing={missing}, extra={extra}, stale={stale}"
+    ]
+
+
+def validate_build_manifest(package: Path) -> list[str]:
+    errors: list[str] = []
+    manifest_path = package / "build-manifest.json"
+    if not manifest_path.is_file():
+        return [f"Missing build manifest: {manifest_path}"]
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    expected = {item["path"]: item for item in payload.get("files", [])}
+    actual = {
+        path.relative_to(package).as_posix(): path
+        for path in sorted(item for item in package.rglob("*") if item.is_file() and item != manifest_path)
+    }
+    if set(expected) != set(actual):
+        errors.append(f"Build manifest inventory mismatch: {package}")
+        return errors
+    for relative, path in actual.items():
+        record = expected[relative]
+        if record.get("sha256") != sha256(path) or record.get("bytes") != path.stat().st_size:
+            errors.append(f"Build manifest digest mismatch: {path}")
+    return errors
+
+
+def validate_schema_meta(schema: object, path: Path, pointer: str = "$") -> list[str]:
+    """Check high-value JSON Schema keyword shapes without external packages."""
+    errors: list[str] = []
+    if isinstance(schema, dict):
+        for keyword in ("allOf", "anyOf", "oneOf", "prefixItems"):
+            if keyword in schema and not isinstance(schema[keyword], list):
+                errors.append(f"JSON Schema {keyword} must be an array: {path} at {pointer}")
+        if "required" in schema and (
+            not isinstance(schema["required"], list)
+            or not all(isinstance(item, str) for item in schema["required"])
+        ):
+            errors.append(f"JSON Schema required must be a string array: {path} at {pointer}")
+        for keyword in ("properties", "patternProperties", "$defs", "dependentSchemas"):
+            if keyword in schema and not isinstance(schema[keyword], dict):
+                errors.append(f"JSON Schema {keyword} must be an object: {path} at {pointer}")
+        for key, value in schema.items():
+            errors.extend(validate_schema_meta(value, path, f"{pointer}/{key}"))
+    elif isinstance(schema, list):
+        for index, value in enumerate(schema):
+            errors.extend(validate_schema_meta(value, path, f"{pointer}/{index}"))
+    return errors
+
+
+def validate_reviewer_receipt_schema(schema: object, path: Path) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(schema, dict) or not isinstance(schema.get("oneOf"), list):
+        return [f"Reviewer receipt schema must define oneOf branches: {path}"]
+    branches = {branch.get("title"): branch for branch in schema["oneOf"] if isinstance(branch, dict)}
+    for title in ("Plan critic receipt", "Verifier receipt"):
+        branch = branches.get(title)
+        if not isinstance(branch, dict):
+            errors.append(f"Missing reviewer receipt branch {title}: {path}")
+            continue
+        properties = branch.get("properties", {})
+        if properties.get("verdict") != {"const": "PASS"}:
+            errors.append(f"{title} must publish PASS as the only accepted receipt verdict: {path}")
+        for field in ("blocking_findings", "high_findings", "context_contamination"):
+            definition = properties.get(field, {})
+            if definition.get("type") != "array" or definition.get("maxItems") != 0:
+                errors.append(f"{title} {field} must be an explicit empty array for PASS: {path}")
+        if title == "Verifier receipt":
+            for field in ("scope_matches_approval", "approval_current"):
+                if properties.get(field) != {"const": True}:
+                    errors.append(f"Verifier receipt {field} must be true for PASS: {path}")
+    return errors
+
+def validate_plugin_manifest(path: Path, host: str) -> list[str]:
+    errors: list[str] = []
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return [f"Invalid {host} plugin manifest {path}: {exc}"]
+    required = {"name", "version", "description", "author", "keywords"}
+    missing = sorted(required.difference(payload)) if isinstance(payload, dict) else sorted(required)
+    if not isinstance(payload, dict) or missing:
+        return [f"{host} plugin manifest lacks required fields {missing}: {path}"]
+    if payload.get("name") != "mythos-5-burning-art":
+        errors.append(f"{host} plugin manifest has the wrong name: {path}")
+    if not isinstance(payload.get("version"), str) or re.fullmatch(r"\d+\.\d+\.\d+", payload["version"]) is None:
+        errors.append(f"{host} plugin manifest version is not semantic: {path}")
+    if not isinstance(payload.get("description"), str) or not payload["description"].strip():
+        errors.append(f"{host} plugin manifest description is empty: {path}")
+    author = payload.get("author")
+    if not isinstance(author, dict) or not isinstance(author.get("name"), str) or not author["name"].strip():
+        errors.append(f"{host} plugin manifest author is invalid: {path}")
+    keywords = payload.get("keywords")
+    if not isinstance(keywords, list) or not keywords or not all(isinstance(item, str) and item for item in keywords):
+        errors.append(f"{host} plugin manifest keywords are invalid: {path}")
+    if host == "codex":
+        if payload.get("skills") != "./skills/" or not isinstance(payload.get("interface"), dict):
+            errors.append(f"Codex plugin manifest lacks skills or interface metadata: {path}")
+    elif not isinstance(payload.get("userConfig"), dict):
+        errors.append(f"Claude plugin manifest lacks userConfig: {path}")
+    return errors
+
+
+def validate_codex_marketplace(root: Path) -> list[str]:
+    market_root = (root / "marketplaces" / "codex").resolve()
+    catalog = market_root / ".agents" / "plugins" / "marketplace.json"
+    if not catalog.is_file():
+        return [f"Missing Codex marketplace catalog: {catalog}"]
+    try:
+        payload = json.loads(catalog.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return [f"Invalid Codex marketplace catalog {catalog}: {exc}"]
+    errors: list[str] = []
+    plugins = payload.get("plugins") if isinstance(payload, dict) else None
+    if not isinstance(plugins, list) or len(plugins) != 1 or not isinstance(plugins[0], dict):
+        return [f"Codex marketplace must contain exactly one plugin entry: {catalog}"]
+    entry = plugins[0]
+    source = entry.get("source")
+    if entry.get("name") != "mythos-5-burning-art" or not isinstance(source, dict):
+        return [f"Codex marketplace plugin entry is invalid: {catalog}"]
+    declared = source.get("path")
+    if source.get("source") != "local" or not isinstance(declared, str) or not declared.strip():
+        return [f"Codex marketplace local source is invalid: {catalog}"]
+    declared_path = Path(declared)
+    if declared_path.is_absolute():
+        return [f"Codex marketplace source must be marketplace-root-relative: {catalog}"]
+    resolved = (market_root / declared_path).resolve()
+    try:
+        resolved.relative_to(market_root)
+    except ValueError:
+        return [f"Codex marketplace source escapes the marketplace root: {catalog}"]
+    if resolved != market_root / "plugins" / "mythos-5-burning-art":
+        errors.append(f"Codex marketplace source resolves to an unexpected path: {resolved}")
+    if not resolved.is_dir():
+        errors.append(f"Codex marketplace source does not resolve to a package: {resolved}")
+    elif not (resolved / ".codex-plugin" / "plugin.json").is_file():
+        errors.append(f"Codex marketplace source lacks a plugin manifest: {resolved}")
+    return errors
+def validate_official_evidence(root: Path) -> list[str]:
+    path = root / "evals" / "results" / "official-validation.json"
+    if not path.is_file():
+        return [f"Missing official validator evidence: {path}"]
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return [f"Invalid official validator evidence {path}: {exc}"]
+    errors: list[str] = []
+    if payload.get("schema_version") != 1 or payload.get("suite") != "mythos-5-burning-art" or payload.get("status") != "PASS":
+        errors.append(f"Official validator evidence is not a PASS for this suite: {path}")
+    expected_targets = {
+        **{f"skill:{skill}": f"src/shared/skills/{skill}" for skill in SKILLS},
+        "codex-plugin:dist": "dist/codex/mythos-5-burning-art",
+        "codex-plugin:marketplace": "marketplaces/codex/plugins/mythos-5-burning-art",
+        "claude-plugin:dist": "dist/claude/mythos-5-burning-art",
+        "claude-plugin:marketplace": "marketplaces/claude/plugins/mythos-5-burning-art",
+    }
+    expected_checks = set(expected_targets)
+    checks = payload.get("checks")
+    if not isinstance(checks, list):
+        errors.append(f"Official validator checks must be an array: {path}")
+    else:
+        identifiers = [item.get("id") for item in checks if isinstance(item, dict)]
+        if set(identifiers) != expected_checks or len(identifiers) != len(expected_checks):
+            errors.append(f"Official validator check coverage mismatch: {path}")
+        for item in checks:
+            if not isinstance(item, dict) or item.get("returncode") != 0:
+                errors.append(f"Official validator check did not pass: {item}")
+                continue
+            expected_target = expected_targets.get(item.get("id"))
+            if expected_target is not None and item.get("target") != expected_target:
+                errors.append(f"Official validator check targeted the wrong path: {item}")
+    validators = payload.get("validators")
+    if not isinstance(validators, dict):
+        errors.append(f"Official validator identities are missing: {path}")
+    else:
+        for key in ("openai_skill_validator_sha256", "openai_codex_plugin_validator_sha256"):
+            value = validators.get(key)
+            if not isinstance(value, str) or re.fullmatch(r"[a-f0-9]{64}", value) is None:
+                errors.append(f"Official validator digest is invalid for {key}: {path}")
+        if not isinstance(validators.get("claude_code_version"), str) or not validators["claude_code_version"].strip():
+            errors.append(f"Claude Code validator version is missing: {path}")
+    bindings = payload.get("bindings")
+    if not isinstance(bindings, dict):
+        return errors + [f"Official validator bindings are missing: {path}"]
+    required_bindings = {
+        *(f"src/shared/skills/{skill}/SKILL.md" for skill in SKILLS),
+        "src/codex/mythos-5-burning-art/.codex-plugin/plugin.json",
+        "src/claude/mythos-5-burning-art/.claude-plugin/plugin.json",
+        "dist/codex/mythos-5-burning-art/build-manifest.json",
+        "dist/claude/mythos-5-burning-art/build-manifest.json",
+        "marketplaces/codex/.agents/plugins/marketplace.json",
+        "marketplaces/claude/.claude-plugin/marketplace.json",
+        "scripts/validate_official.py",
+    }
+    if set(bindings) != required_bindings:
+        errors.append(f"Official validator binding coverage mismatch: {path}")
+    for relative, expected in bindings.items():
+        target = root / relative
+        if not target.is_file() or not isinstance(expected, str) or sha256(target) != expected:
+            errors.append(f"Official validator evidence is stale for {relative}: {path}")
+    if payload.get("missing_bindings") != []:
+        errors.append(f"Official validator evidence reports missing bindings: {path}")
+    return errors
+
+def validate(root: Path) -> list[str]:
+    errors: list[str] = []
+    root = root.resolve()
+    for path in root.rglob("*"):
+        if not path.is_file():
+            continue
+        if "__pycache__" in path.parts or path.suffix == ".pyc":
+            errors.append(f"Generated Python cache is prohibited in the release tree: {path}")
+            continue
+        if path.suffix.lower() == ".json":
+            try:
+                payload = json.loads(path.read_text(encoding="utf-8"))
+                if path.parent == root / "spec" and path.name.endswith(".schema.json"):
+                    errors.extend(validate_schema_meta(payload, path))
+                    if path.name == "reviewer-receipt.schema.json":
+                        errors.extend(validate_reviewer_receipt_schema(payload, path))
+            except Exception as exc:
+                errors.append(f"Invalid JSON {path}: {exc}")
+        if path.suffix.lower() in TEXT_SUFFIXES or path.name in {"AGENTS.md", "CLAUDE.md", "SKILL.md"}:
+            text = path.read_text(encoding="utf-8")
+            if UNRESOLVED.search(text):
+                errors.append(f"Unresolved scaffold marker in {path}")
+            if path != root / "README.md" and HAN.search(text):
+                errors.append(f"Non-English Han character in {path}")
+    canonical = root / "src" / "shared" / "skills"
+    found = {path.name for path in canonical.iterdir() if path.is_dir()} if canonical.exists() else set()
+    if found != SKILLS:
+        errors.append(f"Canonical skill set mismatch: expected {sorted(SKILLS)}, found {sorted(found)}")
+    for skill in sorted(found):
+        skill_file = canonical / skill / "SKILL.md"
+        if not skill_file.is_file():
+            errors.append(f"Missing SKILL.md: {skill}")
+        else:
+            errors.extend(validate_frontmatter(skill_file))
+        if (canonical / skill / "README.md").exists():
+            errors.append(f"Skill contains prohibited README.md: {skill}")
+    for host, manifest in [
+        ("codex", root / "src" / "codex" / "mythos-5-burning-art" / ".codex-plugin" / "plugin.json"),
+        ("claude", root / "src" / "claude" / "mythos-5-burning-art" / ".claude-plugin" / "plugin.json"),
+    ]:
+        if not manifest.is_file():
+            errors.append(f"Missing plugin manifest: {manifest}")
+        else:
+            errors.extend(validate_plugin_manifest(manifest, host))
+    if not (root / "README.md").is_file():
+        errors.append("Missing root README.md")
+    errors.extend(verify_evaluations(root))
+    errors.extend(validate_codex_marketplace(root))
+    errors.extend(validate_official_evidence(root))
+
+    codex_dist = root / "dist" / "codex" / "mythos-5-burning-art"
+    claude_dist = root / "dist" / "claude" / "mythos-5-burning-art"
+    for host, package in (("codex", codex_dist), ("claude", claude_dist)):
+        if package.is_dir():
+            errors.extend(validate_build_manifest(package))
+            errors.extend(validate_source_parity(root, host, package))
+        else:
+            errors.append(f"Missing distribution package: {package}")
+
+    marketplace_pairs = (
+        (codex_dist, root / "marketplaces" / "codex" / "plugins" / "mythos-5-burning-art"),
+        (claude_dist, root / "marketplaces" / "claude" / "plugins" / "mythos-5-burning-art"),
+    )
+    for package, marketplace_copy in marketplace_pairs:
+        if not marketplace_copy.is_dir():
+            errors.append(f"Missing marketplace package: {marketplace_copy}")
+        elif package.is_dir() and inventory(package) != inventory(marketplace_copy):
+            errors.append(f"Marketplace package is stale: {marketplace_copy}")
+    return errors
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
+    args = parser.parse_args()
+    errors = validate(args.root)
+    if errors:
+        for error in errors:
+            print(f"ERROR: {error}", file=sys.stderr)
+        return 1
+    print("Suite structure and language checks passed.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+
+
+

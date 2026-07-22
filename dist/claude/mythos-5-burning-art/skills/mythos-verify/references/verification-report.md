@@ -1,1 +1,80 @@
-IyBWZXJpZmljYXRpb24gUmVwb3J0IGFuZCBQYWNrZXQgQ29udHJhY3QKCiMjIFN1Ym1pdHRlZCB2ZXJpZmljYXRpb24gcGFja2V0CgpUaGUgc3VibWl0dGVyIHN1cHBsaWVzIG9ubHkgdGhlc2UgZmllbGRzLiBFYWNoIHJlY29uY2lsaWF0aW9uIGVudHJ5IGJpbmRzIHRvIGEgY29uY3JldGUgc3ViamVjdC4gSW5jbHVkZSBvbmUgYFBMQU5fU1RFUGAgZW50cnkgZm9yIGV2ZXJ5IGFwcHJvdmVkIHN0ZXAgYW5kIG9uZSBgUEFUSGAgZW50cnkgZm9yIGV2ZXJ5IGNoYW5nZWQgcGF0aCB0aGF0IHRoZSBob29rIHdpbGwgb2JzZXJ2ZS4gYEFDQ0VQVEFOQ0VfQ1JJVEVSSU9OYCBhbmQgYENPTU1BTkRgIGVudHJpZXMgYXJlIG9wdGlvbmFsIHdoZW4gdXNlZnVsLgoKTVlUSE9TX1ZFUklGSUNBVElPTl9QQUNLRVRfVjFfQkVHSU4KYGBganNvbgp7CiAgInNjaGVtYV92ZXJzaW9uIjogMSwKICAicnVuX2lkIjogIm01LS4uLiIsCiAgImFwcHJvdmFsX2J1bmRsZV9oYXNoIjogIjxjdXJyZW50IGFwcHJvdmVkIGJ1bmRsZSBoYXNoPiIsCiAgImltcGxlbWVudGF0aW9uX25vdGVzIjogeyJzdW1tYXJ5IjoiLi4uIiwiY2hhbmdlZF9zdXJmYWNlcyI6WyIuLi4iXX0sCiAgImluY3JlbWVudF9ldmlkZW5jZSI6IFsKICAgIHsic3RlcCI6IlAtMSIsIm9ic2VydmF0aW9uIjoic3BlY2lmaWMgb2JzZXJ2ZWQgcmVzdWx0IiwicmVzdWx0IjoiUEFTUyJ9CiAgXSwKICAiYWNjZXB0YW5jZV9ldmlkZW5jZSI6IFsKICAgIHsiY3JpdGVyaW9uIjoiQUMtMSIsImV2aWRlbmNlIjoic3BlY2lmaWMgZGlyZWN0IGV2aWRlbmNlIiwicmVzdWx0IjoiUEFTUyJ9CiAgXSwKICAicmVjb25jaWxpYXRpb24iOiB7CiAgICAiZGV2aWF0aW9ucyI6IFsKICAgICAgeyJzdWJqZWN0X3R5cGUiOiJQTEFOX1NURVAiLCJzdWJqZWN0X2lkIjoiUC0xIiwiY2xhc3NpZmljYXRpb24iOiJNQVRDSCIsImV2aWRlbmNlIjoiLi4uIn0sCiAgICAgIHsic3ViamVjdF90eXBlIjoiUEFUSCIsInN1YmplY3RfaWQiOiJzcmMvZXhhY3QtZmlsZS5weSIsImNsYXNzaWZpY2F0aW9uIjoiTUFUQ0giLCJldmlkZW5jZSI6Ii4uLiJ9CiAgICBdCiAgfQp9CmBgYApNWVRIT1NfVkVSSUZJQ0FUSU9OX1BBQ0tFVF9WMV9FTkQKCkZvciBgcGxhbl9vbmx5YCwgYGluY3JlbWVudF9ldmlkZW5jZWAgaXMgYFtdYCwgcGF0aHMgYW5kIGNvbnRlbnQgZGVsdGEgYXJlIGVtcHR5LCBhbmQgcmVjb25jaWxpYXRpb24gc3RpbGwgY292ZXJzIGV2ZXJ5IHBsYW4gc3RlcC4gRm9yIGEgbm9uLW11dGF0aW5nIGRlYnVnIHBsYW4sIGR1cmFibGUgZGlhZ25vc3RpYyBhdHRlbXB0cyBhbmQgaW5jcmVtZW50IGV2aWRlbmNlIHJlbWFpbiByZXF1aXJlZCwgYnV0IHRoZSBjaGFuZ2VkLXBhdGggbGlzdCBpcyBlbXB0eS4KClRoZSBob29rIGFkZHMgYGZpbmFsX3Njb3BlYCwgYGZpbmFsX2ZpbmdlcnByaW50YCwgbWFuaWZlc3QgaGFzaGVzLCBgY2hhbmdlZF9pbnZlbnRvcnlgLCBhbmQgZXhhY3QgYGNvbnRlbnRfZGVsdGFgLiBOZXZlciBzdWJtaXQgb3IgZ3Vlc3MgdGhvc2UgaG9vay1vd25lZCBmaWVsZHMuCgojIyBGcmVzaCB2ZXJpZmllciByZWNlaXB0CgpTdGFydCBvbmx5IGFmdGVyIHRoZSBob29rIHJldHVybnMgdGhlIHBhY2tldCBoYXNoLCB3aXRoIGhvc3Qtb2JzZXJ2YWJsZSBuby1pbmhlcml0ZWQtdHVybiBpc29sYXRpb24uCgpgYGB0ZXh0ClZlcmRpY3Q6IFBBU1MKTVlUSE9TX1ZFUklGSUVSX1JFQ0VJUFRfVjFfQkVHSU4KeyJzY2hlbWFfdmVyc2lvbiI6MSwicGFja2V0X2hhc2giOiI8dmVyaWZpY2F0aW9uX3BhY2tldF9oYXNoPiIsInZlcmRpY3QiOiJQQVNTIiwiY3JpdGVyaWEiOlt7ImNyaXRlcmlvbiI6IkFDLTEiLCJyZXN1bHQiOiJQQVNTIiwiZXZpZGVuY2UiOiJkaXJlY3QgdmVyaWZpZXIgZXZpZGVuY2UifV0sInNjb3BlX21hdGNoZXNfYXBwcm92YWwiOnRydWUsImFwcHJvdmFsX2N1cnJlbnQiOnRydWUsImJsb2NraW5nX2ZpbmRpbmdzIjpbXSwiaGlnaF9maW5kaW5ncyI6W10sImNvbnRleHRfY29udGFtaW5hdGlvbiI6W119Ck1ZVEhPU19WRVJJRklFUl9SRUNFSVBUX1YxX0VORApgYGAKCk11bHRpcGxlIHZlcmRpY3RzIG9yIHJlY2VpcHRzLCBhIG1pc21hdGNoZWQgaGFzaCwgZHVwbGljYXRlIG9yIG1pc3NpbmcgY3JpdGVyaWEsIGEgbm9uLVBBU1MgY3JpdGVyaW9uLCBmYWxzZSBzY29wZS9hcHByb3ZhbCBmbGFncywgb3IgYW55IGJsb2NraW5nL2hpZ2gvY29udGFtaW5hdGlvbiBpdGVtIGludmFsaWRhdGVzIFBBU1MuCgojIyBDb21wbGV0aW9uIGJ1bmRsZQoKQWZ0ZXIgdGhlIGJvdW5kIFBBU1MsIGNvcHkgdGhlIHN1Ym1pdHRlZCB2ZXJpZmljYXRpb24gbWF0ZXJpYWwgZXhhY3RseSBhbmQgYWRkIG9ubHkgdGhlIGhvb2stb3duZWQgdmVyaWZpY2F0aW9uIGhhc2ggYW5kIGV4cGxhbmF0aW9uLiBSZWNvbmNpbGlhdGlvbiBzdGlsbCBjb250YWlucyBvbmx5IHN1Ym1pdHRlZCBkZXZpYXRpb25zLgoKTVlUSE9TX0NPTVBMRVRJT05fQlVORExFX1YxX0JFR0lOCmBgYGpzb24KewogICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgInJ1bl9pZCI6ICJtNS0uLi4iLAogICJ2ZXJpZmljYXRpb25fcGFja2V0X2hhc2giOiAiPHZlcmlmaWNhdGlvbl9wYWNrZXRfaGFzaD4iLAogICJpbXBsZW1lbnRhdGlvbl9ub3RlcyI6IHsic3VtbWFyeSI6Ii4uLiIsImNoYW5nZWRfc3VyZmFjZXMiOlsiLi4uIl19LAogICJpbmNyZW1lbnRfZXZpZGVuY2UiOiBbCiAgICB7InN0ZXAiOiJQLTEiLCJvYnNlcnZhdGlvbiI6InNwZWNpZmljIG9ic2VydmVkIHJlc3VsdCIsInJlc3VsdCI6IlBBU1MifQogIF0sCiAgImFjY2VwdGFuY2VfZXZpZGVuY2UiOiBbCiAgICB7ImNyaXRlcmlvbiI6IkFDLTEiLCJldmlkZW5jZSI6InNwZWNpZmljIGRpcmVjdCBldmlkZW5jZSIsInJlc3VsdCI6IlBBU1MifQogIF0sCiAgInJlY29uY2lsaWF0aW9uIjogewogICAgImRldmlhdGlvbnMiOiBbCiAgICAgIHsic3ViamVjdF90eXBlIjoiUExBTl9TVEVQIiwic3ViamVjdF9pZCI6IlAtMSIsImNsYXNzaWZpY2F0aW9uIjoiTUFUQ0giLCJldmlkZW5jZSI6Ii4uLiJ9LAogICAgICB7InN1YmplY3RfdHlwZSI6IlBBVEgiLCJzdWJqZWN0X2lkIjoic3JjL2V4YWN0LWZpbGUucHkiLCJjbGFzc2lmaWNhdGlvbiI6Ik1BVENIIiwiZXZpZGVuY2UiOiIuLi4ifQogICAgXQogIH0sCiAgImV4cGxhbmF0aW9uIjogewogICAgImNoYW5nZV9leHBsYW5hdGlvbiI6ICIuLi4iLAogICAgInJpc2tzIjogWyIuLi4iXSwKICAgICJyb2xsYmFjayI6ICIuLi4iLAogICAgImNvbXByZWhlbnNpb25fZXZpZGVuY2UiOiAiaHVtYW4gcmVzcG9uc2UsIGV4cGxpY2l0IHdhaXZlciwgb3IgZXZpZGVuY2VkIGxvdy1pbXBhY3Qgd2FpdmVyIgogIH0KfQpgYGAKTVlUSE9TX0NPTVBMRVRJT05fQlVORExFX1YxX0VORAoKVGhlIGhvb2sgY2hlY2tzIGJ5dGUtZm9yLWJ5dGUgc2VtYW50aWMgaWRlbnRpdHkgd2l0aCB0aGUgc3VibWl0dGVkIHBhY2tldCwgZnJlc2ggdmVyaWZpZXIgYmluZGluZywgYXBwcm92YWwgY3VycmVuY3ksIGN1cnJlbnQgZ2xvYmFsIGFuZCBzY29wZWQgZmluZ2VycHJpbnRzLCBjb250ZW50IGRlbHRhLCBtYW5pZmVzdHMsIGNoYW5nZWQgaW52ZW50b3J5LCBjcml0ZXJpb24gY292ZXJhZ2UsIGFuZCBhbGwgcGhhc2UgZXZpZGVuY2UgYmVmb3JlIERPTkUuIEFueSBjaGFuZ2UgYWZ0ZXIgc2VhbGluZyByZXF1aXJlcyBhIG5ldyByZXZpZXcgYW5kIGFwcHJvdmFsOyB0aGUgZnJvemVuIHNuYXBzaG90IGlzIG5ldmVyIHJlb3BlbmVkIHVuZGVyIHRoZSBvbGQgYXBwcm92YWwuCg==
+# Verification Report and Packet Contract
+
+## Submitted verification packet
+
+The submitter supplies only these fields. Each reconciliation entry binds to a concrete subject. Include one `PLAN_STEP` entry for every approved step and one `PATH` entry for every changed path that the hook will observe. `ACCEPTANCE_CRITERION` and `COMMAND` entries are optional when useful.
+
+MYTHOS_VERIFICATION_PACKET_V1_BEGIN
+```json
+{
+  "schema_version": 1,
+  "run_id": "m5-...",
+  "approval_bundle_hash": "<current approved bundle hash>",
+  "implementation_notes": {"summary":"...","changed_surfaces":["..."]},
+  "increment_evidence": [
+    {"step":"P-1","observation":"specific observed result","result":"PASS"}
+  ],
+  "acceptance_evidence": [
+    {"criterion":"AC-1","evidence":"specific direct evidence","result":"PASS"}
+  ],
+  "reconciliation": {
+    "deviations": [
+      {"subject_type":"PLAN_STEP","subject_id":"P-1","classification":"MATCH","evidence":"..."},
+      {"subject_type":"PATH","subject_id":"src/exact-file.py","classification":"MATCH","evidence":"..."}
+    ]
+  }
+}
+```
+MYTHOS_VERIFICATION_PACKET_V1_END
+
+For `plan_only`, `increment_evidence` is `[]`, paths and content delta are empty, and reconciliation still covers every plan step. For a non-mutating debug plan, durable diagnostic attempts and increment evidence remain required, but the changed-path list is empty.
+
+The hook adds `final_scope`, `final_fingerprint`, manifest hashes, `changed_inventory`, and exact `content_delta`. Never submit or guess those hook-owned fields.
+
+## Fresh verifier receipt
+
+Start only after the hook returns the packet hash, with host-observable no-inherited-turn isolation.
+
+```text
+Verdict: PASS
+MYTHOS_VERIFIER_RECEIPT_V1_BEGIN
+{"schema_version":1,"packet_hash":"<verification_packet_hash>","verdict":"PASS","criteria":[{"criterion":"AC-1","result":"PASS","evidence":"direct verifier evidence"}],"scope_matches_approval":true,"approval_current":true,"blocking_findings":[],"high_findings":[],"context_contamination":[]}
+MYTHOS_VERIFIER_RECEIPT_V1_END
+```
+
+Multiple verdicts or receipts, a mismatched hash, duplicate or missing criteria, a non-PASS criterion, false scope/approval flags, or any blocking/high/contamination item invalidates PASS.
+
+## Completion bundle
+
+After the bound PASS, copy the submitted verification material exactly and add only the hook-owned verification hash and explanation. Reconciliation still contains only submitted deviations.
+
+MYTHOS_COMPLETION_BUNDLE_V1_BEGIN
+```json
+{
+  "schema_version": 1,
+  "run_id": "m5-...",
+  "verification_packet_hash": "<verification_packet_hash>",
+  "implementation_notes": {"summary":"...","changed_surfaces":["..."]},
+  "increment_evidence": [
+    {"step":"P-1","observation":"specific observed result","result":"PASS"}
+  ],
+  "acceptance_evidence": [
+    {"criterion":"AC-1","evidence":"specific direct evidence","result":"PASS"}
+  ],
+  "reconciliation": {
+    "deviations": [
+      {"subject_type":"PLAN_STEP","subject_id":"P-1","classification":"MATCH","evidence":"..."},
+      {"subject_type":"PATH","subject_id":"src/exact-file.py","classification":"MATCH","evidence":"..."}
+    ]
+  },
+  "explanation": {
+    "change_explanation": "...",
+    "risks": ["..."],
+    "rollback": "...",
+    "comprehension_evidence": "human response, explicit waiver, or evidenced low-impact waiver"
+  }
+}
+```
+MYTHOS_COMPLETION_BUNDLE_V1_END
+
+The hook checks byte-for-byte semantic identity with the submitted packet, fresh verifier binding, approval currency, current global and scoped fingerprints, content delta, manifests, changed inventory, criterion coverage, and all phase evidence before DONE. Any change after sealing requires a new review and approval; the frozen snapshot is never reopened under the old approval.

@@ -1,1 +1,37 @@
-IyBIeXBvdGhlc2lzIExlZGdlcgoKYGBgdGV4dApTeW1wdG9tIElEOgpFeHBlY3RlZDoKT2JzZXJ2ZWQ6CkVudmlyb25tZW50OgpGcmVxdWVuY3k6Ck1pbmltYWwgcmVwcm9kdWN0aW9uOgpSYXcgZXZpZGVuY2U6CmBgYAoKYGBgdGV4dApIeXBvdGhlc2lzIElEOgpDYXVzYWwgbWVjaGFuaXNtOgpTdXBwb3J0aW5nIGV2aWRlbmNlOgpDb250cmFkaWN0aW5nIGV2aWRlbmNlOgpQcmVkaWN0ZWQgb2JzZXJ2YXRpb246CkRpc2NyaW1pbmF0aW5nIGV4cGVyaW1lbnQ6ClNhZmV0eSBhbmQgc2lkZSBlZmZlY3RzOgpSZXN1bHQ6ClVwZGF0ZWQgc3RhdHVzOiBMRUFESU5HIHwgUExBVVNJQkxFIHwgV0VBSyB8IEVMSU1JTkFURUQKYGBgCgpFc3RhYmxpc2ggcm9vdCBjYXVzZSBvbmx5IHdoZW4gZXZpZGVuY2UgY29ubmVjdHMgdHJpZ2dlciwgbWVjaGFuaXNtLCBhbmQgc3ltcHRvbTsgYW4gaW50ZXJ2ZW50aW9uIGNoYW5nZXMgdGhlIHByZWRpY3RlZCBvYnNlcnZhdGlvbjsgYW5kIG1lYW5pbmdmdWwgYWx0ZXJuYXRpdmVzIGFyZSBjb250cmFkaWN0ZWQgb3IgYm91bmRlZC4KClJldHVybiBhIHJlcGFpciBib3VuZGFyeSBhczoKCmBgYHRleHQKRmF1bHR5IGludmFyaWFudDoKU21hbGxlc3QgcmVzcG9uc2libGUgc3VyZmFjZToKU2libGluZyBzdXJmYWNlcyB0byBzY2FuOgpSZWdyZXNzaW9uIHRoYXQgbXVzdCBmYWlsIGJlZm9yZSByZXBhaXI6CkV4cGVjdGVkIHBhc3MgYWZ0ZXIgcmVwYWlyOgpSaXNrIGFuZCByb2xsYmFjazoKYGBgCgo=
+# Hypothesis Ledger
+
+```text
+Symptom ID:
+Expected:
+Observed:
+Environment:
+Frequency:
+Minimal reproduction:
+Raw evidence:
+```
+
+```text
+Hypothesis ID:
+Causal mechanism:
+Supporting evidence:
+Contradicting evidence:
+Predicted observation:
+Discriminating experiment:
+Safety and side effects:
+Result:
+Updated status: LEADING | PLAUSIBLE | WEAK | ELIMINATED
+```
+
+Establish root cause only when evidence connects trigger, mechanism, and symptom; an intervention changes the predicted observation; and meaningful alternatives are contradicted or bounded.
+
+Return a repair boundary as:
+
+```text
+Faulty invariant:
+Smallest responsible surface:
+Sibling surfaces to scan:
+Regression that must fail before repair:
+Expected pass after repair:
+Risk and rollback:
+```
+

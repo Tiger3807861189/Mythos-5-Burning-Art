@@ -1,1 +1,4 @@
-aW50ZXJmYWNlOgogIGRpc3BsYXlfbmFtZTogIk15dGhvcyBEZWJ1ZyIKICBzaG9ydF9kZXNjcmlwdGlvbjogIkVzdGFibGlzaCBldmlkZW5jZS1iYXNlZCByb290IGNhdXNlIgogIGRlZmF1bHRfcHJvbXB0OiAiVXNlICRteXRob3MtZGVidWcgdG8gcmVwcm9kdWNlIHRoZSBmYWlsdXJlIGFuZCBkaXNjcmltaW5hdGUgY29tcGV0aW5nIHJvb3QtY2F1c2UgaHlwb3RoZXNlcy4iCg==
+interface:
+  display_name: "Mythos Debug"
+  short_description: "Establish evidence-based root cause"
+  default_prompt: "Use $mythos-debug to reproduce the failure and discriminate competing root-cause hypotheses."

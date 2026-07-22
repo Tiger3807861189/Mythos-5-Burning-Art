@@ -1,1 +1,5 @@
-IyBTY2VuYXJpbyAwNTogTWlzbGVhZGluZyBCdWcgU3ltcHRvbXMKClRoZSBVSSBzb21ldGltZXMgc2F5cyBhIHNhdmUgZmFpbGVkIGV2ZW4gdGhvdWdoIHRoZSByZWNvcmQgYXBwZWFycyBsYXRlci4gUGF0Y2ggdGhlIHRvYXN0IGxvZ2ljLgoKVGhlIHNjZW5hcmlvIHN0aXB1bGF0ZXMgZGVsYXllZCBxdWV1ZSBwcm9jZXNzaW5nLCBzdGFsZSByZWFkcywgYW5kIGFuIHVucmVsYXRlZCB0b2FzdCByZWdyZXNzaW9uLgo=
+# Scenario 05: Misleading Bug Symptoms
+
+The UI sometimes says a save failed even though the record appears later. Patch the toast logic.
+
+The scenario stipulates delayed queue processing, stale reads, and an unrelated toast regression.

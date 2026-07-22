@@ -1,1 +1,36 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAiJGlkIjogImh0dHBzOi8vbXl0aG9zLmxvY2FsL3NjaGVtYS9ldmVudC5zY2hlbWEuanNvbiIsCiAgInRpdGxlIjogIk15dGhvcyBSdW50aW1lIENoYWluZWQgRXZlbnQgUmVjb3JkIiwKICAidHlwZSI6ICJvYmplY3QiLAogICJyZXF1aXJlZCI6IFsic2VxdWVuY2UiLCAicHJldmlvdXNfY2hlY2tzdW0iLCAicGF5bG9hZCIsICJjaGVja3N1bSJdLAogICJwcm9wZXJ0aWVzIjogewogICAgInNlcXVlbmNlIjogeyJ0eXBlIjogImludGVnZXIiLCAibWluaW11bSI6IDF9LAogICAgInByZXZpb3VzX2NoZWNrc3VtIjogeyJ0eXBlIjogInN0cmluZyIsICJwYXR0ZXJuIjogIl5bYS1mMC05XXs2NH0kIn0sCiAgICAicGF5bG9hZCI6IHsiJHJlZiI6ICIjLyRkZWZzL2V2ZW50X3BheWxvYWQifSwKICAgICJjaGVja3N1bSI6IHsidHlwZSI6ICJzdHJpbmciLCAicGF0dGVybiI6ICJeW2EtZjAtOV17NjR9JCJ9CiAgfSwKICAiJGRlZnMiOiB7CiAgICAiZXZlbnRfcGF5bG9hZCI6IHsKICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgInJlcXVpcmVkIjogWyJvcGVyYXRpb24iXSwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgIm9wZXJhdGlvbiI6IHsiZW51bSI6IFsiaW5pdGlhbGl6ZSIsICJ0cmFuc2l0aW9uIiwgInNldF90YXNrX3Byb2ZpbGUiLCAicmVjb3JkX2V2aWRlbmNlIiwgImF0dGVtcHQiLCAic2V0X3Rlcm1pbmFsIiwgInJlc3VtZSIsICJiYXRjaCIsICJhcHByb3ZhbF9jcmVhdGVkIiwgImFwcHJvdmFsX2ludmFsaWRhdGVkIl19LAogICAgICAgICJldmVudHMiOiB7CiAgICAgICAgICAidHlwZSI6ICJhcnJheSIsCiAgICAgICAgICAibWluSXRlbXMiOiAxLAogICAgICAgICAgIml0ZW1zIjogewogICAgICAgICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAgICAgICAicmVxdWlyZWQiOiBbIm9wZXJhdGlvbiJdLAogICAgICAgICAgICAicHJvcGVydGllcyI6IHsib3BlcmF0aW9uIjogeyJlbnVtIjogWyJ0cmFuc2l0aW9uIiwgInJlY29yZF9ldmlkZW5jZSJdfX0sCiAgICAgICAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyI6IHRydWUKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0sCiAgICAgICJpZiI6IHsicHJvcGVydGllcyI6IHsib3BlcmF0aW9uIjogeyJjb25zdCI6ICJiYXRjaCJ9fSwgInJlcXVpcmVkIjogWyJvcGVyYXRpb24iXX0sCiAgICAgICJ0aGVuIjogeyJyZXF1aXJlZCI6IFsiZXZlbnRzIl19LAogICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiB0cnVlCiAgICB9CiAgfSwKICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBmYWxzZQp9
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythos.local/schema/event.schema.json",
+  "title": "Mythos Runtime Chained Event Record",
+  "type": "object",
+  "required": ["sequence", "previous_checksum", "payload", "checksum"],
+  "properties": {
+    "sequence": {"type": "integer", "minimum": 1},
+    "previous_checksum": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "payload": {"$ref": "#/$defs/event_payload"},
+    "checksum": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "$defs": {
+    "event_payload": {
+      "type": "object",
+      "required": ["operation"],
+      "properties": {
+        "operation": {"enum": ["initialize", "transition", "set_task_profile", "record_evidence", "attempt", "set_terminal", "resume", "batch", "approval_created", "approval_invalidated"]},
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["operation"],
+            "properties": {"operation": {"enum": ["transition", "record_evidence"]}},
+            "additionalProperties": true
+          }
+        }
+      },
+      "if": {"properties": {"operation": {"const": "batch"}}, "required": ["operation"]},
+      "then": {"required": ["events"]},
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

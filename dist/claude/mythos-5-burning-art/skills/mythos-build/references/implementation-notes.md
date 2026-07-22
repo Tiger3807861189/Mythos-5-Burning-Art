@@ -1,1 +1,29 @@
-IyBJbXBsZW1lbnRhdGlvbiBOb3RlcwoKT3BlbiBvbmUgZW50cnkgZm9yIGVhY2ggcGxhbiBzdGVwOgoKYGBgdGV4dApTdGVwIElEOgpQbGFuIGRpZ2VzdDoKUGxhbm5lZCBiZWhhdmlvcjoKQWN0dWFsIGZpbGVzIGFuZCBzeW1ib2xzOgpBY3R1YWwgYmVoYXZpb3I6CkNvbW1hbmRzIG9yIHRvb2xzIHVzZWQ6CkltbWVkaWF0ZSBldmlkZW5jZToKQWNjZXB0YW5jZSBjcml0ZXJpYToKRGV2aWF0aW9uOiBOT05FIHwgTE9DQUwgfCBNQVRFUklBTApEZXZpYXRpb24gcmVhc29uOgpBcHByb3ZhbCBzdGlsbCB2YWxpZDogWUVTIHwgTk8KUmlza3MgYW5kIGZvbGxvdy11cDoKYGBgCgpNYWludGFpbiBhIGRldmlhdGlvbiBsZWRnZXI6CgpgYGB0ZXh0CklEIHwgUGxhbm5lZCB8IEFjdHVhbCB8IFJlYXNvbiB8IFNjb3BlIGltcGFjdCB8IENyaXRlcmlvbiBpbXBhY3QgfCBEaXNwb3NpdGlvbgpgYGAKClVzZSBkaXNwb3NpdGlvbnMgYEFDQ0VQVF9XSVRISU5fU0NPUEVgLCBgUkVNT1ZFYCwgYFJFUExBTmAsIG9yIGBORUVEU19IVU1BTmAuIEEgZGV2aWF0aW9uIGlzIG1hdGVyaWFsIGlmIGl0IGNoYW5nZXMgYXJjaGl0ZWN0dXJlLCBwdWJsaWMgYmVoYXZpb3IsIGRhdGEsIHNlY3VyaXR5LCBjb21wYXRpYmlsaXR5LCBkZXBlbmRlbmN5IHNldCwgYWxsb3dlZCBzdXJmYWNlLCBzaWRlIGVmZmVjdCwgYWNjZXB0YW5jZSwgb3Igcm9sbGJhY2suCgpCZWZvcmUgcmV0dXJuaW5nIHBoYXNlIDksIGluY2x1ZGUgc3VibWl0dGVyLW9ic2VydmVkIGNoYW5nZWQtc3VyZmFjZSBub3RlcywgdGVzdCBhbmQgY2hlY2sgcmVzdWx0cyB3aXRoIGV4aXQgc3RhdHVzLCBza2lwcGVkIGNoZWNrcyBhbmQgcmVhc29ucywga25vd24gbGltaXRhdGlvbnMsIGFuZCByb2xsYmFjayBub3Rlcy4gRG8gbm90IHN1Ym1pdCBvciBndWVzcyBhdXRob3JpdGF0aXZlIGJhc2VsaW5lL2ZpbmFsIGZpbmdlcnByaW50cywgdGhlIGZpbmFsIGNoYW5nZWQtcGF0aCBpbnZlbnRvcnksIG1hbmlmZXN0cywgb3IgYnl0ZSBkZWx0YTsgdGhlIGhvb2sgZGVyaXZlcyBhbmQgc2VhbHMgdGhvc2UgZmllbGRzLgoK
+# Implementation Notes
+
+Open one entry for each plan step:
+
+```text
+Step ID:
+Plan digest:
+Planned behavior:
+Actual files and symbols:
+Actual behavior:
+Commands or tools used:
+Immediate evidence:
+Acceptance criteria:
+Deviation: NONE | LOCAL | MATERIAL
+Deviation reason:
+Approval still valid: YES | NO
+Risks and follow-up:
+```
+
+Maintain a deviation ledger:
+
+```text
+ID | Planned | Actual | Reason | Scope impact | Criterion impact | Disposition
+```
+
+Use dispositions `ACCEPT_WITHIN_SCOPE`, `REMOVE`, `REPLAN`, or `NEEDS_HUMAN`. A deviation is material if it changes architecture, public behavior, data, security, compatibility, dependency set, allowed surface, side effect, acceptance, or rollback.
+
+Before returning phase 9, include submitter-observed changed-surface notes, test and check results with exit status, skipped checks and reasons, known limitations, and rollback notes. Do not submit or guess authoritative baseline/final fingerprints, the final changed-path inventory, manifests, or byte delta; the hook derives and seals those fields.
+

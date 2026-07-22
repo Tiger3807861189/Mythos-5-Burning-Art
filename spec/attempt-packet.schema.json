@@ -1,1 +1,20 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAiJGlkIjogImh0dHBzOi8vbXl0aG9zLmxvY2FsL3NjaGVtYS9hdHRlbXB0LXBhY2tldC5zY2hlbWEuanNvbiIsCiAgInRpdGxlIjogIk15dGhvcyBEdXJhYmxlIEltcGxlbWVudGF0aW9uIEF0dGVtcHQgUGFja2V0IiwKICAidHlwZSI6ICJvYmplY3QiLAogICJyZXF1aXJlZCI6IFsic2NoZW1hX3ZlcnNpb24iLCAicnVuX2lkIiwgImFwcHJvdmFsX2J1bmRsZV9oYXNoIiwgInN0ZXAiLCAiaHlwb3RoZXNpcyIsICJhY3Rpb24iLCAiZXZpZGVuY2Vfc25hcHNob3QiLCAib3V0Y29tZSIsICJldmlkZW5jZV9nYWluIl0sCiAgInByb3BlcnRpZXMiOiB7CiAgICAic2NoZW1hX3ZlcnNpb24iOiB7ImNvbnN0IjogMX0sCiAgICAicnVuX2lkIjogeyJ0eXBlIjogInN0cmluZyIsICJtaW5MZW5ndGgiOiAxfSwKICAgICJhcHByb3ZhbF9idW5kbGVfaGFzaCI6IHsidHlwZSI6ICJzdHJpbmciLCAicGF0dGVybiI6ICJeW2EtZjAtOV17NjR9JCJ9LAogICAgInN0ZXAiOiB7InR5cGUiOiAic3RyaW5nIiwgIm1pbkxlbmd0aCI6IDF9LAogICAgImh5cG90aGVzaXMiOiB7InR5cGUiOiAic3RyaW5nIiwgIm1pbkxlbmd0aCI6IDF9LAogICAgImFjdGlvbiI6IHsidHlwZSI6ICJzdHJpbmciLCAibWluTGVuZ3RoIjogMX0sCiAgICAiZXZpZGVuY2Vfc25hcHNob3QiOiB7InR5cGUiOiAic3RyaW5nIiwgIm1pbkxlbmd0aCI6IDF9LAogICAgIm91dGNvbWUiOiB7ImVudW0iOiBbIlBBU1MiLCAiRkFJTCJdfSwKICAgICJldmlkZW5jZV9nYWluIjogeyJ0eXBlIjogImJvb2xlYW4ifQogIH0sCiAgImFsbE9mIjogW3siaWYiOiB7InByb3BlcnRpZXMiOiB7Im91dGNvbWUiOiB7ImNvbnN0IjogIlBBU1MifX19LCAidGhlbiI6IHsicHJvcGVydGllcyI6IHsiZXZpZGVuY2VfZ2FpbiI6IHsiY29uc3QiOiB0cnVlfX19fV0sCiAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKfQ==
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythos.local/schema/attempt-packet.schema.json",
+  "title": "Mythos Durable Implementation Attempt Packet",
+  "type": "object",
+  "required": ["schema_version", "run_id", "approval_bundle_hash", "step", "hypothesis", "action", "evidence_snapshot", "outcome", "evidence_gain"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "approval_bundle_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "step": {"type": "string", "minLength": 1},
+    "hypothesis": {"type": "string", "minLength": 1},
+    "action": {"type": "string", "minLength": 1},
+    "evidence_snapshot": {"type": "string", "minLength": 1},
+    "outcome": {"enum": ["PASS", "FAIL"]},
+    "evidence_gain": {"type": "boolean"}
+  },
+  "allOf": [{"if": {"properties": {"outcome": {"const": "PASS"}}}, "then": {"properties": {"evidence_gain": {"const": true}}}}],
+  "additionalProperties": false
+}

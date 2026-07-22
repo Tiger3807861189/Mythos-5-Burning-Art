@@ -1,1 +1,5 @@
-IyBTY2VuYXJpbyAwMzogUmVjb2duaXphYmxlIGJ1dCBVbnNwZWNpZmllZCBUYXN0ZQoKUmVkZXNpZ24gdGhlIHJldmlldyBxdWV1ZS4gSSBjYW5ub3QgZGVzY3JpYmUgdGhlIHZpc3VhbCBzdHlsZSwgYnV0IEkgd2lsbCBrbm93IHRoZSByaWdodCBkaXJlY3Rpb24gd2hlbiBJIHNlZSBpdC4KClRoZSBzY2VuYXJpbyBzdGlwdWxhdGVzIHRoYXQgYW4gaXNvbGF0ZWQsIGRpc3Bvc2FibGUsIG5vbi1wcm9kdWN0aW9uIHNjcmF0Y2ggc3VyZmFjZSBpcyBhdmFpbGFibGUgZm9yIHByb3RvdHlwZXMuCg==
+# Scenario 03: Recognizable but Unspecified Taste
+
+Redesign the review queue. I cannot describe the visual style, but I will know the right direction when I see it.
+
+The scenario stipulates that an isolated, disposable, non-production scratch surface is available for prototypes.

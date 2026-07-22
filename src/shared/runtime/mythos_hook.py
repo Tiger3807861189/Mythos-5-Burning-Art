@@ -1,1 +1,14 @@
-IiIiUG9ydGFibGUgaG9vayBlbnRyeSBwb2ludCBmb3IgQ29kZXggYW5kIENsYXVkZSBDb2RlIGFkYXB0ZXJzLiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCnN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudCkpCgpmcm9tIG15dGhvc19ydW50aW1lLmNsaSBpbXBvcnQgbWFpbgoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICByYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSk=
+"""Portable hook entry point for Codex and Claude Code adapters."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from mythos_runtime.cli import main
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

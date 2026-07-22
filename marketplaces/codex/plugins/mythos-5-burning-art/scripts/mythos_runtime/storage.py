@@ -1,1 +1,107 @@
-IiIiVGFtcGVyLWV2aWRlbnQgZXZlbnQgbG9ncyBhbmQgYXRvbWljIEpTT04gc25hcHNob3RzLiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCB0ZW1wZmlsZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSAuY2Fub25pY2FsIGltcG9ydCBjYW5vbmljYWxfdGV4dCwgZGlnZXN0CmZyb20gLmxvY2tpbmcgaW1wb3J0IEZpbGVMb2NrCgoKR0VORVNJU19DSEVDS1NVTSA9ICIwIiAqIDY0CgoKY2xhc3MgSW50ZWdyaXR5RXJyb3IoUnVudGltZUVycm9yKToKICAgIHBhc3MKCgpkZWYgYXRvbWljX3dyaXRlX2pzb24ocGF0aDogUGF0aCwgdmFsdWU6IEFueSwgKiwgbW9kZTogaW50ID0gMG82MDApIC0+IE5vbmU6CiAgICBwYXRoLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBkZXNjcmlwdG9yLCB0ZW1wb3JhcnlfbmFtZSA9IHRlbXBmaWxlLm1rc3RlbXAocHJlZml4PWYiLntwYXRoLm5hbWV9LiIsIHN1ZmZpeD0iLnRtcCIsIGRpcj1wYXRoLnBhcmVudCkKICAgIHRlbXBvcmFyeSA9IFBhdGgodGVtcG9yYXJ5X25hbWUpCiAgICB0cnk6CiAgICAgICAgb3MuY2htb2QodGVtcG9yYXJ5LCBtb2RlKQogICAgICAgIHdpdGggb3MuZmRvcGVuKGRlc2NyaXB0b3IsICJ3IiwgZW5jb2Rpbmc9InV0Zi04IiwgbmV3bGluZT0iXG4iKSBhcyBzdHJlYW06CiAgICAgICAgICAgIHN0cmVhbS53cml0ZShjYW5vbmljYWxfdGV4dCh2YWx1ZSkpCiAgICAgICAgICAgIHN0cmVhbS5mbHVzaCgpCiAgICAgICAgICAgIG9zLmZzeW5jKHN0cmVhbS5maWxlbm8oKSkKICAgICAgICBvcy5yZXBsYWNlKHRlbXBvcmFyeSwgcGF0aCkKICAgICAgICB0cnk6CiAgICAgICAgICAgIGRpcmVjdG9yeV9mZCA9IG9zLm9wZW4ocGF0aC5wYXJlbnQsIG9zLk9fUkRPTkxZKQogICAgICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgICAgICBkaXJlY3RvcnlfZmQgPSBOb25lCiAgICAgICAgaWYgZGlyZWN0b3J5X2ZkIGlzIG5vdCBOb25lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBvcy5mc3luYyhkaXJlY3RvcnlfZmQpCiAgICAgICAgICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICBmaW5hbGx5OgogICAgICAgICAgICAgICAgb3MuY2xvc2UoZGlyZWN0b3J5X2ZkKQogICAgZmluYWxseToKICAgICAgICB0ZW1wb3JhcnkudW5saW5rKG1pc3Npbmdfb2s9VHJ1ZSkKCgpkZWYgcmVhZF9qc29uKHBhdGg6IFBhdGgpIC0+IEFueToKICAgIHRyeToKICAgICAgICByZXR1cm4ganNvbi5sb2FkcyhwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvciBhcyBlcnJvcjoKICAgICAgICByYWlzZSBJbnRlZ3JpdHlFcnJvcihmIkludmFsaWQgSlNPTiBpbiB7cGF0aH06IHtlcnJvcn0iKSBmcm9tIGVycm9yCgoKY2xhc3MgRXZlbnRMb2c6CiAgICBkZWYgX19pbml0X18oc2VsZiwgcGF0aDogc3RyIHwgb3MuUGF0aExpa2Vbc3RyXSwgKiwgbG9ja19wYXRoOiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IE5vbmU6CiAgICAgICAgc2VsZi5wYXRoID0gUGF0aChwYXRoKQogICAgICAgIHNlbGYubG9ja19wYXRoID0gUGF0aChsb2NrX3BhdGgpIGlmIGxvY2tfcGF0aCBlbHNlIHNlbGYucGF0aC53aXRoX3N1ZmZpeChzZWxmLnBhdGguc3VmZml4ICsgIi5sb2NrIikKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgX2NoZWNrc3VtX2JvZHkoc2VxdWVuY2U6IGludCwgcHJldmlvdXM6IHN0ciwgcGF5bG9hZDogZGljdFtzdHIsIEFueV0pIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgICAgIHJldHVybiB7InNlcXVlbmNlIjogc2VxdWVuY2UsICJwcmV2aW91c19jaGVja3N1bSI6IHByZXZpb3VzLCAicGF5bG9hZCI6IHBheWxvYWR9CgogICAgZGVmIHJlYWRfdmVyaWZpZWQoc2VsZikgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICAgICAgaWYgbm90IHNlbGYucGF0aC5leGlzdHMoKToKICAgICAgICAgICAgcmV0dXJuIFtdCiAgICAgICAgcmVjb3JkczogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBbXQogICAgICAgIHByZXZpb3VzID0gR0VORVNJU19DSEVDS1NVTQogICAgICAgIGV4cGVjdGVkX3NlcXVlbmNlID0gMQogICAgICAgIHdpdGggc2VsZi5wYXRoLm9wZW4oInIiLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSIiKSBhcyBzdHJlYW06CiAgICAgICAgICAgIGZvciBsaW5lX251bWJlciwgbGluZSBpbiBlbnVtZXJhdGUoc3RyZWFtLCAxKToKICAgICAgICAgICAgICAgIGlmIG5vdCBsaW5lLmVuZHN3aXRoKCJcbiIpOgogICAgICAgICAgICAgICAgICAgIHJhaXNlIEludGVncml0eUVycm9yKGYiVHJ1bmNhdGVkIGV2ZW50IHJlY29yZCBhdCBsaW5lIHtsaW5lX251bWJlcn0iKQogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHJlY29yZCA9IGpzb24ubG9hZHMobGluZSkKICAgICAgICAgICAgICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvciBhcyBlcnJvcjoKICAgICAgICAgICAgICAgICAgICByYWlzZSBJbnRlZ3JpdHlFcnJvcihmIkludmFsaWQgZXZlbnQgSlNPTiBhdCBsaW5lIHtsaW5lX251bWJlcn0iKSBmcm9tIGVycm9yCiAgICAgICAgICAgICAgICBpZiByZWNvcmQuZ2V0KCJzZXF1ZW5jZSIpICE9IGV4cGVjdGVkX3NlcXVlbmNlOgogICAgICAgICAgICAgICAgICAgIHJhaXNlIEludGVncml0eUVycm9yKGYiTm9uLW1vbm90b25pYyBzZXF1ZW5jZSBhdCBsaW5lIHtsaW5lX251bWJlcn0iKQogICAgICAgICAgICAgICAgaWYgcmVjb3JkLmdldCgicHJldmlvdXNfY2hlY2tzdW0iKSAhPSBwcmV2aW91czoKICAgICAgICAgICAgICAgICAgICByYWlzZSBJbnRlZ3JpdHlFcnJvcihmIkJyb2tlbiBjaGVja3N1bSBjaGFpbiBhdCBsaW5lIHtsaW5lX251bWJlcn0iKQogICAgICAgICAgICAgICAgYm9keSA9IHNlbGYuX2NoZWNrc3VtX2JvZHkoZXhwZWN0ZWRfc2VxdWVuY2UsIHByZXZpb3VzLCByZWNvcmQuZ2V0KCJwYXlsb2FkIikpCiAgICAgICAgICAgICAgICBleHBlY3RlZF9jaGVja3N1bSA9IGRpZ2VzdChib2R5KQogICAgICAgICAgICAgICAgaWYgcmVjb3JkLmdldCgiY2hlY2tzdW0iKSAhPSBleHBlY3RlZF9jaGVja3N1bToKICAgICAgICAgICAgICAgICAgICByYWlzZSBJbnRlZ3JpdHlFcnJvcihmIkNoZWNrc3VtIG1pc21hdGNoIGF0IGxpbmUge2xpbmVfbnVtYmVyfSIpCiAgICAgICAgICAgICAgICByZWNvcmRzLmFwcGVuZChyZWNvcmQpCiAgICAgICAgICAgICAgICBwcmV2aW91cyA9IGV4cGVjdGVkX2NoZWNrc3VtCiAgICAgICAgICAgICAgICBleHBlY3RlZF9zZXF1ZW5jZSArPSAxCiAgICAgICAgcmV0dXJuIHJlY29yZHMKCiAgICBkZWYgYXBwZW5kKHNlbGYsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICB3aXRoIEZpbGVMb2NrKHNlbGYubG9ja19wYXRoKToKICAgICAgICAgICAgcmV0dXJuIHNlbGYuYXBwZW5kX2xvY2tlZChwYXlsb2FkKQoKICAgIGRlZiBhcHBlbmRfbG9ja2VkKHNlbGYsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICByZWNvcmRzID0gc2VsZi5yZWFkX3ZlcmlmaWVkKCkKICAgICAgICBzZXF1ZW5jZSA9IGxlbihyZWNvcmRzKSArIDEKICAgICAgICBwcmV2aW91cyA9IHJlY29yZHNbLTFdWyJjaGVja3N1bSJdIGlmIHJlY29yZHMgZWxzZSBHRU5FU0lTX0NIRUNLU1VNCiAgICAgICAgYm9keSA9IHNlbGYuX2NoZWNrc3VtX2JvZHkoc2VxdWVuY2UsIHByZXZpb3VzLCBwYXlsb2FkKQogICAgICAgIHJlY29yZCA9IHsqKmJvZHksICJjaGVja3N1bSI6IGRpZ2VzdChib2R5KX0KICAgICAgICBzZWxmLnBhdGgucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICB3aXRoIHNlbGYucGF0aC5vcGVuKCJhIiwgZW5jb2Rpbmc9InV0Zi04IiwgbmV3bGluZT0iXG4iKSBhcyBzdHJlYW06CiAgICAgICAgICAgIHN0cmVhbS53cml0ZShjYW5vbmljYWxfdGV4dChyZWNvcmQpKQogICAgICAgICAgICBzdHJlYW0uZmx1c2goKQogICAgICAgICAgICBvcy5mc3luYyhzdHJlYW0uZmlsZW5vKCkpCiAgICAgICAgcmV0dXJuIHJlY29yZAoK
+"""Tamper-evident event logs and atomic JSON snapshots."""
+
+from __future__ import annotations
+
+import json
+import os
+import tempfile
+from pathlib import Path
+from typing import Any
+
+from .canonical import canonical_text, digest
+from .locking import FileLock
+
+
+GENESIS_CHECKSUM = "0" * 64
+
+
+class IntegrityError(RuntimeError):
+    pass
+
+
+def atomic_write_json(path: Path, value: Any, *, mode: int = 0o600) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temporary_name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
+    temporary = Path(temporary_name)
+    try:
+        os.chmod(temporary, mode)
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(canonical_text(value))
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+        try:
+            directory_fd = os.open(path.parent, os.O_RDONLY)
+        except OSError:
+            directory_fd = None
+        if directory_fd is not None:
+            try:
+                os.fsync(directory_fd)
+            except OSError:
+                pass
+            finally:
+                os.close(directory_fd)
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
+def read_json(path: Path) -> Any:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as error:
+        raise IntegrityError(f"Invalid JSON in {path}: {error}") from error
+
+
+class EventLog:
+    def __init__(self, path: str | os.PathLike[str], *, lock_path: str | os.PathLike[str] | None = None) -> None:
+        self.path = Path(path)
+        self.lock_path = Path(lock_path) if lock_path else self.path.with_suffix(self.path.suffix + ".lock")
+
+    @staticmethod
+    def _checksum_body(sequence: int, previous: str, payload: dict[str, Any]) -> dict[str, Any]:
+        return {"sequence": sequence, "previous_checksum": previous, "payload": payload}
+
+    def read_verified(self) -> list[dict[str, Any]]:
+        if not self.path.exists():
+            return []
+        records: list[dict[str, Any]] = []
+        previous = GENESIS_CHECKSUM
+        expected_sequence = 1
+        with self.path.open("r", encoding="utf-8", newline="") as stream:
+            for line_number, line in enumerate(stream, 1):
+                if not line.endswith("\n"):
+                    raise IntegrityError(f"Truncated event record at line {line_number}")
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError as error:
+                    raise IntegrityError(f"Invalid event JSON at line {line_number}") from error
+                if record.get("sequence") != expected_sequence:
+                    raise IntegrityError(f"Non-monotonic sequence at line {line_number}")
+                if record.get("previous_checksum") != previous:
+                    raise IntegrityError(f"Broken checksum chain at line {line_number}")
+                body = self._checksum_body(expected_sequence, previous, record.get("payload"))
+                expected_checksum = digest(body)
+                if record.get("checksum") != expected_checksum:
+                    raise IntegrityError(f"Checksum mismatch at line {line_number}")
+                records.append(record)
+                previous = expected_checksum
+                expected_sequence += 1
+        return records
+
+    def append(self, payload: dict[str, Any]) -> dict[str, Any]:
+        with FileLock(self.lock_path):
+            return self.append_locked(payload)
+
+    def append_locked(self, payload: dict[str, Any]) -> dict[str, Any]:
+        records = self.read_verified()
+        sequence = len(records) + 1
+        previous = records[-1]["checksum"] if records else GENESIS_CHECKSUM
+        body = self._checksum_body(sequence, previous, payload)
+        record = {**body, "checksum": digest(body)}
+        self.path.parent.mkdir(parents=True, exist_ok=True)
+        with self.path.open("a", encoding="utf-8", newline="\n") as stream:
+            stream.write(canonical_text(record))
+            stream.flush()
+            os.fsync(stream.fileno())
+        return record
+

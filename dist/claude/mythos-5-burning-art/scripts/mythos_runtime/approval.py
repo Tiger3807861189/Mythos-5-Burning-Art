@@ -1,1 +1,167 @@
-IiIiSG9vay1vd25lZCBodW1hbiBhcHByb3ZhbCByZWNlaXB0cy4KCkZpbGVzeXN0ZW0gcGVybWlzc2lvbnMgYW5kIHRoZSBITUFDIGRldGVjdCBhY2NpZGVudGFsIG9yIG9wcG9ydHVuaXN0aWMKdGFtcGVyaW5nLiBUaGV5IGFyZSBub3QgYSBzZWN1cml0eSBib3VuZGFyeSBhZ2FpbnN0IGNvZGUgcnVubmluZyBhcyB0aGUgc2FtZQpvcGVyYXRpbmctc3lzdGVtIHVzZXIuIEhvc3Qgc2FuZGJveGluZyBtdXN0IHByb3ZpZGUgdGhhdCBib3VuZGFyeS4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgaGFzaGxpYgppbXBvcnQgaG1hYwppbXBvcnQgb3MKaW1wb3J0IHNlY3JldHMKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgQW55Cgpmcm9tIC5jYW5vbmljYWwgaW1wb3J0IGNhbm9uaWNhbF9qc29uLCBkaWdlc3QKZnJvbSAubG9ja2luZyBpbXBvcnQgRmlsZUxvY2sKZnJvbSAucGF0aHMgaW1wb3J0IHByZXBhcmVfcHJpdmF0ZV9kaXJlY3RvcnkKZnJvbSAuc3RvcmFnZSBpbXBvcnQgRXZlbnRMb2csIEludGVncml0eUVycm9yLCBhdG9taWNfd3JpdGVfanNvbiwgcmVhZF9qc29uCgoKX09CU0VSVkFUSU9OX1NFQUwgPSBvYmplY3QoKQpTVVBQT1JURURfSFVNQU5fRVZFTlRTID0gewogICAgImNsYXVkZSI6IHsiVXNlclByb21wdFN1Ym1pdCJ9LAogICAgImNvZGV4IjogeyJVc2VyUHJvbXB0U3VibWl0In0sCn0KCgpkZWYgYXBwcm92YWxfc3ludGF4KHJ1bl9pZDogc3RyLCBidW5kbGVfaGFzaDogc3RyKSAtPiBzdHI6CiAgICByZXR1cm4gZiJBUFBST1ZFIE1ZVEhPUyBSVU4ge3J1bl9pZH0gQlVORExFIHtidW5kbGVfaGFzaH0iCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgSG9va09ic2VydmF0aW9uOgogICAgaG9zdDogc3RyCiAgICBldmVudF9uYW1lOiBzdHIKICAgIGV2ZW50X2lkOiBzdHIKICAgIHNlc3Npb25faWQ6IHN0cgogICAgbWVzc2FnZTogc3RyCiAgICBfc2VhbDogb2JqZWN0CgoKZGVmIG9ic2VydmVfaHVtYW5fZXZlbnQoKiwgaG9zdDogc3RyLCBldmVudF9uYW1lOiBzdHIsIHBheWxvYWQ6IGRpY3Rbc3RyLCBBbnldKSAtPiBIb29rT2JzZXJ2YXRpb246CiAgICAiIiJWYWxpZGF0ZSBhIGhvc3QgaG9vayBwYXlsb2FkIGFuZCBzZWFsIGl0IGZvciBhcHByb3ZhbCBjcmVhdGlvbi4iIiIKCiAgICBpZiBldmVudF9uYW1lIG5vdCBpbiBTVVBQT1JURURfSFVNQU5fRVZFTlRTLmdldChob3N0LCBzZXQoKSk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIntob3N0fTp7ZXZlbnRfbmFtZX0gaXMgbm90IGFuIG9ic2VydmFibGUgaHVtYW4gYXBwcm92YWwgZXZlbnQiKQogICAgYWN0b3IgPSBwYXlsb2FkLmdldCgiYWN0b3JfdHlwZSIsIHBheWxvYWQuZ2V0KCJhY3RvciIsICJodW1hbiIpKQogICAgaWYgYWN0b3IgIT0gImh1bWFuIjoKICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJBcHByb3ZhbCBtdXN0IGNvbWUgZnJvbSBhIGh1bWFuLWF1dGhvcmVkIGV2ZW50IikKICAgIG1lc3NhZ2UgPSBwYXlsb2FkLmdldCgicHJvbXB0IiwgcGF5bG9hZC5nZXQoIm1lc3NhZ2UiKSkKICAgIHNlc3Npb25faWQgPSBwYXlsb2FkLmdldCgic2Vzc2lvbl9pZCIpCiAgICBldmVudF9pZCA9IHBheWxvYWQuZ2V0KCJldmVudF9pZCIsIHBheWxvYWQuZ2V0KCJ1dWlkIiwgcGF5bG9hZC5nZXQoInR1cm5faWQiKSkpCiAgICBpZiBub3QgZXZlbnRfaWQgYW5kIGlzaW5zdGFuY2UobWVzc2FnZSwgc3RyKSBhbmQgaXNpbnN0YW5jZShzZXNzaW9uX2lkLCBzdHIpOgogICAgICAgIGV2ZW50X2lkID0gImRlcml2ZWQtIiArIGRpZ2VzdCgKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImhvc3QiOiBob3N0LAogICAgICAgICAgICAgICAgImV2ZW50X25hbWUiOiBldmVudF9uYW1lLAogICAgICAgICAgICAgICAgInNlc3Npb25faWQiOiBzZXNzaW9uX2lkLAogICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBtZXNzYWdlLAogICAgICAgICAgICAgICAgInRyYW5zY3JpcHRfcGF0aCI6IHBheWxvYWQuZ2V0KCJ0cmFuc2NyaXB0X3BhdGgiKSwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIGlmIG5vdCBhbGwoaXNpbnN0YW5jZSh2YWx1ZSwgc3RyKSBhbmQgdmFsdWUgZm9yIHZhbHVlIGluIChtZXNzYWdlLCBzZXNzaW9uX2lkLCBldmVudF9pZCkpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIkh1bWFuIGV2ZW50IHJlcXVpcmVzIG1lc3NhZ2UsIHNlc3Npb25faWQsIGFuZCBhbiBldmVudCBpZGVudGlmaWVyIikKICAgIHJldHVybiBIb29rT2JzZXJ2YXRpb24oaG9zdCwgZXZlbnRfbmFtZSwgZXZlbnRfaWQsIHNlc3Npb25faWQsIG1lc3NhZ2UsIF9PQlNFUlZBVElPTl9TRUFMKQoKCmNsYXNzIEF1dGhvcml0eVN0b3JlOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHBhdGhzOiBkaWN0W3N0ciwgUGF0aF0pIC0+IE5vbmU6CiAgICAgICAgc2VsZi5wYXRocyA9IHBhdGhzCiAgICAgICAgcHJlcGFyZV9wcml2YXRlX2RpcmVjdG9yeShwYXRoc1siYXV0aG9yaXR5Il0pCiAgICAgICAgc2VsZi5sb2cgPSBFdmVudExvZyhwYXRoc1siYXV0aG9yaXR5X2xvZyJdKQogICAgICAgIHNlbGYubG9jayA9IHBhdGhzWyJhdXRob3JpdHkiXSAvICJhdXRob3JpdHkubG9jayIKCiAgICBkZWYgX2tleShzZWxmKSAtPiBieXRlczoKICAgICAgICBwYXRoID0gc2VsZi5wYXRoc1siYXV0aG9yaXR5X2tleSJdCiAgICAgICAgcHJlcGFyZV9wcml2YXRlX2RpcmVjdG9yeShwYXRoLnBhcmVudCkKICAgICAgICB3aXRoIEZpbGVMb2NrKHBhdGgud2l0aF9uYW1lKHBhdGgubmFtZSArICIubG9jayIpKToKICAgICAgICAgICAgaWYgcGF0aC5leGlzdHMoKToKICAgICAgICAgICAgICAgIGtleSA9IHBhdGgucmVhZF9ieXRlcygpCiAgICAgICAgICAgICAgICBpZiBsZW4oa2V5KSAhPSAzMjoKICAgICAgICAgICAgICAgICAgICByYWlzZSBJbnRlZ3JpdHlFcnJvcigiQXV0aG9yaXR5IGtleSBpcyBtYWxmb3JtZWQiKQogICAgICAgICAgICAgICAgcmV0dXJuIGtleQogICAgICAgICAgICBrZXkgPSBzZWNyZXRzLnRva2VuX2J5dGVzKDMyKQogICAgICAgICAgICBkZXNjcmlwdG9yID0gb3Mub3BlbihwYXRoLCBvcy5PX0NSRUFUIHwgb3MuT19FWENMIHwgb3MuT19XUk9OTFksIDBvNjAwKQogICAgICAgICAgICB3aXRoIG9zLmZkb3BlbihkZXNjcmlwdG9yLCAid2IiKSBhcyBzdHJlYW06CiAgICAgICAgICAgICAgICBzdHJlYW0ud3JpdGUoa2V5KQogICAgICAgICAgICAgICAgc3RyZWFtLmZsdXNoKCkKICAgICAgICAgICAgICAgIG9zLmZzeW5jKHN0cmVhbS5maWxlbm8oKSkKICAgICAgICAgICAgcmV0dXJuIGtleQogICAgZGVmIF9zaWduYXR1cmUoc2VsZiwgcmVjZWlwdDogZGljdFtzdHIsIEFueV0pIC0+IHN0cjoKICAgICAgICByZXR1cm4gaG1hYy5uZXcoc2VsZi5fa2V5KCksIGNhbm9uaWNhbF9qc29uKHJlY2VpcHQpLCBoYXNobGliLnNoYTI1NikuaGV4ZGlnZXN0KCkKCiAgICBkZWYgY3JlYXRlKAogICAgICAgIHNlbGYsCiAgICAgICAgKiwKICAgICAgICBvYnNlcnZhdGlvbjogSG9va09ic2VydmF0aW9uLAogICAgICAgIHJ1bl9pZDogc3RyLAogICAgICAgIHByb2plY3Q6IGRpY3Rbc3RyLCBBbnldLAogICAgICAgIG1hdGVyaWFsOiBkaWN0W3N0ciwgQW55XSwKICAgICAgICBzY29wZTogQW55LAogICAgKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICBpZiBvYnNlcnZhdGlvbi5fc2VhbCBpcyBub3QgX09CU0VSVkFUSU9OX1NFQUw6CiAgICAgICAgICAgIHJhaXNlIFBlcm1pc3Npb25FcnJvcigiQXBwcm92YWwgY3JlYXRpb24gcmVxdWlyZXMgYSBzZWFsZWQgaG9vayBvYnNlcnZhdGlvbiIpCiAgICAgICAgZXhwZWN0ZWQgPSBhcHByb3ZhbF9zeW50YXgocnVuX2lkLCBzdHIobWF0ZXJpYWxbImJ1bmRsZV9oYXNoIl0pKQogICAgICAgIGlmIG9ic2VydmF0aW9uLm1lc3NhZ2UgIT0gZXhwZWN0ZWQ6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJBcHByb3ZhbCB0ZXh0IG11c3QgZXhhY3RseSBlcXVhbDoge2V4cGVjdGVkfSIpCiAgICAgICAgcmVjZWlwdCA9IHsKICAgICAgICAgICAgInNjaGVtYV92ZXJzaW9uIjogIjEiLAogICAgICAgICAgICAicnVuX2lkIjogcnVuX2lkLAogICAgICAgICAgICAic2Vzc2lvbl9pZCI6IG9ic2VydmF0aW9uLnNlc3Npb25faWQsCiAgICAgICAgICAgICJwcm9qZWN0IjogcHJvamVjdCwKICAgICAgICAgICAgIm1hdGVyaWFsIjogbWF0ZXJpYWwsCiAgICAgICAgICAgICJzY29wZSI6IHNjb3BlLAogICAgICAgICAgICAiaHVtYW5fZXZlbnQiOiB7CiAgICAgICAgICAgICAgICAiaG9zdCI6IG9ic2VydmF0aW9uLmhvc3QsCiAgICAgICAgICAgICAgICAiZXZlbnRfbmFtZSI6IG9ic2VydmF0aW9uLmV2ZW50X25hbWUsCiAgICAgICAgICAgICAgICAiZXZlbnRfaWQiOiBvYnNlcnZhdGlvbi5ldmVudF9pZCwKICAgICAgICAgICAgICAgICJtZXNzYWdlX2hhc2giOiBkaWdlc3Qob2JzZXJ2YXRpb24ubWVzc2FnZSksCiAgICAgICAgICAgIH0sCiAgICAgICAgfQogICAgICAgIGRvY3VtZW50ID0geyJyZWNlaXB0IjogcmVjZWlwdCwgInNpZ25hdHVyZSI6IHNlbGYuX3NpZ25hdHVyZShyZWNlaXB0KX0KICAgICAgICB3aXRoIEZpbGVMb2NrKHNlbGYubG9jayk6CiAgICAgICAgICAgIHNlbGYubG9nLmFwcGVuZCh7Im9wZXJhdGlvbiI6ICJhcHByb3ZhbF9jcmVhdGVkIiwgInJlY2VpcHRfaGFzaCI6IGRpZ2VzdChyZWNlaXB0KX0pCiAgICAgICAgICAgIGF0b21pY193cml0ZV9qc29uKHNlbGYucGF0aHNbImFwcHJvdmFsIl0sIGRvY3VtZW50KQogICAgICAgIHJldHVybiBkb2N1bWVudAoKICAgIGRlZiB2YWxpZGF0ZSgKICAgICAgICBzZWxmLAogICAgICAgICosCiAgICAgICAgcnVuX2lkOiBzdHIsCiAgICAgICAgc2Vzc2lvbl9pZDogc3RyLAogICAgICAgIHByb2plY3Q6IGRpY3Rbc3RyLCBBbnldLAogICAgICAgIG1hdGVyaWFsOiBkaWN0W3N0ciwgQW55XSwKICAgICkgLT4gdHVwbGVbYm9vbCwgbGlzdFtzdHJdLCBkaWN0W3N0ciwgQW55XSB8IE5vbmVdOgogICAgICAgIHBhdGggPSBzZWxmLnBhdGhzWyJhcHByb3ZhbCJdCiAgICAgICAgaWYgbm90IHBhdGguZXhpc3RzKCk6CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgWyJhcHByb3ZhbCBpcyBtaXNzaW5nIl0sIE5vbmUKICAgICAgICB0cnk6CiAgICAgICAgICAgIGRvY3VtZW50ID0gcmVhZF9qc29uKHBhdGgpCiAgICAgICAgICAgIHJlY2VpcHQgPSBkb2N1bWVudFsicmVjZWlwdCJdCiAgICAgICAgICAgIHNpZ25hdHVyZSA9IGRvY3VtZW50WyJzaWduYXR1cmUiXQogICAgICAgIGV4Y2VwdCAoSW50ZWdyaXR5RXJyb3IsIEtleUVycm9yLCBUeXBlRXJyb3IpOgogICAgICAgICAgICByZXR1cm4gRmFsc2UsIFsiYXBwcm92YWwgZG9jdW1lbnQgaXMgbWFsZm9ybWVkIl0sIE5vbmUKICAgICAgICByZWFzb25zOiBsaXN0W3N0cl0gPSBbXQogICAgICAgIGlmIG5vdCBobWFjLmNvbXBhcmVfZGlnZXN0KHN0cihzaWduYXR1cmUpLCBzZWxmLl9zaWduYXR1cmUocmVjZWlwdCkpOgogICAgICAgICAgICByZWFzb25zLmFwcGVuZCgiYXBwcm92YWwgc2lnbmF0dXJlIGlzIGludmFsaWQiKQogICAgICAgIGlmIHJlY2VpcHQuZ2V0KCJydW5faWQiKSAhPSBydW5faWQ6CiAgICAgICAgICAgIHJlYXNvbnMuYXBwZW5kKCJhcHByb3ZhbCBiZWxvbmdzIHRvIGFub3RoZXIgcnVuIikKICAgICAgICBpZiByZWNlaXB0LmdldCgic2Vzc2lvbl9pZCIpICE9IHNlc3Npb25faWQ6CiAgICAgICAgICAgIHJlYXNvbnMuYXBwZW5kKCJhcHByb3ZhbCBiZWxvbmdzIHRvIGFub3RoZXIgc2Vzc2lvbiIpCiAgICAgICAgaWYgcmVjZWlwdC5nZXQoInByb2plY3QiKSAhPSBwcm9qZWN0OgogICAgICAgICAgICByZWFzb25zLmFwcGVuZCgicmVwb3NpdG9yeSBvciB3b3JrdHJlZSBpZGVudGl0eSBjaGFuZ2VkIikKICAgICAgICBwcmlvciA9IHJlY2VpcHQuZ2V0KCJtYXRlcmlhbCIsIHt9KQogICAgICAgIGZvciBrZXkgaW4gKCJiYXNlX2ZpbmdlcnByaW50IiwgInBsYW5faGFzaCIsICJzY29wZV9oYXNoIiwgImFjY2VwdGFuY2VfaGFzaCIsICJjcml0aWNfaGFzaCIsICJidW5kbGVfaGFzaCIpOgogICAgICAgICAgICBpZiBwcmlvci5nZXQoa2V5KSAhPSBtYXRlcmlhbC5nZXQoa2V5KToKICAgICAgICAgICAgICAgIHJlYXNvbnMuYXBwZW5kKGYie2tleX0gY2hhbmdlZCIpCiAgICAgICAgcmV0dXJuIG5vdCByZWFzb25zLCByZWFzb25zLCByZWNlaXB0CgogICAgZGVmIGludmFsaWRhdGUoc2VsZiwgcmVhc29uczogbGlzdFtzdHJdKSAtPiBOb25lOgogICAgICAgIHdpdGggRmlsZUxvY2soc2VsZi5sb2NrKToKICAgICAgICAgICAgaWYgc2VsZi5wYXRoc1siYXBwcm92YWwiXS5leGlzdHMoKToKICAgICAgICAgICAgICAgIHNlbGYubG9nLmFwcGVuZCh7Im9wZXJhdGlvbiI6ICJhcHByb3ZhbF9pbnZhbGlkYXRlZCIsICJyZWFzb25zIjogcmVhc29uc30pCiAgICAgICAgICAgICAgICBzZWxmLnBhdGhzWyJhcHByb3ZhbCJdLnVubGluayhtaXNzaW5nX29rPVRydWUp
+"""Hook-owned human approval receipts.
+
+Filesystem permissions and the HMAC detect accidental or opportunistic
+tampering. They are not a security boundary against code running as the same
+operating-system user. Host sandboxing must provide that boundary.
+"""
+
+from __future__ import annotations
+
+import hashlib
+import hmac
+import os
+import secrets
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+from .canonical import canonical_json, digest
+from .locking import FileLock
+from .paths import prepare_private_directory
+from .storage import EventLog, IntegrityError, atomic_write_json, read_json
+
+
+_OBSERVATION_SEAL = object()
+SUPPORTED_HUMAN_EVENTS = {
+    "claude": {"UserPromptSubmit"},
+    "codex": {"UserPromptSubmit"},
+}
+
+
+def approval_syntax(run_id: str, bundle_hash: str) -> str:
+    return f"APPROVE MYTHOS RUN {run_id} BUNDLE {bundle_hash}"
+
+
+@dataclass(frozen=True)
+class HookObservation:
+    host: str
+    event_name: str
+    event_id: str
+    session_id: str
+    message: str
+    _seal: object
+
+
+def observe_human_event(*, host: str, event_name: str, payload: dict[str, Any]) -> HookObservation:
+    """Validate a host hook payload and seal it for approval creation."""
+
+    if event_name not in SUPPORTED_HUMAN_EVENTS.get(host, set()):
+        raise ValueError(f"{host}:{event_name} is not an observable human approval event")
+    actor = payload.get("actor_type", payload.get("actor", "human"))
+    if actor != "human":
+        raise ValueError("Approval must come from a human-authored event")
+    message = payload.get("prompt", payload.get("message"))
+    session_id = payload.get("session_id")
+    event_id = payload.get("event_id", payload.get("uuid", payload.get("turn_id")))
+    if not event_id and isinstance(message, str) and isinstance(session_id, str):
+        event_id = "derived-" + digest(
+            {
+                "host": host,
+                "event_name": event_name,
+                "session_id": session_id,
+                "message": message,
+                "transcript_path": payload.get("transcript_path"),
+            }
+        )
+    if not all(isinstance(value, str) and value for value in (message, session_id, event_id)):
+        raise ValueError("Human event requires message, session_id, and an event identifier")
+    return HookObservation(host, event_name, event_id, session_id, message, _OBSERVATION_SEAL)
+
+
+class AuthorityStore:
+    def __init__(self, paths: dict[str, Path]) -> None:
+        self.paths = paths
+        prepare_private_directory(paths["authority"])
+        self.log = EventLog(paths["authority_log"])
+        self.lock = paths["authority"] / "authority.lock"
+
+    def _key(self) -> bytes:
+        path = self.paths["authority_key"]
+        prepare_private_directory(path.parent)
+        with FileLock(path.with_name(path.name + ".lock")):
+            if path.exists():
+                key = path.read_bytes()
+                if len(key) != 32:
+                    raise IntegrityError("Authority key is malformed")
+                return key
+            key = secrets.token_bytes(32)
+            descriptor = os.open(path, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+            with os.fdopen(descriptor, "wb") as stream:
+                stream.write(key)
+                stream.flush()
+                os.fsync(stream.fileno())
+            return key
+    def _signature(self, receipt: dict[str, Any]) -> str:
+        return hmac.new(self._key(), canonical_json(receipt), hashlib.sha256).hexdigest()
+
+    def create(
+        self,
+        *,
+        observation: HookObservation,
+        run_id: str,
+        project: dict[str, Any],
+        material: dict[str, Any],
+        scope: Any,
+    ) -> dict[str, Any]:
+        if observation._seal is not _OBSERVATION_SEAL:
+            raise PermissionError("Approval creation requires a sealed hook observation")
+        expected = approval_syntax(run_id, str(material["bundle_hash"]))
+        if observation.message != expected:
+            raise ValueError(f"Approval text must exactly equal: {expected}")
+        receipt = {
+            "schema_version": "1",
+            "run_id": run_id,
+            "session_id": observation.session_id,
+            "project": project,
+            "material": material,
+            "scope": scope,
+            "human_event": {
+                "host": observation.host,
+                "event_name": observation.event_name,
+                "event_id": observation.event_id,
+                "message_hash": digest(observation.message),
+            },
+        }
+        document = {"receipt": receipt, "signature": self._signature(receipt)}
+        with FileLock(self.lock):
+            self.log.append({"operation": "approval_created", "receipt_hash": digest(receipt)})
+            atomic_write_json(self.paths["approval"], document)
+        return document
+
+    def validate(
+        self,
+        *,
+        run_id: str,
+        session_id: str,
+        project: dict[str, Any],
+        material: dict[str, Any],
+    ) -> tuple[bool, list[str], dict[str, Any] | None]:
+        path = self.paths["approval"]
+        if not path.exists():
+            return False, ["approval is missing"], None
+        try:
+            document = read_json(path)
+            receipt = document["receipt"]
+            signature = document["signature"]
+        except (IntegrityError, KeyError, TypeError):
+            return False, ["approval document is malformed"], None
+        reasons: list[str] = []
+        if not hmac.compare_digest(str(signature), self._signature(receipt)):
+            reasons.append("approval signature is invalid")
+        if receipt.get("run_id") != run_id:
+            reasons.append("approval belongs to another run")
+        if receipt.get("session_id") != session_id:
+            reasons.append("approval belongs to another session")
+        if receipt.get("project") != project:
+            reasons.append("repository or worktree identity changed")
+        prior = receipt.get("material", {})
+        for key in ("base_fingerprint", "plan_hash", "scope_hash", "acceptance_hash", "critic_hash", "bundle_hash"):
+            if prior.get(key) != material.get(key):
+                reasons.append(f"{key} changed")
+        return not reasons, reasons, receipt
+
+    def invalidate(self, reasons: list[str]) -> None:
+        with FileLock(self.lock):
+            if self.paths["approval"].exists():
+                self.log.append({"operation": "approval_invalidated", "reasons": reasons})
+                self.paths["approval"].unlink(missing_ok=True)

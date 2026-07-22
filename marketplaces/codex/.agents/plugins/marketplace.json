@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0LWxvY2FsIiwKICAiaW50ZXJmYWNlIjogewogICAgImRpc3BsYXlOYW1lIjogIk15dGhvcyA1IEJ1cm5pbmcgQXJ0IExvY2FsIgogIH0sCiAgInBsdWdpbnMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogIm15dGhvcy01LWJ1cm5pbmctYXJ0IiwKICAgICAgInNvdXJjZSI6IHsKICAgICAgICAic291cmNlIjogImxvY2FsIiwKICAgICAgICAicGF0aCI6ICIuL3BsdWdpbnMvbXl0aG9zLTUtYnVybmluZy1hcnQiCiAgICAgIH0sCiAgICAgICJwb2xpY3kiOiB7CiAgICAgICAgImluc3RhbGxhdGlvbiI6ICJBVkFJTEFCTEUiLAogICAgICAgICJhdXRoZW50aWNhdGlvbiI6ICJPTl9JTlNUQUxMIgogICAgICB9LAogICAgICAiY2F0ZWdvcnkiOiAiRGV2ZWxvcGVyIFRvb2xzIgogICAgfQogIF0KfQo=
+{
+  "name": "mythos-5-burning-art-local",
+  "interface": {
+    "displayName": "Mythos 5 Burning Art Local"
+  },
+  "plugins": [
+    {
+      "name": "mythos-5-burning-art",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mythos-5-burning-art"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
