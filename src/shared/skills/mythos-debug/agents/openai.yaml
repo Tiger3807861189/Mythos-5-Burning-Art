@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Debug"
-  short_description: "Establish evidence-based root cause"
-  default_prompt: "Use $mythos-debug to reproduce the failure and discriminate competing root-cause hypotheses."

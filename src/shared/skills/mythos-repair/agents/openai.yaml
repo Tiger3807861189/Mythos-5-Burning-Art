@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Repair"
-  short_description: "Apply the approved minimal repair"
-  default_prompt: "Use $mythos-repair to restore the diagnosed invariant with an approved minimal repair."

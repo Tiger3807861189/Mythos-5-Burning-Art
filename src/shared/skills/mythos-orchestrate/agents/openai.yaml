@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Orchestrate"
-  short_description: "Govern all 13 coding-task phases"
-  default_prompt: "Use $mythos-orchestrate to govern this substantive coding task through all thirteen phases."

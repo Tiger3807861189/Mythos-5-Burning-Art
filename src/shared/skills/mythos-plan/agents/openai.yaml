@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Plan"
-  short_description: "Create a critic-ready approval plan"
-  default_prompt: "Use $mythos-plan to define acceptance criteria and produce a critic-ready approval plan."

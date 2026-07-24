@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Build"
-  short_description: "Build only from an approved plan"
-  default_prompt: "Use $mythos-build to execute the current approved plan in bounded verified increments."

@@ -1,3 +1,0 @@
-I’ll resume the existing approved run rather than restart it. The durable ledger is authoritative: completed increments remain complete, the failed attempt remains recorded and will not be repeated against the same evidence, and phase 9 `IMPLEMENTATION_LOOP` resumes at the stored next action.
-
-Before acting, I’ll verify that the approval bundle still matches the current goal, workspace, baseline fingerprint, allowed paths, side effects, and acceptance criteria. Conversation compaction alone does not invalidate approval. If any binding has changed or cannot be verified, I’ll stop, invalidate approval, name the exact re-entry phase and ledger status, and state what evidence or decision is required to resume.

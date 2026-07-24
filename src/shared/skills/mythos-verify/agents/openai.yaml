@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Verify"
-  short_description: "Verify changes in fresh context"
-  default_prompt: "Use $mythos-verify in fresh context to falsify this change against its approved criteria."

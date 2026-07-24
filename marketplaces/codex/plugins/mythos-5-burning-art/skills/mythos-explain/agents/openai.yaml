@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Explain"
-  short_description: "Reconcile, explain, and quiz"
-  default_prompt: "Use $mythos-explain to reconcile the change, explain evidence and risk, and check understanding."

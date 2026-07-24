@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Options"
-  short_description: "Compare options before implementation"
-  default_prompt: "Use $mythos-options to compare real alternatives, map reference semantics, and specify post-approval experiments safely."

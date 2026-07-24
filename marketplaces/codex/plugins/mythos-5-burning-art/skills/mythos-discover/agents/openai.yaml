@@ -1,4 +1,0 @@
-interface:
-  display_name: "Mythos Discover"
-  short_description: "Map code, unknowns, and blindspots"
-  default_prompt: "Use $mythos-discover to map this codebase, its evidence, unknowns, and blindspots."
